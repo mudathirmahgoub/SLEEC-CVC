@@ -3,7 +3,7 @@ from typing import Iterable
 
 import cvc5
 from cvc5 import DatatypeConstructor
-from cvc5 import Kind
+from cvc5 import Kind, Term
 
 from utility import _polymorph_args_to_tuple
 
@@ -68,6 +68,7 @@ Relations = {}
 def declareConst(sort, name):
     Decls.append("(declare-const " + name + " " + str(sort) + ")")
     return tm.mkConst(sort, name)
+
 
 def declareUninterpretedSort(name):
     Decls.append("(declare-sort " + name + " 0)")
@@ -214,6 +215,10 @@ def int_const(value):
     return tm.mkInteger(value)
 
 
+def bool_const(value):
+    return tm.mkBoolean(value)
+
+
 def val(term):
     if isinstance(term, CVC_term):
         return term.get_val()
@@ -256,22 +261,22 @@ def arithmetic(lhs, rhs, op):
 #     dt = tuple_sort.getDatatype()[index]
 #     c = dt.getSelector("__cvc5_tuple_Int_stor_{}").getTerm()
 
+def tuple_select(tuple, index):
+    datatype = tuple.getSort().getDatatype()
+    constructor = datatype[0]
+    selector_term = constructor[index].getTerm()
+    element = tm.mkTerm(Kind.APPLY_SELECTOR, selector_term, tuple)
+    return element
+
 
 def LAMBDA(kinds, term_func, make_tuple=False):
     if make_tuple:
         # TODO, this functionality is still being worked on
-        vars = [new_bounded_var(kind) for kind in kinds]
-        var_tuple = tm.mkTuple([val(v) for v in vars])
         tuple_sort = tm.mkTupleSort(*([name_to_sort[k] if isinstance(k, str) else k for k in kinds]))
         new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
-        dt = tuple_sort.getDatatype()
-        c = dt[0]
-        assert isinstance(c, DatatypeConstructor)
+        vars = [cast(tuple_select(new_tuple, i)) for i in range(len(kinds))]
         term = term_func(*vars)
-        return tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), tm.mkTerm(Kind.AND, val(term),
-                                                                                          tm.mkTerm(Kind.EQUAL,
-                                                                                                    var_tuple,
-                                                                                                    new_tuple)))
+        return tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
     else:
         vars = [new_bounded_var(kind) for kind in kinds]
         term = term_func(*vars)
@@ -284,6 +289,21 @@ def _exists(variables, terms):
 
 def _forall(variables, terms):
     return CVC_term(tm.mkTerm(Kind.FORALL, tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in variables])), val(terms)))
+
+
+def cast(term):
+    if isinstance(term, int):
+        return CVC5_INT(int_const(term))
+    elif isinstance(term, bool):
+        return term
+    elif isinstance(term, Term):
+        if term.getSort() == integer:
+            return CVC5_INT(term)
+        elif term.getSort() == boolean:
+            return CVC5_Bool(term)
+
+    print("unknwon type")
+    assert False
 
 
 def exists(kinds, term_func):
@@ -425,8 +445,7 @@ def solve(constraints, output_file=""):
         for o in Options:
             out.write(o + '\n')
         for decl in Decls:
-            out.write(decl+'\n')
-
+            out.write(decl + '\n')
 
     for c in constraints:
         solver.assertFormula(val(c))
@@ -434,10 +453,9 @@ def solve(constraints, output_file=""):
             out.write("(assert " + str(val(c)) + ")\n")
         # print(val(c))
 
-
     start = time.time()
     result = solver.checkSat()
-    print("trail {}".format(time.time()-start))
+    print("trail {}".format(time.time() - start))
 
     if output_file:
         out.write("(check-sat)\n")
@@ -487,4 +505,4 @@ if __name__ == "__main__":
     print(val(LAMBDA(["int"], lambda a: a > 5)))
     print(people.relation)
 
-    # print(val(tm.mkTerm(Kind.SET_FILTER,  LAMBDA(["int", "int"], lambda a, b: a> 5, make_tuple=True), birth.relation)))
+    print(val(tm.mkTerm(Kind.SET_FILTER, LAMBDA(["int", "int"], lambda a, b: (a > 5) & (b <3), make_tuple=True), birth.relation)))
