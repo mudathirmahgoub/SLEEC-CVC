@@ -259,6 +259,7 @@ def arithmetic(lhs, rhs, op):
 
 def LAMBDA(kinds, term_func, make_tuple=False):
     if make_tuple:
+        # TODO, this functionality is still being worked on
         vars = [new_bounded_var(kind) for kind in kinds]
         var_tuple = tm.mkTuple([val(v) for v in vars])
         tuple_sort = tm.mkTupleSort(*([name_to_sort[k] if isinstance(k, str) else k for k in kinds]))
@@ -266,8 +267,6 @@ def LAMBDA(kinds, term_func, make_tuple=False):
         dt = tuple_sort.getDatatype()
         c = dt[0]
         assert isinstance(c, DatatypeConstructor)
-        print(c.getNumSelectors())
-        print(tm.mkTerm(Kind.APPLY_SELECTOR, dt[0].getSelector("__cvc5_tuple_Int_stor_1").getTerm(), new_tuple))
         term = term_func(*vars)
         return tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), tm.mkTerm(Kind.AND, val(term),
                                                                                           tm.mkTerm(Kind.EQUAL,
