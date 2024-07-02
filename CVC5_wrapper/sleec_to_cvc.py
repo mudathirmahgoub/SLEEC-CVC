@@ -1,5 +1,5 @@
 from CVC5_wrapper.cvc_wrapper import *
-from utility import _polymorph_args_to_tuple
+from CVC5_wrapper.utility import _polymorph_args_to_tuple
 
 
 def op_str_sleec(op):

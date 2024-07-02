@@ -5,7 +5,7 @@
 2. Follow instructions in https://github.com/cvc5/cvc5/blob/main/INSTALL.rst to install CVC5 with python binding
 3. `pip3 install textx`
 4. `pip3 install argparse`
-5. run `python3 sleec_cvc5.py test_files/test.sleec` to observe result
+5. run `python3 sleec_cvc5.py test_files/test.sleec redundancy` to observe result
 
 
 ## structure

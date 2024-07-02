@@ -5,7 +5,7 @@ import cvc5
 from cvc5 import DatatypeConstructor
 from cvc5 import Kind, Term
 
-from utility import _polymorph_args_to_tuple
+from CVC5_wrapper.utility import _polymorph_args_to_tuple
 
 # for writing SMT-LIB
 Decls = []
