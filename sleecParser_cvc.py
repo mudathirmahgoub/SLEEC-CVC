@@ -626,7 +626,7 @@ def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, m
         res = solve([concern.get_concern()] +
                     [r.get_rule() for r in rules] + relations_constraint +
                     [measure_inv] +
-                    first_inv)
+                    first_inv + find_nat_constraints())
         # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
         #                               relations_constraint + [measure_inv],
         #                               Actions, [], True,
@@ -734,7 +734,7 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
         rule = rules[i]
 
         res = solve([rule.get_premise()] +
-                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv)
+                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv+ find_nat_constraints())
 
 
 def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
@@ -1045,7 +1045,7 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
 
         solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv, output_file="")
+              [measure_inv] + first_inv + find_nat_constraints(), output_file="")
         print("*" * 100)
 
 
