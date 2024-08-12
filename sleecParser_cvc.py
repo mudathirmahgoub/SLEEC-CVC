@@ -7,6 +7,7 @@ from textx import metamodel_from_file, textx_isinstance
 grammar_file = "sleec-gramar.tx"
 mm = metamodel_from_file(grammar_file)
 constants = {}
+NEG_Relations = {}
 
 VOL_BOUND = 20
 
@@ -24,7 +25,10 @@ def read_model_file(file_path):
 
 def parse_event_def(event, type_dict):
     # DressingStarted = create_action("DressingStarted", [("time", "time")], type_dict)
-    return create_relations(event.name, [("time", integer)])
+    pos_relation = create_relations(event.name, [("time", integer)])
+    neg_relation = create_relations("not_{}".format(event.name), [("start_time", integer), ("end_time", integer)])
+    NEG_Relations[pos_relation.name] = neg_relation
+    return pos_relation
 
 
 def match_default_sleec_data_type(typename):
@@ -475,9 +479,12 @@ def parse_occ(node, Action_Mapping, head, measure, is_pos):
             start = end = -1
         else:
             start = end = 0
+
     res = happen_within(event, head, start, end, ref=node)
     if negation:
-        return NOT(res)
+        return exists(NEG_Relations[event.name],
+                      lambda neg_event, head=head, start=start, end=end:
+                      (neg_event.start_time == head.time + start) & (neg_event.end_time == head.time + end))
     else:
         return res
 
@@ -609,7 +616,7 @@ def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, m
                                                                                      ))
                                                )
 
-                        ) for E in Actions if E != Measure]
+                        ) for E in Actions if E is not Measure]
 
     measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
     output = ""
@@ -701,7 +708,7 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
                                                                                      ))
                                                )
 
-                        ) for E in Actions if E != Measure]
+                        ) for E in Actions if E is not Measure]
 
     measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
     output = ""
@@ -748,7 +755,7 @@ def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, m
                                                                                      ))
                                                )
 
-                        ) for E in Actions if E != Measure]
+                        ) for E in Actions if E is not Measure]
 
     measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
     output = ""
@@ -1006,10 +1013,21 @@ def get_measure_inv(Measure, Actions):
     # TODO: to be rewritten as set constraints
 
 
+def consistency_inv(Action_Mapping):
+    constraints = []
+    for Act_name, Act in Action_Mapping.items():
+        if Act_name  != "Measure":
+            neg_ACT =  NEG_Relations[Act_name]
+            constraints.append(forall_relation([Act, neg_ACT], lambda e, not_e:
+                                      NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
+                                      ))
+
+    return AND(constraints)
+
 def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
               multi_entry=False, profiling=True):
     Measure = Action_Mapping["Measure"]
-    measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
     first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
                                                exists(E, lambda e, e_c=e_c, E=E: AND(e.time > e_c.time,
                                                                                      forall(E, lambda e_prime1,
@@ -1017,7 +1035,7 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
                                                                                      ))
                                                )
 
-                        ) for E in Actions if E != Measure]
+                        ) for E in Actions if E is not Measure]
 
     multi_output = []
 
@@ -1045,7 +1063,7 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
 
         solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv + find_nat_constraints(), output_file="")
+              [measure_inv] + first_inv + find_nat_constraints(), output_file="test.smt2".format(i))
         print("*" * 100)
 
 
@@ -1137,42 +1155,7 @@ def check_input_concerns(model_str):
 
 
 if __name__ == "__main__":
-    model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec("gpt_teaching.sleec",
+    model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec("test_files/buggy.sleec",
                                                                                        read_file=True)
     res = check_red(model, rules, relations, Action_Mapping, Actions, check_proof=True)
-# model, rules, Action_Mapping, Actions,_ = parse_sleec("safescade/safescade.sleec")
 
-
-# Measure = Action_Mapping["Measure"]
-# measure_inv = forall([Measure, Measure], lambda m1, m2: Implication(EQ(m1.time, m2.time), EQ(m1, m2)))
-#
-# i =4
-# print("check R5 red")
-# others = rules[0:i] + rules[i+1:]
-# res = check_property_refining(NOT(rules[i].get_rule()), set(),[r.get_rule() for r in others] + [measure_inv], Actions, [], True,
-#                         min_solution=False,
-#                         final_min_solution=True, restart=False, boundary_case=False, universal_blocking=False, record_proof=True)
-#
-#
-
-# if res == 0:
-#     UNSAT_CORE, derivation = check_and_minimize("proof.txt", "simplified.txt")
-#     print("*" * 100)
-#     print("UNSAT CORE")
-#     reasons = ""
-#     for r in UNSAT_CORE:
-#         id = r.id
-#         if id == 0:
-#             id = i
-#         rule_model = model.ruleBlock.rules[id]
-#         start, end = rule_model._tx_position, rule_model._tx_position_end
-#         if id == i:
-#             print("Redundant SLEEC rule:")
-#             print(model_str[start: end])
-#             print("-" * 100)
-#         else:
-#             reasons += (model_str[start: end]) + '\n' + "-" * 100 + '\n'
-#
-#     print(reasons)
-#
-#     print("*" * 100)
