@@ -500,6 +500,114 @@ def forall_relation(kinds, term_func, neg=False):
     assert False
 
 
+def set_all(kinds, term_func, neg=False):
+    if isinstance(kinds, Relation) or \
+            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+        if isinstance(kinds, Relation):
+            arguments = kinds.get_relation_types()
+            tuple_sort = tm.mkTupleSort(*arguments)
+            new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
+            instance = kinds.new_relational_object(
+                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))])
+            term = term_func(instance)
+            if neg:                
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(NOT(term)))
+            else:                
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+
+            all = val(
+                tm.mkTerm(Kind.SET_ALL, lambda_func,
+                          kinds.relation))
+            return all
+        else:
+            instances = []
+            merged_relation = tm.mkTerm(Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds]))
+            new_argument_type = []
+
+            for kind in kinds:
+                assert isinstance(kind, Relation)
+                argument_types = kind.get_relation_types()
+                new_argument_type.extend(argument_types)
+
+            tuple_sort = tm.mkTupleSort(*new_argument_type)
+            new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
+            arguments = [cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))]
+
+            current_start = 0
+            for kind in kinds:
+                current_end = current_start + len(kind.get_relation_types())
+                instance = kind.new_relational_object(tuple=arguments[current_start:current_end])
+                instances.append(instance)
+                current_start = current_end
+
+            term = term_func(*instances)
+            if neg:
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(NOT(term)))
+            else:                
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+            all = val(
+                tm.mkTerm(Kind.SET_ALL, lambda_func,
+                          merged_relation))
+
+            return all
+
+    assert False
+
+def set_some(kinds, term_func, neg=False):
+    if isinstance(kinds, Relation) or \
+            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+        if isinstance(kinds, Relation):
+            arguments = kinds.get_relation_types()
+            tuple_sort = tm.mkTupleSort(*arguments)
+            new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
+            instance = kinds.new_relational_object(
+                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))])
+            term = term_func(instance)
+            if neg:                
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(NOT(term)))
+            else:                
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+
+            some = val(
+                tm.mkTerm(Kind.SET_SOME, lambda_func,
+                          kinds.relation))
+            return some
+        else:
+            instances = []
+            merged_relation = tm.mkTerm(Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds]))
+            new_argument_type = []
+
+            for kind in kinds:
+                assert isinstance(kind, Relation)
+                argument_types = kind.get_relation_types()
+                new_argument_type.extend(argument_types)
+
+            tuple_sort = tm.mkTupleSort(*new_argument_type)
+            new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
+            arguments = [cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))]
+
+            current_start = 0
+            for kind in kinds:
+                current_end = current_start + len(kind.get_relation_types())
+                instance = kind.new_relational_object(tuple=arguments[current_start:current_end])
+                instances.append(instance)
+                current_start = current_end
+
+            term = term_func(*instances)
+            if neg:
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(NOT(term)))
+            else:                
+                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+            some = val(
+                tm.mkTerm(Kind.SET_SOME, lambda_func,
+                          merged_relation))
+
+            return some
+
+    assert False
+
+
+
 class CVC_term:
     def __init__(self, val):
         assert not isinstance(val, CVC_term)
@@ -671,8 +779,8 @@ def make_tuple(*arg):
         return tm.mkTuple([val(arg) for arg in proper_arg])
 
 
-forall = forall_relation
-exists = exists_relation
+forall = set_all
+exists = set_some
 
 
 def test_relation_map():
