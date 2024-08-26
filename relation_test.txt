@@ -1,0 +1,220 @@
+check rule_1
+trail 0.2346653938293457
+Result     = unsat
+****************************************************************************************************
+check rule_2
+trail 0.008008718490600586
+Result     = unsat
+****************************************************************************************************
+check rule_3
+trail 0.0077822208404541016
+Result     = unsat
+****************************************************************************************************
+check rule_4
+trail 0.0220489501953125
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 0))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 51 true))
+****************************************************************************************************
+check rule_5
+trail 0.012184858322143555
+Result     = unsat
+****************************************************************************************************
+check rule_6
+trail 0.03606390953063965
+Result     = unsat
+****************************************************************************************************
+check rule_7
+trail 0.6738882064819336
+Result     = unsat
+****************************************************************************************************
+check rule_8
+trail 0.015030622482299805
+Result     = unsat
+****************************************************************************************************
+check rule_9
+trail 0.020927906036376953
+Result     = unsat
+****************************************************************************************************
+check rule_10
+trail 0.025409936904907227
+Result     = unsat
+****************************************************************************************************
+check rule_11
+trail 0.024505138397216797
+Result     = unsat
+****************************************************************************************************
+check rule_12
+trail 0.04272294044494629
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 0))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (set.singleton (tuple 290))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 0 true))))
+****************************************************************************************************
+check rule_13
+trail 0.02441263198852539
+Result     = unsat
+****************************************************************************************************
+check rule_14
+trail 0.037570953369140625
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (set.singleton (tuple 0 10))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 4 true))
+****************************************************************************************************
+check rule_15
+trail 0.047837018966674805
+Result     = unsat
+****************************************************************************************************
+check rule_16
+trail 0.019806385040283203
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (set.union (set.singleton (tuple 0 20)) (set.singleton (tuple 0 10)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 3 true))
+****************************************************************************************************
+check rule_17
+trail 0.06780624389648438
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (set.singleton (tuple 0))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 2 true))
+****************************************************************************************************
+check rule_18
+trail 0.020506858825683594
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (set.singleton (tuple 0))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (set.singleton (tuple 0))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 0 true))
+****************************************************************************************************
+check rule_19
+trail 0.012272357940673828
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (set.singleton (tuple 0 0))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (set.singleton (tuple 0))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 0 true))
+****************************************************************************************************
+check rule_20
+trail 0.03320884704589844
+Result     = sat
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (set.singleton (tuple 0))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (set.singleton (tuple 0))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (set.singleton (tuple 0))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 0 true))
+****************************************************************************************************
+check rule_21
+trail 0.04566621780395508
+Result     = unsat
+****************************************************************************************************

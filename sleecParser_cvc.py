@@ -1155,7 +1155,7 @@ def check_input_concerns(model_str):
 
 
 if __name__ == "__main__":
-    model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec("test_files/buggy.sleec",
+    model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec("test_files/test.sleec",
                                                                                        read_file=True)
     res = check_red(model, rules, relations, Action_Mapping, Actions, check_proof=True)
 

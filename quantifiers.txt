@@ -1,0 +1,219 @@
+check rule_1
+trail 0.674823522567749
+Result     = unsat
+****************************************************************************************************
+check rule_2
+trail 0.14372038841247559
+Result     = sat
+DressingStarted     = (set.singleton (tuple 0))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (set.singleton (tuple 0))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 13 true 0))
+****************************************************************************************************
+check rule_3
+trail 3.933166742324829
+Result     = sat
+DressingStarted     = (set.singleton (tuple 21))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (as set.empty (Set (Tuple Int)))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (set.singleton (tuple 22))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (set.singleton (tuple 21))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 21 true 21 true 21)) (set.union (set.singleton (tuple 1822 true 23 false 23)) (set.union (set.singleton (tuple 22 true 21 true 21)) (set.singleton (tuple 23 true 23 true 23)))))
+****************************************************************************************************
+check rule_4
+trail 3.652311325073242
+Result     = sat
+DressingStarted     = (set.singleton (tuple 14))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (as set.empty (Set (Tuple Int)))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (set.singleton (tuple 14))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 14 true 14 true 14)) (set.union (set.singleton (tuple 1814 true 0 false 0)) (set.singleton (tuple 15 true 15 true 15))))
+****************************************************************************************************
+check rule_5
+trail 0.2272498607635498
+Result     = sat
+DressingStarted     = (set.singleton (tuple 14))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (set.singleton (tuple 14))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (set.singleton (tuple 14))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 14 true 14 true 2))
+****************************************************************************************************
+check rule_6
+trail 0.5440175533294678
+Result     = unsat
+****************************************************************************************************
+check rule_7
+trail 1.3473680019378662
+Result     = unsat
+****************************************************************************************************
+check rule_8
+trail 0.02542877197265625
+Result     = sat
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (as set.empty (Set (Tuple Int)))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (set.singleton (tuple 0))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 0 true 0))
+****************************************************************************************************
+check rule_9
+trail 0.16261816024780273
+Result     = sat
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (as set.empty (Set (Tuple Int)))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (set.singleton (tuple 0))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (set.singleton (tuple 0 120))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 0 true 0))
+****************************************************************************************************
+check rule_10
+trail 1.4828951358795166
+Result     = sat
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (as set.empty (Set (Tuple Int)))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (set.singleton (tuple 0))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 1800 true 0 true 0)) (set.union (set.singleton (tuple 1 true 1 true 1)) (set.singleton (tuple 0 true 0 true 0))))
+****************************************************************************************************
+check rule_11
+trail 0.1656327247619629
+Result     = sat
+DressingStarted     = (set.singleton (tuple 23))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (set.singleton (tuple 143))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 23 true 23 true 2))
+****************************************************************************************************
+check rule_12
+trail 0.05800628662109375
+Result     = sat
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (as set.empty (Set (Tuple Int)))
+not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (set.singleton (tuple 0))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (set.singleton (tuple 0))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 0 true 0))
+****************************************************************************************************
