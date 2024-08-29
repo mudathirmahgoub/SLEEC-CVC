@@ -608,8 +608,12 @@ def parse_negation(node, Action_Mapping, head, measure, is_pos):
     return NOT(parse_element(node.expr, Action_Mapping, head, measure, is_pos))
 
 
-def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, model_str="", to_print=True,
+def check_concerns(filename, mode, model, rules, concerns, relations, Action_Mapping, Actions, model_str="", to_print=True,
                    multi_entry=False):
+    dir, name = ntpath.split((filename))
+    path = "{}/{}/{}/{}".format(os.getcwd(),dir, name, mode).replace(".sleec", "")    
+    if not os.path.isdir(path):
+        os.makedirs(path)
     Measure = Action_Mapping["Measure"]
     first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
                                                exists(E, lambda e, e_c=e_c, E=E: AND(e.time > e_c.time,
@@ -635,7 +639,8 @@ def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, m
         res = solve([concern.get_concern()] +
                     [r.get_rule() for r in rules] + relations_constraint +
                     [measure_inv] +
-                    first_inv, output_file="concern_{}.smt2".format(i))
+                    first_inv, output_file="{}/{:03}.smt2".format(path, i))
+        print("*" * 100)
         # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
         #                               relations_constraint + [measure_inv],
         #                               Actions, [], True,
@@ -694,8 +699,12 @@ def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, m
     return concern_raised, output, adj_hl
 
 
-def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
+def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
                    multi_entry=False, profiling=True):
+    dir, name = ntpath.split((filename))
+    path = "{}/{}/{}/{}".format(os.getcwd(),dir, name, mode).replace(".sleec", "")    
+    if not os.path.isdir(path):
+        os.makedirs(path)
     Measure = Action_Mapping["Measure"]
 
     if profiling:
@@ -743,7 +752,8 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
         rule = rules[i]
 
         res = solve([rule.get_premise()] +
-                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv, output_file="conflict_{}.smt2".format(i))
+                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv, output_file="{}/{:03}.smt2".format(path, i))
+        print("*" * 100)
 
 
 def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
@@ -1026,10 +1036,10 @@ def consistency_inv(Action_Mapping):
 
     return AND(constraints)
 
-def check_red(filename, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
+def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
               multi_entry=False, profiling=True):
     dir, name = ntpath.split((filename))
-    path = "{}/{}/{}".format(os.getcwd(),dir, name).replace(".sleec", "")    
+    path = "{}/{}/{}/{}".format(os.getcwd(),dir, name, mode).replace(".sleec", "")    
     if not os.path.isdir(path):
         os.makedirs(path)
     Measure = Action_Mapping["Measure"]
@@ -1069,7 +1079,7 @@ def check_red(filename, model, rules, relations, Action_Mapping, Actions, model_
 
         result, duration = solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv, output_file="{}/red_{}.smt2".format(path, i))
+              [measure_inv] + first_inv, output_file="{}/{:03}.smt2".format(path, i))
         print("*" * 100)
 
 

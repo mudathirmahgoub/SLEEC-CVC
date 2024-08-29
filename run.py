@@ -11,11 +11,14 @@ files = [
     if os.path.splitext(f)[1] == ".sleec"
 ]
 for file in files:
-  for mode in modes:
-    print(file)
+  for mode in modes:    
     dir, name = ntpath.split((file))
     name = name.replace(".sleec", "")
-    print(dir)
-    print(name)
-
-    # subprocess.run(["python3", "sleec_cvc5.py", "--filename", file, "--analysis",  mode]) 
+    path = "{}/{}/{}".format(os.getcwd(),dir, name)
+    output_file = "{}/output_{}.txt".format(path, mode)
+    command = "python3 sleec_cvc5.py --filename {} --analysis {}".format(file, mode)
+    print(command)
+    p = subprocess.run(["python3", "sleec_cvc5.py", "--filename", file, "--analysis",  mode],capture_output=True, text=True)    
+    out = open(output_file, 'w')
+    out.write(p.stdout)
+    out.close()
