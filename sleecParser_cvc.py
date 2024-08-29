@@ -55,24 +55,23 @@ def add_scale(scalePaarams):
         scalar_type[sp.name] = index
 
 
-#
-# def process_scalar(measure, type_dict):
-#     if measure.name not in registered_type:
-#         scalar = measure.type
-#         add_scale(measure.type)
-#         create_type(measure.name, type_dict, upper_bound=len(scalar.scaleParams) - 1, lower_bound=0)
-#         scalar_mask[measure.name] = [t.name for t in measure.type.scaleParams]
-#         registered_type.add(measure.name)
-#
-#     return measure.name, measure.name
-#
+
+def process_scalar(measure, type_dict):
+    if measure.name not in registered_type:
+        scalar = measure.type
+        add_scale(measure.type)
+        create_new_type(measure.name, lambda v: (v >= 0) & (v <= len(scalar.scaleParams) - 1))
+        scalar_mask[measure.name] = [t.name for t in measure.type.scaleParams]
+        registered_type.add(measure.name)
+
+    return measure.name, measure.name
+
 
 def parse_measure_def(measure, type_dict):
-    # if isXinstance(measure, "ScalarMeasure"):
-    #     return process_scalar(measure, type_dict)
-    # else:
-    #     return measure.name, match_default_sleec_data_type(measure.type)
-    return measure.name, match_default_sleec_data_type(measure.type)
+    if isXinstance(measure, "ScalarMeasure"):
+        return process_scalar(measure, type_dict)
+    else:
+        return measure.name, match_default_sleec_data_type(measure.type)
 
 
 def parse_constants(constant, constants):
@@ -87,8 +86,9 @@ def parse_constants(constant, constants):
 
 
 def parse_definitions(defs):
+    time_type = create_new_type("time", lambda t: t>=0)
     ACTION_Mapping = {}
-    _measures = [("time", integer)]
+    _measures = [("time", time_type)]
     type_dict = dict()
 
     # create the default types
@@ -633,7 +633,7 @@ def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, m
         res = solve([concern.get_concern()] +
                     [r.get_rule() for r in rules] + relations_constraint +
                     [measure_inv] +
-                    first_inv + find_nat_constraints())
+                    first_inv)
         # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
         #                               relations_constraint + [measure_inv],
         #                               Actions, [], True,
@@ -741,7 +741,7 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
         rule = rules[i]
 
         res = solve([rule.get_premise()] +
-                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv+ find_nat_constraints())
+                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv)
 
 
 def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
@@ -1063,7 +1063,7 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
 
         solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv + find_nat_constraints(), output_file="test.smt2".format(i))
+              [measure_inv] + first_inv, output_file="test.smt2".format(i))
         print("*" * 100)
 
 
@@ -1155,7 +1155,7 @@ def check_input_concerns(model_str):
 
 
 if __name__ == "__main__":
-    model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec("test_files/buggy.sleec",
+    model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec("test_files/ALMI.sleec",
                                                                                        read_file=True)
     res = check_red(model, rules, relations, Action_Mapping, Actions, check_proof=True)
 

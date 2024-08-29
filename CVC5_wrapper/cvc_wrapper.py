@@ -36,6 +36,17 @@ def new_free_sort(name: str):
     return new_sort
 
 
+customized_sort_relations = {}
+
+
+def create_new_type(sort_name, constraints):
+    if sort_name in Datatype.Collections:
+        return Datatype.Collections[sort_name]
+    else:
+        sort_by_relation = Datatype(sort_name, constraints)
+        return sort_by_relation
+
+
 def new_bounded_var(sort_name, prefix=''):
     if isinstance(sort_name, str):
         if sort_name in name_to_sort:
@@ -43,6 +54,8 @@ def new_bounded_var(sort_name, prefix=''):
         else:
             print("unavailable sort")
             assert False
+    elif isinstance(sort_name, Datatype):
+        sort = sort_name.get_value_type()
     else:
         sort = sort_name
     index = sorts_v_index.get(sort, 0)
@@ -80,6 +93,7 @@ def setOption(solver, option, value):
 
 class Relation:
     def __init__(self, name, args, relation=None):
+        self.data_type_constraints = None
         self.cardinal = None
         self.name = name
         self.args = args
@@ -96,7 +110,13 @@ class Relation:
         self.nat_cons = None
 
     def get_relation_types(self):
-        return [type for _, type in self.args]
+        results = []
+        for _, t in self.args:
+            if isinstance(t, Datatype):
+                results.append(t.get_value_type())
+            else:
+                results.append(t)
+        return results
 
     def apply(self, function):
         relation_args_types = self.get_relation_types()
@@ -216,23 +236,55 @@ class Relation:
     def subset(self, other):
         return CVC5_Bool(tm.mkTerm(Kind.SET_SUBSET, self.relation, other.relation))
 
-    def nat_constraints(self):
-        def inner_constraints(a, relation=self):
-            constraints = []
-            for arg_name, arg_type in relation.args:
-                if arg_type == integer:
-                    constraints.append(getattr(a, arg_name) >= 0)
+    def get_datatype_constraints(self):
+        if self.data_type_constraints is None:
+            results = []
+            for t_name, t in self.args:
+                if isinstance(t, Datatype):
+                    results.append(forall(self, lambda r, t_name=t_name:
+                    exists(t, lambda tobj, t_name=t_name: tobj.val == getattr(r, t_name))))
+            self.data_type_constraints = AND(results)
+        return self.data_type_constraints
 
-            return AND(constraints)
+    # def nat_constraints(self):
+    #     def inner_constraints(a, relation=self):
+    #         constraints = []
+    #         for arg_name, arg_type in relation.args:
+    #             if arg_type == integer:
+    #                 constraints.append(getattr(a, arg_name) >= 0)
+    #
+    #         return AND(constraints)
+    #
+    #     if self.nat_cons is None:
+    #         self.nat_cons = forall(self, lambda a, relaton=self: inner_constraints(a, relaton))
+    #     # print(val(self.nat_cons))
+    #     return self.nat_cons
 
-        if self.nat_cons is None:
-            self.nat_cons = forall(self, lambda a, relaton=self: inner_constraints(a, relaton))
-        # print(val(self.nat_cons))
-        return self.nat_cons
+
+class Datatype(Relation):
+    Collections = {}
+
+    def __init__(self, name, constraint):
+        super().__init__(name, [('val', integer)])
+        self.constraints = forall(self, lambda v: constraint(v.val))
+        Datatype.Collections[name] = self
+
+    def get_constraints(self):
+        return self.constraints
+
+    def get_value_type(self):
+        return integer
 
 
 def create_relations(name, args):
-    new_Relation = Relation(name, args)
+    new_args = []
+    for n, t in args:
+        if isinstance(t, str) and t in Datatype.Collections:
+            new_args.append((n, Datatype.Collections[t]))
+        else:
+            new_args.append((n, t))
+
+    new_Relation = Relation(name, new_args)
     return new_Relation
 
 
@@ -606,6 +658,19 @@ def solve(constraints, output_file=""):
             out.write("(assert " + str(val(c)) + ")\n")
         # print(val(c))
 
+    # now we add the datatype constraints
+    for name, rel in Datatype.Collections.items():
+        c = rel.get_constraints()
+        solver.assertFormula(val(c))
+        if output_file:
+            out.write("(assert " + str(val(c)) + ")\n")
+
+    for relation in Relations.values():
+        c = relation.get_datatype_constraints()
+        solver.assertFormula(val(c))
+        if output_file:
+            out.write("(assert " + str(val(c)) + ")\n")
+
     if output_file:
         out.write("(check-sat)\n")
 
@@ -627,12 +692,12 @@ def solve(constraints, output_file=""):
 
     return result
 
-
-def find_nat_constraints():
-    constraints = []
-    for r in Relations.values():
-        constraints.append(r.nat_constraints())
-    return constraints
+#
+# def find_nat_constraints():
+#     constraints = []
+#     for r in Relations.values():
+#         constraints.append(r.nat_constraints())
+#     return constraints
 
 
 # const short cut
@@ -714,6 +779,7 @@ def test_join():
     constraints.append(male.contains(make_tuple(2)))
     solve(constraints)
 
+
 def test_project():
     parent = Relation("Parent", [("parent", integer), ("child", integer)])
     constraints = []
@@ -721,10 +787,13 @@ def test_project():
     constraints.append(parent.contains(make_tuple(2, 6)))
     father = parent.project(["child"], "p", [("father", integer)])
     solve(constraints)
+
+
 if __name__ == "__main__":
-    test_join()
-    C = Relation("C", [("parent", integer), ("child", integer)])
-    forall(C, lambda p: p.parent > 0)
+    # test_join()
+    timevalue = create_new_type("timevalue", lambda t: t >= 0)
+    C = Relation("C", [("parent", integer), ("child", integer), ("time", timevalue)])
+    solve([exists(C, lambda p: (p.parent > 0) & (p.time < 0))])
     # test_conditional_map()
     # test_relation_map()
     # test_join()

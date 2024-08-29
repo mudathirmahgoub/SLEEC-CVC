@@ -26,8 +26,8 @@ def parse_and_check_concern(filename):
 
 if __name__ == "__main__":
     parser = ArgumentParser()
-    parser.add_argument('filename', help="SLEEC file to analyze")
-    parser.add_argument('analysis', help='What the analysis to run: redundancy/conflict/concern')
+    parser.add_argument('--filename', help="SLEEC file to analyze", type=str)
+    parser.add_argument('--analysis', help='What the analysis to run: redundancy/conflict/concern', type=str)
     args = parser.parse_args()
     supported_mode = {"redundancy": parse_and_check_red, "conflict": parse_and_check_conflict,
                       "concern": parse_and_check_concern}
