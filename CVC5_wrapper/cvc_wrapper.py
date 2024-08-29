@@ -636,7 +636,7 @@ def solve(constraints, output_file=""):
     solver = cvc5.Solver(tm)
     solver.setLogic("HO_ALL")
     setOption(solver, "produce-models", "true")
-    setOption(solver, "finite-model-find", "true")
+    #setOption(solver, "finite-model-find", "true")
     setOption(solver, "check-models", "true")
     setOption(solver, "sets-ext", "true")
     setOption(solver, "dag-thresh", "0")
@@ -676,7 +676,8 @@ def solve(constraints, output_file=""):
 
     start = time.time()
     result = solver.checkSat()
-    print("trail {}".format(time.time() - start))
+    duration = time.time() - start
+    print("trail {}".format(duration))
 
     # solver.dump("test.smt2)
     # output
@@ -690,7 +691,7 @@ def solve(constraints, output_file=""):
     if output_file:
         out.close()
 
-    return result
+    return (result, duration)
 
 #
 # def find_nat_constraints():
