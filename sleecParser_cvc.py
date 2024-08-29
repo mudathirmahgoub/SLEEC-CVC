@@ -1,3 +1,5 @@
+import ntpath
+import os
 from CVC5_wrapper.sleec_to_cvc import WhenRule, happen_within, otherwise, unless, complie_measure, Concern, EventRelation, \
     MeasureRelation, Causation, Effect, UntilEMRelation, TimedEMRelation, op_str_sleec
 from CVC5_wrapper.cvc_wrapper import *
@@ -1024,8 +1026,12 @@ def consistency_inv(Action_Mapping):
 
     return AND(constraints)
 
-def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
+def check_red(filename, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
               multi_entry=False, profiling=True):
+    dir, name = ntpath.split((filename))
+    path = "{}/{}/{}".format(os.getcwd(),dir, name).replace(".sleec", "")    
+    if not os.path.isdir(path):
+        os.makedirs(path)
     Measure = Action_Mapping["Measure"]
     measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
     first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
@@ -1061,9 +1067,9 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
         rule = rules[i]
         others = rules[0:i] + rules[i + 1:]
 
-        solve([rule.get_neg_rule()] +
+        result, duration = solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv, output_file="red_{}.smt2".format(i))
+              [measure_inv] + first_inv, output_file="{}/red_{}.smt2".format(path, i))
         print("*" * 100)
 
 

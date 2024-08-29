@@ -1,4 +1,5 @@
 from argparse import ArgumentParser
+import ntpath
 
 from sleecParser_cvc import parse_sleec, check_red, check_conflict, check_concerns
 
@@ -10,10 +11,10 @@ def parse_and_check_conflict(filename):
     return res
 
 
-def parse_and_check_red(filename):
+def parse_and_check_red(filename):    
     model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec(filename,
                                                                                        read_file=True)
-    res = check_red(model, rules, relations, Action_Mapping, Actions, check_proof=False,profiling=False)
+    res = check_red(filename, model, rules, relations, Action_Mapping, Actions, check_proof=False,profiling=False)
     return res
 
 
