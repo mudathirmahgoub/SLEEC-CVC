@@ -7,6 +7,7 @@ from CVC5_wrapper.cvc_wrapper import *
 from textx import metamodel_from_file, textx_isinstance
 
 grammar_file = "sleec-gramar.tx"
+
 mm = metamodel_from_file(grammar_file)
 constants = {}
 NEG_Relations = {}
@@ -629,6 +630,7 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
     adj_hl = []
     concern_raised = False
     relations_constraint = get_relational_constraints(relations)
+    csv_file = open("relation.csv", 'a')
     for i in range(len(concerns)):
         if to_print:
             print("check concern_{}".format(i + 1))
@@ -636,11 +638,13 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
             output += "check concern_{}\n".format(i + 1)
 
         concern = concerns[i]
-        res = solve([concern.get_concern()] +
+        res, duration = solve([concern.get_concern()] +
                     [r.get_rule() for r in rules] + relations_constraint +
                     [measure_inv] +
-                    first_inv, output_file="{}/{:03}.smt2".format(path, i))
+                    first_inv, output_file="{}/{:02}.smt2".format(path, i))
+        csv_file.write("{}, {}, {}, {}, {}\n".format(filename, mode, i,  res, duration))
         print("*" * 100)
+    csv_file.close()
         # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
         #                               relations_constraint + [measure_inv],
         #                               Actions, [], True,
@@ -701,6 +705,7 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
 
 def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
                    multi_entry=False, profiling=True):
+    
     dir, name = ntpath.split((filename))
     path = "{}/{}/{}/{}".format(os.getcwd(),dir, name, mode).replace(".sleec", "")    
     if not os.path.isdir(path):
@@ -729,6 +734,7 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
     relations_constraint = get_relational_constraints(relations)
     multi_output = []
 
+    csv_file = open("relation.csv", 'a')
     for i in range(len(rules)):
 
         if multi_entry:
@@ -751,9 +757,11 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
             continue
         rule = rules[i]
 
-        res = solve([rule.get_premise()] +
-                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv, output_file="{}/{:03}.smt2".format(path, i))
+        res, duration = solve([rule.get_premise()] +
+                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv, output_file="{}/{:02}.smt2".format(path, i))
+        csv_file.write("{}, {}, {}, {}, {}\n".format(filename, mode, i,  res, duration))
         print("*" * 100)
+    csv_file.close()
 
 
 def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
@@ -1038,6 +1046,7 @@ def consistency_inv(Action_Mapping):
 
 def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
               multi_entry=False, profiling=True):
+    global csv_file
     dir, name = ntpath.split((filename))
     path = "{}/{}/{}/{}".format(os.getcwd(),dir, name, mode).replace(".sleec", "")    
     if not os.path.isdir(path):
@@ -1063,6 +1072,8 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
         profiling_file = open("profiling_red.csv", 'w')
         profiling_file.write(
             "raw_finish_time, proof_generation_time, proof_checking_time, raw_proof_size, raw_derivation_steps, trimmed_proof_size, trimmed_derivation_steps\n")
+    
+    csv_file = open("relation.csv", 'a')
     for i in range(len(rules)):
 
         if multi_entry:
@@ -1079,8 +1090,10 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
 
         result, duration = solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv, output_file="{}/{:03}.smt2".format(path, i))
+              [measure_inv] + first_inv, output_file="{}/{:02}.smt2".format(path, i))
+        csv_file.write("{}, {}, {}, {}, {}\n".format(filename, mode, i,  result, duration))
         print("*" * 100)
+    csv_file.close()
 
 
 def reset_rules(rules):

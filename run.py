@@ -2,6 +2,10 @@ import subprocess
 import os
 import ntpath
 
+csv_file = open("relation.csv", 'w')
+csv_file.write("file, mode, rule, result, duration\n")
+csv_file.close()
+
 modes = ["redundancy", "conflict", "concern"]
 path = "test_files"
 files = [

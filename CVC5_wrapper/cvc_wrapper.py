@@ -636,13 +636,13 @@ def solve(constraints, output_file=""):
     solver = cvc5.Solver(tm)
     solver.setLogic("HO_ALL")
     setOption(solver, "produce-models", "true")
-    #setOption(solver, "finite-model-find", "true")
+    setOption(solver, "finite-model-find", "true")
     setOption(solver, "check-models", "true")
     setOption(solver, "sets-ext", "true")
     setOption(solver, "dag-thresh", "0")
     setOption(solver, "uf-lazy-ll", "true")
     setOption(solver, "fmf-bound", "true")
-    setOption(solver, "tlimit-per", "100000")
+    setOption(solver, "tlimit-per", "10000")
 
     if output_file:
         out = open(output_file, 'w')
@@ -737,8 +737,10 @@ def make_tuple(*arg):
         return tm.mkTuple([val(arg) for arg in proper_arg])
 
 
-forall = forall_relation
-exists = exists_relation
+# forall = forall_relation
+# exists = exists_relation
+forall = forall_quantifier
+exists = exists_quantifier
 
 
 def test_relation_map():
