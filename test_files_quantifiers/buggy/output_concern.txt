@@ -1,0 +1,24 @@
+check concern_1
+trail 0.09299588203430176
+Result     = sat
+time     = (set.singleton (tuple 0))
+DressingStarted     = (set.singleton (tuple 0))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+DressingComplete     = (set.singleton (tuple 0))
+not_DressingComplete     = (set.singleton (tuple (- 1) (- 1)))
+DressingAbandoned     = (as set.empty (Set (Tuple Int)))
+not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+UserFallen     = (as set.empty (Set (Tuple Int)))
+not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
+RetryAgreed     = (as set.empty (Set (Tuple Int)))
+not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 14 true 0))
+****************************************************************************************************

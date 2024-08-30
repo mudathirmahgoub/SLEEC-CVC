@@ -1,0 +1,1363 @@
+file, mode, rule, result, duration
+test_files/test2.sleec, redundancy, 0, sat, 0.06901288032531738
+test_files/test2.sleec, redundancy, 1, sat, 0.05917620658874512
+test_files/test2.sleec, redundancy, 2, sat, 0.03678250312805176
+test_files/test2.sleec, conflict, 0, sat, 0.02010965347290039
+test_files/test2.sleec, conflict, 1, sat, 0.021376371383666992
+test_files/test2.sleec, conflict, 2, sat, 0.015447139739990234
+test_files/buggy.sleec, redundancy, 0, unsat, 0.5672268867492676
+test_files/buggy.sleec, redundancy, 1, sat, 0.1511704921722412
+test_files/buggy.sleec, redundancy, 2, sat, 4.595684051513672
+test_files/buggy.sleec, redundancy, 3, sat, 3.6865620613098145
+test_files/buggy.sleec, redundancy, 4, sat, 0.2724771499633789
+test_files/buggy.sleec, redundancy, 5, unsat, 1.3784515857696533
+test_files/buggy.sleec, redundancy, 6, unsat, 1.8650445938110352
+test_files/buggy.sleec, redundancy, 7, sat, 0.02330470085144043
+test_files/buggy.sleec, redundancy, 8, sat, 0.028568267822265625
+test_files/buggy.sleec, redundancy, 9, sat, 1.7471320629119873
+test_files/buggy.sleec, redundancy, 10, sat, 0.17586922645568848
+test_files/buggy.sleec, redundancy, 11, sat, 0.05706357955932617
+test_files/buggy.sleec, conflict, 0, sat, 0.08592057228088379
+test_files/buggy.sleec, conflict, 1, sat, 0.08026933670043945
+test_files/buggy.sleec, conflict, 2, sat, 6.52918815612793
+test_files/buggy.sleec, conflict, 3, sat, 6.67649245262146
+test_files/buggy.sleec, conflict, 4, sat, 3.783107280731201
+test_files/buggy.sleec, conflict, 5, sat, 3.769835948944092
+test_files/buggy.sleec, conflict, 6, sat, 3.747154951095581
+test_files/buggy.sleec, conflict, 7, sat, 0.0358586311340332
+test_files/buggy.sleec, conflict, 8, sat, 0.05591940879821777
+test_files/buggy.sleec, conflict, 9, sat, 3.6543502807617188
+test_files/buggy.sleec, conflict, 10, sat, 0.09220218658447266
+test_files/buggy.sleec, conflict, 11, sat, 0.039518117904663086
+test_files/buggy.sleec, conflict, 0, sat, 0.09299588203430176
+test_files/test1.sleec, redundancy, 0, sat, 0.022891759872436523
+test_files/test1.sleec, redundancy, 1, sat, 0.00934147834777832
+test_files/test1.sleec, redundancy, 2, unsat, 0.23569679260253906
+test_files/test1.sleec, redundancy, 3, sat, 0.015588760375976562
+test_files/test1.sleec, conflict, 0, sat, 0.01439809799194336
+test_files/test1.sleec, conflict, 1, sat, 0.008374691009521484
+test_files/test1.sleec, conflict, 2, sat, 0.011868000030517578
+test_files/test1.sleec, conflict, 3, sat, 0.01121973991394043
+test_files/test.sleec, redundancy, 0, unsat, 0.28958868980407715
+test_files/test.sleec, redundancy, 1, unsat, 0.21066045761108398
+test_files/test.sleec, redundancy, 2, unsat, 0.19608664512634277
+test_files/test.sleec, redundancy, 3, sat, 0.03940558433532715
+test_files/test.sleec, redundancy, 4, unsat, 0.45563244819641113
+test_files/test.sleec, redundancy, 5, unsat, 0.47892022132873535
+test_files/test.sleec, redundancy, 6, unsat, 0.4133636951446533
+test_files/test.sleec, redundancy, 7, unsat, 0.40369081497192383
+test_files/test.sleec, redundancy, 8, unsat, 0.26596856117248535
+test_files/test.sleec, redundancy, 9, unsat, 0.6669526100158691
+test_files/test.sleec, redundancy, 10, unsat, 0.29259490966796875
+test_files/test.sleec, redundancy, 11, sat, 0.07070660591125488
+test_files/test.sleec, redundancy, 12, unsat, 0.2828102111816406
+test_files/test.sleec, redundancy, 13, sat, 0.06978583335876465
+test_files/test.sleec, redundancy, 14, unsat, 0.16050076484680176
+test_files/test.sleec, redundancy, 15, sat, 0.03478074073791504
+test_files/test.sleec, redundancy, 16, sat, 0.12683963775634766
+test_files/test.sleec, redundancy, 17, sat, 0.027483701705932617
+test_files/test.sleec, redundancy, 18, sat, 0.02504897117614746
+test_files/test.sleec, redundancy, 19, sat, 0.04218411445617676
+test_files/test.sleec, redundancy, 20, unsat, 0.4098043441772461
+test_files/test.sleec, conflict, 0, sat, 0.04524803161621094
+test_files/test.sleec, conflict, 1, sat, 0.035909414291381836
+test_files/test.sleec, conflict, 2, sat, 0.032433509826660156
+test_files/test.sleec, conflict, 3, sat, 0.05555438995361328
+test_files/test.sleec, conflict, 4, sat, 0.053536176681518555
+test_files/test.sleec, conflict, 5, sat, 0.06412768363952637
+test_files/test.sleec, conflict, 6, sat, 0.051688432693481445
+test_files/test.sleec, conflict, 7, sat, 0.05173826217651367
+test_files/test.sleec, conflict, 8, sat, 0.04744362831115723
+test_files/test.sleec, conflict, 9, sat, 0.05004119873046875
+test_files/test.sleec, conflict, 10, sat, 0.05072784423828125
+test_files/test.sleec, conflict, 11, sat, 0.05236315727233887
+test_files/test.sleec, conflict, 12, sat, 0.04881739616394043
+test_files/test.sleec, conflict, 13, sat, 0.029007434844970703
+test_files/test.sleec, conflict, 14, sat, 0.02803206443786621
+test_files/test.sleec, conflict, 15, sat, 0.029547929763793945
+test_files/test.sleec, conflict, 16, sat, 0.027564525604248047
+test_files/test.sleec, conflict, 17, sat, 0.02806568145751953
+test_files/test.sleec, conflict, 18, sat, 0.03228402137756348
+test_files/test.sleec, conflict, 19, sat, 0.030613422393798828
+test_files/test.sleec, conflict, 20, sat, 0.027312278747558594
+test_files/test4.sleec, redundancy, 0, sat, 0.04952287673950195
+test_files/test4.sleec, redundancy, 1, sat, 0.05909895896911621
+test_files/test4.sleec, redundancy, 2, sat, 0.00957036018371582
+test_files/test4.sleec, conflict, 0, sat, 0.021692514419555664
+test_files/test4.sleec, conflict, 1, sat, 0.08524513244628906
+test_files/test4.sleec, conflict, 2, sat, 0.008946895599365234
+test_files/test4.sleec, conflict, 0, sat, 0.08960199356079102
+test_files/test3.sleec, redundancy, 0, sat, 0.04884600639343262
+test_files/test3.sleec, redundancy, 1, sat, 0.0584864616394043
+test_files/test3.sleec, redundancy, 2, sat, 0.009379386901855469
+test_files/test3.sleec, conflict, 0, sat, 0.020296573638916016
+test_files/test3.sleec, conflict, 1, sat, 0.08677244186401367
+test_files/test3.sleec, conflict, 2, sat, 0.00910043716430664
+test_files/test3.sleec, conflict, 0, sat, 0.08971476554870605
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 0, sat, 0.15894246101379395
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 1, unknown (TIMEOUT), 10.006232738494873
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 2, unknown (TIMEOUT), 10.000102043151855
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 3, unknown (TIMEOUT), 10.000113248825073
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 4, unknown (TIMEOUT), 10.000078439712524
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 5, sat, 0.16478562355041504
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 6, unknown (TIMEOUT), 10.000139474868774
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 7, sat, 0.16468024253845215
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 8, sat, 0.16779661178588867
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 9, unknown (TIMEOUT), 10.000130653381348
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 10, sat, 0.173997163772583
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 11, sat, 0.19467449188232422
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 12, sat, 0.19328904151916504
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 13, unknown (TIMEOUT), 10.000121831893921
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 14, sat, 0.15886998176574707
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 15, sat, 0.16457438468933105
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 16, sat, 0.15667033195495605
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 17, sat, 0.24810576438903809
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 18, unknown (TIMEOUT), 10.000135898590088
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 19, sat, 0.16593146324157715
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 20, sat, 0.15835833549499512
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 21, sat, 0.16074681282043457
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 22, unknown (TIMEOUT), 10.000130414962769
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 23, sat, 0.2893335819244385
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 24, sat, 0.16276955604553223
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 25, sat, 0.1599559783935547
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 26, sat, 0.285750150680542
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 27, unknown (TIMEOUT), 10.000075817108154
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 28, unknown (TIMEOUT), 10.000136137008667
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 29, sat, 0.1836097240447998
+test_files/dressingAssist/DRESSASSIST.sleec, redundancy, 30, unknown (TIMEOUT), 10.000102996826172
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 0, unknown (TIMEOUT), 10.000356674194336
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 1, unknown (TIMEOUT), 10.000098705291748
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 2, unknown (TIMEOUT), 10.000068426132202
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 3, unknown (TIMEOUT), 10.000173330307007
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 4, unknown (TIMEOUT), 10.000094890594482
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 5, unknown (TIMEOUT), 10.000125885009766
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 6, unknown (TIMEOUT), 10.000134468078613
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 7, unknown (TIMEOUT), 10.000120162963867
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 8, unknown (TIMEOUT), 10.000111818313599
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 9, unknown (TIMEOUT), 10.000122308731079
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 10, unknown (TIMEOUT), 10.000083208084106
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 11, unknown (TIMEOUT), 10.000104427337646
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 12, unknown (TIMEOUT), 10.000111103057861
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 13, unknown (TIMEOUT), 10.00008749961853
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 14, unknown (TIMEOUT), 10.000231266021729
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 15, unknown (TIMEOUT), 10.000104904174805
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 16, unknown (TIMEOUT), 10.000135660171509
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 17, unknown (TIMEOUT), 10.00011682510376
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 18, unknown (TIMEOUT), 10.000097751617432
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 19, unknown (TIMEOUT), 10.000133991241455
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 20, unknown (TIMEOUT), 10.000123739242554
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 21, unknown (TIMEOUT), 10.000079870223999
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 22, unknown (TIMEOUT), 10.000139474868774
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 23, unknown (TIMEOUT), 10.000136137008667
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 24, unknown (TIMEOUT), 10.00007700920105
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 25, unknown (TIMEOUT), 10.00013780593872
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 26, unknown (TIMEOUT), 10.000144243240356
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 27, unknown (TIMEOUT), 10.000103950500488
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 28, unknown (TIMEOUT), 10.000131130218506
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 29, unknown (TIMEOUT), 10.000106573104858
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 30, unknown (TIMEOUT), 10.000128269195557
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 0, unknown (TIMEOUT), 10.000115871429443
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 1, unknown (TIMEOUT), 10.00007152557373
+test_files/dressingAssist/DRESSASSIST.sleec, conflict, 2, unknown (TIMEOUT), 10.000259637832642
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 0, sat, 0.16967248916625977
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.000115871429443
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000117301940918
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.000073671340942
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 4, unknown (TIMEOUT), 10.00010633468628
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 5, sat, 0.17172670364379883
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 6, unknown (TIMEOUT), 10.000089645385742
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 7, sat, 0.1643810272216797
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 8, sat, 0.164886474609375
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 9, unknown (TIMEOUT), 10.000880479812622
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 10, sat, 0.1559429168701172
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 11, sat, 0.2009899616241455
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 12, sat, 0.19962453842163086
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 13, unknown (TIMEOUT), 10.000093698501587
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 14, sat, 0.16044998168945312
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 15, sat, 0.15116143226623535
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 16, sat, 0.15209650993347168
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 17, sat, 0.24437999725341797
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.000149965286255
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 19, sat, 0.17548918724060059
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 20, sat, 0.15793824195861816
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 21, sat, 0.15129542350769043
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 22, unknown (TIMEOUT), 10.000072479248047
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 23, sat, 0.28689002990722656
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 24, sat, 0.1690223217010498
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 25, sat, 0.16147732734680176
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 26, sat, 0.29258131980895996
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 27, unknown (TIMEOUT), 10.0001220703125
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 28, unknown (TIMEOUT), 10.000140905380249
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 29, sat, 0.16886544227600098
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, redundancy, 30, unknown (TIMEOUT), 10.00009799003601
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000157356262207
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000080108642578
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000118494033813
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000135660171509
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.00009036064148
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000128984451294
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000126838684082
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000073194503784
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000075578689575
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.00010085105896
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000133752822876
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.01419997215271
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000134468078613
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.001953840255737
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.000125169754028
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000081300735474
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000102996826172
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.000120401382446
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000134229660034
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.003793001174927
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000151634216309
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000120639801025
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.000079154968262
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.000109910964966
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.000087976455688
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.000083446502686
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 26, unknown (TIMEOUT), 10.000073671340942
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 27, unknown (TIMEOUT), 10.00041151046753
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 28, unknown (TIMEOUT), 10.000110864639282
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 29, unknown (TIMEOUT), 10.000113487243652
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 30, unknown (TIMEOUT), 10.000079870223999
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000091075897217
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000073432922363
+test_files/dressingAssist/DRESSASSIST-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000081539154053
+test_files/gdpr/DPA-corrected.sleec, redundancy, 0, sat, 0.4165050983428955
+test_files/gdpr/DPA-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.000143051147461
+test_files/gdpr/DPA-corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000119924545288
+test_files/gdpr/DPA-corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.000671863555908
+test_files/gdpr/DPA-corrected.sleec, redundancy, 4, sat, 0.10281753540039062
+test_files/gdpr/DPA-corrected.sleec, redundancy, 5, unknown (TIMEOUT), 10.00007438659668
+test_files/gdpr/DPA-corrected.sleec, redundancy, 6, unknown (TIMEOUT), 10.000096321105957
+test_files/gdpr/DPA-corrected.sleec, redundancy, 7, sat, 0.1624767780303955
+test_files/gdpr/DPA-corrected.sleec, redundancy, 8, sat, 0.10584545135498047
+test_files/gdpr/DPA-corrected.sleec, redundancy, 9, sat, 0.0866398811340332
+test_files/gdpr/DPA-corrected.sleec, redundancy, 10, unknown (TIMEOUT), 10.00007677078247
+test_files/gdpr/DPA-corrected.sleec, redundancy, 11, sat, 0.12370824813842773
+test_files/gdpr/DPA-corrected.sleec, redundancy, 12, sat, 0.11651301383972168
+test_files/gdpr/DPA-corrected.sleec, redundancy, 13, unknown (TIMEOUT), 10.000105142593384
+test_files/gdpr/DPA-corrected.sleec, redundancy, 14, unknown (TIMEOUT), 10.000065088272095
+test_files/gdpr/DPA-corrected.sleec, redundancy, 15, unknown (TIMEOUT), 10.000105381011963
+test_files/gdpr/DPA-corrected.sleec, redundancy, 16, unknown (TIMEOUT), 10.000084161758423
+test_files/gdpr/DPA-corrected.sleec, redundancy, 17, unknown (TIMEOUT), 10.000076532363892
+test_files/gdpr/DPA-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.000095129013062
+test_files/gdpr/DPA-corrected.sleec, redundancy, 19, unknown (TIMEOUT), 10.0001380443573
+test_files/gdpr/DPA-corrected.sleec, redundancy, 20, sat, 0.12917280197143555
+test_files/gdpr/DPA-corrected.sleec, redundancy, 21, sat, 0.11544537544250488
+test_files/gdpr/DPA-corrected.sleec, redundancy, 22, unknown (TIMEOUT), 10.00008487701416
+test_files/gdpr/DPA-corrected.sleec, redundancy, 23, unknown (TIMEOUT), 10.000070571899414
+test_files/gdpr/DPA-corrected.sleec, redundancy, 24, unknown (TIMEOUT), 10.000086784362793
+test_files/gdpr/DPA-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000093698501587
+test_files/gdpr/DPA-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000081539154053
+test_files/gdpr/DPA-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.00007963180542
+test_files/gdpr/DPA-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000115156173706
+test_files/gdpr/DPA-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000089406967163
+test_files/gdpr/DPA-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000224590301514
+test_files/gdpr/DPA-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000068426132202
+test_files/gdpr/DPA-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000076293945312
+test_files/gdpr/DPA-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000097036361694
+test_files/gdpr/DPA-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000866889953613
+test_files/gdpr/DPA-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.00006628036499
+test_files/gdpr/DPA-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000110626220703
+test_files/gdpr/DPA-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000235557556152
+test_files/gdpr/DPA-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.0000741481781
+test_files/gdpr/DPA-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.000107288360596
+test_files/gdpr/DPA-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000081539154053
+test_files/gdpr/DPA-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000080585479736
+test_files/gdpr/DPA-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.00007963180542
+test_files/gdpr/DPA-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000078439712524
+test_files/gdpr/DPA-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000101089477539
+test_files/gdpr/DPA-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000103950500488
+test_files/gdpr/DPA-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000077486038208
+test_files/gdpr/DPA-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.000105619430542
+test_files/gdpr/DPA-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.000099182128906
+test_files/gdpr/DPA-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.00006914138794
+test_files/gdpr/DPA-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000128984451294
+test_files/gdpr/DPA-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000069856643677
+test_files/gdpr/DPA-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.00009560585022
+test_files/gdpr/DPA-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000066041946411
+test_files/gdpr/DPA-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000078201293945
+test_files/gdpr/DPA-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000098943710327
+test_files/gdpr/DPA-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000108242034912
+test_files/gdpr/DPA-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000088691711426
+test_files/gdpr/DPA-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000081300735474
+test_files/gdpr/DPA-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000105857849121
+test_files/gdpr/DPA-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000097036361694
+test_files/gdpr/DPA.sleec, redundancy, 0, sat, 0.40043091773986816
+test_files/gdpr/DPA.sleec, redundancy, 1, unknown (TIMEOUT), 10.000103235244751
+test_files/gdpr/DPA.sleec, redundancy, 2, sat, 0.09194660186767578
+test_files/gdpr/DPA.sleec, redundancy, 3, sat, 0.07954239845275879
+test_files/gdpr/DPA.sleec, redundancy, 4, unknown (TIMEOUT), 10.000115871429443
+test_files/gdpr/DPA.sleec, redundancy, 5, unknown (TIMEOUT), 10.000065326690674
+test_files/gdpr/DPA.sleec, redundancy, 6, sat, 0.11235618591308594
+test_files/gdpr/DPA.sleec, redundancy, 7, sat, 0.1069948673248291
+test_files/gdpr/DPA.sleec, redundancy, 8, unknown (TIMEOUT), 10.000103235244751
+test_files/gdpr/DPA.sleec, redundancy, 9, sat, 0.12004923820495605
+test_files/gdpr/DPA.sleec, redundancy, 10, sat, 0.10227370262145996
+test_files/gdpr/DPA.sleec, redundancy, 11, unknown (TIMEOUT), 10.00010371208191
+test_files/gdpr/DPA.sleec, redundancy, 12, unknown (TIMEOUT), 10.000071048736572
+test_files/gdpr/DPA.sleec, redundancy, 13, unknown (TIMEOUT), 10.000069856643677
+test_files/gdpr/DPA.sleec, redundancy, 14, unknown (TIMEOUT), 10.000072002410889
+test_files/gdpr/DPA.sleec, redundancy, 15, unknown (TIMEOUT), 10.000102758407593
+test_files/gdpr/DPA.sleec, redundancy, 16, unknown (TIMEOUT), 10.000072717666626
+test_files/gdpr/DPA.sleec, redundancy, 17, unknown (TIMEOUT), 10.001285791397095
+test_files/gdpr/DPA.sleec, redundancy, 18, sat, 0.11994171142578125
+test_files/gdpr/DPA.sleec, redundancy, 19, sat, 0.103759765625
+test_files/gdpr/DPA.sleec, redundancy, 20, sat, 0.08631515502929688
+test_files/gdpr/DPA.sleec, redundancy, 21, unknown (TIMEOUT), 10.000084638595581
+test_files/gdpr/DPA.sleec, conflict, 0, unknown (TIMEOUT), 10.000112533569336
+test_files/gdpr/DPA.sleec, conflict, 1, unknown (TIMEOUT), 10.00009560585022
+test_files/gdpr/DPA.sleec, conflict, 2, unknown (TIMEOUT), 10.000110626220703
+test_files/gdpr/DPA.sleec, conflict, 3, unknown (TIMEOUT), 10.000077724456787
+test_files/gdpr/DPA.sleec, conflict, 4, unknown (TIMEOUT), 10.000073432922363
+test_files/gdpr/DPA.sleec, conflict, 5, unknown (TIMEOUT), 10.00009536743164
+test_files/gdpr/DPA.sleec, conflict, 6, unknown (TIMEOUT), 10.000089168548584
+test_files/gdpr/DPA.sleec, conflict, 7, unknown (TIMEOUT), 10.00008511543274
+test_files/gdpr/DPA.sleec, conflict, 8, unknown (TIMEOUT), 10.000087022781372
+test_files/gdpr/DPA.sleec, conflict, 9, unknown (TIMEOUT), 10.000077247619629
+test_files/gdpr/DPA.sleec, conflict, 10, unknown (TIMEOUT), 10.000083208084106
+test_files/gdpr/DPA.sleec, conflict, 11, unknown (TIMEOUT), 10.000097036361694
+test_files/gdpr/DPA.sleec, conflict, 12, unknown (TIMEOUT), 10.000097513198853
+test_files/gdpr/DPA.sleec, conflict, 13, unknown (TIMEOUT), 10.000091314315796
+test_files/gdpr/DPA.sleec, conflict, 14, unknown (TIMEOUT), 10.000102758407593
+test_files/gdpr/DPA.sleec, conflict, 15, unknown (TIMEOUT), 10.004218339920044
+test_files/gdpr/DPA.sleec, conflict, 16, unknown (TIMEOUT), 10.000113725662231
+test_files/gdpr/DPA.sleec, conflict, 17, unknown (TIMEOUT), 10.000081300735474
+test_files/gdpr/DPA.sleec, conflict, 18, unknown (TIMEOUT), 10.000083208084106
+test_files/gdpr/DPA.sleec, conflict, 19, unknown (TIMEOUT), 10.00011134147644
+test_files/gdpr/DPA.sleec, conflict, 20, unknown (TIMEOUT), 10.00009822845459
+test_files/gdpr/DPA.sleec, conflict, 21, unknown (TIMEOUT), 10.000093936920166
+test_files/gdpr/DPA.sleec, conflict, 0, unknown (TIMEOUT), 10.000127792358398
+test_files/gdpr/DPA.sleec, conflict, 1, unknown (TIMEOUT), 10.00009560585022
+test_files/gdpr/DPA.sleec, conflict, 2, unknown (TIMEOUT), 10.00027084350586
+test_files/gdpr/DPA.sleec, conflict, 3, unknown (TIMEOUT), 10.00011134147644
+test_files/gdpr/DPA.sleec, conflict, 4, unknown (TIMEOUT), 10.000113010406494
+test_files/gdpr/DPA.sleec, conflict, 5, unknown (TIMEOUT), 10.000070095062256
+test_files/gdpr/DPA.sleec, conflict, 6, unknown (TIMEOUT), 10.000105142593384
+test_files/gdpr/DPA.sleec, conflict, 7, unknown (TIMEOUT), 10.000102758407593
+test_files/gdpr/DPA.sleec, conflict, 8, unknown (TIMEOUT), 10.000070095062256
+test_files/gdpr/DPA.sleec, conflict, 9, unknown (TIMEOUT), 10.000066995620728
+test_files/gdpr/DPA.sleec, conflict, 10, unknown (TIMEOUT), 10.00008749961853
+test_files/covidfree/manual.sleec, redundancy, 0, unknown (TIMEOUT), 10.00008749961853
+test_files/covidfree/manual.sleec, redundancy, 1, unknown (TIMEOUT), 10.00007700920105
+test_files/covidfree/manual.sleec, redundancy, 2, sat, 0.07243895530700684
+test_files/covidfree/manual.sleec, redundancy, 3, unknown (TIMEOUT), 10.000082969665527
+test_files/covidfree/manual.sleec, redundancy, 4, sat, 0.056936025619506836
+test_files/covidfree/manual.sleec, redundancy, 5, unknown (TIMEOUT), 10.000062704086304
+test_files/covidfree/manual.sleec, redundancy, 6, sat, 0.055411338806152344
+test_files/covidfree/manual.sleec, redundancy, 7, unknown (TIMEOUT), 10.000076293945312
+test_files/covidfree/manual.sleec, redundancy, 8, unknown (TIMEOUT), 10.000078916549683
+test_files/covidfree/manual.sleec, redundancy, 9, unknown (TIMEOUT), 10.00008249282837
+test_files/covidfree/manual.sleec, redundancy, 10, sat, 0.06761884689331055
+test_files/covidfree/manual.sleec, redundancy, 11, sat, 0.048165321350097656
+test_files/covidfree/manual.sleec, redundancy, 12, unknown (TIMEOUT), 10.00007677078247
+test_files/covidfree/manual.sleec, redundancy, 13, sat, 0.04658222198486328
+test_files/covidfree/manual.sleec, redundancy, 14, sat, 0.045588016510009766
+test_files/covidfree/manual.sleec, redundancy, 15, unknown (TIMEOUT), 10.000065565109253
+test_files/covidfree/manual.sleec, redundancy, 16, sat, 0.05695176124572754
+test_files/covidfree/manual.sleec, redundancy, 17, unknown (TIMEOUT), 10.000093936920166
+test_files/covidfree/manual.sleec, redundancy, 18, sat, 0.05968213081359863
+test_files/covidfree/manual.sleec, conflict, 0, unknown (TIMEOUT), 10.00009536743164
+test_files/covidfree/manual.sleec, conflict, 1, unknown (TIMEOUT), 10.000081539154053
+test_files/covidfree/manual.sleec, conflict, 2, unknown (TIMEOUT), 10.00006651878357
+test_files/covidfree/manual.sleec, conflict, 3, unknown (TIMEOUT), 10.000075817108154
+test_files/covidfree/manual.sleec, conflict, 4, unknown (TIMEOUT), 10.000068187713623
+test_files/covidfree/manual.sleec, conflict, 5, unknown (TIMEOUT), 10.000067710876465
+test_files/covidfree/manual.sleec, conflict, 6, unknown (TIMEOUT), 10.008861064910889
+test_files/covidfree/manual.sleec, conflict, 7, unknown (TIMEOUT), 10.000128507614136
+test_files/covidfree/manual.sleec, conflict, 8, unknown (TIMEOUT), 10.000075101852417
+test_files/covidfree/manual.sleec, conflict, 9, unknown (TIMEOUT), 10.002891778945923
+test_files/covidfree/manual.sleec, conflict, 10, unknown (TIMEOUT), 10.000067710876465
+test_files/covidfree/manual.sleec, conflict, 11, unknown (TIMEOUT), 10.000075340270996
+test_files/covidfree/manual.sleec, conflict, 12, unknown (TIMEOUT), 10.007412195205688
+test_files/covidfree/manual.sleec, conflict, 13, unknown (TIMEOUT), 10.000085592269897
+test_files/covidfree/manual.sleec, conflict, 14, unknown (TIMEOUT), 10.000071287155151
+test_files/covidfree/manual.sleec, conflict, 15, unknown (TIMEOUT), 10.000079154968262
+test_files/covidfree/manual.sleec, conflict, 16, unknown (TIMEOUT), 10.000080108642578
+test_files/covidfree/manual.sleec, conflict, 17, unknown (TIMEOUT), 10.0000638961792
+test_files/covidfree/manual.sleec, conflict, 18, unknown (TIMEOUT), 10.000080823898315
+test_files/covidfree/covidfree.sleec, redundancy, 0, unknown (TIMEOUT), 10.000097513198853
+test_files/covidfree/covidfree.sleec, redundancy, 1, unknown (TIMEOUT), 10.00006628036499
+test_files/covidfree/covidfree.sleec, redundancy, 2, unknown (TIMEOUT), 10.000141143798828
+test_files/covidfree/covidfree.sleec, redundancy, 3, unknown (TIMEOUT), 10.000336647033691
+test_files/covidfree/covidfree.sleec, redundancy, 4, unknown (TIMEOUT), 10.00006914138794
+test_files/covidfree/covidfree.sleec, redundancy, 5, unsat, 0.24457120895385742
+test_files/covidfree/covidfree.sleec, redundancy, 6, unknown (TIMEOUT), 10.000079154968262
+test_files/covidfree/covidfree.sleec, redundancy, 7, sat, 0.08135533332824707
+test_files/covidfree/covidfree.sleec, redundancy, 8, sat, 0.24285674095153809
+test_files/covidfree/covidfree.sleec, redundancy, 9, sat, 0.24245834350585938
+test_files/covidfree/covidfree.sleec, redundancy, 10, sat, 0.07745718955993652
+test_files/covidfree/covidfree.sleec, redundancy, 11, sat, 0.09479928016662598
+test_files/covidfree/covidfree.sleec, redundancy, 12, unknown (TIMEOUT), 10.00006651878357
+test_files/covidfree/covidfree.sleec, redundancy, 13, sat, 0.08272647857666016
+test_files/covidfree/covidfree.sleec, redundancy, 14, sat, 0.07368969917297363
+test_files/covidfree/covidfree.sleec, redundancy, 15, unknown (TIMEOUT), 10.000077724456787
+test_files/covidfree/covidfree.sleec, redundancy, 16, unknown (TIMEOUT), 10.000066995620728
+test_files/covidfree/covidfree.sleec, redundancy, 17, unknown (TIMEOUT), 10.000072717666626
+test_files/covidfree/covidfree.sleec, redundancy, 18, sat, 0.08167839050292969
+test_files/covidfree/covidfree.sleec, redundancy, 19, unknown (TIMEOUT), 10.000065326690674
+test_files/covidfree/covidfree.sleec, redundancy, 20, unknown (TIMEOUT), 10.000072956085205
+test_files/covidfree/covidfree.sleec, redundancy, 21, sat, 0.1833493709564209
+test_files/covidfree/covidfree.sleec, redundancy, 22, sat, 0.1653437614440918
+test_files/covidfree/covidfree.sleec, redundancy, 23, unknown (TIMEOUT), 10.000067949295044
+test_files/covidfree/covidfree.sleec, redundancy, 24, unknown (TIMEOUT), 10.000070095062256
+test_files/covidfree/covidfree.sleec, conflict, 0, unknown (TIMEOUT), 10.000084400177002
+test_files/covidfree/covidfree.sleec, conflict, 1, unknown (TIMEOUT), 10.000078678131104
+test_files/covidfree/covidfree.sleec, conflict, 2, unknown (TIMEOUT), 10.000197410583496
+test_files/covidfree/covidfree.sleec, conflict, 3, unknown (TIMEOUT), 10.000071287155151
+test_files/covidfree/covidfree.sleec, conflict, 4, unknown (TIMEOUT), 10.00008511543274
+test_files/covidfree/covidfree.sleec, conflict, 5, unknown (TIMEOUT), 10.00007939338684
+test_files/covidfree/covidfree.sleec, conflict, 6, unknown (TIMEOUT), 10.00006651878357
+test_files/covidfree/covidfree.sleec, conflict, 7, unknown (TIMEOUT), 10.000061750411987
+test_files/covidfree/covidfree.sleec, conflict, 8, unknown (TIMEOUT), 10.000082731246948
+test_files/covidfree/covidfree.sleec, conflict, 9, unknown (TIMEOUT), 10.000080585479736
+test_files/covidfree/covidfree.sleec, conflict, 10, unknown (TIMEOUT), 10.000074863433838
+test_files/covidfree/covidfree.sleec, conflict, 11, unknown (TIMEOUT), 10.000079154968262
+test_files/covidfree/covidfree.sleec, conflict, 12, unknown (TIMEOUT), 10.000080347061157
+test_files/covidfree/covidfree.sleec, conflict, 13, unknown (TIMEOUT), 10.000072717666626
+test_files/covidfree/covidfree.sleec, conflict, 14, unknown (TIMEOUT), 10.000073432922363
+test_files/covidfree/covidfree.sleec, conflict, 15, unknown (TIMEOUT), 10.000065803527832
+test_files/covidfree/covidfree.sleec, conflict, 16, unknown (TIMEOUT), 10.00242805480957
+test_files/covidfree/covidfree.sleec, conflict, 17, unknown (TIMEOUT), 10.00008249282837
+test_files/covidfree/covidfree.sleec, conflict, 18, unknown (TIMEOUT), 10.000065326690674
+test_files/covidfree/covidfree.sleec, conflict, 19, unknown (TIMEOUT), 10.000160455703735
+test_files/covidfree/covidfree.sleec, conflict, 20, unknown (TIMEOUT), 10.000066995620728
+test_files/covidfree/covidfree.sleec, conflict, 21, unknown (TIMEOUT), 10.000067472457886
+test_files/covidfree/covidfree.sleec, conflict, 22, unknown (TIMEOUT), 10.000078678131104
+test_files/covidfree/covidfree.sleec, conflict, 23, unknown (TIMEOUT), 10.00007438659668
+test_files/covidfree/covidfree.sleec, conflict, 24, unknown (TIMEOUT), 10.000150918960571
+test_files/safescade/safescade.sleec, redundancy, 0, unknown (TIMEOUT), 10.000088214874268
+test_files/safescade/safescade.sleec, redundancy, 1, unknown (TIMEOUT), 10.000099182128906
+test_files/safescade/safescade.sleec, redundancy, 2, sat, 0.06790900230407715
+test_files/safescade/safescade.sleec, redundancy, 3, unknown (TIMEOUT), 10.00006914138794
+test_files/safescade/safescade.sleec, redundancy, 4, unknown (TIMEOUT), 10.000168800354004
+test_files/safescade/safescade.sleec, redundancy, 5, unknown (TIMEOUT), 10.000097274780273
+test_files/safescade/safescade.sleec, redundancy, 6, unknown (TIMEOUT), 10.002463817596436
+test_files/safescade/safescade.sleec, redundancy, 7, unknown (TIMEOUT), 10.00006914138794
+test_files/safescade/safescade.sleec, redundancy, 8, sat, 0.07381153106689453
+test_files/safescade/safescade.sleec, redundancy, 9, sat, 0.06658577919006348
+test_files/safescade/safescade.sleec, redundancy, 10, unknown (TIMEOUT), 10.000100374221802
+test_files/safescade/safescade.sleec, redundancy, 11, sat, 0.1328432559967041
+test_files/safescade/safescade.sleec, redundancy, 12, unknown (TIMEOUT), 10.000091791152954
+test_files/safescade/safescade.sleec, redundancy, 13, unknown (TIMEOUT), 10.000094413757324
+test_files/safescade/safescade.sleec, redundancy, 14, unknown (TIMEOUT), 10.00008511543274
+test_files/safescade/safescade.sleec, redundancy, 15, unknown (TIMEOUT), 10.000104427337646
+test_files/safescade/safescade.sleec, redundancy, 16, sat, 0.2225499153137207
+test_files/safescade/safescade.sleec, redundancy, 17, sat, 0.062232017517089844
+test_files/safescade/safescade.sleec, redundancy, 18, unknown (TIMEOUT), 10.000106573104858
+test_files/safescade/safescade.sleec, redundancy, 19, unknown (TIMEOUT), 10.00008249282837
+test_files/safescade/safescade.sleec, redundancy, 20, sat, 0.09240221977233887
+test_files/safescade/safescade.sleec, redundancy, 21, sat, 0.15292644500732422
+test_files/safescade/safescade.sleec, redundancy, 22, sat, 0.07779455184936523
+test_files/safescade/safescade.sleec, redundancy, 23, unknown (TIMEOUT), 10.000108480453491
+test_files/safescade/safescade.sleec, redundancy, 24, unknown (TIMEOUT), 10.000095129013062
+test_files/safescade/safescade.sleec, redundancy, 25, unknown (TIMEOUT), 10.000093936920166
+test_files/safescade/safescade.sleec, redundancy, 26, sat, 0.09430170059204102
+test_files/safescade/safescade.sleec, redundancy, 27, sat, 0.0816657543182373
+test_files/safescade/safescade.sleec, conflict, 0, unknown (TIMEOUT), 10.000126361846924
+test_files/safescade/safescade.sleec, conflict, 1, unknown (TIMEOUT), 10.0000638961792
+test_files/safescade/safescade.sleec, conflict, 2, unknown (TIMEOUT), 10.000101804733276
+test_files/safescade/safescade.sleec, conflict, 3, unknown (TIMEOUT), 10.000081062316895
+test_files/safescade/safescade.sleec, conflict, 4, unknown (TIMEOUT), 10.000099420547485
+test_files/safescade/safescade.sleec, conflict, 5, unknown (TIMEOUT), 10.000128746032715
+test_files/safescade/safescade.sleec, conflict, 6, unknown (TIMEOUT), 10.000086784362793
+test_files/safescade/safescade.sleec, conflict, 7, unknown (TIMEOUT), 10.000092029571533
+test_files/safescade/safescade.sleec, conflict, 8, unknown (TIMEOUT), 10.000099182128906
+test_files/safescade/safescade.sleec, conflict, 9, unknown (TIMEOUT), 10.000067710876465
+test_files/safescade/safescade.sleec, conflict, 10, unknown (TIMEOUT), 10.000089883804321
+test_files/safescade/safescade.sleec, conflict, 11, unknown (TIMEOUT), 10.000073432922363
+test_files/safescade/safescade.sleec, conflict, 12, unknown (TIMEOUT), 10.000089168548584
+test_files/safescade/safescade.sleec, conflict, 13, unknown (TIMEOUT), 10.000088214874268
+test_files/safescade/safescade.sleec, conflict, 14, unknown (TIMEOUT), 10.000068187713623
+test_files/safescade/safescade.sleec, conflict, 15, unknown (TIMEOUT), 10.000080108642578
+test_files/safescade/safescade.sleec, conflict, 16, unknown (TIMEOUT), 10.000105142593384
+test_files/safescade/safescade.sleec, conflict, 17, unknown (TIMEOUT), 10.000066757202148
+test_files/safescade/safescade.sleec, conflict, 18, unknown (TIMEOUT), 10.000100135803223
+test_files/safescade/safescade.sleec, conflict, 19, unknown (TIMEOUT), 10.000073671340942
+test_files/safescade/safescade.sleec, conflict, 20, unknown (TIMEOUT), 10.000086069107056
+test_files/safescade/safescade.sleec, conflict, 21, unknown (TIMEOUT), 10.000093936920166
+test_files/safescade/safescade.sleec, conflict, 22, unknown (TIMEOUT), 10.000067472457886
+test_files/safescade/safescade.sleec, conflict, 23, unknown (TIMEOUT), 10.000099420547485
+test_files/safescade/safescade.sleec, conflict, 24, unknown (TIMEOUT), 10.000075578689575
+test_files/safescade/safescade.sleec, conflict, 25, unknown (TIMEOUT), 10.00010871887207
+test_files/safescade/safescade.sleec, conflict, 26, unknown (TIMEOUT), 10.00010633468628
+test_files/safescade/safescade.sleec, conflict, 27, unknown (TIMEOUT), 10.000095129013062
+test_files/safescade/safescade.sleec, conflict, 0, unknown (TIMEOUT), 10.00011658668518
+test_files/safescade/safescade.sleec, conflict, 1, unknown (TIMEOUT), 10.00007939338684
+test_files/safescade/safescade.sleec, conflict, 2, unknown (TIMEOUT), 10.000071287155151
+test_files/safescade/safescade.sleec, conflict, 3, unknown (TIMEOUT), 10.000066041946411
+test_files/safescade/safescade-corrected.sleec, redundancy, 0, unknown (TIMEOUT), 10.000098705291748
+test_files/safescade/safescade-corrected.sleec, redundancy, 1, sat, 0.08073902130126953
+test_files/safescade/safescade-corrected.sleec, redundancy, 2, sat, 0.06667613983154297
+test_files/safescade/safescade-corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.000104427337646
+test_files/safescade/safescade-corrected.sleec, redundancy, 4, unknown (TIMEOUT), 10.000063419342041
+test_files/safescade/safescade-corrected.sleec, redundancy, 5, sat, 0.0724489688873291
+test_files/safescade/safescade-corrected.sleec, redundancy, 6, sat, 0.07428979873657227
+test_files/safescade/safescade-corrected.sleec, redundancy, 7, unknown (TIMEOUT), 10.000068426132202
+test_files/safescade/safescade-corrected.sleec, redundancy, 8, unknown (TIMEOUT), 10.000101089477539
+test_files/safescade/safescade-corrected.sleec, redundancy, 9, sat, 0.1963667869567871
+test_files/safescade/safescade-corrected.sleec, redundancy, 10, unknown (TIMEOUT), 10.000085353851318
+test_files/safescade/safescade-corrected.sleec, redundancy, 11, unknown (TIMEOUT), 10.000092267990112
+test_files/safescade/safescade-corrected.sleec, redundancy, 12, unknown (TIMEOUT), 10.000085592269897
+test_files/safescade/safescade-corrected.sleec, redundancy, 13, unknown (TIMEOUT), 10.000068187713623
+test_files/safescade/safescade-corrected.sleec, redundancy, 14, sat, 0.0818166732788086
+test_files/safescade/safescade-corrected.sleec, redundancy, 15, unknown (TIMEOUT), 10.000087976455688
+test_files/safescade/safescade-corrected.sleec, redundancy, 16, sat, 0.10335326194763184
+test_files/safescade/safescade-corrected.sleec, redundancy, 17, sat, 0.07112789154052734
+test_files/safescade/safescade-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.000115156173706
+test_files/safescade/safescade-corrected.sleec, redundancy, 19, sat, 0.09561538696289062
+test_files/safescade/safescade-corrected.sleec, redundancy, 20, unknown (TIMEOUT), 10.000081777572632
+test_files/safescade/safescade-corrected.sleec, redundancy, 21, unknown (TIMEOUT), 10.00006628036499
+test_files/safescade/safescade-corrected.sleec, redundancy, 22, unknown (TIMEOUT), 10.000088930130005
+test_files/safescade/safescade-corrected.sleec, redundancy, 23, sat, 0.10091662406921387
+test_files/safescade/safescade-corrected.sleec, redundancy, 24, sat, 0.08727884292602539
+test_files/safescade/safescade-corrected.sleec, redundancy, 25, unknown (TIMEOUT), 10.000078678131104
+test_files/safescade/safescade-corrected.sleec, redundancy, 26, unknown (TIMEOUT), 10.000105142593384
+test_files/safescade/safescade-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000977277755737
+test_files/safescade/safescade-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000104188919067
+test_files/safescade/safescade-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000076532363892
+test_files/safescade/safescade-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000071287155151
+test_files/safescade/safescade-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.001905918121338
+test_files/safescade/safescade-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000105857849121
+test_files/safescade/safescade-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000104665756226
+test_files/safescade/safescade-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000067710876465
+test_files/safescade/safescade-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.00010085105896
+test_files/safescade/safescade-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000073671340942
+test_files/safescade/safescade-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000071048736572
+test_files/safescade/safescade-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.002014875411987
+test_files/safescade/safescade-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000083446502686
+test_files/safescade/safescade-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.000097751617432
+test_files/safescade/safescade-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.000083684921265
+test_files/safescade/safescade-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000961065292358
+test_files/safescade/safescade-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000069856643677
+test_files/safescade/safescade-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.000961065292358
+test_files/safescade/safescade-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000104904174805
+test_files/safescade/safescade-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000106811523438
+test_files/safescade/safescade-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000072479248047
+test_files/safescade/safescade-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.00011157989502
+test_files/safescade/safescade-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.000074625015259
+test_files/safescade/safescade-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.00007152557373
+test_files/safescade/safescade-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.000107765197754
+test_files/safescade/safescade-corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.001337766647339
+test_files/safescade/safescade-corrected.sleec, conflict, 26, unknown (TIMEOUT), 10.000069856643677
+test_files/safescade/safescade-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000108003616333
+test_files/safescade/safescade-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000082969665527
+test_files/safescade/safescade-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000089168548584
+test_files/ASPEN/aspen.sleec, redundancy, 0, sat, 0.10327029228210449
+test_files/ASPEN/aspen.sleec, redundancy, 1, unknown (TIMEOUT), 10.00010895729065
+test_files/ASPEN/aspen.sleec, redundancy, 2, sat, 0.07927370071411133
+test_files/ASPEN/aspen.sleec, redundancy, 3, sat, 0.06574058532714844
+test_files/ASPEN/aspen.sleec, redundancy, 4, sat, 0.10283160209655762
+test_files/ASPEN/aspen.sleec, redundancy, 5, sat, 0.1687946319580078
+test_files/ASPEN/aspen.sleec, redundancy, 6, sat, 0.06722164154052734
+test_files/ASPEN/aspen.sleec, redundancy, 7, sat, 0.1789555549621582
+test_files/ASPEN/aspen.sleec, redundancy, 8, unknown (TIMEOUT), 10.000069856643677
+test_files/ASPEN/aspen.sleec, redundancy, 9, unknown (TIMEOUT), 10.00010061264038
+test_files/ASPEN/aspen.sleec, redundancy, 10, sat, 0.19042086601257324
+test_files/ASPEN/aspen.sleec, redundancy, 11, sat, 0.19414448738098145
+test_files/ASPEN/aspen.sleec, redundancy, 12, unknown (TIMEOUT), 10.000094890594482
+test_files/ASPEN/aspen.sleec, redundancy, 13, sat, 0.08472633361816406
+test_files/ASPEN/aspen.sleec, redundancy, 14, sat, 0.06889081001281738
+test_files/ASPEN/aspen.sleec, redundancy, 15, unknown (TIMEOUT), 10.000078201293945
+test_files/ASPEN/aspen.sleec, redundancy, 16, sat, 0.08366036415100098
+test_files/ASPEN/aspen.sleec, redundancy, 17, sat, 0.07129764556884766
+test_files/ASPEN/aspen.sleec, redundancy, 18, unknown (TIMEOUT), 10.000095129013062
+test_files/ASPEN/aspen.sleec, redundancy, 19, sat, 0.10055732727050781
+test_files/ASPEN/aspen.sleec, redundancy, 20, unknown (TIMEOUT), 10.000085592269897
+test_files/ASPEN/aspen.sleec, redundancy, 21, unknown (TIMEOUT), 10.000070095062256
+test_files/ASPEN/aspen.sleec, redundancy, 22, unknown (TIMEOUT), 10.000067949295044
+test_files/ASPEN/aspen.sleec, conflict, 0, unknown (TIMEOUT), 10.000100135803223
+test_files/ASPEN/aspen.sleec, conflict, 1, unknown (TIMEOUT), 10.00008773803711
+test_files/ASPEN/aspen.sleec, conflict, 2, unknown (TIMEOUT), 10.00006651878357
+test_files/ASPEN/aspen.sleec, conflict, 3, unknown (TIMEOUT), 10.000087976455688
+test_files/ASPEN/aspen.sleec, conflict, 4, unknown (TIMEOUT), 10.000092029571533
+test_files/ASPEN/aspen.sleec, conflict, 5, unknown (TIMEOUT), 10.000066041946411
+test_files/ASPEN/aspen.sleec, conflict, 6, unknown (TIMEOUT), 10.000084161758423
+test_files/ASPEN/aspen.sleec, conflict, 7, unknown (TIMEOUT), 10.00009536743164
+test_files/ASPEN/aspen.sleec, conflict, 8, unknown (TIMEOUT), 10.000075578689575
+test_files/ASPEN/aspen.sleec, conflict, 9, unknown (TIMEOUT), 10.000063419342041
+test_files/ASPEN/aspen.sleec, conflict, 10, unknown (TIMEOUT), 10.00008511543274
+test_files/ASPEN/aspen.sleec, conflict, 11, unknown (TIMEOUT), 10.00006628036499
+test_files/ASPEN/aspen.sleec, conflict, 12, unknown (TIMEOUT), 10.000083208084106
+test_files/ASPEN/aspen.sleec, conflict, 13, unknown (TIMEOUT), 10.00008225440979
+test_files/ASPEN/aspen.sleec, conflict, 14, unknown (TIMEOUT), 10.000066757202148
+test_files/ASPEN/aspen.sleec, conflict, 15, unknown (TIMEOUT), 10.000073671340942
+test_files/ASPEN/aspen.sleec, conflict, 16, unknown (TIMEOUT), 10.000065326690674
+test_files/ASPEN/aspen.sleec, conflict, 17, unknown (TIMEOUT), 10.000088691711426
+test_files/ASPEN/aspen.sleec, conflict, 18, unknown (TIMEOUT), 10.000084400177002
+test_files/ASPEN/aspen.sleec, conflict, 19, unknown (TIMEOUT), 10.000074625015259
+test_files/ASPEN/aspen.sleec, conflict, 20, unknown (TIMEOUT), 10.000118255615234
+test_files/ASPEN/aspen.sleec, conflict, 21, unknown (TIMEOUT), 10.00007176399231
+test_files/ASPEN/aspen.sleec, conflict, 22, unknown (TIMEOUT), 10.000064373016357
+test_files/ASPEN/aspen.sleec, conflict, 0, unknown (TIMEOUT), 10.00008749961853
+test_files/ASPEN/aspen.sleec, conflict, 1, unknown (TIMEOUT), 10.00009036064148
+test_files/ASPEN/aspen.sleec, conflict, 2, unknown (TIMEOUT), 10.000117778778076
+test_files/ASPEN/aspen.sleec, conflict, 3, unknown (TIMEOUT), 10.000102758407593
+test_files/ASPEN/aspen.sleec, conflict, 4, unknown (TIMEOUT), 10.00022554397583
+test_files/ASPEN/aspen.sleec, conflict, 5, unknown (TIMEOUT), 10.000065326690674
+test_files/ASPEN/aspen.sleec, conflict, 6, unknown (TIMEOUT), 10.00008487701416
+test_files/ASPEN/aspen.sleec, conflict, 7, unknown (TIMEOUT), 10.000063180923462
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 0, sat, 0.10187697410583496
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.000101804733276
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 2, sat, 0.08496570587158203
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 3, sat, 0.07110309600830078
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 4, unknown (TIMEOUT), 10.000088930130005
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 5, unknown (TIMEOUT), 10.000083208084106
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 6, sat, 0.07904052734375
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 7, unknown (TIMEOUT), 10.000081777572632
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 8, sat, 0.106903076171875
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 9, unknown (TIMEOUT), 10.000088214874268
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 10, unknown (TIMEOUT), 10.000088214874268
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 11, unknown (TIMEOUT), 10.00006890296936
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 12, unknown (TIMEOUT), 10.000081777572632
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 13, sat, 0.0775301456451416
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 14, sat, 0.08807253837585449
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 15, sat, 0.08979177474975586
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 16, sat, 0.07096529006958008
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 17, sat, 0.07349801063537598
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.00007677078247
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 19, sat, 0.08355283737182617
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 20, sat, 0.06833386421203613
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 21, unknown (TIMEOUT), 10.000086069107056
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 22, sat, 0.10280632972717285
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 23, unknown (TIMEOUT), 10.000104665756226
+test_files/ASPEN/aspen-corrected.sleec, redundancy, 24, sat, 0.20934605598449707
+test_files/ASPEN/aspen-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000133991241455
+test_files/ASPEN/aspen-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000991582870483
+test_files/ASPEN/aspen-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000194549560547
+test_files/ASPEN/aspen-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000062704086304
+test_files/ASPEN/aspen-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.00008749961853
+test_files/ASPEN/aspen-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000064611434937
+test_files/ASPEN/aspen-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000187873840332
+test_files/ASPEN/aspen-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000076055526733
+test_files/ASPEN/aspen-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000064849853516
+test_files/ASPEN/aspen-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.00008225440979
+test_files/ASPEN/aspen-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000065565109253
+test_files/ASPEN/aspen-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000070333480835
+test_files/ASPEN/aspen-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000097513198853
+test_files/ASPEN/aspen-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.000084638595581
+test_files/ASPEN/aspen-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.000088453292847
+test_files/ASPEN/aspen-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000071048736572
+test_files/ASPEN/aspen-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.00007939338684
+test_files/ASPEN/aspen-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.00007176399231
+test_files/ASPEN/aspen-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000088930130005
+test_files/ASPEN/aspen-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000069379806519
+test_files/ASPEN/aspen-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000069379806519
+test_files/ASPEN/aspen-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.0000901222229
+test_files/ASPEN/aspen-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.000090599060059
+test_files/ASPEN/aspen-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.001813650131226
+test_files/ASPEN/aspen-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.00007176399231
+test_files/ASPEN/aspen-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000113725662231
+test_files/ASPEN/aspen-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000092506408691
+test_files/ASPEN/aspen-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.00006365776062
+test_files/ASPEN/aspen-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000682592391968
+test_files/ASPEN/aspen-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000065326690674
+test_files/ASPEN/aspen-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.003164768218994
+test_files/ASPEN/aspen-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000077962875366
+test_files/ASPEN/aspen-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.0000901222229
+test_files/ALMI/ALMI.sleec, redundancy, 0, sat, 0.07560610771179199
+test_files/ALMI/ALMI.sleec, redundancy, 1, sat, 0.09180617332458496
+test_files/ALMI/ALMI.sleec, redundancy, 2, unknown (TIMEOUT), 10.00008773803711
+test_files/ALMI/ALMI.sleec, redundancy, 3, unknown (TIMEOUT), 10.000065326690674
+test_files/ALMI/ALMI.sleec, redundancy, 4, sat, 0.07068753242492676
+test_files/ALMI/ALMI.sleec, redundancy, 5, unknown (TIMEOUT), 10.000079870223999
+test_files/ALMI/ALMI.sleec, redundancy, 6, unknown (TIMEOUT), 10.000077247619629
+test_files/ALMI/ALMI.sleec, redundancy, 7, sat, 0.07784342765808105
+test_files/ALMI/ALMI.sleec, redundancy, 8, sat, 0.07015132904052734
+test_files/ALMI/ALMI.sleec, redundancy, 9, sat, 0.11574077606201172
+test_files/ALMI/ALMI.sleec, redundancy, 10, sat, 0.07140731811523438
+test_files/ALMI/ALMI.sleec, redundancy, 11, sat, 0.07121157646179199
+test_files/ALMI/ALMI.sleec, redundancy, 12, sat, 0.0904092788696289
+test_files/ALMI/ALMI.sleec, redundancy, 13, sat, 0.1054069995880127
+test_files/ALMI/ALMI.sleec, redundancy, 14, sat, 0.14174318313598633
+test_files/ALMI/ALMI.sleec, redundancy, 15, sat, 0.06649470329284668
+test_files/ALMI/ALMI.sleec, redundancy, 16, sat, 0.08509111404418945
+test_files/ALMI/ALMI.sleec, redundancy, 17, sat, 0.07445931434631348
+test_files/ALMI/ALMI.sleec, redundancy, 18, unknown (TIMEOUT), 10.000084638595581
+test_files/ALMI/ALMI.sleec, redundancy, 19, sat, 0.07256460189819336
+test_files/ALMI/ALMI.sleec, redundancy, 20, sat, 0.06518220901489258
+test_files/ALMI/ALMI.sleec, redundancy, 21, unknown (TIMEOUT), 10.000107288360596
+test_files/ALMI/ALMI.sleec, redundancy, 22, unknown (TIMEOUT), 10.000081300735474
+test_files/ALMI/ALMI.sleec, redundancy, 23, sat, 0.09828615188598633
+test_files/ALMI/ALMI.sleec, redundancy, 24, sat, 0.08340096473693848
+test_files/ALMI/ALMI.sleec, redundancy, 25, sat, 0.08151721954345703
+test_files/ALMI/ALMI.sleec, redundancy, 26, sat, 0.06839442253112793
+test_files/ALMI/ALMI.sleec, redundancy, 27, sat, 0.07000613212585449
+test_files/ALMI/ALMI.sleec, redundancy, 28, sat, 0.06877684593200684
+test_files/ALMI/ALMI.sleec, redundancy, 29, sat, 0.07180166244506836
+test_files/ALMI/ALMI.sleec, redundancy, 30, sat, 0.08629012107849121
+test_files/ALMI/ALMI.sleec, redundancy, 31, sat, 0.08638644218444824
+test_files/ALMI/ALMI.sleec, redundancy, 32, sat, 0.08372235298156738
+test_files/ALMI/ALMI.sleec, conflict, 0, unknown (TIMEOUT), 10.000088930130005
+test_files/ALMI/ALMI.sleec, conflict, 1, unknown (TIMEOUT), 10.000072002410889
+test_files/ALMI/ALMI.sleec, conflict, 2, unknown (TIMEOUT), 10.000085830688477
+test_files/ALMI/ALMI.sleec, conflict, 3, unknown (TIMEOUT), 10.000072956085205
+test_files/ALMI/ALMI.sleec, conflict, 4, unknown (TIMEOUT), 10.000085830688477
+test_files/ALMI/ALMI.sleec, conflict, 5, unknown (TIMEOUT), 10.000086545944214
+test_files/ALMI/ALMI.sleec, conflict, 6, unknown (TIMEOUT), 10.000066757202148
+test_files/ALMI/ALMI.sleec, conflict, 7, unknown (TIMEOUT), 10.000084400177002
+test_files/ALMI/ALMI.sleec, conflict, 8, unknown (TIMEOUT), 10.000093460083008
+test_files/ALMI/ALMI.sleec, conflict, 9, unknown (TIMEOUT), 10.000071048736572
+test_files/ALMI/ALMI.sleec, conflict, 10, unknown (TIMEOUT), 10.000085353851318
+test_files/ALMI/ALMI.sleec, conflict, 11, unknown (TIMEOUT), 10.000066041946411
+test_files/ALMI/ALMI.sleec, conflict, 12, unknown (TIMEOUT), 10.000094175338745
+test_files/ALMI/ALMI.sleec, conflict, 13, unknown (TIMEOUT), 10.00007939338684
+test_files/ALMI/ALMI.sleec, conflict, 14, unknown (TIMEOUT), 10.000078678131104
+test_files/ALMI/ALMI.sleec, conflict, 15, unknown (TIMEOUT), 10.000062942504883
+test_files/ALMI/ALMI.sleec, conflict, 16, unknown (TIMEOUT), 10.000062704086304
+test_files/ALMI/ALMI.sleec, conflict, 17, unknown (TIMEOUT), 10.000062465667725
+test_files/ALMI/ALMI.sleec, conflict, 18, unknown (TIMEOUT), 10.000076055526733
+test_files/ALMI/ALMI.sleec, conflict, 19, unknown (TIMEOUT), 10.000080585479736
+test_files/ALMI/ALMI.sleec, conflict, 20, unknown (TIMEOUT), 10.000081062316895
+test_files/ALMI/ALMI.sleec, conflict, 21, unknown (TIMEOUT), 10.000085592269897
+test_files/ALMI/ALMI.sleec, conflict, 22, unknown (TIMEOUT), 10.000189542770386
+test_files/ALMI/ALMI.sleec, conflict, 23, unknown (TIMEOUT), 10.000064373016357
+test_files/ALMI/ALMI.sleec, conflict, 24, unknown (TIMEOUT), 10.000078439712524
+test_files/ALMI/ALMI.sleec, conflict, 25, unknown (TIMEOUT), 10.000073909759521
+test_files/ALMI/ALMI.sleec, conflict, 26, unknown (TIMEOUT), 10.000086545944214
+test_files/ALMI/ALMI.sleec, conflict, 27, unknown (TIMEOUT), 10.00008749961853
+test_files/ALMI/ALMI.sleec, conflict, 28, unknown (TIMEOUT), 10.001099824905396
+test_files/ALMI/ALMI.sleec, conflict, 29, unknown (TIMEOUT), 10.000071287155151
+test_files/ALMI/ALMI.sleec, conflict, 30, unknown (TIMEOUT), 10.000087976455688
+test_files/ALMI/ALMI.sleec, conflict, 31, unknown (TIMEOUT), 10.000144243240356
+test_files/ALMI/ALMI.sleec, conflict, 32, unknown (TIMEOUT), 10.00008487701416
+test_files/ALMI/ALMI.sleec, conflict, 0, unknown (TIMEOUT), 10.000083446502686
+test_files/ALMI/ALMI.sleec, conflict, 1, unknown (TIMEOUT), 10.000068187713623
+test_files/ALMI/ALMI.sleec, conflict, 2, unknown (TIMEOUT), 10.000078678131104
+test_files/ALMI/ALMI.sleec, conflict, 3, unknown (TIMEOUT), 10.000069379806519
+test_files/ALMI/ALMI.sleec, conflict, 4, unknown (TIMEOUT), 10.00006628036499
+test_files/ALMI/ALMI.sleec, conflict, 5, unknown (TIMEOUT), 10.000064373016357
+test_files/ALMI/ALMI.sleec, conflict, 6, unknown (TIMEOUT), 10.000080585479736
+test_files/ALMI/ALMI.sleec, conflict, 7, unknown (TIMEOUT), 10.000071287155151
+test_files/ALMI/ALMI.sleec, conflict, 8, unknown (TIMEOUT), 10.000716924667358
+test_files/ALMI/ALMI.sleec, conflict, 9, unknown (TIMEOUT), 10.000097751617432
+test_files/ALMI/ALMI.sleec, conflict, 10, unknown (TIMEOUT), 10.000065326690674
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 0, sat, 0.0784461498260498
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 1, sat, 0.09134602546691895
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000083208084106
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.000083208084106
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 4, sat, 0.08234238624572754
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 5, unknown (TIMEOUT), 10.000072240829468
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 6, unknown (TIMEOUT), 10.001307487487793
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 7, unknown (TIMEOUT), 10.00008487701416
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 8, unknown (TIMEOUT), 10.000256538391113
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 9, sat, 0.09237384796142578
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 10, sat, 0.07186174392700195
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 11, sat, 0.12010836601257324
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 12, sat, 0.07045102119445801
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 13, sat, 0.07151913642883301
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 14, sat, 0.0945885181427002
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 15, sat, 0.10808396339416504
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 16, sat, 0.146026611328125
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 17, sat, 0.0698087215423584
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 18, sat, 0.0822439193725586
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 19, sat, 0.07210993766784668
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 20, unknown (TIMEOUT), 10.00006914138794
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 21, sat, 0.09331965446472168
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 22, sat, 0.06734919548034668
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 23, unknown (TIMEOUT), 10.000072002410889
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 24, unknown (TIMEOUT), 10.00007176399231
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 25, sat, 0.0954134464263916
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 26, sat, 0.08518314361572266
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 27, sat, 0.0859839916229248
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 28, sat, 0.0723576545715332
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 29, sat, 0.07121133804321289
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 30, sat, 0.07172751426696777
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 31, unknown (TIMEOUT), 10.00006365776062
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 32, sat, 0.1534559726715088
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 33, sat, 0.08722043037414551
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 34, sat, 0.08703851699829102
+test_files/ALMI/ALMI-Corrected.sleec, redundancy, 35, sat, 0.08751845359802246
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000683784484863
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000063419342041
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000080823898315
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000070095062256
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000265121459961
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.00006628036499
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000072717666626
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000076293945312
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.001941919326782
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000063419342041
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000675439834595
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000072240829468
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000077962875366
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.00007700920105
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.00017261505127
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000064611434937
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000085353851318
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.000089168548584
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000083684921265
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000076532363892
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000094175338745
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000086069107056
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.00011920928955
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.00006651878357
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.000069379806519
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.000133514404297
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 26, unknown (TIMEOUT), 10.000083684921265
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 27, unknown (TIMEOUT), 10.000287055969238
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 28, unknown (TIMEOUT), 10.000076532363892
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 29, unknown (TIMEOUT), 10.001917839050293
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 30, unknown (TIMEOUT), 10.00008511543274
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 31, unknown (TIMEOUT), 10.000082015991211
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 32, unknown (TIMEOUT), 10.000065565109253
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 33, unknown (TIMEOUT), 10.000083446502686
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 34, unknown (TIMEOUT), 10.000081539154053
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 35, unknown (TIMEOUT), 10.000071287155151
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.00010371208191
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.00008249282837
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000069618225098
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.00007963180542
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000063180923462
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000068187713623
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.0000638961792
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000062704086304
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000062465667725
+test_files/ALMI/ALMI-Corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000066757202148
+test_files/CSI/CSI.sleec, redundancy, 0, unknown (TIMEOUT), 10.00008773803711
+test_files/CSI/CSI.sleec, redundancy, 1, unknown (TIMEOUT), 10.000061511993408
+test_files/CSI/CSI.sleec, redundancy, 2, unknown (TIMEOUT), 10.000078678131104
+test_files/CSI/CSI.sleec, redundancy, 3, unknown (TIMEOUT), 10.000075101852417
+test_files/CSI/CSI.sleec, redundancy, 4, unknown (TIMEOUT), 10.000077724456787
+test_files/CSI/CSI.sleec, redundancy, 5, sat, 0.06686210632324219
+test_files/CSI/CSI.sleec, redundancy, 6, sat, 0.052242279052734375
+test_files/CSI/CSI.sleec, redundancy, 7, unknown (TIMEOUT), 10.000070571899414
+test_files/CSI/CSI.sleec, redundancy, 8, unknown (TIMEOUT), 10.000075578689575
+test_files/CSI/CSI.sleec, redundancy, 9, unknown (TIMEOUT), 10.00007438659668
+test_files/CSI/CSI.sleec, redundancy, 10, sat, 0.12800121307373047
+test_files/CSI/CSI.sleec, redundancy, 11, unknown (TIMEOUT), 10.000061988830566
+test_files/CSI/CSI.sleec, redundancy, 12, sat, 0.12169504165649414
+test_files/CSI/CSI.sleec, redundancy, 13, sat, 0.09547114372253418
+test_files/CSI/CSI.sleec, redundancy, 14, sat, 0.0986478328704834
+test_files/CSI/CSI.sleec, redundancy, 15, unknown (TIMEOUT), 10.00063967704773
+test_files/CSI/CSI.sleec, redundancy, 16, unknown (TIMEOUT), 10.000082969665527
+test_files/CSI/CSI.sleec, redundancy, 17, unknown (TIMEOUT), 10.000080823898315
+test_files/CSI/CSI.sleec, redundancy, 18, unknown (TIMEOUT), 10.000075101852417
+test_files/CSI/CSI.sleec, redundancy, 19, unknown (TIMEOUT), 10.000216722488403
+test_files/CSI/CSI.sleec, conflict, 0, unknown (TIMEOUT), 10.000089645385742
+test_files/CSI/CSI.sleec, conflict, 1, unknown (TIMEOUT), 10.000061511993408
+test_files/CSI/CSI.sleec, conflict, 2, unknown (TIMEOUT), 10.000082969665527
+test_files/CSI/CSI.sleec, conflict, 3, unknown (TIMEOUT), 10.000072479248047
+test_files/CSI/CSI.sleec, conflict, 4, unknown (TIMEOUT), 10.000068426132202
+test_files/CSI/CSI.sleec, conflict, 5, unknown (TIMEOUT), 10.000069618225098
+test_files/CSI/CSI.sleec, conflict, 6, unknown (TIMEOUT), 10.000081300735474
+test_files/CSI/CSI.sleec, conflict, 7, unknown (TIMEOUT), 10.000072956085205
+test_files/CSI/CSI.sleec, conflict, 8, unknown (TIMEOUT), 10.000076532363892
+test_files/CSI/CSI.sleec, conflict, 9, unknown (TIMEOUT), 10.00007152557373
+test_files/CSI/CSI.sleec, conflict, 10, unknown (TIMEOUT), 10.00006651878357
+test_files/CSI/CSI.sleec, conflict, 11, unknown (TIMEOUT), 10.000065326690674
+test_files/CSI/CSI.sleec, conflict, 12, unknown (TIMEOUT), 10.001841306686401
+test_files/CSI/CSI.sleec, conflict, 13, unknown (TIMEOUT), 10.000079870223999
+test_files/CSI/CSI.sleec, conflict, 14, unknown (TIMEOUT), 10.000072002410889
+test_files/CSI/CSI.sleec, conflict, 15, unknown (TIMEOUT), 10.000071287155151
+test_files/CSI/CSI.sleec, conflict, 16, unknown (TIMEOUT), 10.000076532363892
+test_files/CSI/CSI.sleec, conflict, 17, unknown (TIMEOUT), 10.000085830688477
+test_files/CSI/CSI.sleec, conflict, 18, unknown (TIMEOUT), 10.000080823898315
+test_files/CSI/CSI.sleec, conflict, 19, unknown (TIMEOUT), 10.000065803527832
+test_files/CSI/CSI.sleec, conflict, 0, unknown (TIMEOUT), 10.000100374221802
+test_files/CSI/CSI.sleec, conflict, 1, unknown (TIMEOUT), 10.000078678131104
+test_files/CSI/CSI.sleec, conflict, 2, unknown (TIMEOUT), 10.000080823898315
+test_files/CSI/CSI.sleec, conflict, 3, unknown (TIMEOUT), 10.00008225440979
+test_files/CSI/CSI.sleec, conflict, 4, unknown (TIMEOUT), 10.000065088272095
+test_files/CSI/CSI.sleec, conflict, 5, unknown (TIMEOUT), 10.002439022064209
+test_files/CSI/CSI.sleec, conflict, 6, unknown (TIMEOUT), 10.000067234039307
+test_files/CSI/CSI.sleec, conflict, 7, unknown (TIMEOUT), 10.000064611434937
+test_files/CSI/CSI-corrected.sleec, redundancy, 0, unknown (TIMEOUT), 10.000102758407593
+test_files/CSI/CSI-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.000066995620728
+test_files/CSI/CSI-corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000061988830566
+test_files/CSI/CSI-corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.00006651878357
+test_files/CSI/CSI-corrected.sleec, redundancy, 4, sat, 0.09579205513000488
+test_files/CSI/CSI-corrected.sleec, redundancy, 5, sat, 0.04853940010070801
+test_files/CSI/CSI-corrected.sleec, redundancy, 6, sat, 0.051340579986572266
+test_files/CSI/CSI-corrected.sleec, redundancy, 7, unknown (TIMEOUT), 10.000084161758423
+test_files/CSI/CSI-corrected.sleec, redundancy, 8, unknown (TIMEOUT), 10.000066041946411
+test_files/CSI/CSI-corrected.sleec, redundancy, 9, unknown (TIMEOUT), 10.000083446502686
+test_files/CSI/CSI-corrected.sleec, redundancy, 10, sat, 0.1450498104095459
+test_files/CSI/CSI-corrected.sleec, redundancy, 11, sat, 0.10019588470458984
+test_files/CSI/CSI-corrected.sleec, redundancy, 12, sat, 0.12433552742004395
+test_files/CSI/CSI-corrected.sleec, redundancy, 13, sat, 0.11987066268920898
+test_files/CSI/CSI-corrected.sleec, redundancy, 14, sat, 0.1213381290435791
+test_files/CSI/CSI-corrected.sleec, redundancy, 15, unknown (TIMEOUT), 10.000082015991211
+test_files/CSI/CSI-corrected.sleec, redundancy, 16, unknown (TIMEOUT), 10.000065565109253
+test_files/CSI/CSI-corrected.sleec, redundancy, 17, sat, 0.11190462112426758
+test_files/CSI/CSI-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.000065326690674
+test_files/CSI/CSI-corrected.sleec, redundancy, 19, unknown (TIMEOUT), 10.000075817108154
+test_files/CSI/CSI-corrected.sleec, redundancy, 20, sat, 0.13546228408813477
+test_files/CSI/CSI-corrected.sleec, redundancy, 21, sat, 0.0837562084197998
+test_files/CSI/CSI-corrected.sleec, redundancy, 22, sat, 0.08525991439819336
+test_files/CSI/CSI-corrected.sleec, redundancy, 23, sat, 0.05201125144958496
+test_files/CSI/CSI-corrected.sleec, redundancy, 24, sat, 0.06841850280761719
+test_files/CSI/CSI-corrected.sleec, redundancy, 25, sat, 0.0559079647064209
+test_files/CSI/CSI-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000089168548584
+test_files/CSI/CSI-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000081777572632
+test_files/CSI/CSI-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000066995620728
+test_files/CSI/CSI-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000077724456787
+test_files/CSI/CSI-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000080108642578
+test_files/CSI/CSI-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000072002410889
+test_files/CSI/CSI-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000076532363892
+test_files/CSI/CSI-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000078439712524
+test_files/CSI/CSI-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000073909759521
+test_files/CSI/CSI-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000072240829468
+test_files/CSI/CSI-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000089168548584
+test_files/CSI/CSI-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000075817108154
+test_files/CSI/CSI-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000071048736572
+test_files/CSI/CSI-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.000079870223999
+test_files/CSI/CSI-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.002421855926514
+test_files/CSI/CSI-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000072002410889
+test_files/CSI/CSI-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000077486038208
+test_files/CSI/CSI-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.00008225440979
+test_files/CSI/CSI-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000078916549683
+test_files/CSI/CSI-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000092029571533
+test_files/CSI/CSI-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.00011920928955
+test_files/CSI/CSI-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000073194503784
+test_files/CSI/CSI-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.00007677078247
+test_files/CSI/CSI-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.000065088272095
+test_files/CSI/CSI-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.000073432922363
+test_files/CSI/CSI-corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.000076293945312
+test_files/CSI/CSI-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000088214874268
+test_files/CSI/CSI-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.005035638809204
+test_files/CSI/CSI-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000064373016357
+test_files/CSI/CSI-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000076055526733
+test_files/CSI/CSI-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000075101852417
+test_files/CSI/CSI-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000072479248047
+test_files/CSI/CSI-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000079870223999
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 0, sat, 0.13800525665283203
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.000115633010864
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000112295150757
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 3, sat, 0.1363356113433838
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 4, sat, 0.25070977210998535
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 5, sat, 0.10221147537231445
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 6, sat, 0.13386011123657227
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 7, sat, 0.10027265548706055
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 8, sat, 0.10182809829711914
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 9, sat, 0.10093402862548828
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 10, unknown (TIMEOUT), 10.000082969665527
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 11, unknown (TIMEOUT), 10.000093698501587
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 12, unknown (TIMEOUT), 10.00010347366333
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 13, sat, 0.13627123832702637
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 14, sat, 0.10970377922058105
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 15, sat, 0.13245773315429688
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 16, unknown (TIMEOUT), 10.000088214874268
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 17, unknown (TIMEOUT), 10.000109195709229
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.000116348266602
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 19, unknown (TIMEOUT), 10.000102519989014
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 20, unknown (TIMEOUT), 10.000086545944214
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 21, sat, 0.134674072265625
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 22, unknown (TIMEOUT), 10.0001060962677
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 23, unknown (TIMEOUT), 10.000105142593384
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 24, unknown (TIMEOUT), 10.000094890594482
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 25, unknown (TIMEOUT), 10.000113725662231
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 26, sat, 0.12012338638305664
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 27, unknown (TIMEOUT), 10.000072956085205
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 28, sat, 0.4243910312652588
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 29, unknown (TIMEOUT), 10.000097274780273
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 30, sat, 0.15255522727966309
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 31, unknown (TIMEOUT), 10.00011134147644
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 32, unknown (TIMEOUT), 10.000076532363892
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 33, unknown (TIMEOUT), 10.000073909759521
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 34, unknown (TIMEOUT), 10.00011420249939
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 35, unknown (TIMEOUT), 10.000083208084106
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 36, unknown (TIMEOUT), 10.00009799003601
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 37, unknown (TIMEOUT), 10.000115394592285
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 38, unknown (TIMEOUT), 10.000109910964966
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 39, unknown (TIMEOUT), 10.000111818313599
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 40, unknown (TIMEOUT), 10.000072717666626
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 41, unknown (TIMEOUT), 10.000247478485107
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 42, unknown (TIMEOUT), 10.000097751617432
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 43, unknown (TIMEOUT), 10.000122308731079
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 44, unknown (TIMEOUT), 10.000107526779175
+test_files/Autocar/Autocar-corrected.sleec, redundancy, 45, unknown (TIMEOUT), 10.000073671340942
+test_files/Autocar/Autocar-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000122308731079
+test_files/Autocar/Autocar-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000099897384644
+test_files/Autocar/Autocar-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.0000741481781
+test_files/Autocar/Autocar-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000088691711426
+test_files/Autocar/Autocar-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000107049942017
+test_files/Autocar/Autocar-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000101804733276
+test_files/Autocar/Autocar-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.002334356307983
+test_files/Autocar/Autocar-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.00010085105896
+test_files/Autocar/Autocar-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000096082687378
+test_files/Autocar/Autocar-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.0000741481781
+test_files/Autocar/Autocar-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000112056732178
+test_files/Autocar/Autocar-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000102281570435
+test_files/Autocar/Autocar-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.002559185028076
+test_files/Autocar/Autocar-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.00007963180542
+test_files/Autocar/Autocar-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.000105142593384
+test_files/Autocar/Autocar-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000073909759521
+test_files/Autocar/Autocar-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.00009298324585
+test_files/Autocar/Autocar-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.000101804733276
+test_files/Autocar/Autocar-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000078439712524
+test_files/Autocar/Autocar-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000068187713623
+test_files/Autocar/Autocar-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000082015991211
+test_files/Autocar/Autocar-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000098943710327
+test_files/Autocar/Autocar-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.0001220703125
+test_files/Autocar/Autocar-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.00011396408081
+test_files/Autocar/Autocar-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.00008773803711
+test_files/Autocar/Autocar-corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.000090599060059
+test_files/Autocar/Autocar-corrected.sleec, conflict, 26, unknown (TIMEOUT), 10.000091552734375
+test_files/Autocar/Autocar-corrected.sleec, conflict, 27, unknown (TIMEOUT), 10.000069856643677
+test_files/Autocar/Autocar-corrected.sleec, conflict, 28, unknown (TIMEOUT), 10.000091075897217
+test_files/Autocar/Autocar-corrected.sleec, conflict, 29, unknown (TIMEOUT), 10.000107288360596
+test_files/Autocar/Autocar-corrected.sleec, conflict, 30, unknown (TIMEOUT), 10.000073194503784
+test_files/Autocar/Autocar-corrected.sleec, conflict, 31, unknown (TIMEOUT), 10.000102043151855
+test_files/Autocar/Autocar-corrected.sleec, conflict, 32, unknown (TIMEOUT), 10.00009036064148
+test_files/Autocar/Autocar-corrected.sleec, conflict, 33, unknown (TIMEOUT), 10.000099182128906
+test_files/Autocar/Autocar-corrected.sleec, conflict, 34, unknown (TIMEOUT), 10.00009799003601
+test_files/Autocar/Autocar-corrected.sleec, conflict, 35, unknown (TIMEOUT), 10.000103950500488
+test_files/Autocar/Autocar-corrected.sleec, conflict, 36, unknown (TIMEOUT), 10.000100135803223
+test_files/Autocar/Autocar-corrected.sleec, conflict, 37, unknown (TIMEOUT), 10.00008511543274
+test_files/Autocar/Autocar-corrected.sleec, conflict, 38, unknown (TIMEOUT), 10.00012469291687
+test_files/Autocar/Autocar-corrected.sleec, conflict, 39, unknown (TIMEOUT), 10.000072240829468
+test_files/Autocar/Autocar-corrected.sleec, conflict, 40, unknown (TIMEOUT), 10.000138998031616
+test_files/Autocar/Autocar-corrected.sleec, conflict, 41, unknown (TIMEOUT), 10.000091791152954
+test_files/Autocar/Autocar-corrected.sleec, conflict, 42, unknown (TIMEOUT), 10.000096797943115
+test_files/Autocar/Autocar-corrected.sleec, conflict, 43, unknown (TIMEOUT), 10.000079154968262
+test_files/Autocar/Autocar-corrected.sleec, conflict, 44, unknown (TIMEOUT), 10.00012755393982
+test_files/Autocar/Autocar-corrected.sleec, conflict, 45, unknown (TIMEOUT), 10.000113248825073
+test_files/Autocar/Autocar-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000094890594482
+test_files/Autocar/Autocar-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000076293945312
+test_files/Autocar/Autocar-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000099897384644
+test_files/Autocar/Autocar-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000096082687378
+test_files/Autocar/Autocar-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000086545944214
+test_files/Autocar/Autocar-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000071048736572
+test_files/Autocar/Autocar-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000097036361694
+test_files/Autocar/Autocar-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000072002410889
+test_files/Autocar/Autocar-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000097036361694
+test_files/Autocar/Autocar-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000097513198853
+test_files/Autocar/Autocar-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000094890594482
+test_files/Autocar/Autocar-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000096082687378
+test_files/Autocar/Autocar.sleec, redundancy, 0, sat, 0.09729576110839844
+test_files/Autocar/Autocar.sleec, redundancy, 1, sat, 0.08487057685852051
+test_files/Autocar/Autocar.sleec, redundancy, 2, sat, 0.14948368072509766
+test_files/Autocar/Autocar.sleec, redundancy, 3, sat, 0.0854945182800293
+test_files/Autocar/Autocar.sleec, redundancy, 4, sat, 0.10874128341674805
+test_files/Autocar/Autocar.sleec, redundancy, 5, sat, 0.08614110946655273
+test_files/Autocar/Autocar.sleec, redundancy, 6, sat, 0.08596277236938477
+test_files/Autocar/Autocar.sleec, redundancy, 7, sat, 0.09080910682678223
+test_files/Autocar/Autocar.sleec, redundancy, 8, unknown (TIMEOUT), 10.000107526779175
+test_files/Autocar/Autocar.sleec, redundancy, 9, unknown (TIMEOUT), 10.000096082687378
+test_files/Autocar/Autocar.sleec, redundancy, 10, unknown (TIMEOUT), 10.000066041946411
+test_files/Autocar/Autocar.sleec, redundancy, 11, sat, 0.11958146095275879
+test_files/Autocar/Autocar.sleec, redundancy, 12, sat, 0.0869760513305664
+test_files/Autocar/Autocar.sleec, redundancy, 13, sat, 0.11128664016723633
+test_files/Autocar/Autocar.sleec, redundancy, 14, unknown (TIMEOUT), 10.000102281570435
+test_files/Autocar/Autocar.sleec, redundancy, 15, unknown (TIMEOUT), 10.000107049942017
+test_files/Autocar/Autocar.sleec, redundancy, 16, unknown (TIMEOUT), 10.00008511543274
+test_files/Autocar/Autocar.sleec, redundancy, 17, unknown (TIMEOUT), 10.000081062316895
+test_files/Autocar/Autocar.sleec, redundancy, 18, unknown (TIMEOUT), 10.00009274482727
+test_files/Autocar/Autocar.sleec, redundancy, 19, sat, 0.1016080379486084
+test_files/Autocar/Autocar.sleec, redundancy, 20, unknown (TIMEOUT), 10.000065803527832
+test_files/Autocar/Autocar.sleec, redundancy, 21, sat, 0.10842561721801758
+test_files/Autocar/Autocar.sleec, redundancy, 22, sat, 0.2590816020965576
+test_files/Autocar/Autocar.sleec, redundancy, 23, unknown (TIMEOUT), 10.000110864639282
+test_files/Autocar/Autocar.sleec, redundancy, 24, sat, 0.1334846019744873
+test_files/Autocar/Autocar.sleec, redundancy, 25, unknown (TIMEOUT), 10.000094652175903
+test_files/Autocar/Autocar.sleec, redundancy, 26, unknown (TIMEOUT), 10.00011420249939
+test_files/Autocar/Autocar.sleec, conflict, 0, unknown (TIMEOUT), 10.000126361846924
+test_files/Autocar/Autocar.sleec, conflict, 1, unknown (TIMEOUT), 10.000096082687378
+test_files/Autocar/Autocar.sleec, conflict, 2, unknown (TIMEOUT), 10.000089406967163
+test_files/Autocar/Autocar.sleec, conflict, 3, unknown (TIMEOUT), 10.000173568725586
+test_files/Autocar/Autocar.sleec, conflict, 4, unknown (TIMEOUT), 10.000103950500488
+test_files/Autocar/Autocar.sleec, conflict, 5, unknown (TIMEOUT), 10.000093936920166
+test_files/Autocar/Autocar.sleec, conflict, 6, unknown (TIMEOUT), 10.000115871429443
+test_files/Autocar/Autocar.sleec, conflict, 7, unknown (TIMEOUT), 10.000083923339844
+test_files/Autocar/Autocar.sleec, conflict, 8, unknown (TIMEOUT), 10.000064611434937
+test_files/Autocar/Autocar.sleec, conflict, 9, unknown (TIMEOUT), 10.000075817108154
+test_files/Autocar/Autocar.sleec, conflict, 10, unknown (TIMEOUT), 10.000078201293945
+test_files/Autocar/Autocar.sleec, conflict, 11, unknown (TIMEOUT), 10.00010061264038
+test_files/Autocar/Autocar.sleec, conflict, 12, unknown (TIMEOUT), 10.000080823898315
+test_files/Autocar/Autocar.sleec, conflict, 13, unknown (TIMEOUT), 10.000127077102661
+test_files/Autocar/Autocar.sleec, conflict, 14, unknown (TIMEOUT), 10.00010347366333
+test_files/Autocar/Autocar.sleec, conflict, 15, unknown (TIMEOUT), 10.000124216079712
+test_files/Autocar/Autocar.sleec, conflict, 16, unknown (TIMEOUT), 10.000096559524536
+test_files/Autocar/Autocar.sleec, conflict, 17, unknown (TIMEOUT), 10.00092077255249
+test_files/Autocar/Autocar.sleec, conflict, 18, unknown (TIMEOUT), 10.000086069107056
+test_files/Autocar/Autocar.sleec, conflict, 19, unknown (TIMEOUT), 10.00007152557373
+test_files/Autocar/Autocar.sleec, conflict, 20, unknown (TIMEOUT), 10.000101327896118
+test_files/Autocar/Autocar.sleec, conflict, 21, unknown (TIMEOUT), 10.000075101852417
+test_files/Autocar/Autocar.sleec, conflict, 22, unknown (TIMEOUT), 10.000094652175903
+test_files/Autocar/Autocar.sleec, conflict, 23, unknown (TIMEOUT), 10.000077486038208
+test_files/Autocar/Autocar.sleec, conflict, 24, unknown (TIMEOUT), 10.000091075897217
+test_files/Autocar/Autocar.sleec, conflict, 25, unknown (TIMEOUT), 10.00008225440979
+test_files/Autocar/Autocar.sleec, conflict, 26, unknown (TIMEOUT), 10.000097036361694
+test_files/Autocar/Autocar.sleec, conflict, 0, unknown (TIMEOUT), 10.000092029571533
+test_files/Autocar/Autocar.sleec, conflict, 1, unknown (TIMEOUT), 10.000093221664429
+test_files/Autocar/Autocar.sleec, conflict, 2, unknown (TIMEOUT), 10.000101089477539
+test_files/Autocar/Autocar.sleec, conflict, 3, unknown (TIMEOUT), 10.000106811523438
+test_files/Autocar/Autocar.sleec, conflict, 4, unknown (TIMEOUT), 10.000068426132202
+test_files/Autocar/Autocar.sleec, conflict, 5, unknown (TIMEOUT), 10.000084400177002
+test_files/Autocar/Autocar.sleec, conflict, 6, unknown (TIMEOUT), 10.000091314315796
+test_files/Autocar/Autocar.sleec, conflict, 7, unknown (TIMEOUT), 10.000532388687134
+test_files/Autocar/Autocar.sleec, conflict, 8, unknown (TIMEOUT), 10.000079870223999
+test_files/Autocar/Autocar.sleec, conflict, 9, unknown (TIMEOUT), 10.00006651878357
+test_files/Autocar/Autocar.sleec, conflict, 10, unknown (TIMEOUT), 10.000108003616333
+test_files/Autocar/Autocar.sleec, conflict, 11, unknown (TIMEOUT), 10.000095844268799
+test_files/BSN/BSN.sleec, redundancy, 0, sat, 0.11823701858520508
+test_files/BSN/BSN.sleec, redundancy, 1, unknown (TIMEOUT), 10.093000173568726
+test_files/BSN/BSN.sleec, redundancy, 2, unknown (TIMEOUT), 10.000073432922363
+test_files/BSN/BSN.sleec, redundancy, 3, unknown (TIMEOUT), 10.000094413757324
+test_files/BSN/BSN.sleec, redundancy, 4, unknown (TIMEOUT), 10.000115156173706
+test_files/BSN/BSN.sleec, redundancy, 5, unknown (TIMEOUT), 10.000088691711426
+test_files/BSN/BSN.sleec, redundancy, 6, unknown (TIMEOUT), 10.000099658966064
+test_files/BSN/BSN.sleec, redundancy, 7, unknown (TIMEOUT), 10.000257730484009
+test_files/BSN/BSN.sleec, redundancy, 8, sat, 0.12429189682006836
+test_files/BSN/BSN.sleec, redundancy, 9, unknown (TIMEOUT), 10.000098466873169
+test_files/BSN/BSN.sleec, redundancy, 10, unknown (TIMEOUT), 10.000117540359497
+test_files/BSN/BSN.sleec, redundancy, 11, unknown (TIMEOUT), 10.000103950500488
+test_files/BSN/BSN.sleec, redundancy, 12, unknown (TIMEOUT), 10.000068426132202
+test_files/BSN/BSN.sleec, redundancy, 13, unknown (TIMEOUT), 10.000081062316895
+test_files/BSN/BSN.sleec, redundancy, 14, unknown (TIMEOUT), 10.000070095062256
+test_files/BSN/BSN.sleec, redundancy, 15, sat, 0.13361430168151855
+test_files/BSN/BSN.sleec, redundancy, 16, sat, 0.12152791023254395
+test_files/BSN/BSN.sleec, redundancy, 17, sat, 0.1334528923034668
+test_files/BSN/BSN.sleec, redundancy, 18, unknown (TIMEOUT), 10.000107288360596
+test_files/BSN/BSN.sleec, redundancy, 19, unknown (TIMEOUT), 10.000096321105957
+test_files/BSN/BSN.sleec, redundancy, 20, unknown (TIMEOUT), 10.00011396408081
+test_files/BSN/BSN.sleec, redundancy, 21, sat, 0.13124418258666992
+test_files/BSN/BSN.sleec, redundancy, 22, sat, 0.09212088584899902
+test_files/BSN/BSN.sleec, redundancy, 23, sat, 0.1143190860748291
+test_files/BSN/BSN.sleec, redundancy, 24, sat, 0.15477848052978516
+test_files/BSN/BSN.sleec, redundancy, 25, sat, 0.13322067260742188
+test_files/BSN/BSN.sleec, redundancy, 26, sat, 0.12952423095703125
+test_files/BSN/BSN.sleec, redundancy, 27, unknown (TIMEOUT), 10.000099897384644
+test_files/BSN/BSN.sleec, redundancy, 28, unknown (TIMEOUT), 10.000102043151855
+test_files/BSN/BSN.sleec, conflict, 0, unknown (TIMEOUT), 10.041720628738403
+test_files/BSN/BSN.sleec, conflict, 1, unknown (TIMEOUT), 10.000075578689575
+test_files/BSN/BSN.sleec, conflict, 2, unknown (TIMEOUT), 10.000112533569336
+test_files/BSN/BSN.sleec, conflict, 3, unknown (TIMEOUT), 10.000069379806519
+test_files/BSN/BSN.sleec, conflict, 4, unknown (TIMEOUT), 10.000107765197754
+test_files/BSN/BSN.sleec, conflict, 5, unknown (TIMEOUT), 10.00009036064148
+test_files/BSN/BSN.sleec, conflict, 6, unknown (TIMEOUT), 10.000109910964966
+test_files/BSN/BSN.sleec, conflict, 7, unknown (TIMEOUT), 10.000088214874268
+test_files/BSN/BSN.sleec, conflict, 8, unknown (TIMEOUT), 10.000085353851318
+test_files/BSN/BSN.sleec, conflict, 9, unknown (TIMEOUT), 10.000083208084106
+test_files/BSN/BSN.sleec, conflict, 10, unknown (TIMEOUT), 10.002983570098877
+test_files/BSN/BSN.sleec, conflict, 11, unknown (TIMEOUT), 10.00010371208191
+test_files/BSN/BSN.sleec, conflict, 12, unknown (TIMEOUT), 10.000107288360596
+test_files/BSN/BSN.sleec, conflict, 13, unknown (TIMEOUT), 10.000088214874268
+test_files/BSN/BSN.sleec, conflict, 14, unknown (TIMEOUT), 10.000117063522339
+test_files/BSN/BSN.sleec, conflict, 15, unknown (TIMEOUT), 10.0000901222229
+test_files/BSN/BSN.sleec, conflict, 16, unknown (TIMEOUT), 10.000099658966064
+test_files/BSN/BSN.sleec, conflict, 17, unknown (TIMEOUT), 10.000121355056763
+test_files/BSN/BSN.sleec, conflict, 18, unknown (TIMEOUT), 10.000113725662231
+test_files/BSN/BSN.sleec, conflict, 19, unknown (TIMEOUT), 10.0001060962677
+test_files/BSN/BSN.sleec, conflict, 20, unknown (TIMEOUT), 10.000091552734375
+test_files/BSN/BSN.sleec, conflict, 21, unknown (TIMEOUT), 10.000105381011963
+test_files/BSN/BSN.sleec, conflict, 22, unknown (TIMEOUT), 10.000072956085205
+test_files/BSN/BSN.sleec, conflict, 23, unknown (TIMEOUT), 10.00010871887207
+test_files/BSN/BSN.sleec, conflict, 24, unknown (TIMEOUT), 10.000141859054565
+test_files/BSN/BSN.sleec, conflict, 25, unknown (TIMEOUT), 10.000131607055664
+test_files/BSN/BSN.sleec, conflict, 26, unknown (TIMEOUT), 10.000105142593384
+test_files/BSN/BSN.sleec, conflict, 27, unknown (TIMEOUT), 10.00007677078247
+test_files/BSN/BSN.sleec, conflict, 28, unknown (TIMEOUT), 10.000080108642578
+test_files/BSN/BSN.sleec, conflict, 0, unknown (TIMEOUT), 10.00012755393982
+test_files/BSN/BSN.sleec, conflict, 1, unknown (TIMEOUT), 10.000092267990112
+test_files/BSN/BSN.sleec, conflict, 2, unknown (TIMEOUT), 10.000081539154053
+test_files/BSN/BSN.sleec, conflict, 3, unknown (TIMEOUT), 10.000104427337646
+test_files/BSN/BSN.sleec, conflict, 4, unknown (TIMEOUT), 10.000102996826172
+test_files/BSN/BSN.sleec, conflict, 5, unknown (TIMEOUT), 10.000083684921265
+test_files/BSN/BSN.sleec, conflict, 6, unknown (TIMEOUT), 10.00010633468628
+test_files/BSN/BSN.sleec, conflict, 7, unknown (TIMEOUT), 10.000110626220703
+test_files/BSN/BSN.sleec, conflict, 8, unknown (TIMEOUT), 10.00010895729065
+test_files/BSN/BSN-corrected.sleec, redundancy, 0, sat, 0.12118315696716309
+test_files/BSN/BSN-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.00011682510376
+test_files/BSN/BSN-corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000098943710327
+test_files/BSN/BSN-corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.000078678131104
+test_files/BSN/BSN-corrected.sleec, redundancy, 4, unknown (TIMEOUT), 10.000088930130005
+test_files/BSN/BSN-corrected.sleec, redundancy, 5, unknown (TIMEOUT), 10.000098943710327
+test_files/BSN/BSN-corrected.sleec, redundancy, 6, unknown (TIMEOUT), 10.000085830688477
+test_files/BSN/BSN-corrected.sleec, redundancy, 7, unknown (TIMEOUT), 10.000113248825073
+test_files/BSN/BSN-corrected.sleec, redundancy, 8, sat, 0.13402605056762695
+test_files/BSN/BSN-corrected.sleec, redundancy, 9, unknown (TIMEOUT), 10.000099420547485
+test_files/BSN/BSN-corrected.sleec, redundancy, 10, unknown (TIMEOUT), 10.00010633468628
+test_files/BSN/BSN-corrected.sleec, redundancy, 11, unknown (TIMEOUT), 10.000086784362793
+test_files/BSN/BSN-corrected.sleec, redundancy, 12, unknown (TIMEOUT), 10.00008249282837
+test_files/BSN/BSN-corrected.sleec, redundancy, 13, unknown (TIMEOUT), 10.000092267990112
+test_files/BSN/BSN-corrected.sleec, redundancy, 14, unknown (TIMEOUT), 10.000104427337646
+test_files/BSN/BSN-corrected.sleec, redundancy, 15, sat, 0.15080690383911133
+test_files/BSN/BSN-corrected.sleec, redundancy, 16, sat, 0.12968707084655762
+test_files/BSN/BSN-corrected.sleec, redundancy, 17, sat, 0.13754963874816895
+test_files/BSN/BSN-corrected.sleec, redundancy, 18, unknown (TIMEOUT), 10.000073671340942
+test_files/BSN/BSN-corrected.sleec, redundancy, 19, unknown (TIMEOUT), 10.000160455703735
+test_files/BSN/BSN-corrected.sleec, redundancy, 20, unknown (TIMEOUT), 10.000107526779175
+test_files/BSN/BSN-corrected.sleec, redundancy, 21, unknown (TIMEOUT), 10.000127792358398
+test_files/BSN/BSN-corrected.sleec, redundancy, 22, sat, 0.1079404354095459
+test_files/BSN/BSN-corrected.sleec, redundancy, 23, sat, 0.11905837059020996
+test_files/BSN/BSN-corrected.sleec, redundancy, 24, sat, 0.13860535621643066
+test_files/BSN/BSN-corrected.sleec, redundancy, 25, sat, 0.17812848091125488
+test_files/BSN/BSN-corrected.sleec, redundancy, 26, sat, 0.12939047813415527
+test_files/BSN/BSN-corrected.sleec, redundancy, 27, sat, 0.1459805965423584
+test_files/BSN/BSN-corrected.sleec, redundancy, 28, unknown (TIMEOUT), 10.000109434127808
+test_files/BSN/BSN-corrected.sleec, redundancy, 29, unknown (TIMEOUT), 10.000101566314697
+test_files/BSN/BSN-corrected.sleec, redundancy, 30, sat, 0.10913944244384766
+test_files/BSN/BSN-corrected.sleec, redundancy, 31, unknown (TIMEOUT), 10.000082731246948
+test_files/BSN/BSN-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000101327896118
+test_files/BSN/BSN-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000094175338745
+test_files/BSN/BSN-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.00014615058899
+test_files/BSN/BSN-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000068187713623
+test_files/BSN/BSN-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000103950500488
+test_files/BSN/BSN-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.00011420249939
+test_files/BSN/BSN-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.00010085105896
+test_files/BSN/BSN-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.000115633010864
+test_files/BSN/BSN-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.0001060962677
+test_files/BSN/BSN-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000113248825073
+test_files/BSN/BSN-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.000096797943115
+test_files/BSN/BSN-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000192165374756
+test_files/BSN/BSN-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.00008225440979
+test_files/BSN/BSN-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.000081539154053
+test_files/BSN/BSN-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.00011157989502
+test_files/BSN/BSN-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000073432922363
+test_files/BSN/BSN-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000102996826172
+test_files/BSN/BSN-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.000111818313599
+test_files/BSN/BSN-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.00010085105896
+test_files/BSN/BSN-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.000106573104858
+test_files/BSN/BSN-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000114679336548
+test_files/BSN/BSN-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000093221664429
+test_files/BSN/BSN-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.000086307525635
+test_files/BSN/BSN-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.000089406967163
+test_files/BSN/BSN-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.000102996826172
+test_files/BSN/BSN-corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.000122308731079
+test_files/BSN/BSN-corrected.sleec, conflict, 26, unknown (TIMEOUT), 10.000083446502686
+test_files/BSN/BSN-corrected.sleec, conflict, 27, unknown (TIMEOUT), 10.00012993812561
+test_files/BSN/BSN-corrected.sleec, conflict, 28, unknown (TIMEOUT), 10.000112533569336
+test_files/BSN/BSN-corrected.sleec, conflict, 29, unknown (TIMEOUT), 10.000094890594482
+test_files/BSN/BSN-corrected.sleec, conflict, 30, unknown (TIMEOUT), 10.000118255615234
+test_files/BSN/BSN-corrected.sleec, conflict, 31, unknown (TIMEOUT), 10.000086784362793
+test_files/BSN/BSN-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.117026805877686
+test_files/BSN/BSN-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000102996826172
+test_files/BSN/BSN-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000080823898315
+test_files/BSN/BSN-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000450849533081
+test_files/BSN/BSN-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000069856643677
+test_files/BSN/BSN-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000082731246948
+test_files/BSN/BSN-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000095844268799
+test_files/BSN/BSN-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.00007176399231
+test_files/BSN/BSN-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000114917755127
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 0, unknown (TIMEOUT), 10.17208194732666
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 1, unknown (TIMEOUT), 10.000092029571533
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 2, unknown (TIMEOUT), 10.000073194503784
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 3, unknown (TIMEOUT), 10.00011944770813
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 4, sat, 0.1275956630706787
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 5, sat, 0.11733436584472656
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 6, sat, 0.09955835342407227
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 7, unknown (TIMEOUT), 10.00011420249939
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 8, sat, 0.11108517646789551
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 9, sat, 0.10149145126342773
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 10, sat, 0.2644834518432617
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 11, unknown (TIMEOUT), 10.000094175338745
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 12, sat, 0.1376047134399414
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 13, unknown (TIMEOUT), 10.000072956085205
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 14, unknown (TIMEOUT), 10.000101089477539
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 15, unknown (TIMEOUT), 10.003182649612427
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 16, sat, 0.11214303970336914
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 17, sat, 0.10162520408630371
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 18, sat, 0.20012807846069336
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 19, sat, 0.18970632553100586
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 20, sat, 0.18712615966796875
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 21, sat, 0.10146927833557129
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 22, sat, 0.18164753913879395
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 23, sat, 0.09984016418457031
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 24, unknown (TIMEOUT), 10.000087976455688
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 25, unknown (TIMEOUT), 10.000206232070923
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 26, sat, 0.21334385871887207
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 27, sat, 0.19220757484436035
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 28, sat, 0.10985803604125977
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 29, unknown (TIMEOUT), 10.000108003616333
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 30, unknown (TIMEOUT), 10.000179052352905
+test_files/DAISY/Daisy-corrected.sleec, redundancy, 31, unknown (TIMEOUT), 10.000116348266602
+test_files/DAISY/Daisy-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.00010895729065
+test_files/DAISY/Daisy-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.000094890594482
+test_files/DAISY/Daisy-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000087022781372
+test_files/DAISY/Daisy-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.000095844268799
+test_files/DAISY/Daisy-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.000105142593384
+test_files/DAISY/Daisy-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.00009799003601
+test_files/DAISY/Daisy-corrected.sleec, conflict, 6, unknown (TIMEOUT), 10.000088214874268
+test_files/DAISY/Daisy-corrected.sleec, conflict, 7, unknown (TIMEOUT), 10.00010895729065
+test_files/DAISY/Daisy-corrected.sleec, conflict, 8, unknown (TIMEOUT), 10.000081062316895
+test_files/DAISY/Daisy-corrected.sleec, conflict, 9, unknown (TIMEOUT), 10.000096559524536
+test_files/DAISY/Daisy-corrected.sleec, conflict, 10, unknown (TIMEOUT), 10.00010085105896
+test_files/DAISY/Daisy-corrected.sleec, conflict, 11, unknown (TIMEOUT), 10.000065803527832
+test_files/DAISY/Daisy-corrected.sleec, conflict, 12, unknown (TIMEOUT), 10.000104188919067
+test_files/DAISY/Daisy-corrected.sleec, conflict, 13, unknown (TIMEOUT), 10.000091791152954
+test_files/DAISY/Daisy-corrected.sleec, conflict, 14, unknown (TIMEOUT), 10.000082015991211
+test_files/DAISY/Daisy-corrected.sleec, conflict, 15, unknown (TIMEOUT), 10.000105857849121
+test_files/DAISY/Daisy-corrected.sleec, conflict, 16, unknown (TIMEOUT), 10.000108242034912
+test_files/DAISY/Daisy-corrected.sleec, conflict, 17, unknown (TIMEOUT), 10.0033597946167
+test_files/DAISY/Daisy-corrected.sleec, conflict, 18, unknown (TIMEOUT), 10.000085353851318
+test_files/DAISY/Daisy-corrected.sleec, conflict, 19, unknown (TIMEOUT), 10.00011157989502
+test_files/DAISY/Daisy-corrected.sleec, conflict, 20, unknown (TIMEOUT), 10.000107526779175
+test_files/DAISY/Daisy-corrected.sleec, conflict, 21, unknown (TIMEOUT), 10.000108242034912
+test_files/DAISY/Daisy-corrected.sleec, conflict, 22, unknown (TIMEOUT), 10.000073671340942
+test_files/DAISY/Daisy-corrected.sleec, conflict, 23, unknown (TIMEOUT), 10.000068187713623
+test_files/DAISY/Daisy-corrected.sleec, conflict, 24, unknown (TIMEOUT), 10.000096559524536
+test_files/DAISY/Daisy-corrected.sleec, conflict, 25, unknown (TIMEOUT), 10.000088214874268
+test_files/DAISY/Daisy-corrected.sleec, conflict, 26, unknown (TIMEOUT), 10.00008511543274
+test_files/DAISY/Daisy-corrected.sleec, conflict, 27, unknown (TIMEOUT), 10.000110149383545
+test_files/DAISY/Daisy-corrected.sleec, conflict, 28, unknown (TIMEOUT), 10.00008487701416
+test_files/DAISY/Daisy-corrected.sleec, conflict, 29, unknown (TIMEOUT), 10.000106811523438
+test_files/DAISY/Daisy-corrected.sleec, conflict, 30, unknown (TIMEOUT), 10.000086307525635
+test_files/DAISY/Daisy-corrected.sleec, conflict, 31, unknown (TIMEOUT), 10.000093221664429
+test_files/DAISY/Daisy-corrected.sleec, conflict, 0, unknown (TIMEOUT), 10.000104904174805
+test_files/DAISY/Daisy-corrected.sleec, conflict, 1, unknown (TIMEOUT), 10.00011420249939
+test_files/DAISY/Daisy-corrected.sleec, conflict, 2, unknown (TIMEOUT), 10.000086784362793
+test_files/DAISY/Daisy-corrected.sleec, conflict, 3, unknown (TIMEOUT), 10.00008225440979
+test_files/DAISY/Daisy-corrected.sleec, conflict, 4, unknown (TIMEOUT), 10.00006628036499
+test_files/DAISY/Daisy-corrected.sleec, conflict, 5, unknown (TIMEOUT), 10.000541687011719
+test_files/DAISY/Daisy.sleec, redundancy, 0, unknown (TIMEOUT), 10.076249837875366
+test_files/DAISY/Daisy.sleec, redundancy, 1, unknown (TIMEOUT), 10.000076293945312
+test_files/DAISY/Daisy.sleec, redundancy, 2, unknown (TIMEOUT), 10.000072717666626
+test_files/DAISY/Daisy.sleec, redundancy, 3, unknown (TIMEOUT), 10.000087261199951
+test_files/DAISY/Daisy.sleec, redundancy, 4, sat, 0.10536932945251465
+test_files/DAISY/Daisy.sleec, redundancy, 5, sat, 0.09169650077819824
+test_files/DAISY/Daisy.sleec, redundancy, 6, unknown (TIMEOUT), 10.000094652175903
+test_files/DAISY/Daisy.sleec, redundancy, 7, sat, 0.10738444328308105
+test_files/DAISY/Daisy.sleec, redundancy, 8, sat, 0.08920097351074219
+test_files/DAISY/Daisy.sleec, redundancy, 9, sat, 0.49713611602783203
+test_files/DAISY/Daisy.sleec, redundancy, 10, unknown (TIMEOUT), 10.00011157989502
+test_files/DAISY/Daisy.sleec, redundancy, 11, sat, 0.12778615951538086
+test_files/DAISY/Daisy.sleec, redundancy, 12, unknown (TIMEOUT), 10.002011060714722
+test_files/DAISY/Daisy.sleec, redundancy, 13, unknown (TIMEOUT), 10.00018835067749
+test_files/DAISY/Daisy.sleec, redundancy, 14, unknown (TIMEOUT), 10.000111103057861
+test_files/DAISY/Daisy.sleec, redundancy, 15, sat, 0.10642218589782715
+test_files/DAISY/Daisy.sleec, redundancy, 16, sat, 0.09808874130249023
+test_files/DAISY/Daisy.sleec, redundancy, 17, sat, 0.15194249153137207
+test_files/DAISY/Daisy.sleec, redundancy, 18, sat, 0.09229207038879395
+test_files/DAISY/Daisy.sleec, redundancy, 19, unknown (TIMEOUT), 10.000080108642578
+test_files/DAISY/Daisy.sleec, redundancy, 20, sat, 0.11583924293518066
+test_files/DAISY/Daisy.sleec, redundancy, 21, unknown (TIMEOUT), 10.000091552734375
+test_files/DAISY/Daisy.sleec, redundancy, 22, unknown (TIMEOUT), 10.000064611434937
+test_files/DAISY/Daisy.sleec, redundancy, 23, unknown (TIMEOUT), 10.000081062316895
+test_files/DAISY/Daisy.sleec, redundancy, 24, sat, 0.21910881996154785
+test_files/DAISY/Daisy.sleec, redundancy, 25, sat, 0.19489574432373047
+test_files/DAISY/Daisy.sleec, conflict, 0, unknown (TIMEOUT), 10.00011396408081
+test_files/DAISY/Daisy.sleec, conflict, 1, unknown (TIMEOUT), 10.000107049942017
+test_files/DAISY/Daisy.sleec, conflict, 2, unknown (TIMEOUT), 10.000168561935425
+test_files/DAISY/Daisy.sleec, conflict, 3, unknown (TIMEOUT), 10.000070095062256
+test_files/DAISY/Daisy.sleec, conflict, 4, unknown (TIMEOUT), 10.000117778778076
+test_files/DAISY/Daisy.sleec, conflict, 5, unknown (TIMEOUT), 10.000084161758423
+test_files/DAISY/Daisy.sleec, conflict, 6, unknown (TIMEOUT), 10.000093936920166
+test_files/DAISY/Daisy.sleec, conflict, 7, unknown (TIMEOUT), 10.00016450881958
+test_files/DAISY/Daisy.sleec, conflict, 8, unknown (TIMEOUT), 10.000176906585693
+test_files/DAISY/Daisy.sleec, conflict, 9, unknown (TIMEOUT), 10.000092506408691
+test_files/DAISY/Daisy.sleec, conflict, 10, unknown (TIMEOUT), 10.000098466873169
+test_files/DAISY/Daisy.sleec, conflict, 11, unknown (TIMEOUT), 10.000084161758423
+test_files/DAISY/Daisy.sleec, conflict, 12, unknown (TIMEOUT), 10.000088930130005
+test_files/DAISY/Daisy.sleec, conflict, 13, unknown (TIMEOUT), 10.000114679336548
+test_files/DAISY/Daisy.sleec, conflict, 14, unknown (TIMEOUT), 10.00008249282837
+test_files/DAISY/Daisy.sleec, conflict, 15, unknown (TIMEOUT), 10.000110387802124
+test_files/DAISY/Daisy.sleec, conflict, 16, unknown (TIMEOUT), 10.000067710876465
+test_files/DAISY/Daisy.sleec, conflict, 17, unknown (TIMEOUT), 10.000089168548584
+test_files/DAISY/Daisy.sleec, conflict, 18, unknown (TIMEOUT), 10.000094175338745
+test_files/DAISY/Daisy.sleec, conflict, 19, unknown (TIMEOUT), 10.000065803527832
+test_files/DAISY/Daisy.sleec, conflict, 20, unknown (TIMEOUT), 10.00010895729065
+test_files/DAISY/Daisy.sleec, conflict, 21, unknown (TIMEOUT), 10.000120162963867
+test_files/DAISY/Daisy.sleec, conflict, 22, unknown (TIMEOUT), 10.000074863433838
+test_files/DAISY/Daisy.sleec, conflict, 23, unknown (TIMEOUT), 10.000108003616333
+test_files/DAISY/Daisy.sleec, conflict, 24, unknown (TIMEOUT), 10.000101566314697
+test_files/DAISY/Daisy.sleec, conflict, 25, unknown (TIMEOUT), 10.00008749961853
+test_files/DAISY/Daisy.sleec, conflict, 0, unknown (TIMEOUT), 10.048422813415527
+test_files/DAISY/Daisy.sleec, conflict, 1, unknown (TIMEOUT), 10.000076532363892
+test_files/DAISY/Daisy.sleec, conflict, 2, unknown (TIMEOUT), 10.000078678131104
+test_files/DAISY/Daisy.sleec, conflict, 3, unknown (TIMEOUT), 10.000070095062256
+test_files/DAISY/Daisy.sleec, conflict, 4, unknown (TIMEOUT), 10.000068426132202
+test_files/DAISY/Daisy.sleec, conflict, 5, unknown (TIMEOUT), 10.000110864639282
