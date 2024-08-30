@@ -7,7 +7,7 @@ csv_file.write("file, mode, rule, result, duration\n")
 csv_file.close()
 
 modes = ["redundancy", "conflict", "concern"]
-path = "test_files_relations"
+path = "test_files_quantifiers"
 files = [
     os.path.join(dp, f)
     for dp, _, filenames in os.walk(path)
