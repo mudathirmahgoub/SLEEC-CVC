@@ -21,7 +21,7 @@ def parse_and_check_red(filename):
 def parse_and_check_concern(filename):
     model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec(filename,
                                                                                        read_file=True)
-    res = check_concerns(filename, "conflict", model, rules, concerns, relations, Action_Mapping, Actions)
+    res = check_concerns(filename, "concern", model, rules, concerns, relations, Action_Mapping, Actions)
     return res
 
 

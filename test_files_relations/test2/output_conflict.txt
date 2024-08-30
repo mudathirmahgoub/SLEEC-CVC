@@ -1,5 +1,5 @@
 check rule_1
-trail 0.03829026222229004
+trail 0.03816676139831543
 Result     = sat
 time     = (set.union (set.singleton (tuple 20)) (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0))))
 A     = (set.singleton (tuple 0))
@@ -11,7 +11,7 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 20 0)) (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0))))
 ****************************************************************************************************
 check rule_2
-trail 0.01739954948425293
+trail 0.016278743743896484
 Result     = sat
 time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
 A     = (as set.empty (Set (Tuple Int)))
@@ -23,7 +23,7 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_3
-trail 0.03664898872375488
+trail 0.037482261657714844
 Result     = sat
 time     = (set.union (set.singleton (tuple 20)) (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0))))
 A     = (set.singleton (tuple 0))

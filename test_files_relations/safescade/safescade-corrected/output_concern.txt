@@ -1,5 +1,5 @@
 check concern_1
-trail 0.05440378189086914
+trail 0.05455970764160156
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -65,7 +65,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_2
-trail 0.04983210563659668
+trail 0.05556488037109375
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -131,7 +131,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_3
-trail 0.10542750358581543
+trail 0.1143960952758789
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
