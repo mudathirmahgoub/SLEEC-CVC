@@ -625,7 +625,7 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
 
                         ) for E in Actions if E is not Measure]
 
-    measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
     output = ""
     adj_hl = []
     concern_raised = False
@@ -726,7 +726,7 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
 
                         ) for E in Actions if E is not Measure]
 
-    measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
     output = ""
     adj_hl = []
     conflict_res = False
@@ -777,7 +777,7 @@ def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, m
 
                         ) for E in Actions if E is not Measure]
 
-    measure_inv = forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2)))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
     output = ""
     adj_hl = []
     conflict_res = False
