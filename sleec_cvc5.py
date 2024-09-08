@@ -7,7 +7,7 @@ from sleecParser_cvc import parse_sleec, check_red, check_conflict, check_concer
 def parse_and_check_conflict(filename):
     model, rules, concerns, purposes, relations, Action_Mapping, Actions = parse_sleec(filename,
                                                                                        read_file=True)
-    res = check_conflict(filename, "conflict" , model, rules, relations, Action_Mapping, Actions, check_proof=False, profiling=False)
+    res = check_conflict(filename, "conflict", model, rules, relations, Action_Mapping, Actions, check_proof=False, profiling=False)
     return res
 
 
