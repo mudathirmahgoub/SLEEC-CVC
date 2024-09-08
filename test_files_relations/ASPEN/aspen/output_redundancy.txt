@@ -1,5 +1,5 @@
 check rule_1
-trail 0.06373262405395508
+trail 0.06149864196777344
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (set.singleton (tuple 0))
@@ -56,7 +56,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_2
-trail 0.05147814750671387
+trail 0.04901719093322754
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (set.singleton (tuple 0))
@@ -113,7 +113,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_3
-trail 0.04332447052001953
+trail 0.043369293212890625
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -170,7 +170,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_4
-trail 0.045859575271606445
+trail 0.04136371612548828
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -227,7 +227,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_5
-trail 0.0649406909942627
+trail 0.0599367618560791
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -284,7 +284,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_6
-trail 0.12141609191894531
+trail 0.11291217803955078
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -341,7 +341,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 2 2))
 ****************************************************************************************************
 check rule_7
-trail 0.04863429069519043
+trail 0.04715251922607422
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -398,7 +398,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_8
-trail 0.12050223350524902
+trail 0.1224052906036377
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -455,7 +455,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 2 2))
 ****************************************************************************************************
 check rule_9
-trail 0.6240265369415283
+trail 0.6618788242340088
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -512,7 +512,7 @@ store     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true true true true true true true false true 2 2 0 true true true false 1 1))
 ****************************************************************************************************
 check rule_10
-trail 0.3131849765777588
+trail 0.2774040699005127
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -569,7 +569,7 @@ store     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true false 1 1))
 ****************************************************************************************************
 check rule_11
-trail 0.13552570343017578
+trail 0.11545801162719727
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -626,7 +626,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 2 2))
 ****************************************************************************************************
 check rule_12
-trail 0.14504456520080566
+trail 0.11780118942260742
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -683,7 +683,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 2 2))
 ****************************************************************************************************
 check rule_13
-trail 0.25293827056884766
+trail 0.22524785995483398
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -740,7 +740,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 0 3 true true true false 2 2))
 ****************************************************************************************************
 check rule_14
-trail 0.055722713470458984
+trail 0.04793357849121094
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -797,7 +797,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_15
-trail 0.05332779884338379
+trail 0.04554629325866699
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -854,7 +854,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_16
-trail 0.1440727710723877
+trail 0.12676596641540527
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -911,7 +911,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 1 true true true true 2 2))
 ****************************************************************************************************
 check rule_17
-trail 0.04923868179321289
+trail 0.04731273651123047
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -968,7 +968,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_18
-trail 0.05269145965576172
+trail 0.04473137855529785
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -1025,7 +1025,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_19
-trail 0.06415843963623047
+trail 0.0557711124420166
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -1082,7 +1082,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_20
-trail 0.06362056732177734
+trail 0.05409836769104004
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -1139,7 +1139,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check rule_21
-trail 0.2752699851989746
+trail 0.24952435493469238
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -1196,11 +1196,11 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true false true 2 2 0 true true true true 2 2))
 ****************************************************************************************************
 check rule_22
-trail 0.18986010551452637
+trail 0.1658949851989746
 Result     = unsat
 ****************************************************************************************************
 check rule_23
-trail 0.162276029586792
+trail 0.1381514072418213
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))

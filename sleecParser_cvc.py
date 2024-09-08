@@ -1,3 +1,4 @@
+import common
 import ntpath
 import os
 from CVC5_wrapper.sleec_to_cvc import WhenRule, happen_within, otherwise, unless, complie_measure, Concern, EventRelation, \
@@ -630,7 +631,7 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
     adj_hl = []
     concern_raised = False
     relations_constraint = get_relational_constraints(relations)
-    csv_file = open("relation.csv", 'a')
+    csv_file = open(common.CSV_FILE, 'a')
     for i in range(len(concerns)):
         if to_print:
             print("check concern_{}".format(i + 1))
@@ -734,7 +735,7 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
     relations_constraint = get_relational_constraints(relations)
     multi_output = []
 
-    csv_file = open("relation.csv", 'a')
+    csv_file = open(common.CSV_FILE, 'a')
     for i in range(len(rules)):
 
         if multi_entry:
@@ -1073,7 +1074,7 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
         profiling_file.write(
             "raw_finish_time, proof_generation_time, proof_checking_time, raw_proof_size, raw_derivation_steps, trimmed_proof_size, trimmed_derivation_steps\n")
     
-    csv_file = open("relation.csv", 'a')
+    csv_file = open(common.CSV_FILE, 'a')
     for i in range(len(rules)):
 
         if multi_entry:

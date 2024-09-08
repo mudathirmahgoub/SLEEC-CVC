@@ -1,13 +1,14 @@
+import common
 import subprocess
 import os
 import ntpath
 
-csv_file = open("relation.csv", 'w')
+csv_file = open(common.CSV_FILE, 'w')
 csv_file.write("file, mode, rule, result, duration\n")
 csv_file.close()
 
 modes = ["redundancy", "conflict", "concern"]
-path = "test_files_quantifiers"
+path = common.PATH
 files = [
     os.path.join(dp, f)
     for dp, _, filenames in os.walk(path)

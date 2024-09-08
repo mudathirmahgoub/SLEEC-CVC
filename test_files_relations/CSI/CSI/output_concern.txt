@@ -1,5 +1,5 @@
 check concern_1
-trail 0.0878446102142334
+trail 0.08793497085571289
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -53,7 +53,7 @@ efficiency     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
 ****************************************************************************************************
 check concern_2
-trail 0.07798504829406738
+trail 0.07370948791503906
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
@@ -107,7 +107,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_3
-trail 0.07647109031677246
+trail 0.07796335220336914
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
@@ -161,7 +161,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_4
-trail 0.03063225746154785
+trail 0.033112287521362305
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -215,7 +215,7 @@ efficiency     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
 ****************************************************************************************************
 check concern_5
-trail 0.07874011993408203
+trail 0.08526945114135742
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
@@ -269,7 +269,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_6
-trail 0.03211832046508789
+trail 0.034792184829711914
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -323,7 +323,7 @@ efficiency     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
 ****************************************************************************************************
 check concern_7
-trail 0.031249284744262695
+trail 0.03211832046508789
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -377,56 +377,6 @@ efficiency     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
 ****************************************************************************************************
 check concern_8
-trail 0.03986215591430664
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (as set.empty (Set (Tuple Int)))
-not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
-RobotStopAction     = (set.singleton (tuple 0))
-not_RobotStopAction     = (set.singleton (tuple 0 0))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
-InquireSafety     = (as set.empty (Set (Tuple Int)))
-not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
-AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
-not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
-TrackHumanLocation     = (as set.empty (Set (Tuple Int)))
-not_TrackHumanLocation     = (as set.empty (Set (Tuple Int Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
-HumanSaysStop     = (set.singleton (tuple 0))
-not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
-IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
-not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-not_AssignToRobot     = (as set.empty (Set (Tuple Int Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-not_AssignLiability     = (as set.empty (Set (Tuple Int Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-not_ConsiderAppearance     = (as set.empty (Set (Tuple Int Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-not_ReportIncident     = (as set.empty (Set (Tuple Int Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-not_MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-not_PrioritizeHumans     = (as set.empty (Set (Tuple Int Int)))
-ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
-not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+trail 0.034774065017700195
+Result     = unsat
 ****************************************************************************************************
