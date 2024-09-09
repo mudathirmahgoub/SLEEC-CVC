@@ -1,9 +1,9 @@
 check rule_1
-trail 0.5941650867462158
+trail 0.5564088821411133
 Result     = unsat
 ****************************************************************************************************
 check rule_2
-trail 0.16256165504455566
+trail 0.15893197059631348
 Result     = sat
 time     = (set.singleton (tuple 2))
 DressingStarted     = (set.singleton (tuple 2))
@@ -27,7 +27,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 2 true 13 true 2))
 ****************************************************************************************************
 check rule_3
-trail 5.021460056304932
+trail 4.578714370727539
 Result     = sat
 time     = (set.union (set.singleton (tuple 13)) (set.singleton (tuple 12)))
 DressingStarted     = (set.singleton (tuple 12))
@@ -51,7 +51,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 13 true 13 true 13)) (set.union (set.singleton (tuple 1813 true 13 false 13)) (set.singleton (tuple 12 true 12 true 12))))
 ****************************************************************************************************
 check rule_4
-trail 3.935708522796631
+trail 3.6929211616516113
 Result     = sat
 time     = (set.union (set.singleton (tuple 15)) (set.union (set.singleton (tuple 14)) (set.singleton (tuple 0))))
 DressingStarted     = (set.singleton (tuple 14))
@@ -75,7 +75,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 0 true 15 true 15)) (set.union (set.singleton (tuple 14 true 14 true 14)) (set.singleton (tuple 1814 true 0 false 0))))
 ****************************************************************************************************
 check rule_5
-trail 0.2723555564880371
+trail 0.2665364742279053
 Result     = sat
 time     = (set.singleton (tuple 23))
 DressingStarted     = (set.singleton (tuple 23))
@@ -99,15 +99,15 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 23 true 23 true 2))
 ****************************************************************************************************
 check rule_6
-trail 1.4540088176727295
+trail 1.3242015838623047
 Result     = unsat
 ****************************************************************************************************
 check rule_7
-trail 2.490978717803955
+trail 1.8311126232147217
 Result     = unsat
 ****************************************************************************************************
 check rule_8
-trail 0.029269933700561523
+trail 0.023604154586791992
 Result     = sat
 time     = (set.singleton (tuple 0))
 DressingStarted     = (as set.empty (Set (Tuple Int)))
@@ -131,7 +131,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true 0))
 ****************************************************************************************************
 check rule_9
-trail 0.035093069076538086
+trail 0.028611183166503906
 Result     = sat
 time     = (set.singleton (tuple 0))
 DressingStarted     = (as set.empty (Set (Tuple Int)))
@@ -155,7 +155,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true 0))
 ****************************************************************************************************
 check rule_10
-trail 1.8339204788208008
+trail 1.7311418056488037
 Result     = sat
 time     = (set.union (set.singleton (tuple 1800)) (set.union (set.singleton (tuple 1)) (set.union (set.singleton (tuple 2)) (set.singleton (tuple 0)))))
 DressingStarted     = (as set.empty (Set (Tuple Int)))
@@ -179,7 +179,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 1800 true 0 true 0)) (set.union (set.singleton (tuple 1 true 1 true 1)) (set.singleton (tuple 0 true 0 true 0))))
 ****************************************************************************************************
 check rule_11
-trail 0.1779179573059082
+trail 0.172271728515625
 Result     = sat
 time     = (set.singleton (tuple 23))
 DressingStarted     = (set.singleton (tuple 23))
@@ -203,7 +203,7 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 23 true 23 true 2))
 ****************************************************************************************************
 check rule_12
-trail 0.06277918815612793
+trail 0.06118464469909668
 Result     = sat
 time     = (set.singleton (tuple 0))
 DressingStarted     = (as set.empty (Set (Tuple Int)))

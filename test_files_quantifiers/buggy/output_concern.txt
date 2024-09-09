@@ -1,11 +1,11 @@
 check concern_1
-trail 0.09001970291137695
+trail 0.1675260066986084
 Result     = sat
-time     = (set.singleton (tuple 0))
-DressingStarted     = (set.singleton (tuple 0))
+time     = (set.singleton (tuple 23))
+DressingStarted     = (set.singleton (tuple 23))
 not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
-DressingComplete     = (set.singleton (tuple 0))
-not_DressingComplete     = (set.singleton (tuple (- 1) (- 1)))
+DressingComplete     = (set.singleton (tuple 23))
+not_DressingComplete     = (set.singleton (tuple 22 22))
 DressingAbandoned     = (as set.empty (Set (Tuple Int)))
 not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
 CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
@@ -20,5 +20,5 @@ SupportCalled     = (as set.empty (Set (Tuple Int)))
 not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
 RetryAgreed     = (as set.empty (Set (Tuple Int)))
 not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true 14 true 0))
+Measure     = (set.singleton (tuple 23 true 23 true 2))
 ****************************************************************************************************

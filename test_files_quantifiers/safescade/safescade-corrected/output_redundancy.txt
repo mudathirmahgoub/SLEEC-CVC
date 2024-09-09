@@ -1,9 +1,9 @@
 check rule_1
-trail 10.000101566314697
+trail 10.00009560585022
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 0.07495808601379395
+trail 0.0676872730255127
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -69,7 +69,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.06553316116333008
+trail 0.06779217720031738
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -135,15 +135,15 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 10.000066757202148
+trail 10.000089168548584
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 10.000091075897217
+trail 10.000083446502686
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 0.07624530792236328
+trail 0.07288551330566406
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -209,7 +209,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.06992363929748535
+trail 0.06707215309143066
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -275,15 +275,15 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 10.000276565551758
+trail 10.000097513198853
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 10.000166654586792
+trail 10.000091075897217
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-trail 0.20031309127807617
+trail 0.18563127517700195
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -349,23 +349,23 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 10.000091075897217
+trail 10.002502202987671
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 10.000091314315796
+trail 10.000096797943115
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 10.000107288360596
+trail 10.000085830688477
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 10.000111103057861
+trail 10.000099897384644
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 0.08505082130432129
+trail 0.07923054695129395
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -431,11 +431,11 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 10.000096559524536
+trail 10.000086307525635
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 0.10222244262695312
+trail 0.10426115989685059
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -501,7 +501,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.07300209999084473
+trail 0.07143640518188477
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -567,11 +567,11 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 10.000075817108154
+trail 10.000077962875366
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 0.11654138565063477
+trail 0.0975961685180664
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -637,19 +637,19 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 10.000097751617432
+trail 10.000091552734375
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-trail 10.000077486038208
+trail 10.000071048736572
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-trail 10.000096797943115
+trail 10.000065326690674
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-trail 0.10109519958496094
+trail 0.09673333168029785
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -715,7 +715,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.09434652328491211
+trail 0.0837240219116211
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -781,10 +781,10 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 10.000088930130005
+trail 10.000083684921265
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_27
-trail 10.000107526779175
+trail 10.00007963180542
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

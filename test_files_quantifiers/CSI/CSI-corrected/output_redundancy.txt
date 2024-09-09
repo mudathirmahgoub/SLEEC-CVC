@@ -1,21 +1,21 @@
 check rule_1
-trail 10.000089406967163
+trail 10.00008225440979
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 10.000075101852417
+trail 10.000059127807617
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 10.000081539154053
+trail 10.001668930053711
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 10.000073194503784
+trail 10.000068664550781
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.09592413902282715
+trail 0.08293533325195312
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -71,7 +71,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.0504460334777832
+trail 0.04534578323364258
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -127,7 +127,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.05061912536621094
+trail 0.046560049057006836
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -183,19 +183,19 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 10.000068426132202
+trail 10.000082969665527
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 10.000083446502686
+trail 10.00006103515625
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-trail 10.000069379806519
+trail 10.000057935714722
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 0.13702392578125
+trail 0.13442039489746094
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -251,7 +251,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.10129427909851074
+trail 0.09183621406555176
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -307,7 +307,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 0.12629222869873047
+trail 0.11350178718566895
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -363,7 +363,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.1325240135192871
+trail 0.1132819652557373
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -419,7 +419,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.12393546104431152
+trail 0.11127877235412598
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -475,15 +475,15 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 10.000077962875366
+trail 10.000065803527832
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 10.00008225440979
+trail 10.000068664550781
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 0.11595487594604492
+trail 0.12098884582519531
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -539,15 +539,15 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 10.00008225440979
+trail 10.000072956085205
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 10.000075101852417
+trail 10.000065803527832
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.13112807273864746
+trail 0.12520265579223633
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -603,7 +603,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.08537745475769043
+trail 0.07787585258483887
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -659,7 +659,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.08354544639587402
+trail 0.07828879356384277
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -715,7 +715,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.05377984046936035
+trail 0.04674267768859863
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -771,7 +771,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.06783437728881836
+trail 0.0649878978729248
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -827,7 +827,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.05139493942260742
+trail 0.04541444778442383
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))

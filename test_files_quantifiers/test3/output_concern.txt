@@ -1,14 +1,14 @@
 check concern_1
-trail 0.09028100967407227
+trail 0.16790056228637695
 Result     = sat
-time     = (set.union (set.singleton (tuple 12)) (set.singleton (tuple 0)))
+time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
 A     = (set.singleton (tuple 1))
 not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
 not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
 not_C     = (as set.empty (Set (Tuple Int Int)))
-D     = (set.singleton (tuple 12))
+D     = (set.singleton (tuple 16))
 not_D     = (set.singleton (tuple 1 15))
-Measure     = (set.union (set.singleton (tuple 12 2)) (set.union (set.singleton (tuple 11 0)) (set.union (set.singleton (tuple 1 0)) (set.singleton (tuple 0 0)))))
+Measure     = (set.union (set.singleton (tuple 11 0)) (set.union (set.singleton (tuple 1 1)) (set.singleton (tuple 0 0))))
 ****************************************************************************************************

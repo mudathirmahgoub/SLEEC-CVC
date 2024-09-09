@@ -1,100 +1,316 @@
 check rule_1
-trail 10.000097036361694
+trail 10.000088453292847
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 10.000080108642578
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_3
-trail 10.000083684921265
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_4
-trail 10.002380847930908
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_5
-trail 10.000162363052368
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_6
-trail 10.000096321105957
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_7
-trail 10.000088453292847
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_8
-trail 10.000081777572632
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_9
-trail 10.00008749961853
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_10
-trail 10.000178575515747
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_11
 trail 10.000072717666626
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
-check rule_12
-trail 10.000084638595581
+check rule_3
+trail 10.00394582748413
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
+check rule_4
+trail 10.000090599060059
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_5
+trail 10.000078201293945
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_6
+trail 0.26476240158081055
+Result     = unsat
+****************************************************************************************************
+check rule_7
+trail 10.000061273574829
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_8
+trail 0.2556138038635254
+Result     = unsat
+****************************************************************************************************
+check rule_9
+trail 10.000066041946411
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_10
+trail 10.000058650970459
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_11
+trail 10.00006103515625
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_12
+trail 0.17581772804260254
+Result     = unsat
+****************************************************************************************************
 check rule_13
-trail 10.000084638595581
+trail 10.00007677078247
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 10.000086307525635
-Result     = unknown (TIMEOUT)
+trail 0.22502684593200684
+Result     = unsat
 ****************************************************************************************************
 check rule_15
-trail 10.000078916549683
-Result     = unknown (TIMEOUT)
+trail 0.2232809066772461
+Result     = unsat
 ****************************************************************************************************
 check rule_16
-trail 10.000088453292847
+trail 10.000066041946411
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 10.00007963180542
+trail 10.000072956085205
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 10.000069618225098
+trail 10.000082731246948
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 10.000066995620728
-Result     = unknown (TIMEOUT)
+trail 0.09991073608398438
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (set.singleton (tuple 0))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (set.singleton (tuple 0))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_20
-trail 10.000073432922363
+trail 10.000080823898315
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 10.000079870223999
-Result     = unknown (TIMEOUT)
+trail 0.23462772369384766
+Result     = unsat
 ****************************************************************************************************
 check rule_22
-trail 10.000068426132202
-Result     = unknown (TIMEOUT)
+trail 0.18129706382751465
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (set.singleton (tuple 0))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (set.singleton (tuple 0 86400))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_23
-trail 10.00008249282837
-Result     = unknown (TIMEOUT)
+trail 0.18007850646972656
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (set.singleton (tuple 0))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (set.singleton (tuple 0 86400))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_24
-trail 10.00007963180542
+trail 10.000081062316895
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 10.000278949737549
+trail 10.000080347061157
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
