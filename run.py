@@ -4,7 +4,7 @@ import os
 import ntpath
 
 csv_file = open(common.CSV_FILE, 'w')
-csv_file.write("file, mode, rule, result, duration\n")
+csv_file.write("file,mode,rule,result,duration\n")
 csv_file.close()
 
 modes = ["redundancy", "conflict", "concern"]

@@ -643,7 +643,7 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
                     [r.get_rule() for r in rules] + relations_constraint +
                     [measure_inv] +
                     first_inv, output_file="{}/{:02}.smt2".format(path, i))
-        csv_file.write("{}, {}, {}, {}, {}\n".format(filename, mode, i,  res, duration))
+        csv_file.write("{},{},{},{},{}\n".format(filename, mode, i,  res, duration))
         print("*" * 100)
     csv_file.close()
         # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
@@ -760,7 +760,7 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
 
         res, duration = solve([rule.get_premise()] +
                     [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv, output_file="{}/{:02}.smt2".format(path, i))
-        csv_file.write("{}, {}, {}, {}, {}\n".format(filename, mode, i,  res, duration))
+        csv_file.write("{},{},{},{},{}\n".format(filename, mode, i,  res, duration))
         print("*" * 100)
     csv_file.close()
 
@@ -1092,7 +1092,7 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
         result, duration = solve([rule.get_neg_rule()] +
               [r.get_rule() for r in others] + relations_constraint +
               [measure_inv] + first_inv, output_file="{}/{:02}.smt2".format(path, i))
-        csv_file.write("{}, {}, {}, {}, {}\n".format(filename, mode, i,  result, duration))
+        csv_file.write("{},{},{},{},{}\n".format(filename, mode, i,  result, duration))
         print("*" * 100)
     csv_file.close()
 
