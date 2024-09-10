@@ -29,3 +29,16 @@ plt.axline((0, 0), slope=1, color="red")
 plt.scatter(relations, z3, marker = '+')
 plt.legend(['y=x', 'duration'])
 plt.savefig("cvc5_vs_z3.png", bbox_inches='tight')
+
+plt.figure(2)
+labels = ['cvc5 relations', 'z3']
+plt.ylabel('seconds')
+bplot = plt.boxplot([relations, z3], labels=labels)  
+plt.savefig("cvc5_vs_z3_box_plot.png", bbox_inches='tight')
+
+plt.figure(3)
+labels = ['cvc5 relations', 'cvc5 quantifiers', 'z3']
+
+plt.ylabel('seconds')
+bplot = plt.boxplot([relations, quantifiers, z3], labels=labels)  
+plt.savefig("all_box_plot.png", bbox_inches='tight')
