@@ -1,37 +1,39 @@
+forall: <function forall_quantifier at 0x7f566e82c5e0>
+exists: <function exists_quantifier at 0x7f566e82c4a0>
 check rule_1
-trail 10.00011420249939
+trail 10.090479850769043
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 10.00010061264038
+trail 10.00006103515625
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 10.00006628036499
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_4
-trail 10.000107526779175
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_5
-trail 10.000082969665527
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_6
 trail 10.000094652175903
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
+check rule_4
+trail 10.000114917755127
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_5
+trail 10.000085353851318
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_6
+trail 10.000104665756226
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
 check rule_7
-trail 10.000066041946411
+trail 10.001702070236206
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 10.000110149383545
+trail 10.000098943710327
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.15836453437805176
+trail 0.1476750373840332
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -106,31 +108,31 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 10.00007152557373
+trail 10.002048015594482
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 10.00010061264038
+trail 10.00009036064148
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 10.000099420547485
+trail 10.000084161758423
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 10.000062704086304
+trail 10.00008225440979
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 10.000067949295044
+trail 10.001516103744507
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 10.000108242034912
+trail 10.000091552734375
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 0.13763189315795898
+trail 0.13722896575927734
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -205,7 +207,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.1169271469116211
+trail 0.11587214469909668
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -280,7 +282,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.11539626121520996
+trail 0.11831879615783691
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -355,31 +357,31 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 10.000457763671875
+trail 10.000064849853516
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 10.000072479248047
+trail 10.000089406967163
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 10.000098466873169
+trail 10.000109195709229
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-trail 10.000071048736572
+trail 10.000078201293945
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-trail 10.000057458877563
+trail 10.000067234039307
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-trail 10.003031492233276
+trail 10.000103950500488
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 0.17716455459594727
+trail 0.16252851486206055
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -454,7 +456,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.12233185768127441
+trail 0.11643815040588379
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -529,7 +531,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.12292218208312988
+trail 0.11637425422668457
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -604,10 +606,10 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 10.000072956085205
+trail 10.000090837478638
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_29
-trail 10.000069856643677
+trail 10.000061273574829
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

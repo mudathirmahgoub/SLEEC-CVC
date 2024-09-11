@@ -1,5 +1,7 @@
+forall: <function forall_quantifier at 0x7f52050b45e0>
+exists: <function exists_quantifier at 0x7f52050b44a0>
 check rule_1
-trail 0.09986686706542969
+trail 0.09873628616333008
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -58,11 +60,11 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_2
-trail 10.000082969665527
+trail 10.002354383468628
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 0.06981062889099121
+trail 0.06850910186767578
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -121,7 +123,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_4
-trail 0.06643056869506836
+trail 0.06097555160522461
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -180,15 +182,15 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_5
-trail 10.00007176399231
+trail 10.000068187713623
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 10.000081062316895
+trail 10.000057458877563
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 0.07113027572631836
+trail 0.0672612190246582
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -247,11 +249,11 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_8
-trail 10.00008225440979
+trail 10.000087976455688
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.0944063663482666
+trail 0.09773397445678711
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -310,23 +312,23 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_10
-trail 10.00009274482727
+trail 10.00006651878357
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 10.003473997116089
+trail 10.000069856643677
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 10.000080108642578
+trail 10.000076055526733
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 10.000062227249146
+trail 10.000509977340698
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.07501626014709473
+trail 0.07643890380859375
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -385,7 +387,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_15
-trail 0.08916211128234863
+trail 0.08141016960144043
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (set.singleton (tuple 0))
@@ -444,7 +446,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_16
-trail 0.08257865905761719
+trail 0.07910275459289551
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -503,7 +505,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_17
-trail 0.0684504508972168
+trail 0.07210183143615723
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -562,7 +564,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_18
-trail 0.0662546157836914
+trail 0.06635046005249023
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -621,11 +623,11 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_19
-trail 10.000059127807617
+trail 10.000072717666626
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 0.0741877555847168
+trail 0.07191181182861328
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -684,7 +686,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_21
-trail 0.06506967544555664
+trail 0.06409144401550293
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -743,11 +745,11 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_22
-trail 10.000086069107056
+trail 10.000062942504883
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-trail 0.09397435188293457
+trail 0.0921483039855957
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
@@ -806,11 +808,11 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check rule_24
-trail 10.000070095062256
+trail 10.000063419342041
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 0.18134522438049316
+trail 0.1688086986541748
 Result     = sat
 time     = (set.singleton (tuple 0))
 LogDroneAction     = (as set.empty (Set (Tuple Int)))
