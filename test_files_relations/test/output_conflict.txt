@@ -1,5 +1,5 @@
 check rule_1
-trail 0.17373085021972656
+trail 0.7737486362457275
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (set.singleton (tuple 0))
@@ -21,7 +21,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_2
-trail 0.17162728309631348
+trail 0.7234377861022949
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (set.singleton (tuple 0))
@@ -43,7 +43,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_3
-trail 0.193403959274292
+trail 0.7732300758361816
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (set.singleton (tuple 0))
@@ -65,7 +65,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_4
-trail 0.15941977500915527
+trail 0.6647632122039795
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -87,7 +87,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 0 true 51 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
 ****************************************************************************************************
 check rule_5
-trail 0.16139459609985352
+trail 0.6442928314208984
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -109,7 +109,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 0 true 101 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
 ****************************************************************************************************
 check rule_6
-trail 0.20218372344970703
+trail 0.7823424339294434
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (set.singleton (tuple 0))
@@ -131,7 +131,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 0 true 51 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
 ****************************************************************************************************
 check rule_7
-trail 0.12970280647277832
+trail 0.5924413204193115
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -150,10 +150,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_8
-trail 0.13221049308776855
+trail 0.584871768951416
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -172,10 +172,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_9
-trail 0.11907553672790527
+trail 0.5883133411407471
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -194,10 +194,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_10
-trail 0.11806917190551758
+trail 0.5950045585632324
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -216,10 +216,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_11
-trail 0.12099170684814453
+trail 0.5719935894012451
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -238,10 +238,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_12
-trail 0.12363195419311523
+trail 0.5991084575653076
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -260,10 +260,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_13
-trail 0.11651277542114258
+trail 0.5892984867095947
 Result     = sat
 time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 250))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -282,10 +282,10 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 0 true 4 true)) (set.union (set.singleton (tuple 290 true 0 true)) (set.singleton (tuple 250 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 4 true))))
 ****************************************************************************************************
 check rule_14
-trail 0.030322551727294922
+trail 0.14072203636169434
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -307,7 +307,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_15
-trail 0.02666950225830078
+trail 0.15231084823608398
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -329,7 +329,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_16
-trail 0.026476621627807617
+trail 0.1321578025817871
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -351,7 +351,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_17
-trail 0.025902271270751953
+trail 0.1360487937927246
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -373,7 +373,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_18
-trail 0.09485244750976562
+trail 0.681265115737915
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -395,15 +395,51 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 false))
 ****************************************************************************************************
 check rule_19
-trail 0.03553628921508789
-Result     = unsat
+trail 0.7100534439086914
+Result     = sat
+time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (set.singleton (tuple 1))
+not_F     = (set.singleton (tuple 0 0))
+G     = (set.singleton (tuple 1))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (set.singleton (tuple 0))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 1 true 0 false)) (set.singleton (tuple 0 true 0 true)))
 ****************************************************************************************************
 check rule_20
-trail 0.03903770446777344
-Result     = unsat
+trail 0.7033605575561523
+Result     = sat
+time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (as set.empty (Set (Tuple Int)))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (set.singleton (tuple 1))
+not_F     = (set.singleton (tuple 0 0))
+G     = (set.singleton (tuple 1))
+not_G     = (as set.empty (Set (Tuple Int Int)))
+H     = (set.singleton (tuple 0))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 1 true 0 false)) (set.singleton (tuple 0 true 0 true)))
 ****************************************************************************************************
 check rule_21
-trail 0.09684967994689941
+trail 0.6998295783996582
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))

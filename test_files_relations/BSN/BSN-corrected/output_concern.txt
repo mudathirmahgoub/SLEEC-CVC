@@ -1,29 +1,29 @@
 check concern_1
-trail 0.10747122764587402
+trail 0.7074580192565918
 Result     = unsat
 ****************************************************************************************************
 check concern_2
-trail 0.07128477096557617
+trail 0.500014066696167
 Result     = unsat
 ****************************************************************************************************
 check concern_3
-trail 0.05390048027038574
+trail 0.33177804946899414
 Result     = unsat
 ****************************************************************************************************
 check concern_4
-trail 0.06506752967834473
+trail 0.402569055557251
 Result     = unsat
 ****************************************************************************************************
 check concern_5
-trail 0.21791601181030273
+trail 1.0315814018249512
 Result     = unsat
 ****************************************************************************************************
 check concern_6
-trail 0.21535181999206543
+trail 0.7629809379577637
 Result     = unsat
 ****************************************************************************************************
 check concern_7
-trail 0.08729052543640137
+trail 0.4624044895172119
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -100,7 +100,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_8
-trail 0.08775091171264648
+trail 0.4473230838775635
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -177,7 +177,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_9
-trail 0.09265327453613281
+trail 0.46216273307800293
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))

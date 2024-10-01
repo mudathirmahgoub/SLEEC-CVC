@@ -1,5 +1,5 @@
 check rule_1
-trail 0.07463955879211426
+trail 0.4150364398956299
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (set.singleton (tuple 0))
@@ -79,7 +79,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.05442070960998535
+trail 0.3398740291595459
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -159,7 +159,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.09772801399230957
+trail 0.47593259811401367
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -239,7 +239,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.07862997055053711
+trail 0.350048303604126
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -319,7 +319,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_5
-trail 0.0721590518951416
+trail 0.3305695056915283
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -399,7 +399,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.05495285987854004
+trail 0.296328067779541
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -479,7 +479,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.07855582237243652
+trail 0.3682239055633545
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -559,7 +559,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_8
-trail 0.06298065185546875
+trail 0.3285794258117676
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -639,7 +639,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.0949869155883789
+trail 0.42785072326660156
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -719,7 +719,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.08343100547790527
+trail 0.42766475677490234
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -799,7 +799,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.08400917053222656
+trail 0.42322516441345215
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -879,7 +879,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.08625102043151855
+trail 0.3891255855560303
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -959,7 +959,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_13
-trail 0.060826778411865234
+trail 0.3243706226348877
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1039,7 +1039,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.06173992156982422
+trail 0.33787035942077637
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1119,7 +1119,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.06687402725219727
+trail 0.3387031555175781
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1199,7 +1199,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true false true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_16
-trail 0.07528328895568848
+trail 0.42604994773864746
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1279,7 +1279,7 @@ previousLight     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 0 true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.07437348365783691
+trail 0.4179728031158447
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1359,7 +1359,7 @@ previousLight     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 0 true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.0745997428894043
+trail 0.4074084758758545
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1439,7 +1439,7 @@ previousLight     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 0 true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.15861845016479492
+trail 0.6207752227783203
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1494,7 +1494,7 @@ TakeShortestPath     = (as set.empty (Set (Tuple Int)))
 not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
 MaintainEqualDistance     = (set.singleton (tuple 0))
 not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
-StayCenteredinLane     = (set.singleton (tuple 0))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
 not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
 SeeTrafficLight     = (set.singleton (tuple 0))
 not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
@@ -1514,12 +1514,12 @@ PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
 not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
 MakeSpace     = (as set.empty (Set (Tuple Int)))
 not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
+riskLevel     = (set.singleton (tuple 0))
 previousLight     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true false true true true 0 true true true true))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true false true true true 0 true true true true))
 ****************************************************************************************************
 check rule_20
-trail 0.10563015937805176
+trail 0.463101863861084
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1599,7 +1599,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_21
-trail 0.18563055992126465
+trail 0.6808795928955078
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1679,7 +1679,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 false true true true true true true true true true true 2 true true true true true true true true true 2 false false true true))
 ****************************************************************************************************
 check rule_22
-trail 0.1060633659362793
+trail 0.45579957962036133
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1759,7 +1759,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.11324453353881836
+trail 0.49230313301086426
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1839,7 +1839,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.08080077171325684
+trail 0.3896918296813965
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1919,7 +1919,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.06238389015197754
+trail 0.34354281425476074
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -1999,7 +1999,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.10837554931640625
+trail 0.49411559104919434
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
@@ -2079,7 +2079,7 @@ previousLight     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 2 true true true true true true true true true 2 true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.11402249336242676
+trail 0.4846987724304199
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))

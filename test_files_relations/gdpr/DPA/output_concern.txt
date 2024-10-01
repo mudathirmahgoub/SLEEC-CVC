@@ -1,17 +1,17 @@
 check concern_1
-trail 0.08452749252319336
+trail 0.564486026763916
 Result     = unsat
 ****************************************************************************************************
 check concern_2
-trail 0.13769030570983887
+trail 0.7026433944702148
 Result     = unsat
 ****************************************************************************************************
 check concern_3
-trail 0.229384183883667
+trail 1.0804600715637207
 Result     = unsat
 ****************************************************************************************************
 check concern_4
-trail 0.09538793563842773
+trail 0.5046453475952148
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -77,7 +77,7 @@ auditType     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 2 3 1 1 true))
 ****************************************************************************************************
 check concern_5
-trail 0.08311223983764648
+trail 0.4371790885925293
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -143,19 +143,19 @@ auditType     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
 ****************************************************************************************************
 check concern_6
-trail 0.19506239891052246
+trail 0.8733959197998047
 Result     = unsat
 ****************************************************************************************************
 check concern_7
-trail 0.24161267280578613
+trail 1.015279769897461
 Result     = unsat
 ****************************************************************************************************
 check concern_8
-trail 0.05892014503479004
+trail 0.3544728755950928
 Result     = unsat
 ****************************************************************************************************
 check concern_9
-trail 0.10337138175964355
+trail 0.49530839920043945
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -221,10 +221,10 @@ auditType     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
 ****************************************************************************************************
 check concern_10
-trail 0.10252666473388672
+trail 0.5367965698242188
 Result     = unsat
 ****************************************************************************************************
 check concern_11
-trail 0.07875418663024902
+trail 0.48332691192626953
 Result     = unsat
 ****************************************************************************************************

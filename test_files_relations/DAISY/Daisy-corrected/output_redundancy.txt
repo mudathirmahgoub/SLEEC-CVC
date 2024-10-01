@@ -1,5 +1,5 @@
 check rule_1
-trail 0.04446721076965332
+trail 0.3222782611846924
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -95,7 +95,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true false 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.03528451919555664
+trail 0.27641987800598145
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -191,7 +191,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true false false true false true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.03478360176086426
+trail 0.25209760665893555
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -287,7 +287,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true false true true true false 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.035523176193237305
+trail 0.2643928527832031
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -383,7 +383,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true false 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-trail 0.03814888000488281
+trail 0.2727475166320801
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -479,7 +479,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.0469512939453125
+trail 0.2873818874359131
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -575,7 +575,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.03600573539733887
+trail 0.2507150173187256
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -671,7 +671,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 0.04486441612243652
+trail 0.29172444343566895
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -767,7 +767,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 18 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.039330482482910156
+trail 0.24992799758911133
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -863,7 +863,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.0360867977142334
+trail 0.24532461166381836
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -959,7 +959,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.08871936798095703
+trail 0.41727304458618164
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1055,7 +1055,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.04874610900878906
+trail 0.2852792739868164
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1151,7 +1151,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true false 101 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 0.04029512405395508
+trail 0.26373744010925293
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1247,7 +1247,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.04834485054016113
+trail 0.2946760654449463
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1343,7 +1343,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 18 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.0935823917388916
+trail 0.5132405757904053
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1439,7 +1439,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 false true true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 0.08264708518981934
+trail 0.3889143466949463
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1535,7 +1535,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.03912758827209473
+trail 0.2598569393157959
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1631,7 +1631,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.03738236427307129
+trail 0.2490861415863037
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1727,7 +1727,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.08075666427612305
+trail 0.46085309982299805
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1823,7 +1823,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 0.08289599418640137
+trail 0.4543731212615967
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1919,7 +1919,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 0.08139991760253906
+trail 0.45389890670776367
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2015,7 +2015,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.04051470756530762
+trail 0.2522304058074951
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2111,7 +2111,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.0811455249786377
+trail 0.4880995750427246
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2207,7 +2207,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.03793001174926758
+trail 0.2807910442352295
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2303,7 +2303,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.1192624568939209
+trail 0.5173537731170654
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2399,7 +2399,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true false true true true false 0 true true true true true true true true false true true))
 ****************************************************************************************************
 check rule_26
-trail 0.10948944091796875
+trail 0.4667797088623047
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2495,7 +2495,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.08574795722961426
+trail 0.4700429439544678
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2591,7 +2591,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 0.08315420150756836
+trail 0.4700183868408203
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2687,7 +2687,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_29
-trail 0.03912615776062012
+trail 0.25850892066955566
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2783,7 +2783,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_30
-trail 0.045081377029418945
+trail 0.292724609375
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (set.singleton (tuple 0))
@@ -2879,7 +2879,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_31
-trail 0.046628713607788086
+trail 0.27033305168151855
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (set.singleton (tuple 0))
@@ -2975,7 +2975,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true false true true true true true 0 true true true true true true true false true true true))
 ****************************************************************************************************
 check rule_32
-trail 0.11781644821166992
+trail 0.5192174911499023
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))

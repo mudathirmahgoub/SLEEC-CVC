@@ -1,5 +1,5 @@
 check concern_1
-trail 0.057623863220214844
+trail 0.41349291801452637
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -95,7 +95,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_2
-trail 0.03926730155944824
+trail 0.31900477409362793
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -191,7 +191,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_3
-trail 0.06827044486999512
+trail 0.44367384910583496
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (set.singleton (tuple 0))
@@ -287,11 +287,11 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true false true true true true))
 ****************************************************************************************************
 check concern_4
-trail 0.09675788879394531
+trail 0.5449738502502441
 Result     = unsat
 ****************************************************************************************************
 check concern_5
-trail 0.20996928215026855
+trail 0.7949228286743164
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -387,7 +387,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true false true true true true true))
 ****************************************************************************************************
 check concern_6
-trail 0.07380366325378418
+trail 0.42287302017211914
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))

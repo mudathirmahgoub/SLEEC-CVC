@@ -2,7 +2,7 @@
 (set-option :produce-models true)
 (set-option :finite-model-find true)
 (set-option :check-models true)
-(set-option :sets-ext true)
+(set-option :sets-exp true)
 (set-option :dag-thresh 0)
 (set-option :uf-lazy-ll true)
 (set-option :fmf-bound true)
@@ -34,3 +34,4 @@
 (assert true)
 (assert (= (as set.empty (Set (Tuple Int Int))) (set.filter (lambda ((tuple_63 (Tuple Int Int))) (not (not (= (as set.empty (Set (Tuple Int))) (set.filter (lambda ((tuple_64 (Tuple Int))) (= ((_ tuple.select 0) tuple_64) ((_ tuple.select 0) tuple_63))) time))))) Measure)))
 (check-sat)
+(get-model)

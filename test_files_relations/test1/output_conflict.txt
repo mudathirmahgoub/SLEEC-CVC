@@ -1,9 +1,17 @@
 check rule_1
-trail 0.06544923782348633
-Result     = unsat
+trail 0.2786405086517334
+Result     = sat
+time     = (set.union (set.singleton (tuple 7)) (set.singleton (tuple 0)))
+A     = (set.singleton (tuple 0))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 7))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 12))
+not_C     = (set.singleton (tuple 0 11))
+Measure     = (set.union (set.singleton (tuple 7 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_2
-trail 0.011347532272338867
+trail 0.07591104507446289
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -15,10 +23,26 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
 check rule_3
-trail 0.05669236183166504
-Result     = unsat
+trail 0.31415891647338867
+Result     = sat
+time     = (set.union (set.singleton (tuple 7)) (set.singleton (tuple 0)))
+A     = (set.singleton (tuple 0))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 7))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 12))
+not_C     = (set.singleton (tuple 0 11))
+Measure     = (set.union (set.singleton (tuple 7 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_4
-trail 0.06309247016906738
-Result     = unsat
+trail 0.30300116539001465
+Result     = sat
+time     = (set.union (set.singleton (tuple 7)) (set.singleton (tuple 0)))
+A     = (set.singleton (tuple 0))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 7))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 12))
+not_C     = (set.singleton (tuple 0 11))
+Measure     = (set.union (set.singleton (tuple 7 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
