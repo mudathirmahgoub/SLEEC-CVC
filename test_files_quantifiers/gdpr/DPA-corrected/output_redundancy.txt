@@ -1,7 +1,5 @@
-forall: <function forall_quantifier at 0x7f85aa3a45e0>
-exists: <function exists_quantifier at 0x7f85aa3a44a0>
 check rule_1
-trail 0.407975435256958
+trail 2.8258633613586426
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (set.singleton (tuple 0))
@@ -67,19 +65,19 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_2
-trail 10.000118255615234
+trail 20.00033187866211
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 10.002216577529907
+trail 20.0007004737854
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 10.000074863433838
+trail 20.000488996505737
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.09942984580993652
+trail 0.6479380130767822
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -145,15 +143,15 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_6
-trail 10.00010347366333
+trail 20.00036096572876
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 10.000073194503784
+trail 20.000333309173584
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 0.1474454402923584
+trail 1.1101551055908203
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -219,7 +217,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_9
-trail 0.10369348526000977
+trail 0.810361385345459
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -285,7 +283,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_10
-trail 0.07970309257507324
+trail 0.5841233730316162
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -351,11 +349,11 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_11
-trail 10.000101089477539
+trail 20.000225067138672
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 0.11398911476135254
+trail 0.879786491394043
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -421,7 +419,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_13
-trail 0.1040792465209961
+trail 0.801581859588623
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -487,35 +485,35 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_14
-trail 10.000102758407593
+trail 20.000435829162598
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 10.00008487701416
+trail 20.00017237663269
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 10.000081300735474
+trail 20.000483751296997
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 10.000090837478638
+trail 20.000317335128784
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 10.000092029571533
+trail 20.000327825546265
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 10.000083446502686
+trail 20.000410795211792
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 10.000061988830566
+trail 20.000255823135376
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.1166372299194336
+trail 0.8110918998718262
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -581,7 +579,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_22
-trail 0.10109448432922363
+trail 0.7956459522247314
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -647,14 +645,14 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_23
-trail 10.000082731246948
+trail 20.000518083572388
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-trail 10.000073671340942
+trail 20.00017523765564
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 10.00010633468628
+trail 20.00025987625122
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

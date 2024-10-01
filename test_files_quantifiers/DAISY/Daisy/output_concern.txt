@@ -1,7 +1,5 @@
-forall: <function forall_quantifier at 0x7f0cf145c5e0>
-exists: <function exists_quantifier at 0x7f0cf145c4a0>
 check concern_1
-trail 0.14314532279968262
+trail 0.9404308795928955
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -97,7 +95,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_2
-trail 0.08504772186279297
+trail 0.616274356842041
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -193,19 +191,19 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_3
-trail 10.000087976455688
+trail 20.00130844116211
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_4
-trail 10.000076293945312
+trail 20.000264883041382
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_5
-trail 10.000076532363892
+trail 20.00023317337036
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
-trail 0.18010330200195312
+trail 1.3615925312042236
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))

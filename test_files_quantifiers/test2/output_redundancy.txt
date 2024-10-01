@@ -1,7 +1,5 @@
-forall: <function forall_quantifier at 0x7fcd559c45e0>
-exists: <function exists_quantifier at 0x7fcd559c44a0>
 check rule_1
-trail 0.0692596435546875
+trail 0.43884944915771484
 Result     = sat
 time     = (set.union (set.singleton (tuple 9)) (set.union (set.singleton (tuple 1)) (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))))
 A     = (set.singleton (tuple 0))
@@ -13,7 +11,7 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 9 9)) (set.union (set.singleton (tuple 0 0)) (set.singleton (tuple 10 0))))
 ****************************************************************************************************
 check rule_2
-trail 0.05770230293273926
+trail 0.4036893844604492
 Result     = sat
 time     = (set.union (set.singleton (tuple 9)) (set.union (set.singleton (tuple 1)) (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))))
 A     = (as set.empty (Set (Tuple Int)))
@@ -25,7 +23,7 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 9 9)) (set.union (set.singleton (tuple 0 0)) (set.singleton (tuple 10 0))))
 ****************************************************************************************************
 check rule_3
-trail 0.03858637809753418
+trail 0.27227354049682617
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))

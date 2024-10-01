@@ -1,7 +1,5 @@
-forall: <function forall_quantifier at 0x7fa4d8f305e0>
-exists: <function exists_quantifier at 0x7fa4d8f304a0>
 check concern_1
-trail 0.1631171703338623
+trail 1.1361641883850098
 Result     = sat
 time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
 A     = (set.singleton (tuple 1))

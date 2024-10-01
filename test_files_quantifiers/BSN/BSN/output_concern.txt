@@ -1,31 +1,29 @@
-forall: <function forall_quantifier at 0x7f59d94385e0>
-exists: <function exists_quantifier at 0x7f59d94384a0>
 check concern_1
-trail 10.000129699707031
+trail 20.00051236152649
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
-trail 10.000089645385742
+trail 20.00027346611023
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
-trail 10.000106573104858
+trail 20.00070595741272
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_4
-trail 10.000088930130005
+trail 20.000386953353882
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_5
-trail 10.00006914138794
+trail 20.00071144104004
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
-trail 10.000104904174805
+trail 20.000262022018433
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_7
-trail 0.22874760627746582
+trail 1.5324287414550781
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -100,7 +98,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_8
-trail 0.17073655128479004
+trail 1.2372968196868896
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -175,6 +173,6 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_9
-trail 10.000065565109253
+trail 20.000159978866577
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

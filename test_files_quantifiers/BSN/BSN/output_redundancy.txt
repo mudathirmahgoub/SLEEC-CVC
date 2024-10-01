@@ -1,7 +1,5 @@
-forall: <function forall_quantifier at 0x7f4fff0105e0>
-exists: <function exists_quantifier at 0x7f4fff0104a0>
 check rule_1
-trail 0.10194659233093262
+trail 0.6414122581481934
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -76,35 +74,35 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 10.00009799003601
+trail 20.00027871131897
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 10.000069618225098
+trail 20.000195503234863
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 10.000067710876465
+trail 20.000362634658813
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 10.000096082687378
+trail 20.000418424606323
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 10.000058889389038
+trail 20.000698804855347
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 10.000075101852417
+trail 20.00074529647827
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 10.001035928726196
+trail 20.000176429748535
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.12109518051147461
+trail 0.8009943962097168
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -179,31 +177,31 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 10.000060081481934
+trail 20.000676155090332
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 10.000080585479736
+trail 20.00011897087097
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 10.000102519989014
+trail 20.000401973724365
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 10.000098705291748
+trail 20.0001380443573
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 10.000066041946411
+trail 20.00031304359436
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 10.00009036064148
+trail 20.00045943260193
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 0.13592267036437988
+trail 0.8994066715240479
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -278,7 +276,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.1184532642364502
+trail 0.8572001457214355
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -353,7 +351,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.11919474601745605
+trail 0.8565142154693604
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -428,19 +426,19 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 10.000061273574829
+trail 20.00078535079956
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 10.000085592269897
+trail 20.000615119934082
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 10.000098705291748
+trail 20.000652074813843
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-trail 0.13034391403198242
+trail 0.7930152416229248
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -515,7 +513,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.09210419654846191
+trail 0.6041567325592041
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -590,7 +588,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.10845494270324707
+trail 0.7335255146026611
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -665,7 +663,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.1430978775024414
+trail 0.9912550449371338
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -740,7 +738,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.12369751930236816
+trail 0.8686928749084473
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -815,7 +813,7 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.11833691596984863
+trail 0.8777105808258057
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -890,10 +888,10 @@ batteryConsumption     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 10.000072956085205
+trail 20.00012183189392
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_29
-trail 10.000058650970459
+trail 20.000216722488403
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

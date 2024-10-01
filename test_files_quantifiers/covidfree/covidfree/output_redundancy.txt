@@ -1,35 +1,33 @@
-forall: <function forall_quantifier at 0x7fcfbf6c45e0>
-exists: <function exists_quantifier at 0x7fcfbf6c44a0>
 check rule_1
-trail 10.000091314315796
+trail 20.000191688537598
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 10.00007700920105
+trail 20.000239849090576
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 10.000066041946411
+trail 20.000163316726685
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 10.000061750411987
+trail 20.000115871429443
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 10.000073194503784
+trail 20.000122785568237
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 10.000070810317993
-Result     = unknown (TIMEOUT)
+trail 1.56870436668396
+Result     = unsat
 ****************************************************************************************************
 check rule_7
-trail 10.000068426132202
+trail 20.000447750091553
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 0.08211159706115723
+trail 0.5602877140045166
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -105,7 +103,7 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_9
-trail 0.2266066074371338
+trail 2.005075216293335
 Result     = sat
 time     = (set.singleton (tuple 3))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -181,7 +179,7 @@ datatype     = (set.singleton (tuple 3))
 Measure     = (set.singleton (tuple 3 3 3 3 3 3 true true false 3 180 3 true true true true true 3))
 ****************************************************************************************************
 check rule_10
-trail 0.23297548294067383
+trail 1.933884620666504
 Result     = sat
 time     = (set.singleton (tuple 3))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -257,7 +255,7 @@ datatype     = (set.singleton (tuple 3))
 Measure     = (set.singleton (tuple 3 3 3 3 3 3 true true false 3 3 180 true true true true true 3))
 ****************************************************************************************************
 check rule_11
-trail 0.07667922973632812
+trail 0.555626392364502
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -333,7 +331,7 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_12
-trail 0.09585118293762207
+trail 0.6537675857543945
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -409,11 +407,11 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_13
-trail 10.000057220458984
+trail 20.00044322013855
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.08824348449707031
+trail 0.5732810497283936
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -489,7 +487,7 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_15
-trail 0.07573294639587402
+trail 0.5493683815002441
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -565,19 +563,19 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_16
-trail 10.00007939338684
+trail 20.00047516822815
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 10.000073432922363
+trail 20.000444412231445
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 10.000056743621826
+trail 20.000300884246826
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 0.07724952697753906
+trail 0.5751631259918213
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -653,15 +651,87 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_20
-trail 10.00007176399231
+trail 20.000268697738647
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 10.000072717666626
-Result     = unknown (TIMEOUT)
+trail 0.6101012229919434
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (set.singleton (tuple 0))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_22
-trail 0.1690981388092041
+trail 1.350315809249878
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -737,7 +807,7 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_23
-trail 0.15723681449890137
+trail 1.3424293994903564
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -813,10 +883,10 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_24
-trail 10.000076532363892
+trail 20.007949113845825
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 10.000078916549683
+trail 20.000428199768066
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

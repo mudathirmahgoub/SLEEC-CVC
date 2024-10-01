@@ -1,31 +1,29 @@
-forall: <function forall_quantifier at 0x7f0334fc85e0>
-exists: <function exists_quantifier at 0x7f0334fc84a0>
 check concern_1
-trail 10.000081300735474
+trail 20.00056028366089
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
-trail 10.000086069107056
+trail 20.000092267990112
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
-trail 10.000086307525635
+trail 20.000219345092773
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_4
-trail 10.000077486038208
+trail 20.00031089782715
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_5
-trail 10.000067710876465
+trail 20.000311374664307
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
-trail 10.000077486038208
+trail 20.00041699409485
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_7
-trail 0.07006359100341797
+trail 0.5006663799285889
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -82,7 +80,7 @@ store     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
 ****************************************************************************************************
 check concern_8
-trail 0.06525683403015137
+trail 0.48696327209472656
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))

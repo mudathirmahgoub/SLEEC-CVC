@@ -1,15 +1,13 @@
-forall: <function forall_quantifier at 0x7fdd18fd05e0>
-exists: <function exists_quantifier at 0x7fdd18fd04a0>
 check concern_1
-trail 10.000091552734375
+trail 20.000549793243408
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
-trail 10.000077247619629
+trail 20.000335693359375
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
-trail 0.22346234321594238
+trail 1.7218594551086426
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -65,7 +63,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_4
-trail 0.22257709503173828
+trail 1.6951971054077148
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
