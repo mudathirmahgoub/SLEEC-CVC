@@ -1,4 +1,4 @@
-CSV_FILE = "relations.csv"
+CSV_FILE = "filters.csv"
 PATH = "test_files_relations"
 
 PLOT_OPTIONS = {
