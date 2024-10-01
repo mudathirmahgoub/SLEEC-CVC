@@ -1,17 +1,17 @@
 check concern_1
-trail 1.4952409267425537
+trail 1.4059269428253174
 Result     = unsat
 ****************************************************************************************************
 check concern_2
-trail 1.3847951889038086
+trail 1.3748362064361572
 Result     = unsat
 ****************************************************************************************************
 check concern_3
-trail 0.994926929473877
+trail 1.0071487426757812
 Result     = unsat
 ****************************************************************************************************
 check concern_4
-trail 1.1597850322723389
+trail 1.1693735122680664
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -68,7 +68,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 1 true true true false 0 2))
 ****************************************************************************************************
 check concern_5
-trail 1.5924787521362305
+trail 1.5964984893798828
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -125,11 +125,11 @@ store     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true true true true true true true false true 2 2 0 true true true false 1 1))
 ****************************************************************************************************
 check concern_6
-trail 1.1833891868591309
+trail 1.1869533061981201
 Result     = unsat
 ****************************************************************************************************
 check concern_7
-trail 0.32619714736938477
+trail 0.31847667694091797
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -186,7 +186,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check concern_8
-trail 0.30173635482788086
+trail 0.31165313720703125
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))

@@ -642,7 +642,7 @@ def solve(constraints, output_file=""):
     setOption(solver, "dag-thresh", "0")
     setOption(solver, "uf-lazy-ll", "true")
     setOption(solver, "fmf-bound", "true")
-    setOption(solver, "tlimit-per", "10000")
+    setOption(solver, "tlimit-per", "20000")
 
     if output_file:
         out = open(output_file, 'w')

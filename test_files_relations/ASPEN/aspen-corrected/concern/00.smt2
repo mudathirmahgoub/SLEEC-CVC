@@ -6,7 +6,7 @@
 (set-option :dag-thresh 0)
 (set-option :uf-lazy-ll true)
 (set-option :fmf-bound true)
-(set-option :tlimit-per 10000)
+(set-option :tlimit-per 20000)
 (declare-const time (Set (Tuple Int)))
 (declare-const LogDroneAction (Set (Tuple Int)))
 (declare-const not_LogDroneAction (Set (Tuple Int Int)))
