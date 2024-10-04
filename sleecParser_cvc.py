@@ -1,10 +1,15 @@
-from CVC5_wrapper.sleec_to_cvc import WhenRule, happen_within, otherwise, unless, complie_measure, Concern, EventRelation, \
+import common
+import ntpath
+import os
+from CVC5_wrapper.sleec_to_cvc import WhenRule, happen_within, otherwise, unless, complie_measure, Concern, \
+    EventRelation, \
     MeasureRelation, Causation, Effect, UntilEMRelation, TimedEMRelation, op_str_sleec
 from CVC5_wrapper.cvc_wrapper import *
 
 from textx import metamodel_from_file, textx_isinstance
 
 grammar_file = "sleec-gramar.tx"
+
 mm = metamodel_from_file(grammar_file)
 constants = {}
 NEG_Relations = {}
@@ -55,7 +60,6 @@ def add_scale(scalePaarams):
         scalar_type[sp.name] = index
 
 
-
 def process_scalar(measure, type_dict):
     if measure.name not in registered_type:
         scalar = measure.type
@@ -86,7 +90,7 @@ def parse_constants(constant, constants):
 
 
 def parse_definitions(defs):
-    time_type = create_new_type("time", lambda t: t>=0)
+    time_type = create_new_type("time", lambda t: t >= 0)
     ACTION_Mapping = {}
     _measures = [("time", time_type)]
     type_dict = dict()
@@ -606,23 +610,31 @@ def parse_negation(node, Action_Mapping, head, measure, is_pos):
     return NOT(parse_element(node.expr, Action_Mapping, head, measure, is_pos))
 
 
-def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, model_str="", to_print=True,
+def check_concerns(filename, mode, model, rules, concerns, relations, Action_Mapping, Actions, model_str="",
+                   to_print=True,
                    multi_entry=False):
+    dir, name = ntpath.split((filename))
+    path = "{}/{}/{}/{}".format(os.getcwd(), dir, name, mode).replace(".sleec", "")
+    if not os.path.isdir(path):
+        os.makedirs(path)
     Measure = Action_Mapping["Measure"]
-    first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
-                                               exists(E, lambda e, e_c=e_c, E=E: AND(e.time > e_c.time,
-                                                                                     forall(E, lambda e_prime1,
-                                                                                                      e=e_c: e_prime1.time <= e.time)
-                                                                                     ))
-                                               )
+    first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
+                         AND(
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             e.time >= e_first.time
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                             e.time <= e_last.time
+                                                             )),
+                         )) for E in Actions if E is not Measure]
 
-                        ) for E in Actions if E is not Measure]
-
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
+                      consistency_inv(Action_Mapping))
     output = ""
     adj_hl = []
     concern_raised = False
     relations_constraint = get_relational_constraints(relations)
+    csv_file = open(common.CSV_FILE, 'a')
     for i in range(len(concerns)):
         if to_print:
             print("check concern_{}".format(i + 1))
@@ -630,70 +642,78 @@ def check_concerns(model, rules, concerns, relations, Action_Mapping, Actions, m
             output += "check concern_{}\n".format(i + 1)
 
         concern = concerns[i]
-        res = solve([concern.get_concern()] +
-                    [r.get_rule() for r in rules] + relations_constraint +
-                    [measure_inv] +
-                    first_inv, output_file="concern_{}.smt2".format(i))
-        # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
-        #                               relations_constraint + [measure_inv],
-        #                               Actions, [], True,
-        #                               min_solution=False,
-        #                               final_min_solution=True, restart=False, boundary_case=False,
-        #                               universal_blocking=False, vol_bound=VOL_BOUND, scalar_mask=scalar_mask
-        #                               )
-        #
-        # if res == 2:
-        #     concern.get_concern().clear()
-        #     clear_all(Actions)
-        #     reset_rules(rules)
-        #     clear_relational_constraints(relations)
-        #     measure_inv.clear()
-        #     [r.clear() for r in first_inv]
-        #     derivation_rule.reset()
-        #     res = check_property_refining(concern.get_concern(), set(first_inv),
-        #                                   [r.get_rule() for r in rules] + relations_constraint +
-        #                                   [measure_inv] +
-        #                                   first_inv,
-        #                                   Actions, [], True,
-        #                                   min_solution=False,
-        #                                   final_min_solution=True, restart=False, boundary_case=False,
-        #                                   universal_blocking=False, vol_bound=VOL_BOUND,
-        #                                   record_proof=False)
-        #
-        # if isinstance(res, str):
-        #     concern_raised = True
-        #     if to_print:
-        #         print("Concern is raised")
-        #
-        #     concern_node = model.concernBlock.concerns[i]
-        #     start, end = concern_node._tx_position, concern_node._tx_position_end
-        #     output += "{}\n".format(model_str[start: end])
-        #     output += "Concern is raised\n"
-        #     output += res
-        #     output += ("-" * 100 + '\n')
-        # elif res == -1:
-        #     if to_print:
-        #         print("Likely not raised")
-        #     else:
-        #         output += "Likely not raised\n"
-        #
-        # else:
-        #     print("concern not raised")
-        #
-        # clear_relational_constraints(relations)
-        # clear_all(Actions)
-        # reset_rules(rules)
-        # clear_relational_constraints(relations_constraint)
-        # [r.clear() for r in first_inv]
-        # measure_inv.clear()
-        # derivation_rule.reset()
-        # print("*" * 100)
-        # output += "*" * 100 + '\n'
+        res, duration = solve([concern.get_concern()] +
+                              [r.get_rule() for r in rules] + relations_constraint +
+                              [measure_inv] +
+                              first_inv, output_file="{}/{:02}.smt2".format(path, i))
+        csv_file.write("{},{},{},{},{}\n".format(filename, mode, i, res, duration))
+        print("*" * 100)
+    csv_file.close()
+    # res = check_property_refining(concern.get_concern(), set(), [r.get_rule() for r in rules] +
+    #                               relations_constraint + [measure_inv],
+    #                               Actions, [], True,
+    #                               min_solution=False,
+    #                               final_min_solution=True, restart=False, boundary_case=False,
+    #                               universal_blocking=False, vol_bound=VOL_BOUND, scalar_mask=scalar_mask
+    #                               )
+    #
+    # if res == 2:
+    #     concern.get_concern().clear()
+    #     clear_all(Actions)
+    #     reset_rules(rules)
+    #     clear_relational_constraints(relations)
+    #     measure_inv.clear()
+    #     [r.clear() for r in first_inv]
+    #     derivation_rule.reset()
+    #     res = check_property_refining(concern.get_concern(), set(first_inv),
+    #                                   [r.get_rule() for r in rules] + relations_constraint +
+    #                                   [measure_inv] +
+    #                                   first_inv,
+    #                                   Actions, [], True,
+    #                                   min_solution=False,
+    #                                   final_min_solution=True, restart=False, boundary_case=False,
+    #                                   universal_blocking=False, vol_bound=VOL_BOUND,
+    #                                   record_proof=False)
+    #
+    # if isinstance(res, str):
+    #     concern_raised = True
+    #     if to_print:
+    #         print("Concern is raised")
+    #
+    #     concern_node = model.concernBlock.concerns[i]
+    #     start, end = concern_node._tx_position, concern_node._tx_position_end
+    #     output += "{}\n".format(model_str[start: end])
+    #     output += "Concern is raised\n"
+    #     output += res
+    #     output += ("-" * 100 + '\n')
+    # elif res == -1:
+    #     if to_print:
+    #         print("Likely not raised")
+    #     else:
+    #         output += "Likely not raised\n"
+    #
+    # else:
+    #     print("concern not raised")
+    #
+    # clear_relational_constraints(relations)
+    # clear_all(Actions)
+    # reset_rules(rules)
+    # clear_relational_constraints(relations_constraint)
+    # [r.clear() for r in first_inv]
+    # measure_inv.clear()
+    # derivation_rule.reset()
+    # print("*" * 100)
+    # output += "*" * 100 + '\n'
     return concern_raised, output, adj_hl
 
 
-def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
+def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
+                   to_print=True,
                    multi_entry=False, profiling=True):
+    dir, name = ntpath.split((filename))
+    path = "{}/{}/{}/{}".format(os.getcwd(), dir, name, mode).replace(".sleec", "")
+    if not os.path.isdir(path):
+        os.makedirs(path)
     Measure = Action_Mapping["Measure"]
 
     if profiling:
@@ -701,16 +721,18 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
         profiling_file.write(
             "raw_finish_time, proof_generation_time, proof_checking_time, raw_proof_size, raw_derivation_steps, trimmed_proof_size, trimmed_derivation_steps\n")
 
-    first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
-                                               exists(E, lambda e, e_c=e_c, E=E: AND(e.time > e_c.time,
-                                                                                     forall(E, lambda e_prime1,
-                                                                                                      e=e_c: e_prime1.time <= e.time)
-                                                                                     ))
-                                               )
+    first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
+                         AND(
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             e.time >= e_first.time
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                             e.time <= e_last.time
+                                                             )),
+                         )) for E in Actions if E is not Measure]
 
-                        ) for E in Actions if E is not Measure]
-
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
+                      consistency_inv(Action_Mapping))
     output = ""
     adj_hl = []
     conflict_res = False
@@ -718,6 +740,7 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
     relations_constraint = get_relational_constraints(relations)
     multi_output = []
 
+    csv_file = open(common.CSV_FILE, 'a')
     for i in range(len(rules)):
 
         if multi_entry:
@@ -740,24 +763,30 @@ def check_conflict(model, rules, relations, Action_Mapping, Actions, model_str="
             continue
         rule = rules[i]
 
-        res = solve([rule.get_premise()] +
-                    [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv, output_file="conflict_{}.smt2".format(i))
+        res, duration = solve([rule.get_premise()] +
+                              [r.get_rule() for r in rules] + relations_constraint + [measure_inv] + first_inv,
+                              output_file="{}/{:02}.smt2".format(path, i))
+        csv_file.write("{},{},{},{},{}\n".format(filename, mode, i, res, duration))
+        print("*" * 100)
+    csv_file.close()
 
 
 def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
                    to_print=True,
                    multi_entry=False, profiling=True):
     Measure = Action_Mapping["Measure"]
-    first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
-                                               exists(E, lambda e, e_c=e_c, E=E: AND(e.time > e_c.time,
-                                                                                     forall(E, lambda e_prime1,
-                                                                                                      e=e_c: e_prime1.time <= e.time)
-                                                                                     ))
-                                               )
+    first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
+                         AND(
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             e.time >= e_first.time
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                             e.time <= e_last.time
+                                                             )),
+                         )) for E in Actions if E is not Measure]
 
-                        ) for E in Actions if E is not Measure]
-
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
+                      consistency_inv(Action_Mapping))
     output = ""
     adj_hl = []
     conflict_res = False
@@ -1016,26 +1045,35 @@ def get_measure_inv(Measure, Actions):
 def consistency_inv(Action_Mapping):
     constraints = []
     for Act_name, Act in Action_Mapping.items():
-        if Act_name  != "Measure":
-            neg_ACT =  NEG_Relations[Act_name]
+        if Act_name != "Measure":
+            neg_ACT = NEG_Relations[Act_name]
             constraints.append(forall_relation([Act, neg_ACT], lambda e, not_e:
-                                      NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
-                                      ))
+            NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
+                                               ))
 
     return AND(constraints)
 
-def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False, to_print=True,
-              multi_entry=False, profiling=True):
-    Measure = Action_Mapping["Measure"]
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))), consistency_inv(Action_Mapping))
-    first_inv = [forall(E, lambda e_c, E=E: OR(forall(E, lambda e_prime, e_c=e_c: e_prime.time <= e_c.time),
-                                               exists(E, lambda e, e_c=e_c, E=E: AND(e.time > e_c.time,
-                                                                                     forall(E, lambda e_prime1,
-                                                                                                      e=e_c: e_prime1.time <= e.time)
-                                                                                     ))
-                                               )
 
-                        ) for E in Actions if E is not Measure]
+def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
+              to_print=True,
+              multi_entry=False, profiling=True):
+    global csv_file
+    dir, name = ntpath.split((filename))
+    path = "{}/{}/{}/{}".format(os.getcwd(), dir, name, mode).replace(".sleec", "")
+    if not os.path.isdir(path):
+        os.makedirs(path)
+    Measure = Action_Mapping["Measure"]
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
+                      consistency_inv(Action_Mapping))
+    first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
+                         AND(
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             e.time >= e_first.time
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                             e.time <= e_last.time
+                                                             )),
+                         )) for E in Actions if E is not Measure]
 
     multi_output = []
 
@@ -1047,6 +1085,8 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
         profiling_file = open("profiling_red.csv", 'w')
         profiling_file.write(
             "raw_finish_time, proof_generation_time, proof_checking_time, raw_proof_size, raw_derivation_steps, trimmed_proof_size, trimmed_derivation_steps\n")
+
+    csv_file = open(common.CSV_FILE, 'a')
     for i in range(len(rules)):
 
         if multi_entry:
@@ -1061,10 +1101,12 @@ def check_red(model, rules, relations, Action_Mapping, Actions, model_str="", ch
         rule = rules[i]
         others = rules[0:i] + rules[i + 1:]
 
-        solve([rule.get_neg_rule()] +
-              [r.get_rule() for r in others] + relations_constraint +
-              [measure_inv] + first_inv, output_file="red_{}.smt2".format(i))
+        result, duration = solve([rule.get_neg_rule()] +
+                                 [r.get_rule() for r in others] + relations_constraint +
+                                 [measure_inv] + first_inv, output_file="{}/{:02}.smt2".format(path, i))
+        csv_file.write("{},{},{},{},{}\n".format(filename, mode, i, result, duration))
         print("*" * 100)
+    csv_file.close()
 
 
 def reset_rules(rules):
