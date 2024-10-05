@@ -638,11 +638,11 @@ def solve(constraints, output_file=""):
     setOption(solver, "produce-models", "true")
     setOption(solver, "finite-model-find", "true")
     setOption(solver, "check-models", "true")
-    setOption(solver, "sets-ext", "true")
+    setOption(solver, "sets-exp", "true")
     setOption(solver, "dag-thresh", "0")
     setOption(solver, "uf-lazy-ll", "true")
     setOption(solver, "fmf-bound", "true")
-    setOption(solver, "tlimit-per", "100000")
+    setOption(solver, "tlimit-per", "20000")
 
     if output_file:
         out = open(output_file, 'w')
@@ -676,7 +676,8 @@ def solve(constraints, output_file=""):
 
     start = time.time()
     result = solver.checkSat()
-    print("trail {}".format(time.time() - start))
+    duration = time.time() - start
+    print("trail {}".format(duration))
 
     # solver.dump("test.smt2)
     # output
@@ -690,7 +691,7 @@ def solve(constraints, output_file=""):
     if output_file:
         out.close()
 
-    return result
+    return (result, duration)
 
 #
 # def find_nat_constraints():
@@ -736,6 +737,8 @@ def make_tuple(*arg):
         return tm.mkTuple([val(arg) for arg in proper_arg])
 
 
+# forall = forall_relation
+# exists = exists_relation
 forall = forall_quantifier
 exists = exists_quantifier
 
