@@ -1,5 +1,5 @@
 check rule_1
-trail 0.5358901023864746
+trail 0.6137011051177979
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -117,7 +117,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_2
-trail 0.5794334411621094
+trail 0.9230692386627197
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -230,12 +230,12 @@ EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
 userDistressed     = (set.singleton (tuple 2))
 buildingFloor     = (set.singleton (tuple 0))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true false 2 true false true true true true true true true true true 0 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+Measure     = (set.singleton (tuple 0 true false 2 true false true true true true true true true true true 0 true true true 5 0 true true 0 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_3
-trail 0.44657397270202637
+trail 0.5551073551177979
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -353,7 +353,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true false true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_4
-trail 0.5317585468292236
+trail 0.8846218585968018
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -468,10 +468,10 @@ userDistressed     = (set.singleton (tuple 2))
 buildingFloor     = (set.singleton (tuple 9))
 withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true false true true 2 true true true true true true true 0 0 true true))
+Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true false true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_5
-trail 0.5768685340881348
+trail 1.2343664169311523
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -589,7 +589,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true false 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true false true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_6
-trail 0.4738938808441162
+trail 0.5697221755981445
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -707,7 +707,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_7
-trail 0.5165817737579346
+trail 0.6231033802032471
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -825,7 +825,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_8
-trail 0.47307300567626953
+trail 0.5848424434661865
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -943,7 +943,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_9
-trail 0.45818638801574707
+trail 0.5513882637023926
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1061,7 +1061,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_10
-trail 0.5793414115905762
+trail 0.9310634136199951
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1174,12 +1174,12 @@ EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
 userDistressed     = (set.singleton (tuple 2))
 buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true false 2 true true true true true true true true false true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+Measure     = (set.singleton (tuple 0 true false 2 true true true true true true true true false true true 9 true true true 5 0 true true 0 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_11
-trail 0.46994948387145996
+trail 0.5771026611328125
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1297,7 +1297,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_12
-trail 0.5103964805603027
+trail 0.8337876796722412
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1415,7 +1415,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_13
-trail 0.49921369552612305
+trail 0.8474152088165283
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1533,7 +1533,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_14
-trail 0.5491173267364502
+trail 0.9043734073638916
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1646,12 +1646,12 @@ EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
 userDistressed     = (set.singleton (tuple 2))
 buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true false 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+Measure     = (set.singleton (tuple 0 true false 2 true true true true true true true true true true true 9 true true true 5 0 true true 0 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_15
-trail 0.4564487934112549
+trail 0.5696814060211182
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1769,7 +1769,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_16
-trail 0.468172550201416
+trail 0.5578093528747559
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1887,7 +1887,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_17
-trail 0.4639754295349121
+trail 0.5796406269073486
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2005,7 +2005,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_18
-trail 0.5145492553710938
+trail 0.8474104404449463
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2123,7 +2123,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_19
-trail 0.4599752426147461
+trail 0.5610926151275635
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2241,7 +2241,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true false true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_20
-trail 0.4546537399291992
+trail 0.5606145858764648
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2359,7 +2359,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_21
-trail 0.4703686237335205
+trail 0.5533657073974609
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2477,7 +2477,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_22
-trail 0.461961030960083
+trail 0.5544126033782959
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2595,7 +2595,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_23
-trail 0.4906463623046875
+trail 0.8362686634063721
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2713,7 +2713,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_24
-trail 0.5266387462615967
+trail 1.1987345218658447
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2831,7 +2831,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_25
-trail 0.45700979232788086
+trail 0.5726110935211182
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2949,7 +2949,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_26
-trail 0.4670827388763428
+trail 0.5612356662750244
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3067,7 +3067,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_27
-trail 0.4525763988494873
+trail 0.5616598129272461
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3185,7 +3185,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 4 6 true true))
 ****************************************************************************************************
 check rule_28
-trail 0.5123138427734375
+trail 0.8511860370635986
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3303,7 +3303,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_29
-trail 0.5403158664703369
+trail 0.9128634929656982
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3418,10 +3418,10 @@ userDistressed     = (set.singleton (tuple 2))
 buildingFloor     = (set.singleton (tuple 9))
 withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true false true 0 0 true true))
+Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true false true 0 0 true true))
 ****************************************************************************************************
 check rule_30
-trail 0.4666891098022461
+trail 0.5735890865325928
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3539,7 +3539,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_31
-trail 0.5781764984130859
+trail 1.2612388134002686
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))

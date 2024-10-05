@@ -1,5 +1,5 @@
 check rule_1
-trail 0.47304797172546387
+trail 0.8342010974884033
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -76,7 +76,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.3800368309020996
+trail 0.4110703468322754
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -153,7 +153,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.8083977699279785
+trail 2.663710117340088
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -162,9 +162,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -182,15 +182,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -219,18 +219,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.3657491207122803
+trail 0.44826602935791016
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -307,7 +307,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true false true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-trail 0.8077447414398193
+trail 3.9781711101531982
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -318,7 +318,7 @@ ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (set.singleton (tuple 0))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -336,15 +336,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -380,11 +380,11 @@ UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 false true true true true true true true true true true true true false true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 false true true true true true true true true true true true true false true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.7988133430480957
+trail 3.94901442527771
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -395,7 +395,7 @@ ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (set.singleton (tuple 0))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -413,15 +413,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -457,11 +457,11 @@ UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 false true true true true true true true true true true true true false true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 false true true true true true true true true true true true true false true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.8065054416656494
+trail 3.277477979660034
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -470,7 +470,7 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
 AdjustSamplingRate     = (set.singleton (tuple 0))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
@@ -490,15 +490,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -538,7 +538,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 0.810521125793457
+trail 3.2514231204986572
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -547,7 +547,7 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
 AdjustSamplingRate     = (set.singleton (tuple 0))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
@@ -567,15 +567,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -615,7 +615,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.4718952178955078
+trail 0.7156243324279785
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -634,7 +634,7 @@ EnsureHardwareCompliance     = (as set.empty (Set (Tuple Int)))
 not_EnsureHardwareCompliance     = (as set.empty (Set (Tuple Int Int)))
 EmergencyConfirmed     = (set.singleton (tuple 0))
 not_EmergencyConfirmed     = (as set.empty (Set (Tuple Int Int)))
-CallAmbulance     = (set.singleton (tuple 0))
+CallAmbulance     = (as set.empty (Set (Tuple Int)))
 not_CallAmbulance     = (as set.empty (Set (Tuple Int Int)))
 ObtainEmergencyContact     = (as set.empty (Set (Tuple Int)))
 not_ObtainEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
@@ -687,12 +687,12 @@ not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
+riskLevel     = (set.singleton (tuple 0))
 batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 0 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.4555320739746094
+trail 1.2786552906036377
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -764,12 +764,12 @@ not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
+riskLevel     = (set.singleton (tuple 1))
 batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 1 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.8055825233459473
+trail 2.214517831802368
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -778,9 +778,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -798,15 +798,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -835,18 +835,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.8011829853057861
+trail 2.2497825622558594
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -855,9 +855,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -875,15 +875,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -912,18 +912,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 0.7931797504425049
+trail 3.759845733642578
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -932,9 +932,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -958,9 +958,9 @@ TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -989,18 +989,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true false false false true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true false false false true true true true true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.4200632572174072
+trail 0.761314868927002
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1077,7 +1077,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true false true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.4020218849182129
+trail 0.7224907875061035
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1154,7 +1154,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true false true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 0.5939693450927734
+trail 1.954617977142334
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1231,7 +1231,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.6004836559295654
+trail 1.9315905570983887
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1308,7 +1308,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.602543830871582
+trail 1.9519596099853516
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1385,7 +1385,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.48295092582702637
+trail 1.5658817291259766
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1462,7 +1462,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true false true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 0.8044610023498535
+trail 2.2527523040771484
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1471,9 +1471,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -1491,15 +1491,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -1528,18 +1528,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 0.5128300189971924
+trail 1.1214654445648193
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1616,7 +1616,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.48583292961120605
+trail 1.0163698196411133
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1693,7 +1693,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.41280627250671387
+trail 0.6815798282623291
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1770,7 +1770,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.8726460933685303
+trail 3.396085500717163
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1779,9 +1779,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (set.singleton (tuple 0))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -1799,15 +1799,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -1836,18 +1836,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (set.singleton (tuple 0))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.47367405891418457
+trail 1.005882978439331
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1924,7 +1924,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.47144079208374023
+trail 0.9740290641784668
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2001,7 +2001,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.6123402118682861
+trail 1.919905662536621
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2078,7 +2078,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 0.6068642139434814
+trail 1.9626080989837646
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2155,7 +2155,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_29
-trail 0.8154904842376709
+trail 2.288834810256958
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2164,9 +2164,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (as set.empty (Set (Tuple Int)))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -2184,15 +2184,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -2221,18 +2221,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_30
-trail 0.8976669311523438
+trail 3.436631917953491
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2241,9 +2241,9 @@ ConfirmSensorPlacement     = (set.singleton (tuple 0))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
 ConfirmUsersActivities     = (set.singleton (tuple 0))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
-AdjustServiceTimerate     = (set.singleton (tuple 0))
+AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
-AdjustSamplingRate     = (set.singleton (tuple 0))
+AdjustSamplingRate     = (as set.empty (Set (Tuple Int)))
 not_AdjustSamplingRate     = (as set.empty (Set (Tuple Int Int)))
 CalibrateBSN     = (set.singleton (tuple 0))
 not_CalibrateBSN     = (as set.empty (Set (Tuple Int Int)))
@@ -2261,15 +2261,15 @@ ObtainUserConsentForData     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForData     = (as set.empty (Set (Tuple Int Int)))
 ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 TrackVitals     = (set.singleton (tuple 0))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
-CallCaregiver     = (set.singleton (tuple 0))
+CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
+EnsureEasyStopping     = (set.singleton (tuple 0))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -2298,18 +2298,18 @@ not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
 UserWantsTimeout     = (as set.empty (Set (Tuple Int)))
 not_UserWantsTimeout     = (as set.empty (Set (Tuple Int Int)))
 SystemShutDown     = (as set.empty (Set (Tuple Int)))
-not_SystemShutDown     = (set.singleton (tuple 0 0))
+not_SystemShutDown     = (as set.empty (Set (Tuple Int Int)))
 ObtainRiskLevel     = (set.singleton (tuple 0))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_31
-trail 0.4168381690979004
+trail 0.6639304161071777
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2386,7 +2386,7 @@ batteryConsumption     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_32
-trail 0.473773717880249
+trail 0.9800684452056885
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))

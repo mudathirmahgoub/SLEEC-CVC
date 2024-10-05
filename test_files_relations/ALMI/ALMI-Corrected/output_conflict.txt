@@ -1,5 +1,5 @@
 check rule_1
-trail 0.36745166778564453
+trail 0.5202205181121826
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -89,7 +89,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_2
-trail 0.5083661079406738
+trail 0.9899685382843018
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -102,7 +102,7 @@ MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-InformCaregiver     = (set.singleton (tuple 0))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
@@ -152,11 +152,11 @@ UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
 AllowUserToCook     = (as set.empty (Set (Tuple Int)))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
-GiveSuggestion     = (set.singleton (tuple 0))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
 GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
 not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
-ConsiderUserPractices     = (set.singleton (tuple 0))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
 not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
 UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
 not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
@@ -179,7 +179,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_3
-trail 0.4047424793243408
+trail 1.3785057067871094
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -269,7 +269,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_4
-trail 0.405017614364624
+trail 1.3502798080444336
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -359,7 +359,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_5
-trail 0.30144643783569336
+trail 0.507103443145752
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -449,7 +449,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_6
-trail 0.3327450752258301
+trail 0.7463259696960449
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -539,7 +539,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 false true true true 2 true))
 ****************************************************************************************************
 check rule_7
-trail 0.3411884307861328
+trail 0.7445306777954102
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -629,7 +629,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 false true true true 2 true))
 ****************************************************************************************************
 check rule_8
-trail 0.26869678497314453
+trail 0.32933473587036133
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -719,7 +719,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true false true true 2 true))
 ****************************************************************************************************
 check rule_9
-trail 0.4231405258178711
+trail 1.2268054485321045
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -809,7 +809,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_10
-trail 0.29059815406799316
+trail 0.5024211406707764
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -899,7 +899,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_11
-trail 0.28731679916381836
+trail 0.49817419052124023
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -989,7 +989,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_12
-trail 0.4247100353240967
+trail 1.2134373188018799
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1079,7 +1079,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_13
-trail 0.2894623279571533
+trail 0.4792447090148926
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1169,7 +1169,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_14
-trail 0.4396686553955078
+trail 0.7541372776031494
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1182,7 +1182,7 @@ MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-InformCaregiver     = (set.singleton (tuple 0))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
@@ -1232,11 +1232,11 @@ UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
 AllowUserToCook     = (as set.empty (Set (Tuple Int)))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
-GiveSuggestion     = (set.singleton (tuple 0))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
 GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
 not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
-ConsiderUserPractices     = (set.singleton (tuple 0))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
 not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
 UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
 not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
@@ -1259,7 +1259,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_15
-trail 0.40788769721984863
+trail 0.5282211303710938
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1272,7 +1272,7 @@ MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-InformCaregiver     = (set.singleton (tuple 0))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
@@ -1322,11 +1322,11 @@ UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
 AllowUserToCook     = (as set.empty (Set (Tuple Int)))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
-GiveSuggestion     = (set.singleton (tuple 0))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
 GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
 not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
-ConsiderUserPractices     = (set.singleton (tuple 0))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
 not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
 UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
 not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
@@ -1349,7 +1349,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_16
-trail 0.3620154857635498
+trail 0.9073295593261719
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1439,7 +1439,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_17
-trail 0.5043454170227051
+trail 0.9884200096130371
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1452,7 +1452,7 @@ MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-InformCaregiver     = (set.singleton (tuple 0))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
@@ -1502,11 +1502,11 @@ UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
 AllowUserToCook     = (as set.empty (Set (Tuple Int)))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
-GiveSuggestion     = (set.singleton (tuple 0))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
 GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
 not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
-ConsiderUserPractices     = (set.singleton (tuple 0))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
 not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
 UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
 not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
@@ -1529,7 +1529,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_18
-trail 0.2937948703765869
+trail 0.4834251403808594
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1619,7 +1619,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_19
-trail 0.35320353507995605
+trail 0.9117264747619629
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1709,7 +1709,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_20
-trail 0.2791736125946045
+trail 0.4903590679168701
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1799,7 +1799,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_21
-trail 0.5448846817016602
+trail 1.0232899188995361
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1812,7 +1812,7 @@ MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-InformCaregiver     = (set.singleton (tuple 0))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
@@ -1862,11 +1862,11 @@ UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
 AllowUserToCook     = (as set.empty (Set (Tuple Int)))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
-GiveSuggestion     = (set.singleton (tuple 0))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
 GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
 not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
-ConsiderUserPractices     = (set.singleton (tuple 0))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
 not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
 UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
 not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
@@ -1889,7 +1889,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 false true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_22
-trail 0.28963637351989746
+trail 0.5003437995910645
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1979,7 +1979,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_23
-trail 0.2680380344390869
+trail 0.3528025150299072
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2069,7 +2069,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_24
-trail 0.513120174407959
+trail 0.979576587677002
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2082,7 +2082,7 @@ MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-InformCaregiver     = (set.singleton (tuple 0))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
@@ -2132,11 +2132,11 @@ UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
 AllowUserToCook     = (as set.empty (Set (Tuple Int)))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
-GiveSuggestion     = (set.singleton (tuple 0))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
 GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
 not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
-ConsiderUserPractices     = (set.singleton (tuple 0))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
 not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
 UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
 not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
@@ -2159,7 +2159,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true false true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_25
-trail 0.2956879138946533
+trail 0.4932575225830078
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -2249,7 +2249,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_26
-trail 0.29674577713012695
+trail 0.5009844303131104
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -2339,7 +2339,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_27
-trail 0.33438992500305176
+trail 0.6833341121673584
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2429,7 +2429,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_28
-trail 0.3362700939178467
+trail 0.6707937717437744
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2519,7 +2519,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_29
-trail 0.29385924339294434
+trail 0.5067336559295654
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2609,7 +2609,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_30
-trail 0.2649083137512207
+trail 0.32723331451416016
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2699,7 +2699,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_31
-trail 0.28607702255249023
+trail 0.5134954452514648
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2740,7 +2740,7 @@ FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
 not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
 AskUserIfOK     = (as set.empty (Set (Tuple Int)))
 not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
-InterfereSafely     = (set.singleton (tuple 0))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
 not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
 UserHasLimitation     = (as set.empty (Set (Tuple Int)))
 not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
@@ -2782,14 +2782,14 @@ UpdateInformation     = (as set.empty (Set (Tuple Int)))
 not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
 ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
-UpdateMap     = (as set.empty (Set (Tuple Int)))
+UpdateMap     = (set.singleton (tuple 0))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
 needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+riskLevel     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 1 true))
 ****************************************************************************************************
 check rule_32
-trail 0.3032200336456299
+trail 0.5219674110412598
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2879,7 +2879,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_33
-trail 0.3053443431854248
+trail 0.5103375911712646
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2969,7 +2969,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_34
-trail 0.38034892082214355
+trail 0.9117670059204102
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -3059,7 +3059,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_35
-trail 0.3973860740661621
+trail 0.8945519924163818
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -3149,7 +3149,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_36
-trail 0.3772299289703369
+trail 0.9297511577606201
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))

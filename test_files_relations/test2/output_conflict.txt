@@ -1,9 +1,9 @@
 check rule_1
-trail 1.6602494716644287
-Result     = unsat
+trail 20.011398792266846
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 0.12247490882873535
+trail 0.2693653106689453
 Result     = sat
 time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
 A     = (as set.empty (Set (Tuple Int)))
@@ -15,6 +15,6 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_3
-trail 1.623859167098999
-Result     = unsat
+trail 20.032081127166748
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

@@ -1,13 +1,13 @@
 check rule_1
-trail 20.00029683113098
+trail 20.00027060508728
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 20.00011897087097
+trail 20.000184297561646
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 0.3944685459136963
+trail 0.5216891765594482
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (set.singleton (tuple 0))
@@ -67,11 +67,11 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 20.000415802001953
+trail 20.00016212463379
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.32396936416625977
+trail 0.3748915195465088
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -131,11 +131,11 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 20.00018548965454
+trail 20.00008988380432
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 0.31137728691101074
+trail 0.3798995018005371
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -195,19 +195,19 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 20.00016188621521
+trail 20.000174045562744
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 20.000347137451172
+trail 20.000250816345215
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-trail 20.000141859054565
+trail 20.000229835510254
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 0.3607909679412842
+trail 0.5389811992645264
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -267,7 +267,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.34441423416137695
+trail 0.4748847484588623
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -327,11 +327,11 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 20.00028944015503
+trail 20.00029683113098
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.2912285327911377
+trail 0.39826393127441406
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -391,7 +391,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.2794153690338135
+trail 0.34454870223999023
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -451,11 +451,11 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 20.000131368637085
+trail 20.000149965286255
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 0.39947986602783203
+trail 0.5176920890808105
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -515,11 +515,11 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 20.00012993812561
+trail 20.000253438949585
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 0.352278470993042
+trail 0.4897267818450928
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))

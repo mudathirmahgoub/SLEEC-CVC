@@ -1,61 +1,9 @@
 check rule_1
-trail 1.641355276107788
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (set.singleton (tuple 0))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.000447273254395
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 0.7203547954559326
+trail 1.2390849590301514
 Result     = sat
 time     = (set.singleton (tuple 1))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -111,67 +59,15 @@ eyeMovements     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 1 1 1 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 20.00018286705017
+trail 20.00014901161194
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 1.763146162033081
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (set.singleton (tuple 0))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.00035071372986
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.7147006988525391
+trail 1.3354098796844482
 Result     = sat
 time     = (set.singleton (tuple 1))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -227,71 +123,19 @@ eyeMovements     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 1 1 1 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 20.000150203704834
+trail 20.012427806854248
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 20.000128269195557
+trail 20.000514030456543
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 1.7320201396942139
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (set.singleton (tuple 0))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.00022554397583
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.5164330005645752
+trail 0.6991136074066162
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -347,7 +191,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.5284931659698486
+trail 0.7048814296722412
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -403,11 +247,11 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 20.000465631484985
+trail 20.00014090538025
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 1.14522385597229
+trail 1.4593148231506348
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -463,135 +307,31 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 20.000319242477417
+trail 20.000099420547485
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.5644068717956543
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.000269889831543
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 20.000444173812866
+trail 20.00024724006653
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 20.000426054000854
+trail 20.000354051589966
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 1.7638318538665771
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (set.singleton (tuple 0))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.00048303604126
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 20.000390768051147
+trail 20.000449895858765
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 1.3433582782745361
+trail 1.4479408264160156
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -647,11 +387,11 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 20.000548124313354
+trail 20.000478506088257
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.5909168720245361
+trail 0.8312215805053711
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -707,7 +447,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 1.3252663612365723
+trail 1.4707443714141846
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -763,7 +503,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.5576541423797607
+trail 0.8014817237854004
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -819,119 +559,15 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 1.6998226642608643
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (set.singleton (tuple 0))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.000356197357178
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 1.665595531463623
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (set.singleton (tuple 0))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+trail 20.00014638900757
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
-trail 0.5052266120910645
+trail 0.6121494770050049
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -987,7 +623,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.5777807235717773
+trail 0.7634544372558594
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1043,7 +679,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 0.5370352268218994
+trail 0.7299215793609619
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))

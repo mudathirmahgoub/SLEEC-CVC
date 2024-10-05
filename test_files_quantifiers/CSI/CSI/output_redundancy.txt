@@ -1,25 +1,25 @@
 check rule_1
-trail 20.000290632247925
+trail 20.000166416168213
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 20.000165939331055
+trail 20.00012707710266
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 20.000230073928833
+trail 20.000134229660034
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.000290632247925
+trail 20.000269412994385
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 20.00031352043152
+trail 20.00025773048401
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 0.3585219383239746
+trail 0.41790771484375
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -73,7 +73,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.31937241554260254
+trail 0.36951470375061035
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -127,19 +127,19 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 20.000353574752808
+trail 20.000108003616333
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 20.000185251235962
+trail 20.000500440597534
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-trail 20.000309705734253
+trail 20.000252723693848
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 0.7364592552185059
+trail 1.1401231288909912
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -193,11 +193,11 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 20.000308990478516
+trail 20.000272512435913
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 0.7228732109069824
+trail 1.1298141479492188
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -251,7 +251,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.6651828289031982
+trail 1.053755283355713
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -305,7 +305,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.6490352153778076
+trail 1.0748775005340576
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -359,22 +359,122 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 20.00011682510376
+trail 20.000276803970337
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 20.000314474105835
-Result     = unknown (TIMEOUT)
+trail 2.4668591022491455
+Result     = sat
+time     = (set.singleton (tuple 0))
+RobotMoving     = (as set.empty (Set (Tuple Int)))
+not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
+RobotWorking     = (set.singleton (tuple 0))
+not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
+not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
+RobotStopAction     = (set.singleton (tuple 0))
+not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
+AvoidBumping     = (as set.empty (Set (Tuple Int)))
+not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
+AdjustRoute     = (set.singleton (tuple 0))
+not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
+not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
+AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
+not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
+TrackHumanLocation     = (as set.empty (Set (Tuple Int)))
+not_TrackHumanLocation     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (set.singleton (tuple 0))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanSaysStop     = (as set.empty (Set (Tuple Int)))
+not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
+AskPermission     = (as set.empty (Set (Tuple Int)))
+not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
+MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
+not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
+not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
+PreparingRobot     = (as set.empty (Set (Tuple Int)))
+not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignToRobot     = (as set.empty (Set (Tuple Int)))
+not_AssignToRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignLiability     = (as set.empty (Set (Tuple Int)))
+not_AssignLiability     = (as set.empty (Set (Tuple Int Int)))
+ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
+not_ConsiderAppearance     = (as set.empty (Set (Tuple Int Int)))
+ReportIncident     = (set.union (set.singleton (tuple (- 2))) (set.union (set.singleton (tuple (- 1))) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))))
+not_ReportIncident     = (as set.empty (Set (Tuple Int Int)))
+MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
+not_MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int Int)))
+PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
+not_PrioritizeHumans     = (as set.empty (Set (Tuple Int Int)))
+ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
+not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
+MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
+not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 20.0001060962677
+trail 20.00007963180542
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 20.000092029571533
-Result     = unknown (TIMEOUT)
+trail 2.468425750732422
+Result     = sat
+time     = (set.singleton (tuple 0))
+RobotMoving     = (as set.empty (Set (Tuple Int)))
+not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
+RobotWorking     = (set.singleton (tuple 0))
+not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
+not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
+RobotStopAction     = (set.singleton (tuple 0))
+not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
+AvoidBumping     = (as set.empty (Set (Tuple Int)))
+not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
+AdjustRoute     = (set.singleton (tuple 0))
+not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
+not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
+AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
+not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
+TrackHumanLocation     = (as set.empty (Set (Tuple Int)))
+not_TrackHumanLocation     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (set.singleton (tuple 0))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanSaysStop     = (as set.empty (Set (Tuple Int)))
+not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
+AskPermission     = (as set.empty (Set (Tuple Int)))
+not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
+MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
+not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
+not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
+PreparingRobot     = (as set.empty (Set (Tuple Int)))
+not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignToRobot     = (as set.empty (Set (Tuple Int)))
+not_AssignToRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignLiability     = (as set.empty (Set (Tuple Int)))
+not_AssignLiability     = (as set.empty (Set (Tuple Int Int)))
+ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
+not_ConsiderAppearance     = (as set.empty (Set (Tuple Int Int)))
+ReportIncident     = (set.union (set.singleton (tuple (- 2))) (set.union (set.singleton (tuple (- 1))) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))))
+not_ReportIncident     = (as set.empty (Set (Tuple Int Int)))
+MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
+not_MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int Int)))
+PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
+not_PrioritizeHumans     = (as set.empty (Set (Tuple Int Int)))
+ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
+not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
+MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
+not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 20.000311136245728
+trail 20.000303268432617
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

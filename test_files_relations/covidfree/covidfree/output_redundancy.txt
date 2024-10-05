@@ -1,5 +1,5 @@
 check rule_1
-trail 0.39119815826416016
+trail 0.38018202781677246
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -10,7 +10,7 @@ SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
 not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
 ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
 not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
-UserChoosePronous     = (set.singleton (tuple 0))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
 not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
 SystemConfig     = (set.singleton (tuple 0))
 not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
@@ -18,7 +18,7 @@ SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
-UserConformIsFamilarwithTechnology     = (set.singleton (tuple 0))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
 not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
 SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
 not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
@@ -75,7 +75,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 (- 1) 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_2
-trail 0.27402806282043457
+trail 0.3184990882873535
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -94,7 +94,7 @@ SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
-UserConformIsFamilarwithTechnology     = (set.singleton (tuple 0))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
 not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
 SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
 not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
@@ -151,15 +151,15 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 (- 1) 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_3
-trail 0.4351341724395752
-Result     = unsat
+trail 20.006457567214966
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 0.409898042678833
-Result     = unsat
+trail 20.007808685302734
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.2882239818572998
+trail 0.3269200325012207
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -170,7 +170,7 @@ SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
 not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
 ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
 not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
-UserChoosePronous     = (set.singleton (tuple 0))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
 not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
 SystemConfig     = (set.singleton (tuple 0))
 not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
@@ -235,11 +235,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 71 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_6
-trail 0.08585047721862793
+trail 0.11379218101501465
 Result     = unsat
 ****************************************************************************************************
 check rule_7
-trail 0.8051695823669434
+trail 0.5271205902099609
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -315,7 +315,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_8
-trail 0.25417351722717285
+trail 0.28985023498535156
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -391,7 +391,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_9
-trail 0.3516042232513428
+trail 0.5060908794403076
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -424,7 +424,7 @@ SystemPeroidicCheck     = (set.singleton (tuple 0))
 not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
 SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
-SystemDeleteData     = (set.singleton (tuple 0))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
 AlertUser     = (as set.empty (Set (Tuple Int)))
 not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
@@ -467,7 +467,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 180 0 true true true true true 4))
 ****************************************************************************************************
 check rule_10
-trail 0.36292290687561035
+trail 0.5063605308532715
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -498,7 +498,7 @@ SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
 SystemPeroidicCheck     = (set.singleton (tuple 0))
 not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
-SystemDeleteMessage     = (set.singleton (tuple 0))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
 SystemDeleteData     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
@@ -543,7 +543,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 180 true true true true true 4))
 ****************************************************************************************************
 check rule_11
-trail 0.2503211498260498
+trail 0.2971346378326416
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -619,7 +619,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_12
-trail 0.27855801582336426
+trail 0.33913612365722656
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -695,11 +695,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_13
-trail 0.4152679443359375
-Result     = unsat
+trail 20.00368094444275
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.2534639835357666
+trail 0.2927083969116211
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -775,7 +775,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_15
-trail 0.23141121864318848
+trail 0.27737998962402344
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -851,19 +851,19 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_16
-trail 0.41986894607543945
-Result     = unsat
+trail 20.08477759361267
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 0.42157483100891113
-Result     = unsat
+trail 20.00308656692505
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 0.4122469425201416
-Result     = unsat
+trail 20.021301984786987
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 0.2623145580291748
+trail 0.3119685649871826
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -939,11 +939,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_20
-trail 0.4076683521270752
-Result     = unsat
+trail 20.00233030319214
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.253969669342041
+trail 0.3248434066772461
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1019,7 +1019,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_22
-trail 0.3755760192871094
+trail 0.5269596576690674
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1050,9 +1050,9 @@ SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
 SystemPeroidicCheck     = (set.singleton (tuple 0))
 not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
-SystemDeleteMessage     = (set.singleton (tuple 0))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
-SystemDeleteData     = (set.singleton (tuple 0))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
 AlertUser     = (as set.empty (Set (Tuple Int)))
 not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
@@ -1095,7 +1095,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_23
-trail 0.3710803985595703
+trail 0.38295507431030273
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1126,9 +1126,9 @@ SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
 SystemPeroidicCheck     = (set.singleton (tuple 0))
 not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
-SystemDeleteMessage     = (set.singleton (tuple 0))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
-SystemDeleteData     = (set.singleton (tuple 0))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
 not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
 AlertUser     = (as set.empty (Set (Tuple Int)))
 not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
@@ -1171,11 +1171,83 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_24
-trail 0.788088321685791
-Result     = unsat
+trail 1.0529983043670654
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (set.singleton (tuple 0))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (set.singleton (tuple 0))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 1))
+datatype     = (set.singleton (tuple 4))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true false true 1 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_25
-trail 0.2966322898864746
+trail 0.4018433094024658
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))

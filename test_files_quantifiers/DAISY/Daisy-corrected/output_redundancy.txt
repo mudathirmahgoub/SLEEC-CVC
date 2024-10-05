@@ -1,21 +1,21 @@
 check rule_1
-trail 20.000184059143066
+trail 20.00023078918457
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 20.000516414642334
+trail 20.00047516822815
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 20.000268936157227
+trail 20.000101804733276
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.000663995742798
+trail 20.000338792800903
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.8225643634796143
+trail 0.8523514270782471
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -111,7 +111,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.7890522480010986
+trail 0.9000043869018555
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -207,7 +207,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.6356947422027588
+trail 0.7035732269287109
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -303,11 +303,11 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 20.00068974494934
+trail 20.000531673431396
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.6498391628265381
+trail 0.7236459255218506
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -403,7 +403,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.610126256942749
+trail 0.7011418342590332
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -499,7 +499,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 1.799170732498169
+trail 2.233170986175537
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -595,11 +595,11 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 20.000340938568115
+trail 20.00055480003357
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 0.8118777275085449
+trail 0.847282886505127
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -695,19 +695,111 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 20.000324726104736
+trail 20.000646352767944
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 20.00030207633972
+trail 20.000258922576904
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 20.000473976135254
-Result     = unknown (TIMEOUT)
+trail 2.9338345527648926
+Result     = sat
+time     = (set.singleton (tuple 101))
+MeetingPatient     = (as set.empty (Set (Tuple Int)))
+not_MeetingPatient     = (as set.empty (Set (Tuple Int Int)))
+RobotStopSession     = (as set.empty (Set (Tuple Int)))
+not_RobotStopSession     = (as set.empty (Set (Tuple Int Int)))
+UserEndSession     = (as set.empty (Set (Tuple Int)))
+not_UserEndSession     = (as set.empty (Set (Tuple Int Int)))
+AddressUserName     = (as set.empty (Set (Tuple Int)))
+not_AddressUserName     = (as set.empty (Set (Tuple Int Int)))
+UsePreferredName     = (as set.empty (Set (Tuple Int)))
+not_UsePreferredName     = (as set.empty (Set (Tuple Int Int)))
+AddressSirOrMadam     = (as set.empty (Set (Tuple Int)))
+not_AddressSirOrMadam     = (as set.empty (Set (Tuple Int Int)))
+NotDisclosePersonalInformation     = (as set.empty (Set (Tuple Int)))
+not_NotDisclosePersonalInformation     = (as set.empty (Set (Tuple Int Int)))
+RequestHumanAgent     = (as set.empty (Set (Tuple Int)))
+not_RequestHumanAgent     = (as set.empty (Set (Tuple Int Int)))
+EventX     = (as set.empty (Set (Tuple Int)))
+not_EventX     = (as set.empty (Set (Tuple Int Int)))
+Speaking     = (as set.empty (Set (Tuple Int)))
+not_Speaking     = (as set.empty (Set (Tuple Int Int)))
+UseChoicenLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseChoicenLanguage     = (as set.empty (Set (Tuple Int Int)))
+UseDefaultasEnglish     = (as set.empty (Set (Tuple Int)))
+not_UseDefaultasEnglish     = (as set.empty (Set (Tuple Int Int)))
+InstructionFail     = (as set.empty (Set (Tuple Int)))
+not_InstructionFail     = (as set.empty (Set (Tuple Int Int)))
+RepeatInstruction     = (as set.empty (Set (Tuple Int)))
+not_RepeatInstruction     = (as set.empty (Set (Tuple Int Int)))
+CallSupport     = (as set.empty (Set (Tuple Int)))
+not_CallSupport     = (as set.empty (Set (Tuple Int Int)))
+UserRequestInfo     = (as set.empty (Set (Tuple Int)))
+not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
+ProvideInfo     = (as set.empty (Set (Tuple Int)))
+not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
+InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
+not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
+AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int)))
+not_AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int Int)))
+PreparingExamination     = (as set.empty (Set (Tuple Int)))
+not_PreparingExamination     = (as set.empty (Set (Tuple Int Int)))
+ObtainConsent     = (as set.empty (Set (Tuple Int)))
+not_ObtainConsent     = (as set.empty (Set (Tuple Int Int)))
+ConfirmConsent     = (as set.empty (Set (Tuple Int)))
+not_ConfirmConsent     = (as set.empty (Set (Tuple Int Int)))
+PreparingTasks     = (as set.empty (Set (Tuple Int)))
+not_PreparingTasks     = (as set.empty (Set (Tuple Int Int)))
+CheckUnderstanding     = (as set.empty (Set (Tuple Int)))
+not_CheckUnderstanding     = (as set.empty (Set (Tuple Int Int)))
+UserUnderstands     = (as set.empty (Set (Tuple Int)))
+not_UserUnderstands     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (set.singleton (tuple 101))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+ExamineState     = (set.singleton (tuple 101))
+not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
+ExaminingPatient     = (as set.empty (Set (Tuple Int)))
+not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
+ExaminationContinuable     = (set.singleton (tuple 101))
+not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
+EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
+not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
+EnsureLegalPresence     = (as set.empty (Set (Tuple Int)))
+not_EnsureLegalPresence     = (as set.empty (Set (Tuple Int Int)))
+NotTouchUnnecessarily     = (as set.empty (Set (Tuple Int)))
+not_NotTouchUnnecessarily     = (as set.empty (Set (Tuple Int Int)))
+IdentifyDAISYTrust     = (as set.empty (Set (Tuple Int)))
+not_IdentifyDAISYTrust     = (as set.empty (Set (Tuple Int Int)))
+determineThreshold     = (as set.empty (Set (Tuple Int)))
+not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
+selectDAISYProtocol     = (as set.empty (Set (Tuple Int)))
+not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
+not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
+PresentingReport     = (as set.empty (Set (Tuple Int)))
+not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
+ProvideConfidenceLevel     = (as set.empty (Set (Tuple Int)))
+not_ProvideConfidenceLevel     = (as set.empty (Set (Tuple Int Int)))
+CollectPatientData     = (as set.empty (Set (Tuple Int)))
+not_CollectPatientData     = (as set.empty (Set (Tuple Int Int)))
+TrainDaisy     = (as set.empty (Set (Tuple Int)))
+not_TrainDaisy     = (as set.empty (Set (Tuple Int Int)))
+CollectingTrainingData     = (as set.empty (Set (Tuple Int)))
+not_CollectingTrainingData     = (as set.empty (Set (Tuple Int Int)))
+informDaisyAbilities     = (set.singleton (tuple 101))
+not_informDaisyAbilities     = (as set.empty (Set (Tuple Int Int)))
+CanEndSession     = (as set.empty (Set (Tuple Int)))
+not_CanEndSession     = (as set.empty (Set (Tuple Int Int)))
+CanCallHuman     = (as set.empty (Set (Tuple Int)))
+not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
+ApproachPatient     = (as set.empty (Set (Tuple Int)))
+not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 101 101 true true true true 101 true 101 true true true true true true true true true true true 101 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.671912670135498
+trail 0.722088098526001
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -803,7 +895,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.6441831588745117
+trail 0.7113218307495117
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -899,7 +991,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 1.3334321975708008
+trail 1.7594943046569824
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -995,7 +1087,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 1.3066248893737793
+trail 1.7318942546844482
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1091,7 +1183,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 1.2837862968444824
+trail 1.7274649143218994
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1187,7 +1279,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.6373293399810791
+trail 0.714867353439331
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1283,7 +1375,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 1.2690458297729492
+trail 1.9690406322479248
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1379,7 +1471,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.6499066352844238
+trail 0.7231571674346924
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1475,15 +1567,107 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 20.00087070465088
+trail 20.000641345977783
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
-trail 20.000688552856445
-Result     = unknown (TIMEOUT)
+trail 4.266128063201904
+Result     = sat
+time     = (set.singleton (tuple 101))
+MeetingPatient     = (as set.empty (Set (Tuple Int)))
+not_MeetingPatient     = (as set.empty (Set (Tuple Int Int)))
+RobotStopSession     = (as set.empty (Set (Tuple Int)))
+not_RobotStopSession     = (as set.empty (Set (Tuple Int Int)))
+UserEndSession     = (as set.empty (Set (Tuple Int)))
+not_UserEndSession     = (as set.empty (Set (Tuple Int Int)))
+AddressUserName     = (as set.empty (Set (Tuple Int)))
+not_AddressUserName     = (as set.empty (Set (Tuple Int Int)))
+UsePreferredName     = (as set.empty (Set (Tuple Int)))
+not_UsePreferredName     = (as set.empty (Set (Tuple Int Int)))
+AddressSirOrMadam     = (as set.empty (Set (Tuple Int)))
+not_AddressSirOrMadam     = (as set.empty (Set (Tuple Int Int)))
+NotDisclosePersonalInformation     = (as set.empty (Set (Tuple Int)))
+not_NotDisclosePersonalInformation     = (as set.empty (Set (Tuple Int Int)))
+RequestHumanAgent     = (as set.empty (Set (Tuple Int)))
+not_RequestHumanAgent     = (as set.empty (Set (Tuple Int Int)))
+EventX     = (as set.empty (Set (Tuple Int)))
+not_EventX     = (as set.empty (Set (Tuple Int Int)))
+Speaking     = (as set.empty (Set (Tuple Int)))
+not_Speaking     = (as set.empty (Set (Tuple Int Int)))
+UseChoicenLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseChoicenLanguage     = (as set.empty (Set (Tuple Int Int)))
+UseDefaultasEnglish     = (as set.empty (Set (Tuple Int)))
+not_UseDefaultasEnglish     = (as set.empty (Set (Tuple Int Int)))
+InstructionFail     = (as set.empty (Set (Tuple Int)))
+not_InstructionFail     = (as set.empty (Set (Tuple Int Int)))
+RepeatInstruction     = (as set.empty (Set (Tuple Int)))
+not_RepeatInstruction     = (as set.empty (Set (Tuple Int Int)))
+CallSupport     = (as set.empty (Set (Tuple Int)))
+not_CallSupport     = (as set.empty (Set (Tuple Int Int)))
+UserRequestInfo     = (as set.empty (Set (Tuple Int)))
+not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
+ProvideInfo     = (as set.empty (Set (Tuple Int)))
+not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
+InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
+not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
+AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int)))
+not_AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int Int)))
+PreparingExamination     = (as set.empty (Set (Tuple Int)))
+not_PreparingExamination     = (as set.empty (Set (Tuple Int Int)))
+ObtainConsent     = (as set.empty (Set (Tuple Int)))
+not_ObtainConsent     = (as set.empty (Set (Tuple Int Int)))
+ConfirmConsent     = (as set.empty (Set (Tuple Int)))
+not_ConfirmConsent     = (as set.empty (Set (Tuple Int Int)))
+PreparingTasks     = (as set.empty (Set (Tuple Int)))
+not_PreparingTasks     = (as set.empty (Set (Tuple Int Int)))
+CheckUnderstanding     = (as set.empty (Set (Tuple Int)))
+not_CheckUnderstanding     = (as set.empty (Set (Tuple Int Int)))
+UserUnderstands     = (as set.empty (Set (Tuple Int)))
+not_UserUnderstands     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (set.singleton (tuple 101))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+ExamineState     = (set.singleton (tuple 101))
+not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
+ExaminingPatient     = (as set.empty (Set (Tuple Int)))
+not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
+ExaminationContinuable     = (set.singleton (tuple 101))
+not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
+EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
+not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
+EnsureLegalPresence     = (as set.empty (Set (Tuple Int)))
+not_EnsureLegalPresence     = (as set.empty (Set (Tuple Int Int)))
+NotTouchUnnecessarily     = (as set.empty (Set (Tuple Int)))
+not_NotTouchUnnecessarily     = (as set.empty (Set (Tuple Int Int)))
+IdentifyDAISYTrust     = (set.singleton (tuple 101))
+not_IdentifyDAISYTrust     = (as set.empty (Set (Tuple Int Int)))
+determineThreshold     = (set.singleton (tuple 101))
+not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
+selectDAISYProtocol     = (set.singleton (tuple 101))
+not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
+not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
+PresentingReport     = (as set.empty (Set (Tuple Int)))
+not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
+ProvideConfidenceLevel     = (as set.empty (Set (Tuple Int)))
+not_ProvideConfidenceLevel     = (as set.empty (Set (Tuple Int Int)))
+CollectPatientData     = (as set.empty (Set (Tuple Int)))
+not_CollectPatientData     = (as set.empty (Set (Tuple Int Int)))
+TrainDaisy     = (as set.empty (Set (Tuple Int)))
+not_TrainDaisy     = (as set.empty (Set (Tuple Int Int)))
+CollectingTrainingData     = (as set.empty (Set (Tuple Int)))
+not_CollectingTrainingData     = (as set.empty (Set (Tuple Int Int)))
+informDaisyAbilities     = (as set.empty (Set (Tuple Int)))
+not_informDaisyAbilities     = (as set.empty (Set (Tuple Int Int)))
+CanEndSession     = (as set.empty (Set (Tuple Int)))
+not_CanEndSession     = (as set.empty (Set (Tuple Int Int)))
+CanCallHuman     = (as set.empty (Set (Tuple Int)))
+not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
+ApproachPatient     = (as set.empty (Set (Tuple Int)))
+not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 101 101 true true true true 101 true 101 true true true true true true true true true true true 101 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 1.32316255569458
+trail 1.721219539642334
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1579,7 +1763,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 1.315699577331543
+trail 1.6914339065551758
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1675,7 +1859,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_29
-trail 0.6553809642791748
+trail 0.7145164012908936
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1771,14 +1955,14 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_30
-trail 20.000292778015137
+trail 20.000105381011963
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_31
-trail 20.000458240509033
+trail 20.000508069992065
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_32
-trail 20.000624656677246
+trail 20.00038480758667
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

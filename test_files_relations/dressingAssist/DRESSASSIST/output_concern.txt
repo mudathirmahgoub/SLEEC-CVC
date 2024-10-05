@@ -1,13 +1,13 @@
 check concern_1
-trail 0.7078778743743896
+trail 0.8378396034240723
 Result     = unsat
 ****************************************************************************************************
 check concern_2
-trail 0.7534019947052002
+trail 1.3233840465545654
 Result     = unsat
 ****************************************************************************************************
 check concern_3
-trail 0.5522212982177734
+trail 1.081521987915039
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))

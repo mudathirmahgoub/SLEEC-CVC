@@ -1,10 +1,10 @@
 check rule_1
-trail 0.5875909328460693
+trail 2.1838455200195312
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -52,15 +52,15 @@ TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
 hearRateVariability     = (set.singleton (tuple 2))
 eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.3788449764251709
+trail 0.49974822998046875
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -111,7 +111,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.31154942512512207
+trail 0.8188381195068359
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -167,12 +167,12 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.5281796455383301
+trail 2.1588940620422363
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -220,15 +220,15 @@ TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
 hearRateVariability     = (set.singleton (tuple 2))
 eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_5
-trail 0.35968518257141113
+trail 0.4877321720123291
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -279,7 +279,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.35294580459594727
+trail 0.7865462303161621
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -335,7 +335,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.3450775146484375
+trail 0.7946445941925049
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -391,12 +391,12 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 0.5554707050323486
+trail 2.125471830368042
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -444,10 +444,10 @@ TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
 hearRateVariability     = (set.singleton (tuple 2))
 eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.2755742073059082
+trail 0.45497727394104004
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -503,7 +503,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.2599310874938965
+trail 0.4501309394836426
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -559,12 +559,12 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.5702996253967285
+trail 2.653641700744629
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -612,10 +612,10 @@ TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
 hearRateVariability     = (set.singleton (tuple 2))
 eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true false true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 2 true true true true true false true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.36759471893310547
+trail 0.8906545639038086
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -671,7 +671,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 0.47715306282043457
+trail 2.098604917526245
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -727,7 +727,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true false true true true true true true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.2837951183319092
+trail 0.4574594497680664
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -783,7 +783,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.28968024253845215
+trail 0.48240137100219727
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -839,7 +839,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 0.5550956726074219
+trail 3.8147599697113037
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -891,16 +891,16 @@ not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
 hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true false true true true true true true true))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 2 0 true true true true true true true true true true true false true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.560572624206543
+trail 2.188218832015991
 Result     = sat
 time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (set.singleton (tuple 0))
+RemindUser     = (as set.empty (Set (Tuple Int)))
 not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
 FindInformation     = (as set.empty (Set (Tuple Int)))
 not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
@@ -948,10 +948,10 @@ TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
 hearRateVariability     = (set.singleton (tuple 2))
 eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.3248250484466553
+trail 0.7569844722747803
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -1007,7 +1007,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.379335880279541
+trail 0.943833589553833
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1063,7 +1063,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 0.265636682510376
+trail 0.30654406547546387
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1119,7 +1119,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 0.3318653106689453
+trail 0.6524121761322021
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1175,7 +1175,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.3685126304626465
+trail 0.9100069999694824
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1231,7 +1231,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.3070242404937744
+trail 0.6498322486877441
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1287,7 +1287,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.5476417541503906
+trail 2.9447133541107178
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -1343,7 +1343,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.5243873596191406
+trail 2.9491822719573975
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -1399,7 +1399,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.2461087703704834
+trail 0.2999076843261719
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1455,7 +1455,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.33283352851867676
+trail 0.6582458019256592
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1511,7 +1511,7 @@ eyeMovements     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 0.31629109382629395
+trail 0.7082972526550293
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))

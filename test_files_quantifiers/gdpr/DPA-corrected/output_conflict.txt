@@ -1,5 +1,5 @@
 check rule_1
-trail 0.8987584114074707
+trail 1.1642005443572998
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (set.singleton (tuple 0))
@@ -65,7 +65,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_2
-trail 0.8671538829803467
+trail 1.0693256855010986
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (set.singleton (tuple 0))
@@ -131,27 +131,89 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_3
-trail 20.000493049621582
+trail 20.000670194625854
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.000558853149414
+trail 20.000403881072998
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 20.00033926963806
+trail 20.00058078765869
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 20.00037145614624
+trail 20.000177145004272
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 20.0000958442688
-Result     = unknown (TIMEOUT)
+trail 2.4151463508605957
+Result     = sat
+time     = (set.singleton (tuple 0))
+DPAMade     = (as set.empty (Set (Tuple Int)))
+not_DPAMade     = (as set.empty (Set (Tuple Int Int)))
+EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
+not_EvaluateDPAProcess     = (as set.empty (Set (Tuple Int Int)))
+StartDPAProcess     = (as set.empty (Set (Tuple Int)))
+not_StartDPAProcess     = (as set.empty (Set (Tuple Int Int)))
+DPAComplete     = (as set.empty (Set (Tuple Int)))
+not_DPAComplete     = (as set.empty (Set (Tuple Int Int)))
+DPAIncomplete     = (as set.empty (Set (Tuple Int)))
+not_DPAIncomplete     = (as set.empty (Set (Tuple Int Int)))
+DPATerminate     = (as set.empty (Set (Tuple Int)))
+not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
+DPAUpdate     = (as set.empty (Set (Tuple Int)))
+not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
+ProcessPersonalData     = (set.singleton (tuple 0))
+not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
+RemovePersonalData     = (as set.empty (Set (Tuple Int)))
+not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
+EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+InformController     = (set.singleton (tuple 0))
+not_InformController     = (as set.empty (Set (Tuple Int Int)))
+AssistController     = (as set.empty (Set (Tuple Int)))
+not_AssistController     = (as set.empty (Set (Tuple Int Int)))
+ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
+not_ProvideControllerInformation     = (as set.empty (Set (Tuple Int Int)))
+ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
+not_ObtainControllerConsent     = (as set.empty (Set (Tuple Int Int)))
+InformSubject     = (as set.empty (Set (Tuple Int)))
+not_InformSubject     = (as set.empty (Set (Tuple Int Int)))
+InformSupervisor     = (as set.empty (Set (Tuple Int)))
+not_InformSupervisor     = (as set.empty (Set (Tuple Int Int)))
+TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+DataBreach     = (as set.empty (Set (Tuple Int)))
+not_DataBreach     = (as set.empty (Set (Tuple Int Int)))
+RightsRequested     = (as set.empty (Set (Tuple Int)))
+not_RightsRequested     = (as set.empty (Set (Tuple Int Int)))
+RespondToRequest     = (as set.empty (Set (Tuple Int)))
+not_RespondToRequest     = (as set.empty (Set (Tuple Int Int)))
+AllowAudits     = (as set.empty (Set (Tuple Int)))
+not_AllowAudits     = (as set.empty (Set (Tuple Int Int)))
+HelpAuditors     = (as set.empty (Set (Tuple Int)))
+not_HelpAuditors     = (as set.empty (Set (Tuple Int Int)))
+AuditsOccur     = (as set.empty (Set (Tuple Int)))
+not_AuditsOccur     = (as set.empty (Set (Tuple Int Int)))
+EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
+not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
+PassSecurity     = (as set.empty (Set (Tuple Int)))
+not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
+CanObjectToChange     = (set.singleton (tuple 0))
+not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_8
-trail 1.1762614250183105
+trail 1.6715281009674072
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -217,7 +279,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_9
-trail 1.123525857925415
+trail 1.5767266750335693
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -283,7 +345,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_10
-trail 0.8117489814758301
+trail 1.0076627731323242
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -349,11 +411,11 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_11
-trail 20.000484943389893
+trail 20.000115871429443
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 0.8743257522583008
+trail 1.1533410549163818
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -419,7 +481,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_13
-trail 0.8134889602661133
+trail 1.1091129779815674
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -485,35 +547,35 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_14
-trail 20.000468730926514
+trail 20.00071620941162
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 20.00059938430786
+trail 20.00036120414734
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 20.000550508499146
+trail 20.00169086456299
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 20.00026249885559
+trail 20.00010085105896
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 20.000107526779175
+trail 20.000183820724487
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 20.00065779685974
+trail 20.000120162963867
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 20.00015139579773
+trail 20.0001220703125
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.8795959949493408
+trail 1.2151134014129639
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -579,7 +641,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_22
-trail 0.8196113109588623
+trail 1.125669002532959
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -645,14 +707,76 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_23
-trail 20.000147581100464
+trail 20.000488758087158
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-trail 20.00011396408081
+trail 20.00057864189148
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 20.000125646591187
-Result     = unknown (TIMEOUT)
+trail 2.46134090423584
+Result     = sat
+time     = (set.singleton (tuple 0))
+DPAMade     = (as set.empty (Set (Tuple Int)))
+not_DPAMade     = (as set.empty (Set (Tuple Int Int)))
+EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
+not_EvaluateDPAProcess     = (as set.empty (Set (Tuple Int Int)))
+StartDPAProcess     = (as set.empty (Set (Tuple Int)))
+not_StartDPAProcess     = (as set.empty (Set (Tuple Int Int)))
+DPAComplete     = (as set.empty (Set (Tuple Int)))
+not_DPAComplete     = (as set.empty (Set (Tuple Int Int)))
+DPAIncomplete     = (as set.empty (Set (Tuple Int)))
+not_DPAIncomplete     = (as set.empty (Set (Tuple Int Int)))
+DPATerminate     = (as set.empty (Set (Tuple Int)))
+not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
+DPAUpdate     = (as set.empty (Set (Tuple Int)))
+not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
+ProcessPersonalData     = (set.singleton (tuple 0))
+not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
+RemovePersonalData     = (as set.empty (Set (Tuple Int)))
+not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
+EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+InformController     = (set.singleton (tuple 0))
+not_InformController     = (as set.empty (Set (Tuple Int Int)))
+AssistController     = (as set.empty (Set (Tuple Int)))
+not_AssistController     = (as set.empty (Set (Tuple Int Int)))
+ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
+not_ProvideControllerInformation     = (as set.empty (Set (Tuple Int Int)))
+ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
+not_ObtainControllerConsent     = (as set.empty (Set (Tuple Int Int)))
+InformSubject     = (as set.empty (Set (Tuple Int)))
+not_InformSubject     = (as set.empty (Set (Tuple Int Int)))
+InformSupervisor     = (as set.empty (Set (Tuple Int)))
+not_InformSupervisor     = (as set.empty (Set (Tuple Int Int)))
+TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+DataBreach     = (as set.empty (Set (Tuple Int)))
+not_DataBreach     = (as set.empty (Set (Tuple Int Int)))
+RightsRequested     = (as set.empty (Set (Tuple Int)))
+not_RightsRequested     = (as set.empty (Set (Tuple Int Int)))
+RespondToRequest     = (as set.empty (Set (Tuple Int)))
+not_RespondToRequest     = (as set.empty (Set (Tuple Int Int)))
+AllowAudits     = (as set.empty (Set (Tuple Int)))
+not_AllowAudits     = (as set.empty (Set (Tuple Int Int)))
+HelpAuditors     = (as set.empty (Set (Tuple Int)))
+not_HelpAuditors     = (as set.empty (Set (Tuple Int Int)))
+AuditsOccur     = (as set.empty (Set (Tuple Int)))
+not_AuditsOccur     = (as set.empty (Set (Tuple Int Int)))
+EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
+not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
+PassSecurity     = (as set.empty (Set (Tuple Int)))
+not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
+CanObjectToChange     = (set.singleton (tuple 0))
+not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************

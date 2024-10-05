@@ -1,4 +1,14 @@
 check concern_1
-trail 3.9931910037994385
-Result     = unsat
+trail 1.408198356628418
+Result     = sat
+time     = (set.union (set.singleton (tuple 11)) (set.union (set.singleton (tuple 12)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 11))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.union (set.singleton (tuple 11)) (set.union (set.singleton (tuple 12)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (set.singleton (tuple 11))
+not_D     = (set.singleton (tuple 12 41))
+Measure     = (set.union (set.singleton (tuple 10 11)) (set.union (set.singleton (tuple 0 12)) (set.union (set.singleton (tuple 11 11)) (set.union (set.singleton (tuple 12 12)) (set.singleton (tuple 1 11))))))
 ****************************************************************************************************
