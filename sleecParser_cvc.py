@@ -1047,9 +1047,9 @@ def consistency_inv(Action_Mapping):
     for Act_name, Act in Action_Mapping.items():
         if Act_name != "Measure":
             neg_ACT = NEG_Relations[Act_name]
-            constraints.append(forall_relation([Act, neg_ACT], lambda e, not_e:
+            constraints.append(forall([Act, neg_ACT], lambda e, not_e:
             NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
-                                               ))
+                                      ))
 
     return AND(constraints)
 
