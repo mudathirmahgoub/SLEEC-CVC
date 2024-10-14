@@ -3,6 +3,10 @@ import pandas as pd
 import common
 import cactus
 import numpy as np
+import math 
+
+
+plt.rcParams['text.usetex'] = True
 
 df = pd.read_csv("filters.csv", header=0)
 filters = df["duration"]
@@ -45,8 +49,11 @@ plt.xlabel("cvc5 filters")
 plt.ylabel("LEGOS(z3)")
 plt.title("cvc5 filters vs LEGOS(z3)")
 plt.grid(linestyle="--")
-plt.axline((0, 0), slope=1, color="red")
+plt.axis([0, 20, 0, 20])
+x = np.linspace(0, 20, 1000)
+plt.plot(x, x, color="red")
+#plt.axline((0, 0), slope=1, color="red")
 plt.scatter(filters, z3, marker="x")
-plt.legend(["y=x", "seconds"])
+plt.legend([r'y = x', "seconds"])
 plt.savefig("cvc5_vs_z3.png", bbox_inches="tight")
 
