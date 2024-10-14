@@ -1,5 +1,5 @@
 check rule_1
-trail 0.35611987113952637
+trail 0.621967077255249
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -89,7 +89,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_2
-trail 0.46465373039245605
+trail 0.8240342140197754
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -179,7 +179,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_3
-trail 0.965552806854248
+trail 1.569960355758667
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -269,7 +269,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_4
-trail 0.6685817241668701
+trail 1.1435372829437256
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -359,7 +359,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_5
-trail 0.30907320976257324
+trail 0.5325760841369629
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -449,7 +449,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_6
-trail 0.47861599922180176
+trail 0.8230979442596436
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -539,7 +539,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 false true true true 2 true))
 ****************************************************************************************************
 check rule_7
-trail 0.46488356590270996
+trail 0.8323681354522705
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -629,7 +629,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 false true true true 2 true))
 ****************************************************************************************************
 check rule_8
-trail 0.31102490425109863
+trail 0.5348575115203857
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -719,7 +719,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 false 0 true true true true true true 2 true false true true 2 true))
 ****************************************************************************************************
 check rule_9
-trail 0.6432514190673828
+trail 1.091346263885498
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -809,7 +809,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_10
-trail 0.297086238861084
+trail 0.5306186676025391
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -899,7 +899,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_11
-trail 0.30025482177734375
+trail 0.540651798248291
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -989,7 +989,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_12
-trail 0.6436431407928467
+trail 1.0828304290771484
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1079,7 +1079,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_13
-trail 0.3110830783843994
+trail 0.5356893539428711
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1169,7 +1169,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_14
-trail 0.2924656867980957
+trail 0.5539016723632812
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1259,7 +1259,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_15
-trail 0.33577704429626465
+trail 0.6149332523345947
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1349,7 +1349,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_16
-trail 0.6302473545074463
+trail 1.0806803703308105
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1439,7 +1439,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_17
-trail 0.7058959007263184
+trail 1.1925585269927979
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1529,7 +1529,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_18
-trail 0.3041841983795166
+trail 0.5281381607055664
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1619,7 +1619,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_19
-trail 0.4519665241241455
+trail 0.7717711925506592
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1709,7 +1709,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_20
-trail 0.311720609664917
+trail 0.5445621013641357
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1799,7 +1799,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_21
-trail 0.9392220973968506
+trail 1.5506281852722168
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1889,7 +1889,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 false true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_22
-trail 0.3146944046020508
+trail 0.5510745048522949
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1979,7 +1979,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_23
-trail 0.30135345458984375
+trail 0.5391848087310791
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2069,7 +2069,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_24
-trail 0.9336559772491455
+trail 1.5206191539764404
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2159,7 +2159,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true false true true true 0 true true true true 2 true))
 ****************************************************************************************************
 check rule_25
-trail 0.4624595642089844
+trail 0.7835142612457275
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -2249,7 +2249,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true false true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_26
-trail 0.31755757331848145
+trail 0.5720858573913574
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -2339,7 +2339,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_27
-trail 0.45148730278015137
+trail 0.768573522567749
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2429,7 +2429,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_28
-trail 0.4574611186981201
+trail 0.7702009677886963
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2519,7 +2519,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_29
-trail 0.301943302154541
+trail 0.5278246402740479
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2609,7 +2609,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_30
-trail 0.3099503517150879
+trail 0.5379571914672852
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2699,7 +2699,7 @@ riskLevel     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 1 true))
 ****************************************************************************************************
 check rule_31
-trail 0.32166337966918945
+trail 0.546043872833252
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2789,11 +2789,11 @@ riskLevel     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 1 true))
 ****************************************************************************************************
 check rule_32
-trail 0.9841837882995605
+trail 1.6192584037780762
 Result     = unsat
 ****************************************************************************************************
 check rule_33
-trail 0.48360347747802734
+trail 0.8151123523712158
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2883,7 +2883,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_34
-trail 0.6526577472686768
+trail 1.0751385688781738
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2973,7 +2973,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_35
-trail 0.6394250392913818
+trail 1.0535368919372559
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -3063,7 +3063,7 @@ riskLevel     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_36
-trail 0.6410837173461914
+trail 1.0494105815887451
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))

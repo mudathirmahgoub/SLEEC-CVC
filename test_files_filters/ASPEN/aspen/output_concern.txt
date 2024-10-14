@@ -1,19 +1,15 @@
 check concern_1
-trail 4.214982271194458
-Result     = unsat
+trail 20.000890254974365
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
-trail 4.4148030281066895
-Result     = unsat
+trail 20.007922172546387
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
-trail 2.1193413734436035
-Result     = unsat
-****************************************************************************************************
-check concern_4
-trail 3.5701863765716553
+trail 8.126245737075806
 Result     = sat
-time     = (set.singleton (tuple 0))
+time     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
 not_EncounterHuman     = (as set.empty (Set (Tuple Int Int)))
 HumanNearby     = (as set.empty (Set (Tuple Int)))
@@ -22,27 +18,27 @@ IdentifyActivity     = (as set.empty (Set (Tuple Int)))
 not_IdentifyActivity     = (as set.empty (Set (Tuple Int Int)))
 InformHuman     = (as set.empty (Set (Tuple Int)))
 not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
-InformKeeper     = (as set.empty (Set (Tuple Int)))
+InformKeeper     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
 not_InformKeeper     = (as set.empty (Set (Tuple Int Int)))
 BackUp     = (as set.empty (Set (Tuple Int)))
 not_BackUp     = (as set.empty (Set (Tuple Int Int)))
-ExitArea     = (set.singleton (tuple 0))
+ExitArea     = (set.singleton (tuple 2))
 not_ExitArea     = (as set.empty (Set (Tuple Int Int)))
 PreparingDrone     = (as set.empty (Set (Tuple Int)))
 not_PreparingDrone     = (as set.empty (Set (Tuple Int Int)))
-DeployDrone     = (set.singleton (tuple 0))
+DeployDrone     = (set.singleton (tuple 2))
 not_DeployDrone     = (as set.empty (Set (Tuple Int Int)))
-GroundDrone     = (as set.empty (Set (Tuple Int)))
-not_GroundDrone     = (set.singleton (tuple 0 300))
+GroundDrone     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+not_GroundDrone     = (set.singleton (tuple 2 302))
 ReturnHome     = (as set.empty (Set (Tuple Int)))
 not_ReturnHome     = (as set.empty (Set (Tuple Int Int)))
-MonitorLand     = (set.singleton (tuple 0))
+MonitorLand     = (set.singleton (tuple 2))
 not_MonitorLand     = (as set.empty (Set (Tuple Int Int)))
-MonitorCarbon     = (set.singleton (tuple 0))
+MonitorCarbon     = (set.singleton (tuple 2))
 not_MonitorCarbon     = (as set.empty (Set (Tuple Int Int)))
 CollectSample     = (as set.empty (Set (Tuple Int)))
 not_CollectSample     = (as set.empty (Set (Tuple Int Int)))
-AvoidInterference     = (set.singleton (tuple 0))
+AvoidInterference     = (set.singleton (tuple 2))
 not_AvoidInterference     = (as set.empty (Set (Tuple Int Int)))
 EncounterWildlife     = (as set.empty (Set (Tuple Int)))
 not_EncounterWildlife     = (as set.empty (Set (Tuple Int Int)))
@@ -62,15 +58,15 @@ EnsureCompliance     = (as set.empty (Set (Tuple Int)))
 not_EnsureCompliance     = (as set.empty (Set (Tuple Int Int)))
 carbonFootprint     = (set.singleton (tuple 2))
 benefits     = (set.singleton (tuple 2))
-flightCondition     = (set.singleton (tuple 2))
-battery     = (set.singleton (tuple 0))
+flightCondition     = (set.singleton (tuple 0))
+battery     = (set.singleton (tuple 2))
 store     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 2 true true true false 0 2))
+Measure     = (set.union (set.singleton (tuple 2 true true true true true true true true true 2 2 0 true true true true 2 2)) (set.union (set.singleton (tuple 1 true true true true true true true true true 2 2 0 true true true true 2 2)) (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 2 2))))
 ****************************************************************************************************
-check concern_5
-trail 8.751286745071411
+check concern_4
+trail 8.14933705329895
 Result     = sat
-time     = (set.singleton (tuple 0))
+time     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
 not_EncounterHuman     = (as set.empty (Set (Tuple Int Int)))
 HumanNearby     = (as set.empty (Set (Tuple Int)))
@@ -79,31 +75,31 @@ IdentifyActivity     = (as set.empty (Set (Tuple Int)))
 not_IdentifyActivity     = (as set.empty (Set (Tuple Int Int)))
 InformHuman     = (as set.empty (Set (Tuple Int)))
 not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
-InformKeeper     = (set.singleton (tuple 0))
+InformKeeper     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
 not_InformKeeper     = (as set.empty (Set (Tuple Int Int)))
 BackUp     = (as set.empty (Set (Tuple Int)))
 not_BackUp     = (as set.empty (Set (Tuple Int Int)))
-ExitArea     = (as set.empty (Set (Tuple Int)))
+ExitArea     = (set.singleton (tuple 2))
 not_ExitArea     = (as set.empty (Set (Tuple Int Int)))
-PreparingDrone     = (set.singleton (tuple 0))
+PreparingDrone     = (as set.empty (Set (Tuple Int)))
 not_PreparingDrone     = (as set.empty (Set (Tuple Int Int)))
-DeployDrone     = (set.singleton (tuple 0))
+DeployDrone     = (set.singleton (tuple 2))
 not_DeployDrone     = (as set.empty (Set (Tuple Int Int)))
-GroundDrone     = (set.singleton (tuple 0))
-not_GroundDrone     = (as set.empty (Set (Tuple Int Int)))
+GroundDrone     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+not_GroundDrone     = (set.singleton (tuple 2 302))
 ReturnHome     = (as set.empty (Set (Tuple Int)))
 not_ReturnHome     = (as set.empty (Set (Tuple Int Int)))
-MonitorLand     = (set.singleton (tuple 0))
+MonitorLand     = (set.singleton (tuple 2))
 not_MonitorLand     = (as set.empty (Set (Tuple Int Int)))
-MonitorCarbon     = (set.singleton (tuple 0))
+MonitorCarbon     = (set.singleton (tuple 2))
 not_MonitorCarbon     = (as set.empty (Set (Tuple Int Int)))
 CollectSample     = (as set.empty (Set (Tuple Int)))
 not_CollectSample     = (as set.empty (Set (Tuple Int Int)))
-AvoidInterference     = (set.singleton (tuple 0))
+AvoidInterference     = (set.singleton (tuple 2))
 not_AvoidInterference     = (as set.empty (Set (Tuple Int Int)))
 EncounterWildlife     = (as set.empty (Set (Tuple Int)))
 not_EncounterWildlife     = (as set.empty (Set (Tuple Int Int)))
-UpdateTerritories     = (set.singleton (tuple 0))
+UpdateTerritories     = (as set.empty (Set (Tuple Int)))
 not_UpdateTerritories     = (as set.empty (Set (Tuple Int Int)))
 DeletePictures     = (as set.empty (Set (Tuple Int)))
 not_DeletePictures     = (as set.empty (Set (Tuple Int Int)))
@@ -120,16 +116,73 @@ not_EnsureCompliance     = (as set.empty (Set (Tuple Int Int)))
 carbonFootprint     = (set.singleton (tuple 2))
 benefits     = (set.singleton (tuple 2))
 flightCondition     = (set.singleton (tuple 0))
-battery     = (set.singleton (tuple 1))
-store     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true false true 2 2 0 true true true false 1 1))
+battery     = (set.singleton (tuple 0))
+store     = (set.singleton (tuple 2))
+Measure     = (set.union (set.singleton (tuple 2 true true true true true true true true true 2 2 0 true true true true 0 2)) (set.union (set.singleton (tuple 1 true true true true true true true true true 2 2 0 true true true true 0 2)) (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 0 2))))
+****************************************************************************************************
+check concern_5
+trail 20.04556441307068
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
-trail 2.620011568069458
-Result     = unsat
+trail 8.809852600097656
+Result     = sat
+time     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+EncounterHuman     = (as set.empty (Set (Tuple Int)))
+not_EncounterHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanNearby     = (as set.empty (Set (Tuple Int)))
+not_HumanNearby     = (as set.empty (Set (Tuple Int Int)))
+IdentifyActivity     = (as set.empty (Set (Tuple Int)))
+not_IdentifyActivity     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (as set.empty (Set (Tuple Int)))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+InformKeeper     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+not_InformKeeper     = (as set.empty (Set (Tuple Int Int)))
+BackUp     = (as set.empty (Set (Tuple Int)))
+not_BackUp     = (as set.empty (Set (Tuple Int Int)))
+ExitArea     = (set.singleton (tuple 2))
+not_ExitArea     = (as set.empty (Set (Tuple Int Int)))
+PreparingDrone     = (as set.empty (Set (Tuple Int)))
+not_PreparingDrone     = (as set.empty (Set (Tuple Int Int)))
+DeployDrone     = (set.singleton (tuple 2))
+not_DeployDrone     = (as set.empty (Set (Tuple Int Int)))
+GroundDrone     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+not_GroundDrone     = (set.singleton (tuple 2 302))
+ReturnHome     = (as set.empty (Set (Tuple Int)))
+not_ReturnHome     = (as set.empty (Set (Tuple Int Int)))
+MonitorLand     = (set.singleton (tuple 2))
+not_MonitorLand     = (as set.empty (Set (Tuple Int Int)))
+MonitorCarbon     = (set.singleton (tuple 2))
+not_MonitorCarbon     = (as set.empty (Set (Tuple Int Int)))
+CollectSample     = (as set.empty (Set (Tuple Int)))
+not_CollectSample     = (as set.empty (Set (Tuple Int Int)))
+AvoidInterference     = (set.singleton (tuple 2))
+not_AvoidInterference     = (as set.empty (Set (Tuple Int Int)))
+EncounterWildlife     = (as set.empty (Set (Tuple Int)))
+not_EncounterWildlife     = (as set.empty (Set (Tuple Int Int)))
+UpdateTerritories     = (as set.empty (Set (Tuple Int)))
+not_UpdateTerritories     = (as set.empty (Set (Tuple Int Int)))
+DeletePictures     = (as set.empty (Set (Tuple Int)))
+not_DeletePictures     = (as set.empty (Set (Tuple Int Int)))
+TakePictures     = (as set.empty (Set (Tuple Int)))
+not_TakePictures     = (as set.empty (Set (Tuple Int Int)))
+StoreData     = (as set.empty (Set (Tuple Int)))
+not_StoreData     = (as set.empty (Set (Tuple Int Int)))
+AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
+not_AnonymizeHuman     = (as set.empty (Set (Tuple Int Int)))
+ImplementASPEN     = (as set.empty (Set (Tuple Int)))
+not_ImplementASPEN     = (as set.empty (Set (Tuple Int Int)))
+EnsureCompliance     = (as set.empty (Set (Tuple Int)))
+not_EnsureCompliance     = (as set.empty (Set (Tuple Int Int)))
+carbonFootprint     = (set.singleton (tuple 2))
+benefits     = (set.singleton (tuple 2))
+flightCondition     = (set.singleton (tuple 0))
+battery     = (set.singleton (tuple 2))
+store     = (set.singleton (tuple 2))
+Measure     = (set.union (set.singleton (tuple 2 true true true true true true true true true 2 2 0 true true true true 2 2)) (set.union (set.singleton (tuple 1 true true true true true true true true true 2 2 0 true true true true 2 2)) (set.singleton (tuple 0 true true true true true true true true true 2 2 0 true true true true 2 2))))
 ****************************************************************************************************
 check concern_7
-trail 0.3937568664550781
+trail 0.5847728252410889
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))
@@ -186,7 +239,7 @@ store     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true 2 2 3 true true true true 2 2))
 ****************************************************************************************************
 check concern_8
-trail 0.3708460330963135
+trail 0.5623397827148438
 Result     = sat
 time     = (set.singleton (tuple 0))
 EncounterHuman     = (as set.empty (Set (Tuple Int)))

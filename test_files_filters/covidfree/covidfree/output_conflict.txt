@@ -1,5 +1,5 @@
 check rule_1
-trail 0.3913722038269043
+trail 0.6269166469573975
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -75,7 +75,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 1 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_2
-trail 0.5263314247131348
+trail 0.8941071033477783
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -151,15 +151,15 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 1 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_3
-trail 20.00089979171753
+trail 20.00122857093811
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.00003719329834
+trail 20.00294327735901
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.5379271507263184
+trail 0.856203556060791
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -235,11 +235,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 71 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_6
-trail 20.01054883003235
+trail 20.023488759994507
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 0.3426477909088135
+trail 0.5319380760192871
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -315,11 +315,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 2 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_8
-trail 20.000299215316772
+trail 20.002918243408203
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.7895383834838867
+trail 1.2323758602142334
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -395,7 +395,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 180 0 true true true true true 4))
 ****************************************************************************************************
 check rule_10
-trail 0.7753677368164062
+trail 1.198608636856079
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -471,11 +471,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 180 true true true true true 4))
 ****************************************************************************************************
 check rule_11
-trail 20.000126361846924
+trail 20.000467777252197
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 0.4253368377685547
+trail 0.7099394798278809
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -551,11 +551,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_13
-trail 20.027608156204224
+trail 20.003549098968506
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.6154487133026123
+trail 0.9857678413391113
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -631,7 +631,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_15
-trail 0.5826103687286377
+trail 0.962317943572998
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -707,19 +707,19 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_16
-trail 20.050208568572998
+trail 20.00174307823181
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 20.05823063850403
+trail 20.010491847991943
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 20.0021493434906
+trail 20.001813888549805
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 0.4757356643676758
+trail 0.7472846508026123
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -795,11 +795,11 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_20
-trail 20.00600576400757
+trail 20.005062341690063
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.6211745738983154
+trail 0.9886593818664551
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -875,7 +875,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_22
-trail 0.5837430953979492
+trail 0.9212353229522705
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -951,7 +951,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_23
-trail 0.5671348571777344
+trail 0.9043912887573242
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1027,7 +1027,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_24
-trail 0.3415687084197998
+trail 0.5324192047119141
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1103,7 +1103,7 @@ datatype     = (set.singleton (tuple 4))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 2 0 0 true true true true true 4))
 ****************************************************************************************************
 check rule_25
-trail 0.3300480842590332
+trail 0.532820463180542
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))

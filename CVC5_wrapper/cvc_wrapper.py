@@ -737,10 +737,10 @@ def make_tuple(*arg):
         return tm.mkTuple([val(arg) for arg in proper_arg])
 
 
-# forall = forall_relation
-# exists = exists_relation
-forall = forall_quantifier
-exists = exists_quantifier
+forall = forall_relation
+exists = exists_relation
+# forall = forall_quantifier
+# exists = exists_quantifier
 
 
 def test_relation_map():
