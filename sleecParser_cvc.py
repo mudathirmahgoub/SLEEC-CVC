@@ -1,4 +1,3 @@
-import common
 import ntpath
 import os
 from CVC5_wrapper.sleec_to_cvc import WhenRule, happen_within, otherwise, unless, complie_measure, Concern, \
@@ -620,12 +619,12 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
     Measure = Action_Mapping["Measure"]
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first, E=E: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
-                                                              )),
-                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                                                                   )),
+                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
-                                                             )),
+                                                                  )),
                          )) for E in Actions if E is not Measure]
 
     measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
@@ -634,7 +633,7 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
     adj_hl = []
     concern_raised = False
     relations_constraint = get_relational_constraints(relations)
-    csv_file = open(common.CSV_FILE, 'a')
+    csv_file = open("test.csv", 'a')
     for i in range(len(concerns)):
         if to_print:
             print("check concern_{}".format(i + 1))
@@ -723,12 +722,12 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
 
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first, E=E: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
-                                                              )),
-                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                                                                   )),
+                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
-                                                             )),
+                                                                  )),
                          )) for E in Actions if E is not Measure]
 
     measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
@@ -740,7 +739,7 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
     relations_constraint = get_relational_constraints(relations)
     multi_output = []
 
-    csv_file = open(common.CSV_FILE, 'a')
+    csv_file = open("test", 'a')
     for i in range(len(rules)):
 
         if multi_entry:
@@ -777,12 +776,12 @@ def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, m
     Measure = Action_Mapping["Measure"]
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first, E=E: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
-                                                              )),
-                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                                                                   )),
+                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
-                                                             )),
+                                                                  )),
                          )) for E in Actions if E is not Measure]
 
     measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
@@ -1047,9 +1046,9 @@ def consistency_inv(Action_Mapping):
     for Act_name, Act in Action_Mapping.items():
         if Act_name != "Measure":
             neg_ACT = NEG_Relations[Act_name]
-            constraints.append(forall_relation([Act, neg_ACT], lambda e, not_e:
+            constraints.append(forall_quantifier([Act, neg_ACT], lambda e, not_e:
             NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
-                                               ))
+                                      ))
 
     return AND(constraints)
 
@@ -1067,10 +1066,10 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
                       consistency_inv(Action_Mapping))
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first ,E=E: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
                                                               )),
-                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
+                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
                                                              )),
                          )) for E in Actions if E is not Measure]
@@ -1086,7 +1085,7 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
         profiling_file.write(
             "raw_finish_time, proof_generation_time, proof_checking_time, raw_proof_size, raw_derivation_steps, trimmed_proof_size, trimmed_derivation_steps\n")
 
-    csv_file = open(common.CSV_FILE, 'a')
+    csv_file = open("test", 'a')
     for i in range(len(rules)):
 
         if multi_entry:
