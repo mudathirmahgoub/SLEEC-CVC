@@ -476,6 +476,11 @@ def exists_quantifier(kinds, term_func):
 def exists_relation(kinds, term_func):
     return NOT(forall_relation(kinds, term_func, neg=True))
 
+def set_all(kinds, term_func):
+    return set_filter_quantifier(kinds, term_func, Kind.SET_ALL)
+
+def set_some(kinds, term_func):
+    return set_filter_quantifier(kinds, term_func, Kind.SET_SOME)
 
 def forall_quantifier(kinds, term_func):
     if isinstance(kinds, Relation) or \
@@ -548,6 +553,52 @@ def forall_relation(kinds, term_func, neg=False):
                           merged_relation))
 
             return is_empty(filtered_set)
+
+    assert False
+
+
+
+def set_filter_quantifier(kinds, term_func, quantifier_kind=Kind.SET_ALL):
+    if isinstance(kinds, Relation) or \
+            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+        if isinstance(kinds, Relation):
+            arguments = kinds.get_relation_types()
+            tuple_sort = tm.mkTupleSort(*arguments)
+            new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
+            instance = kinds.new_relational_object(
+                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))])
+            term = term_func(instance)
+            variable_list = tm.mkTerm(Kind.VARIABLE_LIST, new_tuple)
+            lambda_func = tm.mkTerm(Kind.LAMBDA, variable_list, val(term))            
+            formula = val(tm.mkTerm(quantifier_kind, lambda_func,
+                          kinds.relation))
+            return formula
+        else:
+            instances = []
+            merged_relation = tm.mkTerm(Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds]))
+            new_argument_type = []
+
+            for kind in kinds:
+                assert isinstance(kind, Relation)
+                argument_types = kind.get_relation_types()
+                new_argument_type.extend(argument_types)
+
+            tuple_sort = tm.mkTupleSort(*new_argument_type)
+            new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
+            arguments = [cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))]
+
+            current_start = 0
+            for kind in kinds:
+                current_end = current_start + len(kind.get_relation_types())
+                instance = kind.new_relational_object(tuple=arguments[current_start:current_end])
+                instances.append(instance)
+                current_start = current_end
+
+            term = term_func(*instances)
+            lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+            formula = val(tm.mkTerm(quantifier_kind, lambda_func,
+                          merged_relation))            
+            return formula
 
     assert False
 
@@ -737,11 +788,12 @@ def make_tuple(*arg):
         return tm.mkTuple([val(arg) for arg in proper_arg])
 
 
-forall = forall_relation
-exists = exists_relation
+# forall = forall_relation
+# exists = exists_relation
 # forall = forall_quantifier
 # exists = exists_quantifier
-
+forall = set_all
+exists = set_some
 
 def test_relation_map():
     birth = Relation("FATHER", [("parent", integer), ("child", integer)])
