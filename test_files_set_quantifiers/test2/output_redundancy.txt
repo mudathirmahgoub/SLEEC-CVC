@@ -1,0 +1,31 @@
+check rule_1
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test2/redundancy/00.smt2
+trail 0.4579620361328125
+Result     = sat
+time     = (set.union (set.singleton (tuple 10)) (set.union (set.singleton (tuple 0)) (set.singleton (tuple 1))))
+A     = (set.singleton (tuple 0))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (set.singleton (tuple 0 30))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
+****************************************************************************************************
+check rule_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test2/redundancy/01.smt2
+trail 0.1551685333251953
+Result     = sat
+time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 0))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
+****************************************************************************************************
+check rule_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test2/redundancy/02.smt2
+trail 20.10088539123535
+Result     = unknown (TIMEOUT)
+****************************************************************************************************

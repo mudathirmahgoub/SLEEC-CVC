@@ -1,0 +1,52 @@
+check rule_1
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/conflict/00.smt2
+trail 7.780515909194946
+Result     = sat
+time     = (set.union (set.singleton (tuple 5)) (set.singleton (tuple 0)))
+A     = (set.singleton (tuple 0))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 5))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 12))
+not_C     = (set.singleton (tuple 0 11))
+Measure     = (set.union (set.singleton (tuple 5 0)) (set.singleton (tuple 0 19)))
+****************************************************************************************************
+check rule_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/conflict/01.smt2
+trail 0.6439135074615479
+Result     = sat
+time     = (set.union (set.singleton (tuple 0)) (set.singleton (tuple 1)))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 1))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 1))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 1 1))
+****************************************************************************************************
+check rule_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/conflict/02.smt2
+trail 6.110899925231934
+Result     = sat
+time     = (set.union (set.singleton (tuple 26)) (set.union (set.singleton (tuple 17)) (set.union (set.singleton (tuple 19)) (set.singleton (tuple 0)))))
+A     = (set.singleton (tuple 19))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 26))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 31))
+not_C     = (set.singleton (tuple 19 30))
+Measure     = (set.union (set.singleton (tuple 26 19)) (set.singleton (tuple 19 19)))
+****************************************************************************************************
+check rule_4
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/conflict/03.smt2
+trail 8.32731819152832
+Result     = sat
+time     = (set.union (set.singleton (tuple 7)) (set.union (set.singleton (tuple 2)) (set.singleton (tuple 0))))
+A     = (set.singleton (tuple 2))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (set.singleton (tuple 7))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (set.singleton (tuple 14))
+not_C     = (set.singleton (tuple 2 13))
+Measure     = (set.union (set.singleton (tuple 7 2)) (set.singleton (tuple 2 19)))
+****************************************************************************************************

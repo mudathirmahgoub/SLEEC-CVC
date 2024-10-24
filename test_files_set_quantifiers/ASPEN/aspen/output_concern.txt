@@ -1,0 +1,146 @@
+check concern_1
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/00.smt2
+trail 20.92478847503662
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check concern_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/01.smt2
+trail 20.367955684661865
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check concern_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/02.smt2
+trail 20.022253036499023
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check concern_4
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/03.smt2
+trail 20.16604995727539
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check concern_5
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/04.smt2
+trail 20.606515645980835
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check concern_6
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/05.smt2
+trail 20.27979302406311
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check concern_7
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/06.smt2
+trail 0.5755786895751953
+Result     = sat
+time     = (set.singleton (tuple 0))
+EncounterHuman     = (as set.empty (Set (Tuple Int)))
+not_EncounterHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanNearby     = (as set.empty (Set (Tuple Int)))
+not_HumanNearby     = (as set.empty (Set (Tuple Int Int)))
+IdentifyActivity     = (as set.empty (Set (Tuple Int)))
+not_IdentifyActivity     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (as set.empty (Set (Tuple Int)))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+InformKeeper     = (as set.empty (Set (Tuple Int)))
+not_InformKeeper     = (set.singleton (tuple 0 300))
+BackUp     = (as set.empty (Set (Tuple Int)))
+not_BackUp     = (as set.empty (Set (Tuple Int Int)))
+ExitArea     = (as set.empty (Set (Tuple Int)))
+not_ExitArea     = (as set.empty (Set (Tuple Int Int)))
+PreparingDrone     = (as set.empty (Set (Tuple Int)))
+not_PreparingDrone     = (as set.empty (Set (Tuple Int Int)))
+DeployDrone     = (as set.empty (Set (Tuple Int)))
+not_DeployDrone     = (as set.empty (Set (Tuple Int Int)))
+GroundDrone     = (as set.empty (Set (Tuple Int)))
+not_GroundDrone     = (as set.empty (Set (Tuple Int Int)))
+ReturnHome     = (as set.empty (Set (Tuple Int)))
+not_ReturnHome     = (as set.empty (Set (Tuple Int Int)))
+MonitorLand     = (as set.empty (Set (Tuple Int)))
+not_MonitorLand     = (as set.empty (Set (Tuple Int Int)))
+MonitorCarbon     = (as set.empty (Set (Tuple Int)))
+not_MonitorCarbon     = (as set.empty (Set (Tuple Int Int)))
+CollectSample     = (as set.empty (Set (Tuple Int)))
+not_CollectSample     = (as set.empty (Set (Tuple Int Int)))
+AvoidInterference     = (as set.empty (Set (Tuple Int)))
+not_AvoidInterference     = (as set.empty (Set (Tuple Int Int)))
+EncounterWildlife     = (as set.empty (Set (Tuple Int)))
+not_EncounterWildlife     = (as set.empty (Set (Tuple Int Int)))
+UpdateTerritories     = (as set.empty (Set (Tuple Int)))
+not_UpdateTerritories     = (as set.empty (Set (Tuple Int Int)))
+DeletePictures     = (set.singleton (tuple 0))
+not_DeletePictures     = (as set.empty (Set (Tuple Int Int)))
+TakePictures     = (as set.empty (Set (Tuple Int)))
+not_TakePictures     = (as set.empty (Set (Tuple Int Int)))
+StoreData     = (as set.empty (Set (Tuple Int)))
+not_StoreData     = (as set.empty (Set (Tuple Int Int)))
+AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
+not_AnonymizeHuman     = (as set.empty (Set (Tuple Int Int)))
+ImplementASPEN     = (as set.empty (Set (Tuple Int)))
+not_ImplementASPEN     = (as set.empty (Set (Tuple Int Int)))
+EnsureCompliance     = (as set.empty (Set (Tuple Int)))
+not_EnsureCompliance     = (as set.empty (Set (Tuple Int Int)))
+carbonFootprint     = (set.singleton (tuple 0))
+benefits     = (set.singleton (tuple 0))
+flightCondition     = (set.singleton (tuple 0))
+battery     = (set.singleton (tuple 0))
+store     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
+****************************************************************************************************
+check concern_8
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ASPEN/aspen/concern/07.smt2
+trail 0.5570247173309326
+Result     = sat
+time     = (set.singleton (tuple 0))
+EncounterHuman     = (as set.empty (Set (Tuple Int)))
+not_EncounterHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanNearby     = (as set.empty (Set (Tuple Int)))
+not_HumanNearby     = (as set.empty (Set (Tuple Int Int)))
+IdentifyActivity     = (as set.empty (Set (Tuple Int)))
+not_IdentifyActivity     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (as set.empty (Set (Tuple Int)))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+InformKeeper     = (as set.empty (Set (Tuple Int)))
+not_InformKeeper     = (set.singleton (tuple 0 300))
+BackUp     = (as set.empty (Set (Tuple Int)))
+not_BackUp     = (as set.empty (Set (Tuple Int Int)))
+ExitArea     = (as set.empty (Set (Tuple Int)))
+not_ExitArea     = (as set.empty (Set (Tuple Int Int)))
+PreparingDrone     = (as set.empty (Set (Tuple Int)))
+not_PreparingDrone     = (as set.empty (Set (Tuple Int Int)))
+DeployDrone     = (as set.empty (Set (Tuple Int)))
+not_DeployDrone     = (as set.empty (Set (Tuple Int Int)))
+GroundDrone     = (as set.empty (Set (Tuple Int)))
+not_GroundDrone     = (as set.empty (Set (Tuple Int Int)))
+ReturnHome     = (as set.empty (Set (Tuple Int)))
+not_ReturnHome     = (as set.empty (Set (Tuple Int Int)))
+MonitorLand     = (as set.empty (Set (Tuple Int)))
+not_MonitorLand     = (as set.empty (Set (Tuple Int Int)))
+MonitorCarbon     = (as set.empty (Set (Tuple Int)))
+not_MonitorCarbon     = (as set.empty (Set (Tuple Int Int)))
+CollectSample     = (as set.empty (Set (Tuple Int)))
+not_CollectSample     = (as set.empty (Set (Tuple Int Int)))
+AvoidInterference     = (as set.empty (Set (Tuple Int)))
+not_AvoidInterference     = (as set.empty (Set (Tuple Int Int)))
+EncounterWildlife     = (as set.empty (Set (Tuple Int)))
+not_EncounterWildlife     = (as set.empty (Set (Tuple Int Int)))
+UpdateTerritories     = (as set.empty (Set (Tuple Int)))
+not_UpdateTerritories     = (as set.empty (Set (Tuple Int Int)))
+DeletePictures     = (as set.empty (Set (Tuple Int)))
+not_DeletePictures     = (as set.empty (Set (Tuple Int Int)))
+TakePictures     = (as set.empty (Set (Tuple Int)))
+not_TakePictures     = (as set.empty (Set (Tuple Int Int)))
+StoreData     = (as set.empty (Set (Tuple Int)))
+not_StoreData     = (as set.empty (Set (Tuple Int Int)))
+AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
+not_AnonymizeHuman     = (as set.empty (Set (Tuple Int Int)))
+ImplementASPEN     = (as set.empty (Set (Tuple Int)))
+not_ImplementASPEN     = (as set.empty (Set (Tuple Int Int)))
+EnsureCompliance     = (set.singleton (tuple 0))
+not_EnsureCompliance     = (as set.empty (Set (Tuple Int Int)))
+carbonFootprint     = (set.singleton (tuple 0))
+benefits     = (set.singleton (tuple 0))
+flightCondition     = (set.singleton (tuple 0))
+battery     = (set.singleton (tuple 0))
+store     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
+****************************************************************************************************
