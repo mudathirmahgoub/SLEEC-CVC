@@ -1,11 +1,12 @@
 check concern_1
-trail 1.8541474342346191
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/buggy/concern/00.smt2
+trail 0.42759060859680176
 Result     = sat
-time     = (set.singleton (tuple 14))
-DressingStarted     = (set.singleton (tuple 14))
+time     = (set.singleton (tuple 0))
+DressingStarted     = (set.singleton (tuple 0))
 not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
-DressingComplete     = (set.singleton (tuple 14))
-not_DressingComplete     = (set.singleton (tuple 13 13))
+DressingComplete     = (set.singleton (tuple 0))
+not_DressingComplete     = (set.singleton (tuple (- 1) (- 1)))
 DressingAbandoned     = (as set.empty (Set (Tuple Int)))
 not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
 CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
@@ -20,5 +21,5 @@ SupportCalled     = (as set.empty (Set (Tuple Int)))
 not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
 RetryAgreed     = (as set.empty (Set (Tuple Int)))
 not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 14 true 14 true 2))
+Measure     = (set.singleton (tuple 0 true 23 true 0))
 ****************************************************************************************************

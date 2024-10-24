@@ -1,632 +1,140 @@
 check rule_1
-trail 20.00031805038452
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/00.smt2
+trail 20.00114345550537
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 20.000441789627075
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/01.smt2
+trail 20.000951051712036
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 0.5183839797973633
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/02.smt2
+trail 20.001295566558838
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.000413179397583
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/03.smt2
+trail 20.000941038131714
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 20.000405073165894
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/04.smt2
+trail 20.001219034194946
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 20.000407934188843
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/05.smt2
+trail 20.001470804214478
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 20.000110387802124
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/06.smt2
+trail 20.00070548057556
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 20.000139951705933
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/07.smt2
+trail 20.001472234725952
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 0.5426194667816162
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (set.singleton (tuple 0))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/08.smt2
+trail 20.00121569633484
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-trail 0.5332233905792236
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (set.singleton (tuple 0))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/09.smt2
+trail 20.000873804092407
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-trail 20.000539541244507
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/10.smt2
+trail 20.00066089630127
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 1.0394701957702637
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (set.singleton (tuple 0 0))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (set.singleton (tuple 0))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (set.singleton (tuple 0))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (set.singleton (tuple 0))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/11.smt2
+trail 20.001089572906494
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-trail 20.000502586364746
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/12.smt2
+trail 20.001381635665894
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 20.00042223930359
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/13.smt2
+trail 20.001508235931396
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-trail 20.000093460083008
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/14.smt2
+trail 20.00156259536743
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-trail 20.000194787979126
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/15.smt2
+trail 20.001230716705322
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 20.000373125076294
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/16.smt2
+trail 20.001561880111694
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 0.5232625007629395
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/17.smt2
+trail 20.00110960006714
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 20.00027823448181
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/18.smt2
+trail 20.000879287719727
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-trail 20.000375509262085
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/19.smt2
+trail 20.000734329223633
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.7364218235015869
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (set.singleton (tuple 0))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (set.singleton (tuple 0))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/20.smt2
+trail 20.00114679336548
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-trail 1.2796704769134521
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (set.singleton (tuple 0 0))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (set.singleton (tuple 0))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (set.singleton (tuple 0))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (set.singleton (tuple 0))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/21.smt2
+trail 20.001270055770874
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-trail 0.7774436473846436
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (set.singleton (tuple 0))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (set.singleton (tuple 0))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/22.smt2
+trail 20.001628637313843
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-trail 20.00015139579773
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/23.smt2
+trail 20.00113034248352
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-trail 20.00033211708069
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_26
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/24.smt2
 trail 20.000364780426025
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
+check rule_26
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/25.smt2
+trail 20.000859260559082
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
 check rule_27
-trail 0.707848072052002
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (set.singleton (tuple 0))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (set.singleton (tuple 0))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/26.smt2
+trail 20.0010027885437
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_28
-trail 0.6905031204223633
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (as set.empty (Set (Tuple Int)))
-not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-not_RemindUser     = (as set.empty (Set (Tuple Int Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
-UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-not_UserEnters     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffSystem     = (set.singleton (tuple 0))
-not_UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-not_UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-not_PreparingSystem     = (as set.empty (Set (Tuple Int Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
-SystemOn     = (set.singleton (tuple 0))
-not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
-TrackVisionField     = (as set.empty (Set (Tuple Int)))
-not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-not_ShowConsentForm     = (as set.empty (Set (Tuple Int Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade/redundancy/27.smt2
+trail 20.00146794319153
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

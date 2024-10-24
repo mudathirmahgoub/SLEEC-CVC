@@ -1,25 +1,6 @@
 check rule_1
-trail 20.000256538391113
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_2
-trail 20.000270128250122
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_3
-trail 20.000466108322144
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_4
-trail 20.0002121925354
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_5
-trail 20.000340700149536
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_6
-trail 2.3465723991394043
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/00.smt2
+trail 1.0119109153747559
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -32,7 +13,7 @@ ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
 not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
 UserChoosePronous     = (as set.empty (Set (Tuple Int)))
 not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
+SystemConfig     = (set.singleton (tuple 0))
 not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
@@ -40,9 +21,9 @@ SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
 UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
 not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
-SystemRecivingMessageFromClinician     = (set.singleton (tuple 0))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
 not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
-SystemRelayMessageToUser     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
 not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
 SystemDataBreach     = (as set.empty (Set (Tuple Int)))
 not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
@@ -92,14 +73,11 @@ UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 clockTime     = (set.singleton (tuple 0))
 datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+Measure     = (set.singleton (tuple 0 0 0 1 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
-check rule_7
-trail 20.000478982925415
-Result     = unknown (TIMEOUT)
-****************************************************************************************************
-check rule_8
-trail 2.2741916179656982
+check rule_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/01.smt2
+trail 0.8750972747802734
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -110,9 +88,9 @@ SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
 not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
 ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
 not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+UserChoosePronous     = (set.singleton (tuple 0))
 not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
+SystemConfig     = (set.singleton (tuple 0))
 not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
@@ -124,9 +102,9 @@ SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
 not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
 SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
 not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
-SystemDataBreach     = (set.singleton (tuple 0))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
 not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
-SystemInformUserAboutDataBreach     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
 SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
 not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
@@ -172,22 +150,344 @@ UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 clockTime     = (set.singleton (tuple 0))
 datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+Measure     = (set.singleton (tuple 0 0 0 0 (- 1) 0 true true false 0 0 0 true true true true true 0))
+****************************************************************************************************
+check rule_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/02.smt2
+trail 20.000218391418457
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_4
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/03.smt2
+trail 20.00008749961853
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_5
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/04.smt2
+trail 0.8904778957366943
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (set.singleton (tuple 0))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (set.singleton (tuple 0))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 71 0 0 0 0 true true false 0 0 0 true true true true true 0))
+****************************************************************************************************
+check rule_6
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/05.smt2
+trail 20.00891661643982
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_7
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/06.smt2
+trail 0.7251861095428467
+Result     = sat
+time     = (set.singleton (tuple 2))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (set.singleton (tuple 2 2))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (set.singleton (tuple 2))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 2))
+datatype     = (set.singleton (tuple 2))
+Measure     = (set.singleton (tuple 2 0 0 0 0 0 true true false 2 0 0 true true true true true 2))
+****************************************************************************************************
+check rule_8
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/07.smt2
+trail 20.007611751556396
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-trail 20.000333547592163
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/08.smt2
+trail 0.808225154876709
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (set.singleton (tuple 0))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (set.singleton (tuple 0))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 180 0 true true false false true 0))
 ****************************************************************************************************
 check rule_10
-trail 20.000572443008423
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/09.smt2
+trail 0.7805962562561035
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (set.singleton (tuple 0))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (set.singleton (tuple 0))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 180 true true false false true 0))
 ****************************************************************************************************
 check rule_11
-trail 20.006179332733154
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/10.smt2
+trail 20.000148057937622
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 2.292588710784912
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/11.smt2
+trail 1.1873841285705566
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -263,11 +563,13 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_13
-trail 20.00070834159851
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/12.smt2
+trail 20.00019383430481
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 2.225076675415039
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/13.smt2
+trail 1.3070120811462402
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -343,7 +645,8 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_15
-trail 2.240750789642334
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/14.smt2
+trail 1.2854080200195312
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -419,19 +722,23 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_16
-trail 20.007882356643677
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/15.smt2
+trail 20.000244855880737
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 20.000184297561646
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/16.smt2
+trail 20.000122547149658
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 20.000308513641357
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/17.smt2
+trail 20.000102996826172
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 1.0238640308380127
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/18.smt2
+trail 0.7878227233886719
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -507,11 +814,13 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_20
-trail 20.000460863113403
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/19.smt2
+trail 20.000250577926636
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 2.2145962715148926
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/20.smt2
+trail 1.309499979019165
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -587,7 +896,8 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_22
-trail 1.654770851135254
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/21.smt2
+trail 0.7342488765716553
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -642,6 +952,83 @@ SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
 SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true false true true 0))
+****************************************************************************************************
+check rule_23
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/22.smt2
+trail 0.739149808883667
+Result     = sat
+time     = (set.singleton (tuple 0))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (set.singleton (tuple 0))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
 SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
 not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
 UserConsented     = (as set.empty (Set (Tuple Int)))
@@ -660,17 +1047,159 @@ UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 clockTime     = (set.singleton (tuple 0))
 datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
-****************************************************************************************************
-check rule_23
-trail 20.000208139419556
-Result     = unknown (TIMEOUT)
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true false true 0))
 ****************************************************************************************************
 check rule_24
-trail 20.000168800354004
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/23.smt2
+trail 0.7113313674926758
+Result     = sat
+time     = (set.singleton (tuple 2))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (set.singleton (tuple 2))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 2))
+datatype     = (set.singleton (tuple 2))
+Measure     = (set.singleton (tuple 2 0 0 0 0 0 true false true 2 0 0 true true true true true 2))
 ****************************************************************************************************
 check rule_25
-trail 20.000474452972412
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/24.smt2
+trail 0.6933226585388184
+Result     = sat
+time     = (set.singleton (tuple 2))
+AllowSendData     = (as set.empty (Set (Tuple Int)))
+not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
+SystemCollectData     = (as set.empty (Set (Tuple Int)))
+not_SystemCollectData     = (as set.empty (Set (Tuple Int Int)))
+SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
+not_SystemNotifyUser     = (as set.empty (Set (Tuple Int Int)))
+ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
+not_ChangeSystemLanguage     = (as set.empty (Set (Tuple Int Int)))
+UserChoosePronous     = (as set.empty (Set (Tuple Int)))
+not_UserChoosePronous     = (as set.empty (Set (Tuple Int Int)))
+SystemConfig     = (as set.empty (Set (Tuple Int)))
+not_SystemConfig     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int Int)))
+UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
+not_UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int Int)))
+SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
+not_SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int Int)))
+SystemDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int Int)))
+SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
+not_SystemPeroidicCheck     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteMessage     = (as set.empty (Set (Tuple Int Int)))
+SystemDeleteData     = (as set.empty (Set (Tuple Int)))
+not_SystemDeleteData     = (as set.empty (Set (Tuple Int Int)))
+AlertUser     = (as set.empty (Set (Tuple Int)))
+not_AlertUser     = (as set.empty (Set (Tuple Int Int)))
+SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
+not_SystemAccessHealthData     = (as set.empty (Set (Tuple Int Int)))
+SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
+not_SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int Int)))
+SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
+not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
+DataAnonymised     = (as set.empty (Set (Tuple Int)))
+not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUser     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
+SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
+not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
+SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
+not_SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
+not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
+not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
+UserConsented     = (as set.empty (Set (Tuple Int)))
+not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
+UseUserLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
+StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserSubmitData     = (as set.empty (Set (Tuple Int)))
+not_UserSubmitData     = (as set.empty (Set (Tuple Int Int)))
+SystemIntendInformUser     = (set.singleton (tuple 2))
+not_SystemIntendInformUser     = (as set.empty (Set (Tuple Int Int)))
+StopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
+not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
+clockTime     = (set.singleton (tuple 2))
+datatype     = (set.singleton (tuple 2))
+Measure     = (set.singleton (tuple 2 0 0 0 0 0 true false true 2 0 0 true true true true true 2))
 ****************************************************************************************************

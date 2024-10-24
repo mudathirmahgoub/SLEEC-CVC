@@ -1,5 +1,6 @@
 check rule_1
-trail 0.5510537624359131
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/00.smt2
+trail 4.389006853103638
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -87,7 +88,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_2
-trail 0.813840389251709
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/01.smt2
+trail 2.778977870941162
 Result     = sat
 time     = (set.singleton (tuple 2))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -167,23 +169,194 @@ not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
 UpdateInformation     = (set.singleton (tuple 2))
 not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
 ShowDataHistory     = (as set.empty (Set (Tuple Int)))
-not_ShowDataHistory     = (set.singleton (tuple 2 2))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
 needLevel     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 true 2 true true true true true true 2 true true true true 2 true))
+Measure     = (set.singleton (tuple 2 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_3
-trail 20.000272512435913
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/02.smt2
+trail 5.61783242225647
+Result     = sat
+time     = (set.singleton (tuple 0))
+PreparingDeployment     = (as set.empty (Set (Tuple Int)))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (as set.empty (Set (Tuple Int)))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (set.singleton (tuple 0))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (as set.empty (Set (Tuple Int)))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (set.singleton (tuple 0))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (as set.empty (Set (Tuple Int)))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (set.singleton (tuple 0))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (set.singleton (tuple 0))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (as set.empty (Set (Tuple Int)))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_4
-trail 20.0001277923584
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/03.smt2
+trail 5.632779359817505
+Result     = sat
+time     = (set.singleton (tuple 0))
+PreparingDeployment     = (as set.empty (Set (Tuple Int)))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (as set.empty (Set (Tuple Int)))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (set.singleton (tuple 0))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (set.singleton (tuple 0))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (as set.empty (Set (Tuple Int)))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (set.singleton (tuple 0))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (as set.empty (Set (Tuple Int)))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (as set.empty (Set (Tuple Int)))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_5
-trail 0.61189866065979
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/04.smt2
+trail 4.175163745880127
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -271,17 +444,188 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_6
-trail 20.000203371047974
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/05.smt2
+trail 1.463630199432373
+Result     = sat
+time     = (set.singleton (tuple 0))
+PreparingDeployment     = (as set.empty (Set (Tuple Int)))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (as set.empty (Set (Tuple Int)))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (as set.empty (Set (Tuple Int)))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (set.singleton (tuple 0))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (as set.empty (Set (Tuple Int)))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (as set.empty (Set (Tuple Int)))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (as set.empty (Set (Tuple Int)))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (as set.empty (Set (Tuple Int)))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 false 0 true true true true true true 0 true false true true 0 true))
 ****************************************************************************************************
 check rule_7
-trail 20.000245094299316
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/06.smt2
+trail 4.352172136306763
+Result     = sat
+time     = (set.singleton (tuple 0))
+PreparingDeployment     = (as set.empty (Set (Tuple Int)))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (as set.empty (Set (Tuple Int)))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (as set.empty (Set (Tuple Int)))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (set.singleton (tuple 0))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (as set.empty (Set (Tuple Int)))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (set.singleton (tuple 0))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (as set.empty (Set (Tuple Int)))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true false true 0 true))
 ****************************************************************************************************
 check rule_8
-trail 0.6641921997070312
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/07.smt2
+trail 7.012711524963379
 Result     = sat
-time     = (set.singleton (tuple 2))
+time     = (set.singleton (tuple 1))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
 not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
 AgentDeployed     = (as set.empty (Set (Tuple Int)))
@@ -338,7 +682,7 @@ BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
 not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
 UserWantsToCook     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
-AllowUserToCook     = (set.singleton (tuple 2))
+AllowUserToCook     = (set.singleton (tuple 1))
 not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
 GiveSuggestion     = (as set.empty (Set (Tuple Int)))
 not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
@@ -362,12 +706,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 true 2 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 1))
+riskLevel     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 1 true 0 true true true true true true 1 true true true true 1 true))
 ****************************************************************************************************
 check rule_9
-trail 0.5422310829162598
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/08.smt2
+trail 4.233504295349121
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -455,7 +800,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_10
-trail 1.0150320529937744
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/09.smt2
+trail 4.322890520095825
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -494,7 +840,7 @@ FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
 not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
 AskUserIfOK     = (as set.empty (Set (Tuple Int)))
 not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
-InterfereSafely     = (set.singleton (tuple 0))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
 not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
 UserHasLimitation     = (as set.empty (Set (Tuple Int)))
 not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
@@ -540,10 +886,11 @@ UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
 needLevel     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true false true 0 true))
 ****************************************************************************************************
 check rule_11
-trail 0.5530717372894287
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/10.smt2
+trail 2.391525983810425
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -631,7 +978,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_12
-trail 0.5436019897460938
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/11.smt2
+trail 4.234372854232788
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -719,7 +1067,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_13
-trail 0.7593817710876465
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/12.smt2
+trail 4.313427686691284
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -807,7 +1156,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_14
-trail 1.0018255710601807
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/13.smt2
+trail 4.504596710205078
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -895,7 +1245,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_15
-trail 1.305898666381836
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/14.smt2
+trail 3.122429132461548
 Result     = sat
 time     = (set.singleton (tuple 2))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -975,15 +1326,16 @@ not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
 UpdateInformation     = (as set.empty (Set (Tuple Int)))
 not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
 ShowDataHistory     = (as set.empty (Set (Tuple Int)))
-not_ShowDataHistory     = (set.singleton (tuple 2 2))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
 needLevel     = (set.singleton (tuple 2))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 true 2 true true true true true true 2 true true true true 2 true))
+Measure     = (set.singleton (tuple 2 true 0 true true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_16
-trail 0.5563557147979736
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/15.smt2
+trail 4.144557476043701
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1071,7 +1423,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_17
-trail 0.7289979457855225
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/16.smt2
+trail 4.254542350769043
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1159,7 +1512,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_18
-trail 0.5724978446960449
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/17.smt2
+trail 4.120216369628906
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1247,11 +1601,97 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_19
-trail 20.000145196914673
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/18.smt2
+trail 2.9104363918304443
+Result     = sat
+time     = (set.singleton (tuple 2))
+PreparingDeployment     = (as set.empty (Set (Tuple Int)))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (set.singleton (tuple 2))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (set.singleton (tuple 2))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (as set.empty (Set (Tuple Int)))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (set.singleton (tuple 2))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (as set.empty (Set (Tuple Int)))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (set.singleton (tuple 2))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 2))
+riskLevel     = (set.singleton (tuple 2))
+Measure     = (set.singleton (tuple 2 true 0 false true true true true true 2 true true true true 2 true))
 ****************************************************************************************************
 check rule_20
-trail 0.5660462379455566
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/19.smt2
+trail 2.322986125946045
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1339,7 +1779,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_21
-trail 0.5472662448883057
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/20.smt2
+trail 4.19992733001709
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1427,15 +1868,186 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_22
-trail 20.000229835510254
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/21.smt2
+trail 1.9876701831817627
+Result     = sat
+time     = (set.singleton (tuple 0))
+PreparingDeployment     = (as set.empty (Set (Tuple Int)))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (set.singleton (tuple 0))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (set.singleton (tuple 0))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (as set.empty (Set (Tuple Int)))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (set.singleton (tuple 0))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (as set.empty (Set (Tuple Int)))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (set.singleton (tuple 0))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true false true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_23
-trail 20.000167846679688
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/22.smt2
+trail 2.4468770027160645
+Result     = sat
+time     = (set.singleton (tuple 0))
+PreparingDeployment     = (set.singleton (tuple 0))
+not_PreparingDeployment     = (as set.empty (Set (Tuple Int Int)))
+AgentDeployed     = (as set.empty (Set (Tuple Int)))
+not_AgentDeployed     = (as set.empty (Set (Tuple Int Int)))
+MeetingUser     = (as set.empty (Set (Tuple Int)))
+not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (as set.empty (Set (Tuple Int)))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+InformCaregiver     = (as set.empty (Set (Tuple Int)))
+not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
+CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
+not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
+RemindLater     = (as set.empty (Set (Tuple Int)))
+not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
+AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
+not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
+AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
+not_AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int Int)))
+UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
+not_UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int Int)))
+CalibrateSpeech     = (set.singleton (tuple 0))
+not_CalibrateSpeech     = (as set.empty (Set (Tuple Int Int)))
+RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_RemindUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_AskForEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+HumanOnFloor     = (as set.empty (Set (Tuple Int)))
+not_HumanOnFloor     = (as set.empty (Set (Tuple Int Int)))
+SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
+not_SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int Int)))
+OpenWindows     = (as set.empty (Set (Tuple Int)))
+not_OpenWindows     = (as set.empty (Set (Tuple Int Int)))
+FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
+not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
+AskUserIfOK     = (as set.empty (Set (Tuple Int)))
+not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
+not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
+UserHasLimitation     = (as set.empty (Set (Tuple Int)))
+not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
+CheckTemperature     = (as set.empty (Set (Tuple Int)))
+not_CheckTemperature     = (as set.empty (Set (Tuple Int Int)))
+FoodPreparation     = (as set.empty (Set (Tuple Int)))
+not_FoodPreparation     = (as set.empty (Set (Tuple Int Int)))
+TrackTime     = (as set.empty (Set (Tuple Int)))
+not_TrackTime     = (as set.empty (Set (Tuple Int Int)))
+UserUnpredictable     = (as set.empty (Set (Tuple Int)))
+not_UserUnpredictable     = (as set.empty (Set (Tuple Int Int)))
+GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
+not_GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int Int)))
+MonitorMealTime     = (as set.empty (Set (Tuple Int)))
+not_MonitorMealTime     = (as set.empty (Set (Tuple Int Int)))
+BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
+not_BeforeCookingBegins     = (as set.empty (Set (Tuple Int Int)))
+UserWantsToCook     = (as set.empty (Set (Tuple Int)))
+not_UserWantsToCook     = (as set.empty (Set (Tuple Int Int)))
+AllowUserToCook     = (as set.empty (Set (Tuple Int)))
+not_AllowUserToCook     = (as set.empty (Set (Tuple Int Int)))
+GiveSuggestion     = (as set.empty (Set (Tuple Int)))
+not_GiveSuggestion     = (as set.empty (Set (Tuple Int Int)))
+GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
+not_GivingCookingInstructions     = (as set.empty (Set (Tuple Int Int)))
+ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
+not_ConsiderUserPractices     = (as set.empty (Set (Tuple Int Int)))
+UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
+not_UserChangeItemLocation     = (as set.empty (Set (Tuple Int Int)))
+UserChangeMind     = (as set.empty (Set (Tuple Int)))
+not_UserChangeMind     = (as set.empty (Set (Tuple Int Int)))
+RecalculateApproach     = (as set.empty (Set (Tuple Int)))
+not_RecalculateApproach     = (as set.empty (Set (Tuple Int Int)))
+ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
+not_ProvideDataSummaries     = (as set.empty (Set (Tuple Int Int)))
+CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
+not_CollectandRecordInformation     = (as set.empty (Set (Tuple Int Int)))
+UpdateInformation     = (as set.empty (Set (Tuple Int)))
+not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
+ShowDataHistory     = (as set.empty (Set (Tuple Int)))
+not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
+not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true false true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_24
-trail 0.6746020317077637
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/23.smt2
+trail 4.26069450378418
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -1523,7 +2135,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_25
-trail 0.7133538722991943
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/24.smt2
+trail 4.248910665512085
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1611,7 +2224,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_26
-trail 0.7096667289733887
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/25.smt2
+trail 4.230395793914795
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1699,7 +2313,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_27
-trail 0.5416319370269775
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/26.smt2
+trail 4.037869691848755
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1787,7 +2402,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_28
-trail 0.558535099029541
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/27.smt2
+trail 4.072491645812988
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1875,7 +2491,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_29
-trail 0.5648324489593506
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/28.smt2
+trail 4.151054620742798
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1963,7 +2580,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_30
-trail 0.556067943572998
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/29.smt2
+trail 4.123153924942017
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2051,7 +2669,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_31
-trail 0.8461418151855469
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/30.smt2
+trail 4.36287260055542
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2139,7 +2758,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_32
-trail 0.81439208984375
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/31.smt2
+trail 4.290953874588013
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2227,7 +2847,8 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_33
-trail 0.8123693466186523
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/redundancy/32.smt2
+trail 4.249382495880127
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))

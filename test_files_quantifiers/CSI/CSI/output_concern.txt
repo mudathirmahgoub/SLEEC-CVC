@@ -1,5 +1,6 @@
 check concern_1
-trail 1.4833838939666748
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/00.smt2
+trail 2.109433174133301
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -8,7 +9,7 @@ RobotWorking     = (set.singleton (tuple 0))
 not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
 RobotContinueTask     = (set.singleton (tuple 0))
 not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
-RobotStopAction     = (set.singleton (tuple 0))
+RobotStopAction     = (as set.empty (Set (Tuple Int)))
 not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
 AvoidBumping     = (as set.empty (Set (Tuple Int)))
 not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
@@ -38,7 +39,7 @@ AssignLiability     = (as set.empty (Set (Tuple Int)))
 not_AssignLiability     = (as set.empty (Set (Tuple Int Int)))
 ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
 not_ConsiderAppearance     = (as set.empty (Set (Tuple Int Int)))
-ReportIncident     = (set.singleton (tuple 0))
+ReportIncident     = (as set.empty (Set (Tuple Int)))
 not_ReportIncident     = (as set.empty (Set (Tuple Int Int)))
 MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
 not_MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int Int)))
@@ -50,18 +51,71 @@ MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
 risk     = (set.singleton (tuple 0))
 efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+Measure     = (set.singleton (tuple 0 true false true true true true 0 0 true true false true false))
 ****************************************************************************************************
 check concern_2
-trail 20.0002338886261
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/01.smt2
+trail 20.0004825592041
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
-trail 20.000215530395508
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/02.smt2
+trail 1.180236577987671
+Result     = sat
+time     = (set.singleton (tuple 0))
+RobotMoving     = (set.singleton (tuple 0))
+not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
+RobotWorking     = (as set.empty (Set (Tuple Int)))
+not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
+not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
+RobotStopAction     = (as set.empty (Set (Tuple Int)))
+not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
+AvoidBumping     = (set.singleton (tuple 0))
+not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
+AdjustRoute     = (as set.empty (Set (Tuple Int)))
+not_AdjustRoute     = (set.singleton (tuple 0 0))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
+not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
+AccountHumanRandomness     = (set.singleton (tuple 0))
+not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
+TrackHumanLocation     = (set.singleton (tuple 0))
+not_TrackHumanLocation     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (as set.empty (Set (Tuple Int)))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanSaysStop     = (as set.empty (Set (Tuple Int)))
+not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
+AskPermission     = (as set.empty (Set (Tuple Int)))
+not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
+MoveAtSafeSpeed     = (set.singleton (tuple 0))
+not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
+not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
+PreparingRobot     = (as set.empty (Set (Tuple Int)))
+not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignToRobot     = (as set.empty (Set (Tuple Int)))
+not_AssignToRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignLiability     = (as set.empty (Set (Tuple Int)))
+not_AssignLiability     = (as set.empty (Set (Tuple Int Int)))
+ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
+not_ConsiderAppearance     = (as set.empty (Set (Tuple Int Int)))
+ReportIncident     = (as set.empty (Set (Tuple Int)))
+not_ReportIncident     = (as set.empty (Set (Tuple Int Int)))
+MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
+not_MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int Int)))
+PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
+not_PrioritizeHumans     = (as set.empty (Set (Tuple Int Int)))
+ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
+not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
+MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
+not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
+risk     = (set.singleton (tuple 1))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 false false false false false true 1 0 true true true true true))
 ****************************************************************************************************
 check concern_4
-trail 0.4359548091888428
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/03.smt2
+trail 3.214132785797119
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -115,11 +169,63 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_5
-trail 20.00027871131897
-Result     = unknown (TIMEOUT)
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/04.smt2
+trail 1.0503997802734375
+Result     = sat
+time     = (set.singleton (tuple 0))
+RobotMoving     = (set.singleton (tuple 0))
+not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
+RobotWorking     = (as set.empty (Set (Tuple Int)))
+not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
+not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
+RobotStopAction     = (as set.empty (Set (Tuple Int)))
+not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
+AvoidBumping     = (set.singleton (tuple 0))
+not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
+AdjustRoute     = (as set.empty (Set (Tuple Int)))
+not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
+not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
+AccountHumanRandomness     = (set.singleton (tuple 0))
+not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
+TrackHumanLocation     = (set.singleton (tuple 0))
+not_TrackHumanLocation     = (as set.empty (Set (Tuple Int Int)))
+InformHuman     = (as set.empty (Set (Tuple Int)))
+not_InformHuman     = (as set.empty (Set (Tuple Int Int)))
+HumanSaysStop     = (as set.empty (Set (Tuple Int)))
+not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
+AskPermission     = (as set.empty (Set (Tuple Int)))
+not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
+MoveAtSafeSpeed     = (set.singleton (tuple 0))
+not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
+not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
+PreparingRobot     = (as set.empty (Set (Tuple Int)))
+not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignToRobot     = (as set.empty (Set (Tuple Int)))
+not_AssignToRobot     = (as set.empty (Set (Tuple Int Int)))
+AssignLiability     = (as set.empty (Set (Tuple Int)))
+not_AssignLiability     = (as set.empty (Set (Tuple Int Int)))
+ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
+not_ConsiderAppearance     = (as set.empty (Set (Tuple Int Int)))
+ReportIncident     = (as set.empty (Set (Tuple Int)))
+not_ReportIncident     = (as set.empty (Set (Tuple Int Int)))
+MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
+not_MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int Int)))
+PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
+not_PrioritizeHumans     = (as set.empty (Set (Tuple Int Int)))
+ActionHumanRandom     = (set.singleton (tuple 0))
+not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
+MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
+not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
+risk     = (set.singleton (tuple 1))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 false false false false true true 1 0 true true true true true))
 ****************************************************************************************************
 check concern_6
-trail 0.3889658451080322
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/05.smt2
+trail 1.2474899291992188
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -173,7 +279,8 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_7
-trail 0.36251139640808105
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/06.smt2
+trail 1.2528038024902344
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -227,6 +334,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_8
-trail 20.00032901763916
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/07.smt2
+trail 20.008621215820312
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
