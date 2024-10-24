@@ -1,5 +1,6 @@
 check rule_1
-trail 1.5933749675750732
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/00.smt2
+trail 2.445742130279541
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -60,12 +61,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true false true true true true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true false true true true true true false true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.43273448944091797
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/01.smt2
+trail 0.765082597732544
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -126,12 +128,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.4315681457519531
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/02.smt2
+trail 0.7505342960357666
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -197,7 +200,8 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.4523324966430664
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/03.smt2
+trail 0.7588024139404297
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -258,12 +262,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true false true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-trail 1.9446051120758057
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/04.smt2
+trail 3.212315320968628
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -292,13 +297,13 @@ SystemDriving     = (as set.empty (Set (Tuple Int)))
 not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
 SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
 EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
+TrackMetrics     = (as set.empty (Set (Tuple Int)))
 not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
 SensorsConnect     = (as set.empty (Set (Tuple Int)))
 not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
@@ -324,12 +329,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true false true true true true true true true false false true true true true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 false true false true true true true true true true false false true true true true true false true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.44104671478271484
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/05.smt2
+trail 0.747981071472168
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -390,12 +396,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.4344017505645752
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/06.smt2
+trail 0.7498769760131836
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -456,12 +463,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 0.5254256725311279
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/07.smt2
+trail 0.8891608715057373
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -475,7 +483,7 @@ not_FindInformation     = (as set.empty (Set (Tuple Int Int)))
 DetermineImportance     = (as set.empty (Set (Tuple Int)))
 not_DetermineImportance     = (as set.empty (Set (Tuple Int Int)))
 UserDriving     = (as set.empty (Set (Tuple Int)))
-not_UserDriving     = (set.singleton (tuple 0 0))
+not_UserDriving     = (as set.empty (Set (Tuple Int Int)))
 UserWantsControl     = (set.singleton (tuple 0))
 not_UserWantsControl     = (as set.empty (Set (Tuple Int Int)))
 UserEnters     = (as set.empty (Set (Tuple Int)))
@@ -522,12 +530,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true false true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true false true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.7683203220367432
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/08.smt2
+trail 2.1170589923858643
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -588,12 +597,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (set.singleton (tuple 0))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.533139705657959
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/09.smt2
+trail 2.1704351902008057
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -654,12 +664,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.6958484649658203
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/10.smt2
+trail 1.3406941890716553
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -690,7 +701,7 @@ SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
@@ -720,12 +731,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.4405074119567871
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/11.smt2
+trail 0.765416145324707
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -786,12 +798,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true false true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true false true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 2.822110652923584
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/12.smt2
+trail 4.398681640625
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -820,13 +833,13 @@ SystemDriving     = (as set.empty (Set (Tuple Int)))
 not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
 SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
 EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
+TrackMetrics     = (as set.empty (Set (Tuple Int)))
 not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
 SensorsConnect     = (as set.empty (Set (Tuple Int)))
 not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
@@ -852,12 +865,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true false false true true true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 false true true true true true true true true true true false false true true true true false true true true))
 ****************************************************************************************************
 check rule_14
-trail 1.85611891746521
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/13.smt2
+trail 2.7030906677246094
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -886,13 +900,13 @@ SystemDriving     = (as set.empty (Set (Tuple Int)))
 not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
 SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
 EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
+TrackMetrics     = (as set.empty (Set (Tuple Int)))
 not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
 SensorsConnect     = (as set.empty (Set (Tuple Int)))
 not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
@@ -918,12 +932,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 false true true true true true true true true true true true true true true true true false true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.4570331573486328
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/14.smt2
+trail 0.7608816623687744
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -984,12 +999,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 0.45247602462768555
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/15.smt2
+trail 0.7798254489898682
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1050,12 +1066,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true false true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true false true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.7031443119049072
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/16.smt2
+trail 1.1576306819915771
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1116,12 +1133,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.45460939407348633
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/17.smt2
+trail 0.769697904586792
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1182,12 +1200,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.7389147281646729
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/18.smt2
+trail 1.3342516422271729
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1230,7 +1249,7 @@ BaselineDiffers     = (as set.empty (Set (Tuple Int)))
 not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
 ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
 not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (set.singleton (tuple 0))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
 not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
 TrackVisionField     = (as set.empty (Set (Tuple Int)))
 not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
@@ -1248,12 +1267,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true false true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 0.7243528366088867
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/19.smt2
+trail 1.1674408912658691
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1314,12 +1334,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 2.555514097213745
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/20.smt2
+trail 3.808079242706299
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1348,13 +1369,13 @@ SystemDriving     = (as set.empty (Set (Tuple Int)))
 not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
 SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
 EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
+TrackMetrics     = (as set.empty (Set (Tuple Int)))
 not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
 SensorsConnect     = (as set.empty (Set (Tuple Int)))
 not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
@@ -1380,12 +1401,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true false true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 false true true true true true true true true true true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 3.1277503967285156
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/21.smt2
+trail 4.620800256729126
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -1414,13 +1436,13 @@ SystemDriving     = (as set.empty (Set (Tuple Int)))
 not_SystemDriving     = (as set.empty (Set (Tuple Int Int)))
 SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
-EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
 EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
-TrackMetrics     = (set.singleton (tuple 0))
+TrackMetrics     = (as set.empty (Set (Tuple Int)))
 not_TrackMetrics     = (as set.empty (Set (Tuple Int Int)))
 SensorsConnect     = (as set.empty (Set (Tuple Int)))
 not_SensorsConnect     = (as set.empty (Set (Tuple Int Int)))
@@ -1446,12 +1468,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true false true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 false true true true true true true true true true true true true true true true true true false true true))
 ****************************************************************************************************
 check rule_23
-trail 0.7310526371002197
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/22.smt2
+trail 1.1873035430908203
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1508,16 +1531,17 @@ FirstInteractionUser     = (as set.empty (Set (Tuple Int)))
 not_FirstInteractionUser     = (as set.empty (Set (Tuple Int Int)))
 StopAutonomousComponent     = (as set.empty (Set (Tuple Int)))
 not_StopAutonomousComponent     = (as set.empty (Set (Tuple Int Int)))
-StopUnfunctioningSensorAssistance     = (set.singleton (tuple 0))
+StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true false true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true false true true true false true))
 ****************************************************************************************************
 check rule_24
-trail 0.7276778221130371
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/23.smt2
+trail 1.2124366760253906
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1578,12 +1602,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.7170169353485107
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/24.smt2
+trail 1.2860369682312012
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1644,12 +1669,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.7424845695495605
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/25.smt2
+trail 1.324584722518921
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1710,12 +1736,13 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true false true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true false true true true true true true true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 0.49657416343688965
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/redundancy/26.smt2
+trail 0.8376059532165527
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1776,7 +1803,7 @@ StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
 not_StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int Int)))
 SytemTakesOver     = (as set.empty (Set (Tuple Int)))
 not_SytemTakesOver     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************

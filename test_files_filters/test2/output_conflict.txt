@@ -1,20 +1,15 @@
 check rule_1
-trail 20.01677179336548
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test2/conflict/00.smt2
+trail 20.033851623535156
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 0.3220682144165039
-Result     = sat
-time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
-A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
-B     = (set.singleton (tuple 10))
-not_B     = (as set.empty (Set (Tuple Int Int)))
-C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test2/conflict/01.smt2
+trail 20.00388216972351
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 20.03858995437622
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test2/conflict/02.smt2
+trail 20.001619338989258
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

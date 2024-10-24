@@ -1,5 +1,6 @@
 check rule_1
-trail 1.729581356048584
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/00.smt2
+trail 2.791186809539795
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -98,9 +99,9 @@ EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int)))
 not_EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int Int)))
 CurtainOpenRqt     = (set.singleton (tuple 0))
 not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
-CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+CurtainsOpened     = (set.singleton (tuple 0))
 not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
-RefuseRequest     = (set.singleton (tuple 0))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
 not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
@@ -112,14 +113,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 1))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 1 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 2))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_2
-trail 1.6192216873168945
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/01.smt2
+trail 2.4398117065429688
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -192,7 +194,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -232,14 +234,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_3
-trail 1.086702585220337
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/02.smt2
+trail 1.6129417419433594
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -353,13 +356,14 @@ not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
 userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_4
-trail 1.6402523517608643
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/03.smt2
+trail 2.41880464553833
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -432,7 +436,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -472,14 +476,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_5
-trail 2.1943442821502686
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/04.smt2
+trail 3.0953588485717773
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -592,14 +597,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_6
-trail 1.6021456718444824
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/05.smt2
+trail 2.9455273151397705
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -712,14 +718,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_7
-trail 1.6636099815368652
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/06.smt2
+trail 2.491696357727051
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -792,7 +799,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -832,14 +839,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_8
-trail 1.5775389671325684
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/07.smt2
+trail 2.396921157836914
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -912,7 +920,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -952,14 +960,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_9
-trail 1.5703871250152588
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/08.smt2
+trail 2.2238457202911377
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1072,14 +1081,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_10
-trail 1.6724753379821777
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/09.smt2
+trail 2.495374917984009
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1152,7 +1162,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -1192,14 +1202,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_11
-trail 1.6447477340698242
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/10.smt2
+trail 2.489382028579712
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1264,9 +1275,9 @@ CloseDoor     = (as set.empty (Set (Tuple Int)))
 not_CloseDoor     = (as set.empty (Set (Tuple Int Int)))
 UserSaysStop     = (set.singleton (tuple 0))
 not_UserSaysStop     = (as set.empty (Set (Tuple Int Int)))
-RobotStop     = (as set.empty (Set (Tuple Int)))
+RobotStop     = (set.singleton (tuple 0))
 not_RobotStop     = (as set.empty (Set (Tuple Int Int)))
-AskToFinishFirst     = (set.singleton (tuple 0))
+AskToFinishFirst     = (as set.empty (Set (Tuple Int)))
 not_AskToFinishFirst     = (as set.empty (Set (Tuple Int Int)))
 CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
@@ -1312,14 +1323,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 1 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_12
-trail 2.1822690963745117
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/11.smt2
+trail 2.983708620071411
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1432,14 +1444,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_13
-trail 2.1838667392730713
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/12.smt2
+trail 2.9088852405548096
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1552,14 +1565,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_14
-trail 1.663261890411377
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/13.smt2
+trail 2.4773082733154297
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1632,7 +1646,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -1672,14 +1686,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_15
-trail 1.6356585025787354
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/14.smt2
+trail 2.2419989109039307
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1792,14 +1807,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_16
-trail 1.142671823501587
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/15.smt2
+trail 2.497826099395752
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1912,14 +1928,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_17
-trail 1.6007795333862305
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/16.smt2
+trail 2.7494640350341797
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -1962,9 +1979,9 @@ sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int)))
 not_sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int Int)))
 UserSelfMedicates     = (set.singleton (tuple 0))
 not_UserSelfMedicates     = (as set.empty (Set (Tuple Int Int)))
-LogMedication     = (as set.empty (Set (Tuple Int)))
+LogMedication     = (set.singleton (tuple 0))
 not_LogMedication     = (as set.empty (Set (Tuple Int Int)))
-InformCarer     = (set.singleton (tuple 0))
+InformCarer     = (as set.empty (Set (Tuple Int)))
 not_InformCarer     = (as set.empty (Set (Tuple Int Int)))
 KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int)))
 not_KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int Int)))
@@ -2032,14 +2049,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true false true false true true true 0 0 true true))
 ****************************************************************************************************
 check rule_18
-trail 2.288529634475708
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/17.smt2
+trail 3.100950241088867
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2152,14 +2170,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_19
-trail 1.7007198333740234
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/18.smt2
+trail 2.2878518104553223
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2272,14 +2291,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true false true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true false true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_20
-trail 1.5787839889526367
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/19.smt2
+trail 2.252825975418091
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2392,14 +2412,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_21
-trail 1.6095929145812988
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/20.smt2
+trail 2.2197532653808594
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2512,14 +2533,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_22
-trail 1.6115407943725586
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/21.smt2
+trail 2.2502734661102295
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2632,14 +2654,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_23
-trail 2.8272769451141357
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/22.smt2
+trail 4.08203125
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2658,7 +2681,7 @@ FirstMeetingUser     = (as set.empty (Set (Tuple Int)))
 not_FirstMeetingUser     = (as set.empty (Set (Tuple Int Int)))
 UserDiscussingPrivateInfo     = (set.singleton (tuple 0))
 not_UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int Int)))
-DiscardInformation     = (set.singleton (tuple 0))
+DiscardInformation     = (as set.empty (Set (Tuple Int)))
 not_DiscardInformation     = (as set.empty (Set (Tuple Int Int)))
 ChangeSubject     = (set.singleton (tuple 0))
 not_ChangeSubject     = (as set.empty (Set (Tuple Int Int)))
@@ -2752,14 +2775,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true false true true 0 0 true true))
 ****************************************************************************************************
 check rule_24
-trail 2.8889458179473877
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/23.smt2
+trail 3.8100764751434326
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2872,14 +2896,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_25
-trail 1.6007804870605469
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/24.smt2
+trail 2.261110305786133
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -2992,14 +3017,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_26
-trail 1.5973684787750244
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/25.smt2
+trail 2.2702651023864746
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3112,14 +3138,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_27
-trail 1.6546156406402588
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/26.smt2
+trail 2.315340518951416
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3232,14 +3259,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 4 6 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 4 6 true true))
 ****************************************************************************************************
 check rule_28
-trail 2.2275140285491943
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/27.smt2
+trail 3.0820674896240234
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3352,14 +3380,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_29
-trail 1.6487045288085938
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/28.smt2
+trail 2.4968669414520264
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3432,7 +3461,7 @@ CollectionStarted     = (as set.empty (Set (Tuple Int)))
 not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
 StoreMinInfo     = (as set.empty (Set (Tuple Int)))
 not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
-StopActivity     = (set.singleton (tuple 0))
+StopActivity     = (as set.empty (Set (Tuple Int)))
 not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
 CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
 not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
@@ -3472,14 +3501,15 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 5 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_30
-trail 1.577554702758789
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/29.smt2
+trail 2.2580981254577637
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3592,14 +3622,15 @@ UserHasDifferentCulture     = (set.singleton (tuple 0))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (set.singleton (tuple 0))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_31
-trail 2.2419867515563965
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/conflict/30.smt2
+trail 3.152536392211914
 Result     = sat
 time     = (set.singleton (tuple 0))
 EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
@@ -3712,9 +3743,9 @@ UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
 not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
 EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
 not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
-userDistressed     = (set.singleton (tuple 2))
-buildingFloor     = (set.singleton (tuple 9))
-withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true 2 true true true true true true true true true true true 9 true true true 0 0 true true 2 true true true true true true true 2 true true true true true true true 0 0 true true))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************

@@ -1,5 +1,6 @@
 check rule_1
-trail 2.0817770957946777
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/00.smt2
+trail 3.6715352535247803
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -50,16 +51,18 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 false true true true true true true true true true true true false true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 false true true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.2978951930999756
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/01.smt2
+trail 0.33338165283203125
 Result     = unsat
 ****************************************************************************************************
 check rule_3
-trail 0.39681529998779297
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/02.smt2
+trail 0.6790642738342285
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -115,15 +118,18 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.3190133571624756
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/03.smt2
+trail 0.38385653495788574
 Result     = unsat
 ****************************************************************************************************
 check rule_5
-trail 0.2980520725250244
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/04.smt2
+trail 0.33370113372802734
 Result     = unsat
 ****************************************************************************************************
 check rule_6
-trail 0.4308321475982666
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/05.smt2
+trail 1.1481602191925049
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -174,12 +180,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true false true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 1.0628819465637207
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/06.smt2
+trail 1.5509259700775146
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -230,12 +237,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true false true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true false true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 2.820899248123169
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/07.smt2
+trail 4.2985217571258545
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -286,12 +294,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true false true true true true true true true true true false true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true false true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.40531301498413086
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/08.smt2
+trail 0.676438570022583
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -342,12 +351,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.40909409523010254
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/09.smt2
+trail 0.6905810832977295
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -398,12 +408,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.39832615852355957
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/10.smt2
+trail 0.6566362380981445
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -454,12 +465,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true false true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true false true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.932781457901001
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/11.smt2
+trail 1.801853895187378
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -488,7 +500,7 @@ SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
@@ -510,12 +522,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_13
-trail 1.4925172328948975
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/12.smt2
+trail 2.1321725845336914
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -544,7 +557,7 @@ SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
@@ -556,7 +569,7 @@ BaselineDiffers     = (as set.empty (Set (Tuple Int)))
 not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
 ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
 not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (set.singleton (tuple 0))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
 not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
 TrackVisionField     = (as set.empty (Set (Tuple Int)))
 not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
@@ -566,12 +579,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true false true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true false true false true true true true true false true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.41918373107910156
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/13.smt2
+trail 0.70697021484375
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -622,12 +636,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.6219382286071777
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/14.smt2
+trail 1.2194902896881104
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -678,12 +693,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true false true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 2.7674520015716553
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/15.smt2
+trail 4.014407634735107
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -734,12 +750,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true false false true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true false false true true false true true true))
 ****************************************************************************************************
 check rule_17
-trail 1.724182367324829
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/16.smt2
+trail 2.6965830326080322
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -790,12 +807,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true false true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true true true true true false true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.3972933292388916
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/17.smt2
+trail 0.6714489459991455
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -846,12 +864,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.9004850387573242
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/18.smt2
+trail 1.6495308876037598
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -880,7 +899,7 @@ SystemOn     = (as set.empty (Set (Tuple Int)))
 not_SystemOn     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertness     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertness     = (as set.empty (Set (Tuple Int Int)))
-EnsureAccessibility     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
 not_EnsureAccessibility     = (as set.empty (Set (Tuple Int Int)))
 EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
 not_EnsureAlertIndependence     = (as set.empty (Set (Tuple Int Int)))
@@ -892,7 +911,7 @@ BaselineDiffers     = (as set.empty (Set (Tuple Int)))
 not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
 ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
 not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (set.singleton (tuple 0))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
 not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
 TrackVisionField     = (as set.empty (Set (Tuple Int)))
 not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
@@ -902,12 +921,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true false true true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_20
-trail 0.4017033576965332
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/19.smt2
+trail 0.6708014011383057
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -958,12 +978,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true false true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 0.6360538005828857
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/20.smt2
+trail 1.0629560947418213
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1014,12 +1035,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.9172494411468506
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/21.smt2
+trail 1.7795758247375488
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1060,7 +1082,7 @@ BaselineDiffers     = (as set.empty (Set (Tuple Int)))
 not_BaselineDiffers     = (as set.empty (Set (Tuple Int Int)))
 ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
 not_ConfirmWithUser     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsentForUserDrive     = (set.singleton (tuple 0))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
 not_ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int Int)))
 TrackVisionField     = (as set.empty (Set (Tuple Int)))
 not_TrackVisionField     = (as set.empty (Set (Tuple Int Int)))
@@ -1070,12 +1092,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true false true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.6617178916931152
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/22.smt2
+trail 1.067521095275879
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1126,12 +1149,13 @@ CreateConsentForm     = (set.singleton (tuple 0))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 2.3766064643859863
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/23.smt2
+trail 3.454828977584839
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1182,12 +1206,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true false true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true true false true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 3.92655611038208
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/24.smt2
+trail 5.468000411987305
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (set.singleton (tuple 0))
@@ -1238,12 +1263,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true false true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true false true true))
 ****************************************************************************************************
 check rule_26
-trail 0.3976430892944336
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/25.smt2
+trail 0.6886181831359863
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1294,12 +1320,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true false true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_27
-trail 0.6379806995391846
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/26.smt2
+trail 1.0618906021118164
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1350,12 +1377,13 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 0.6435368061065674
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/27.smt2
+trail 1.092205286026001
 Result     = sat
 time     = (set.singleton (tuple 0))
 InformUser     = (as set.empty (Set (Tuple Int)))
@@ -1406,7 +1434,7 @@ CreateConsentForm     = (as set.empty (Set (Tuple Int)))
 not_CreateConsentForm     = (as set.empty (Set (Tuple Int Int)))
 TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
 not_TakeControlForSafety     = (as set.empty (Set (Tuple Int Int)))
-hearRateVariability     = (set.singleton (tuple 2))
-eyeMovements     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 true true true true true true true true true true true true true true true true true true true))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************

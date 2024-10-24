@@ -1,5 +1,6 @@
 check rule_1
-trail 0.6498417854309082
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/00.smt2
+trail 1.0711314678192139
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -70,12 +71,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 (- 1) 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 (- 1) 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_2
-trail 0.5640699863433838
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/01.smt2
+trail 0.9148368835449219
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -146,20 +148,23 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 (- 1) 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 (- 1) 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_3
-trail 20.007052659988403
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/02.smt2
+trail 20.001939296722412
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.009057998657227
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/03.smt2
+trail 20.004433631896973
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.522770881652832
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/04.smt2
+trail 0.9213964939117432
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -230,16 +235,18 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 71 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 71 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_6
-trail 0.19678020477294922
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/05.smt2
+trail 0.20803165435791016
 Result     = unsat
 ****************************************************************************************************
 check rule_7
-trail 0.8422060012817383
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/06.smt2
+trail 1.4071552753448486
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -311,11 +318,12 @@ not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 4))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_8
-trail 0.4768826961517334
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/07.smt2
+trail 0.8115675449371338
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -386,12 +394,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_9
-trail 0.7910804748535156
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/08.smt2
+trail 1.8043413162231445
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -437,7 +446,7 @@ not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
 DataAnonymised     = (as set.empty (Set (Tuple Int)))
 not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUser     = (as set.empty (Set (Tuple Int)))
-not_SystemInformUser     = (set.singleton (tuple 0 86400))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
 SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
@@ -446,7 +455,7 @@ SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
 SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
-SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
 not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
 UserConsented     = (as set.empty (Set (Tuple Int)))
 not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
@@ -462,12 +471,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 180 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 180 0 true true false false true 0))
 ****************************************************************************************************
 check rule_10
-trail 0.8291282653808594
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/09.smt2
+trail 1.799144983291626
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -513,7 +523,7 @@ not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
 DataAnonymised     = (as set.empty (Set (Tuple Int)))
 not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUser     = (as set.empty (Set (Tuple Int)))
-not_SystemInformUser     = (set.singleton (tuple 0 86400))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
 SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
@@ -522,7 +532,7 @@ SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
 SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
-SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
 not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
 UserConsented     = (as set.empty (Set (Tuple Int)))
 not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
@@ -538,12 +548,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 180 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 180 true true false false true 0))
 ****************************************************************************************************
 check rule_11
-trail 0.4743351936340332
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/10.smt2
+trail 0.823070764541626
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -614,12 +625,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_12
-trail 0.5472006797790527
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/11.smt2
+trail 1.140559196472168
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -690,16 +702,18 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_13
-trail 20.04415774345398
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/12.smt2
+trail 20.005908250808716
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-trail 0.5003321170806885
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/13.smt2
+trail 0.8232808113098145
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -770,12 +784,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_15
-trail 0.47287940979003906
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/14.smt2
+trail 0.8057746887207031
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -846,24 +861,28 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_16
-trail 20.004157781600952
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/15.smt2
+trail 20.005120038986206
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-trail 20.00235652923584
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/16.smt2
+trail 20.00401020050049
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-trail 20.000980138778687
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/17.smt2
+trail 20.000471353530884
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-trail 0.49379539489746094
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/18.smt2
+trail 0.8406217098236084
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -934,16 +953,18 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (set.singleton (tuple 0))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_20
-trail 20.01073670387268
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/19.smt2
+trail 20.002747535705566
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-trail 0.502387285232544
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/20.smt2
+trail 0.8835084438323975
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1014,12 +1035,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_22
-trail 0.798649787902832
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/21.smt2
+trail 1.3411979675292969
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1074,7 +1096,7 @@ SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOnSensor     = (as set.empty (Set (Tuple Int Int)))
 SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
 not_SystemTurnOffSensor     = (as set.empty (Set (Tuple Int Int)))
-SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
+SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
 not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
 UserConsented     = (as set.empty (Set (Tuple Int)))
 not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
@@ -1090,12 +1112,13 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true false true true 0))
 ****************************************************************************************************
 check rule_23
-trail 0.6211855411529541
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/22.smt2
+trail 1.474179744720459
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1141,7 +1164,7 @@ not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
 DataAnonymised     = (as set.empty (Set (Tuple Int)))
 not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUser     = (as set.empty (Set (Tuple Int)))
-not_SystemInformUser     = (set.singleton (tuple 0 86400))
+not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
 SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
@@ -1166,14 +1189,15 @@ StopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
-clockTime     = (set.singleton (tuple 3))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 3 0 0 true true true true true 4))
+clockTime     = (set.singleton (tuple 0))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true false true 0))
 ****************************************************************************************************
 check rule_24
-trail 1.7772469520568848
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/23.smt2
+trail 5.041293144226074
 Result     = sat
-time     = (set.singleton (tuple 0))
+time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
 not_AllowSendData     = (as set.empty (Set (Tuple Int Int)))
 SystemCollectData     = (as set.empty (Set (Tuple Int)))
@@ -1216,7 +1240,7 @@ SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
 not_SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int Int)))
 DataAnonymised     = (as set.empty (Set (Tuple Int)))
 not_DataAnonymised     = (as set.empty (Set (Tuple Int Int)))
-SystemInformUser     = (set.singleton (tuple 0))
+SystemInformUser     = (set.singleton (tuple 1))
 not_SystemInformUser     = (as set.empty (Set (Tuple Int Int)))
 SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
 not_SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int Int)))
@@ -1230,7 +1254,7 @@ SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
 not_SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int Int)))
 UserConsented     = (as set.empty (Set (Tuple Int)))
 not_UserConsented     = (as set.empty (Set (Tuple Int Int)))
-UseUserLanguage     = (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0)))
+UseUserLanguage     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
 not_UseUserLanguage     = (as set.empty (Set (Tuple Int Int)))
 StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
 not_StopSystemDataCollection     = (as set.empty (Set (Tuple Int Int)))
@@ -1243,11 +1267,12 @@ not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 clockTime     = (set.singleton (tuple 1))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true false true 1 0 0 true true true true true 4))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.union (set.singleton (tuple 1 0 0 0 0 0 true true false 1 0 0 true true true true true 0)) (set.singleton (tuple 0 0 0 0 0 0 true false true 1 0 0 true true true true true 0)))
 ****************************************************************************************************
 check rule_25
-trail 0.5582225322723389
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/redundancy/24.smt2
+trail 2.133185386657715
 Result     = sat
 time     = (set.singleton (tuple 0))
 AllowSendData     = (as set.empty (Set (Tuple Int)))
@@ -1319,6 +1344,6 @@ not_StopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
 not_UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int Int)))
 clockTime     = (set.singleton (tuple 1))
-datatype     = (set.singleton (tuple 4))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 1 0 0 true true true true true 4))
+datatype     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 1 0 0 true true true true true 0))
 ****************************************************************************************************

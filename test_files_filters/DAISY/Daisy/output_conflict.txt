@@ -1,5 +1,6 @@
 check rule_1
-trail 0.5294301509857178
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/00.smt2
+trail 1.0234899520874023
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -95,7 +96,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.5166070461273193
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/01.smt2
+trail 0.9049286842346191
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -191,7 +193,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.45198655128479004
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/02.smt2
+trail 0.8960525989532471
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -287,7 +290,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.476010799407959
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/03.smt2
+trail 0.9000606536865234
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -383,7 +387,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-trail 0.8183977603912354
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/04.smt2
+trail 1.6280138492584229
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -418,9 +423,9 @@ CallSupport     = (as set.empty (Set (Tuple Int)))
 not_CallSupport     = (as set.empty (Set (Tuple Int Int)))
 UserRequestInfo     = (set.singleton (tuple 0))
 not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
-ProvideInfo     = (as set.empty (Set (Tuple Int)))
+ProvideInfo     = (set.singleton (tuple 0))
 not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
-InformUserandandReferToHumanCarer     = (set.singleton (tuple 0))
+InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
 not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
 AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int)))
 not_AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int Int)))
@@ -476,10 +481,11 @@ CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true false true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.9003937244415283
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/05.smt2
+trail 1.4918432235717773
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -508,9 +514,9 @@ UseDefaultasEnglish     = (as set.empty (Set (Tuple Int)))
 not_UseDefaultasEnglish     = (as set.empty (Set (Tuple Int Int)))
 InstructionFail     = (set.singleton (tuple 0))
 not_InstructionFail     = (as set.empty (Set (Tuple Int Int)))
-RepeatInstruction     = (as set.empty (Set (Tuple Int)))
+RepeatInstruction     = (set.singleton (tuple 0))
 not_RepeatInstruction     = (as set.empty (Set (Tuple Int Int)))
-CallSupport     = (set.singleton (tuple 0))
+CallSupport     = (as set.empty (Set (Tuple Int)))
 not_CallSupport     = (as set.empty (Set (Tuple Int Int)))
 UserRequestInfo     = (as set.empty (Set (Tuple Int)))
 not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
@@ -572,10 +578,11 @@ CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 21 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 20 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 1.4790756702423096
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/06.smt2
+trail 2.294222831726074
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -614,11 +621,11 @@ ProvideInfo     = (as set.empty (Set (Tuple Int)))
 not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
 InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
 not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
-AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int)))
+AskRepresentativeForConsent     = (set.singleton (tuple 0))
 not_AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int Int)))
 PreparingExamination     = (set.singleton (tuple 0))
 not_PreparingExamination     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsent     = (set.singleton (tuple 0))
+ObtainConsent     = (as set.empty (Set (Tuple Int)))
 not_ObtainConsent     = (as set.empty (Set (Tuple Int Int)))
 ConfirmConsent     = (as set.empty (Set (Tuple Int)))
 not_ConfirmConsent     = (as set.empty (Set (Tuple Int Int)))
@@ -668,10 +675,11 @@ CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 18 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 18 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true false))
 ****************************************************************************************************
 check rule_8
-trail 0.823615312576294
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/07.smt2
+trail 1.32315993309021
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -767,7 +775,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.8317892551422119
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/08.smt2
+trail 1.3325726985931396
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -863,7 +872,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 7.573053359985352
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/09.smt2
+trail 10.490250587463379
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -920,9 +930,9 @@ MeetingUser     = (set.singleton (tuple 0))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 ExamineState     = (set.singleton (tuple 0))
 not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
-ExaminingPatient     = (set.singleton (tuple 0))
+ExaminingPatient     = (as set.empty (Set (Tuple Int)))
 not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
-ExaminationContinuable     = (set.singleton (tuple 0))
+ExaminationContinuable     = (as set.empty (Set (Tuple Int)))
 not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
 EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
 not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
@@ -936,7 +946,7 @@ determineThreshold     = (set.singleton (tuple 0))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (set.singleton (tuple 0))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -950,16 +960,17 @@ CollectingTrainingData     = (as set.empty (Set (Tuple Int)))
 not_CollectingTrainingData     = (as set.empty (Set (Tuple Int Int)))
 informDaisyAbilities     = (set.singleton (tuple 0))
 not_informDaisyAbilities     = (as set.empty (Set (Tuple Int Int)))
-CanEndSession     = (set.singleton (tuple 0))
+CanEndSession     = (as set.empty (Set (Tuple Int)))
 not_CanEndSession     = (as set.empty (Set (Tuple Int Int)))
-CanCallHuman     = (set.singleton (tuple 0))
+CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true false true true false true))
 ****************************************************************************************************
 check rule_11
-trail 0.8670799732208252
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/10.smt2
+trail 1.4371967315673828
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1018,7 +1029,7 @@ ExamineState     = (set.singleton (tuple 0))
 not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
 ExaminingPatient     = (as set.empty (Set (Tuple Int)))
 not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
-ExaminationContinuable     = (set.singleton (tuple 0))
+ExaminationContinuable     = (as set.empty (Set (Tuple Int)))
 not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
 EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
 not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
@@ -1052,10 +1063,11 @@ CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 101 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 101 true 0 true true true true true true true true true true true 0 true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_12
-trail 0.850661039352417
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/11.smt2
+trail 1.3456759452819824
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1151,7 +1163,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 1.4955158233642578
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/12.smt2
+trail 2.314030885696411
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1190,11 +1203,11 @@ ProvideInfo     = (as set.empty (Set (Tuple Int)))
 not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
 InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
 not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
-AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int)))
+AskRepresentativeForConsent     = (set.singleton (tuple 0))
 not_AskRepresentativeForConsent     = (as set.empty (Set (Tuple Int Int)))
 PreparingExamination     = (set.singleton (tuple 0))
 not_PreparingExamination     = (as set.empty (Set (Tuple Int Int)))
-ObtainConsent     = (set.singleton (tuple 0))
+ObtainConsent     = (as set.empty (Set (Tuple Int)))
 not_ObtainConsent     = (as set.empty (Set (Tuple Int Int)))
 ConfirmConsent     = (as set.empty (Set (Tuple Int)))
 not_ConfirmConsent     = (as set.empty (Set (Tuple Int Int)))
@@ -1244,10 +1257,11 @@ CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 18 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 18 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true false))
 ****************************************************************************************************
 check rule_14
-trail 1.7835547924041748
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/13.smt2
+trail 2.6719067096710205
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1320,7 +1334,7 @@ determineThreshold     = (as set.empty (Set (Tuple Int)))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (as set.empty (Set (Tuple Int)))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -1340,10 +1354,11 @@ CanCallHuman     = (set.singleton (tuple 0))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 7.61411452293396
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/14.smt2
+trail 10.499511480331421
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1400,9 +1415,9 @@ MeetingUser     = (set.singleton (tuple 0))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 ExamineState     = (set.singleton (tuple 0))
 not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
-ExaminingPatient     = (set.singleton (tuple 0))
+ExaminingPatient     = (as set.empty (Set (Tuple Int)))
 not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
-ExaminationContinuable     = (set.singleton (tuple 0))
+ExaminationContinuable     = (as set.empty (Set (Tuple Int)))
 not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
 EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
 not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
@@ -1416,7 +1431,7 @@ determineThreshold     = (set.singleton (tuple 0))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (set.singleton (tuple 0))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -1430,16 +1445,17 @@ CollectingTrainingData     = (as set.empty (Set (Tuple Int)))
 not_CollectingTrainingData     = (as set.empty (Set (Tuple Int Int)))
 informDaisyAbilities     = (set.singleton (tuple 0))
 not_informDaisyAbilities     = (as set.empty (Set (Tuple Int Int)))
-CanEndSession     = (set.singleton (tuple 0))
+CanEndSession     = (as set.empty (Set (Tuple Int)))
 not_CanEndSession     = (as set.empty (Set (Tuple Int Int)))
-CanCallHuman     = (set.singleton (tuple 0))
+CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true false true true false true))
 ****************************************************************************************************
 check rule_16
-trail 1.2984983921051025
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/15.smt2
+trail 1.9665260314941406
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1535,7 +1551,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 0.883004903793335
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/16.smt2
+trail 1.3209378719329834
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1631,7 +1648,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 1.7829539775848389
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/17.smt2
+trail 2.561506509780884
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1727,7 +1745,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 0.8600833415985107
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/18.smt2
+trail 1.3803091049194336
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1823,7 +1842,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 1.8761329650878906
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/19.smt2
+trail 4.036875247955322
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -1896,7 +1916,7 @@ determineThreshold     = (as set.empty (Set (Tuple Int)))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (as set.empty (Set (Tuple Int)))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -1916,10 +1936,11 @@ CanCallHuman     = (set.singleton (tuple 0))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true false true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true false true true false true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 0.8360841274261475
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/20.smt2
+trail 1.3908462524414062
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2015,7 +2036,8 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-trail 7.565175533294678
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/21.smt2
+trail 10.7258141040802
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2074,7 +2096,7 @@ ExamineState     = (set.singleton (tuple 0))
 not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
 ExaminingPatient     = (set.singleton (tuple 0))
 not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
-ExaminationContinuable     = (set.singleton (tuple 0))
+ExaminationContinuable     = (as set.empty (Set (Tuple Int)))
 not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
 EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
 not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
@@ -2088,7 +2110,7 @@ determineThreshold     = (set.singleton (tuple 0))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (set.singleton (tuple 0))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -2108,10 +2130,11 @@ CanCallHuman     = (set.singleton (tuple 0))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true false true true true true true true true false true))
 ****************************************************************************************************
 check rule_23
-trail 7.837751150131226
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/22.smt2
+trail 10.586488246917725
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2168,9 +2191,9 @@ MeetingUser     = (set.singleton (tuple 0))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 ExamineState     = (set.singleton (tuple 0))
 not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
-ExaminingPatient     = (set.singleton (tuple 0))
+ExaminingPatient     = (as set.empty (Set (Tuple Int)))
 not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
-ExaminationContinuable     = (set.singleton (tuple 0))
+ExaminationContinuable     = (as set.empty (Set (Tuple Int)))
 not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
 EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
 not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
@@ -2184,7 +2207,7 @@ determineThreshold     = (set.singleton (tuple 0))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (set.singleton (tuple 0))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -2198,16 +2221,17 @@ CollectingTrainingData     = (as set.empty (Set (Tuple Int)))
 not_CollectingTrainingData     = (as set.empty (Set (Tuple Int Int)))
 informDaisyAbilities     = (set.singleton (tuple 0))
 not_informDaisyAbilities     = (as set.empty (Set (Tuple Int Int)))
-CanEndSession     = (set.singleton (tuple 0))
+CanEndSession     = (as set.empty (Set (Tuple Int)))
 not_CanEndSession     = (as set.empty (Set (Tuple Int Int)))
-CanCallHuman     = (set.singleton (tuple 0))
+CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true false true true false true))
 ****************************************************************************************************
 check rule_24
-trail 7.961430549621582
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/23.smt2
+trail 10.618700504302979
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2264,9 +2288,9 @@ MeetingUser     = (set.singleton (tuple 0))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
 ExamineState     = (set.singleton (tuple 0))
 not_ExamineState     = (as set.empty (Set (Tuple Int Int)))
-ExaminingPatient     = (set.singleton (tuple 0))
+ExaminingPatient     = (as set.empty (Set (Tuple Int)))
 not_ExaminingPatient     = (as set.empty (Set (Tuple Int Int)))
-ExaminationContinuable     = (set.singleton (tuple 0))
+ExaminationContinuable     = (as set.empty (Set (Tuple Int)))
 not_ExaminationContinuable     = (as set.empty (Set (Tuple Int Int)))
 EnsurePrivateSpace     = (as set.empty (Set (Tuple Int)))
 not_EnsurePrivateSpace     = (as set.empty (Set (Tuple Int Int)))
@@ -2280,7 +2304,7 @@ determineThreshold     = (set.singleton (tuple 0))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (set.singleton (tuple 0))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -2294,16 +2318,17 @@ CollectingTrainingData     = (as set.empty (Set (Tuple Int)))
 not_CollectingTrainingData     = (as set.empty (Set (Tuple Int Int)))
 informDaisyAbilities     = (set.singleton (tuple 0))
 not_informDaisyAbilities     = (as set.empty (Set (Tuple Int Int)))
-CanEndSession     = (set.singleton (tuple 0))
+CanEndSession     = (as set.empty (Set (Tuple Int)))
 not_CanEndSession     = (as set.empty (Set (Tuple Int Int)))
-CanCallHuman     = (set.singleton (tuple 0))
+CanCallHuman     = (as set.empty (Set (Tuple Int)))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true false true true false true))
 ****************************************************************************************************
 check rule_25
-trail 1.8780007362365723
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/24.smt2
+trail 2.6690337657928467
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2376,7 +2401,7 @@ determineThreshold     = (as set.empty (Set (Tuple Int)))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (as set.empty (Set (Tuple Int)))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -2396,10 +2421,11 @@ CanCallHuman     = (set.singleton (tuple 0))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 1.8486363887786865
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/25.smt2
+trail 2.6557483673095703
 Result     = sat
 time     = (set.singleton (tuple 0))
 MeetingPatient     = (as set.empty (Set (Tuple Int)))
@@ -2472,7 +2498,7 @@ determineThreshold     = (as set.empty (Set (Tuple Int)))
 not_determineThreshold     = (as set.empty (Set (Tuple Int Int)))
 selectDAISYProtocol     = (as set.empty (Set (Tuple Int)))
 not_selectDAISYProtocol     = (as set.empty (Set (Tuple Int Int)))
-ReferToHumanExaminer     = (set.singleton (tuple 0))
+ReferToHumanExaminer     = (as set.empty (Set (Tuple Int)))
 not_ReferToHumanExaminer     = (as set.empty (Set (Tuple Int Int)))
 PresentingReport     = (as set.empty (Set (Tuple Int)))
 not_PresentingReport     = (as set.empty (Set (Tuple Int Int)))
@@ -2492,5 +2518,5 @@ CanCallHuman     = (set.singleton (tuple 0))
 not_CanCallHuman     = (as set.empty (Set (Tuple Int Int)))
 ApproachPatient     = (as set.empty (Set (Tuple Int)))
 not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true false true true true true true true true true true))
 ****************************************************************************************************

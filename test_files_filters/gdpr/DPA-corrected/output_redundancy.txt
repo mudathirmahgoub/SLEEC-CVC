@@ -1,5 +1,6 @@
 check rule_1
-trail 0.8921558856964111
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/00.smt2
+trail 1.4751195907592773
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (set.singleton (tuple 0))
@@ -12,7 +13,7 @@ DPAComplete     = (as set.empty (Set (Tuple Int)))
 not_DPAComplete     = (as set.empty (Set (Tuple Int Int)))
 DPAIncomplete     = (as set.empty (Set (Tuple Int)))
 not_DPAIncomplete     = (as set.empty (Set (Tuple Int Int)))
-DPATerminate     = (set.singleton (tuple 0))
+DPATerminate     = (as set.empty (Set (Tuple Int)))
 not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
 DPAUpdate     = (as set.empty (Set (Tuple Int)))
 not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
@@ -58,14 +59,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 false true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_2
-trail 0.9063863754272461
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/01.smt2
+trail 1.378007173538208
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (set.singleton (tuple 0))
@@ -124,14 +126,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true false 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true false 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_3
-trail 0.8638393878936768
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/02.smt2
+trail 1.296757459640503
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -190,14 +193,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_4
-trail 0.5972604751586914
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/03.smt2
+trail 1.438417911529541
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -256,14 +260,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_5
-trail 0.5552308559417725
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/04.smt2
+trail 0.9063091278076172
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -322,14 +327,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_6
-trail 0.7032334804534912
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/05.smt2
+trail 1.2558262348175049
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -388,14 +394,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_7
-trail 0.8190476894378662
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/06.smt2
+trail 1.2839317321777344
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -452,16 +459,17 @@ EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
 not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
 PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
-CanObjectToChange     = (set.singleton (tuple 0))
+CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true false true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_8
-trail 1.1337974071502686
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/07.smt2
+trail 1.797257423400879
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -520,14 +528,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_9
-trail 0.8339955806732178
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/08.smt2
+trail 1.3305439949035645
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -586,14 +595,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_10
-trail 0.5662009716033936
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/09.smt2
+trail 0.8712365627288818
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -652,14 +662,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_11
-trail 1.6597204208374023
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/10.smt2
+trail 2.6180405616760254
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -676,7 +687,7 @@ DPATerminate     = (as set.empty (Set (Tuple Int)))
 not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
 DPAUpdate     = (as set.empty (Set (Tuple Int)))
 not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
-ProcessPersonalData     = (set.singleton (tuple 0))
+ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
 not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
 RemovePersonalData     = (as set.empty (Set (Tuple Int)))
 not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
@@ -684,7 +695,7 @@ EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
 not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
 ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
 not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
-InformController     = (set.singleton (tuple 0))
+InformController     = (as set.empty (Set (Tuple Int)))
 not_InformController     = (as set.empty (Set (Tuple Int Int)))
 AssistController     = (as set.empty (Set (Tuple Int)))
 not_AssistController     = (as set.empty (Set (Tuple Int Int)))
@@ -716,16 +727,17 @@ EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
 not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
 PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
-CanObjectToChange     = (set.singleton (tuple 0))
+CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 1 true false true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 1 true false true true false true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_12
-trail 0.8391258716583252
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/11.smt2
+trail 1.3267138004302979
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -784,14 +796,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_13
-trail 0.8593101501464844
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/12.smt2
+trail 1.3433213233947754
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -850,14 +863,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_14
-trail 0.8991644382476807
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/13.smt2
+trail 1.3032007217407227
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -917,13 +931,14 @@ not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
 riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true false 2 3 1 1 true))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true false 2 0 0 0 true))
 ****************************************************************************************************
 check rule_15
-trail 0.6327006816864014
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/14.smt2
+trail 1.4403977394104004
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -983,79 +998,14 @@ not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
 riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true false 2 3 1 1 true))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true false 2 0 0 0 true))
 ****************************************************************************************************
 check rule_16
-trail 1.6369779109954834
-Result     = sat
-time     = (set.singleton (tuple 0))
-DPAMade     = (as set.empty (Set (Tuple Int)))
-not_DPAMade     = (as set.empty (Set (Tuple Int Int)))
-EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
-not_EvaluateDPAProcess     = (as set.empty (Set (Tuple Int Int)))
-StartDPAProcess     = (set.singleton (tuple 0))
-not_StartDPAProcess     = (as set.empty (Set (Tuple Int Int)))
-DPAComplete     = (as set.empty (Set (Tuple Int)))
-not_DPAComplete     = (as set.empty (Set (Tuple Int Int)))
-DPAIncomplete     = (as set.empty (Set (Tuple Int)))
-not_DPAIncomplete     = (as set.empty (Set (Tuple Int Int)))
-DPATerminate     = (as set.empty (Set (Tuple Int)))
-not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
-DPAUpdate     = (as set.empty (Set (Tuple Int)))
-not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
-ProcessPersonalData     = (set.singleton (tuple 0))
-not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
-RemovePersonalData     = (as set.empty (Set (Tuple Int)))
-not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
-EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
-ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
-InformController     = (set.singleton (tuple 0))
-not_InformController     = (as set.empty (Set (Tuple Int Int)))
-AssistController     = (as set.empty (Set (Tuple Int)))
-not_AssistController     = (as set.empty (Set (Tuple Int Int)))
-ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
-not_ProvideControllerInformation     = (as set.empty (Set (Tuple Int Int)))
-ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
-not_ObtainControllerConsent     = (as set.empty (Set (Tuple Int Int)))
-InformSubject     = (as set.empty (Set (Tuple Int)))
-not_InformSubject     = (as set.empty (Set (Tuple Int Int)))
-InformSupervisor     = (as set.empty (Set (Tuple Int)))
-not_InformSupervisor     = (as set.empty (Set (Tuple Int Int)))
-TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int Int)))
-ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int Int)))
-DataBreach     = (as set.empty (Set (Tuple Int)))
-not_DataBreach     = (as set.empty (Set (Tuple Int Int)))
-RightsRequested     = (as set.empty (Set (Tuple Int)))
-not_RightsRequested     = (as set.empty (Set (Tuple Int Int)))
-RespondToRequest     = (as set.empty (Set (Tuple Int)))
-not_RespondToRequest     = (as set.empty (Set (Tuple Int Int)))
-AllowAudits     = (as set.empty (Set (Tuple Int)))
-not_AllowAudits     = (as set.empty (Set (Tuple Int Int)))
-HelpAuditors     = (as set.empty (Set (Tuple Int)))
-not_HelpAuditors     = (as set.empty (Set (Tuple Int Int)))
-AuditsOccur     = (as set.empty (Set (Tuple Int)))
-not_AuditsOccur     = (as set.empty (Set (Tuple Int Int)))
-EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
-not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
-PassSecurity     = (as set.empty (Set (Tuple Int)))
-not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
-CanObjectToChange     = (set.singleton (tuple 0))
-not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
-****************************************************************************************************
-check rule_17
-trail 1.0001516342163086
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/15.smt2
+trail 2.6031031608581543
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1114,14 +1064,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true true false false true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true false true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
-check rule_18
-trail 1.7434332370758057
+check rule_17
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/16.smt2
+trail 1.5964562892913818
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1138,7 +1089,7 @@ DPATerminate     = (as set.empty (Set (Tuple Int)))
 not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
 DPAUpdate     = (as set.empty (Set (Tuple Int)))
 not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
-ProcessPersonalData     = (set.singleton (tuple 0))
+ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
 not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
 RemovePersonalData     = (as set.empty (Set (Tuple Int)))
 not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
@@ -1146,7 +1097,7 @@ EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
 not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
 ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
 not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
-InformController     = (set.singleton (tuple 0))
+InformController     = (as set.empty (Set (Tuple Int)))
 not_InformController     = (as set.empty (Set (Tuple Int Int)))
 AssistController     = (as set.empty (Set (Tuple Int)))
 not_AssistController     = (as set.empty (Set (Tuple Int Int)))
@@ -1178,16 +1129,84 @@ EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
 not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
 PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
-CanObjectToChange     = (set.singleton (tuple 0))
+CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true true true true true true true true true 2 3 1 1 false))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true true false false true true true true true 0 0 0 0 true))
+****************************************************************************************************
+check rule_18
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/17.smt2
+trail 2.718601703643799
+Result     = sat
+time     = (set.singleton (tuple 0))
+DPAMade     = (as set.empty (Set (Tuple Int)))
+not_DPAMade     = (as set.empty (Set (Tuple Int Int)))
+EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
+not_EvaluateDPAProcess     = (as set.empty (Set (Tuple Int Int)))
+StartDPAProcess     = (set.singleton (tuple 0))
+not_StartDPAProcess     = (as set.empty (Set (Tuple Int Int)))
+DPAComplete     = (as set.empty (Set (Tuple Int)))
+not_DPAComplete     = (as set.empty (Set (Tuple Int Int)))
+DPAIncomplete     = (as set.empty (Set (Tuple Int)))
+not_DPAIncomplete     = (as set.empty (Set (Tuple Int Int)))
+DPATerminate     = (as set.empty (Set (Tuple Int)))
+not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
+DPAUpdate     = (as set.empty (Set (Tuple Int)))
+not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
+ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
+not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
+RemovePersonalData     = (as set.empty (Set (Tuple Int)))
+not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
+EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+InformController     = (as set.empty (Set (Tuple Int)))
+not_InformController     = (as set.empty (Set (Tuple Int Int)))
+AssistController     = (as set.empty (Set (Tuple Int)))
+not_AssistController     = (as set.empty (Set (Tuple Int Int)))
+ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
+not_ProvideControllerInformation     = (as set.empty (Set (Tuple Int Int)))
+ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
+not_ObtainControllerConsent     = (as set.empty (Set (Tuple Int Int)))
+InformSubject     = (as set.empty (Set (Tuple Int)))
+not_InformSubject     = (as set.empty (Set (Tuple Int Int)))
+InformSupervisor     = (as set.empty (Set (Tuple Int)))
+not_InformSupervisor     = (as set.empty (Set (Tuple Int Int)))
+TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
+not_ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int Int)))
+DataBreach     = (as set.empty (Set (Tuple Int)))
+not_DataBreach     = (as set.empty (Set (Tuple Int Int)))
+RightsRequested     = (as set.empty (Set (Tuple Int)))
+not_RightsRequested     = (as set.empty (Set (Tuple Int Int)))
+RespondToRequest     = (as set.empty (Set (Tuple Int)))
+not_RespondToRequest     = (as set.empty (Set (Tuple Int Int)))
+AllowAudits     = (as set.empty (Set (Tuple Int)))
+not_AllowAudits     = (as set.empty (Set (Tuple Int Int)))
+HelpAuditors     = (as set.empty (Set (Tuple Int)))
+not_HelpAuditors     = (as set.empty (Set (Tuple Int Int)))
+AuditsOccur     = (as set.empty (Set (Tuple Int)))
+not_AuditsOccur     = (as set.empty (Set (Tuple Int Int)))
+EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
+not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
+PassSecurity     = (as set.empty (Set (Tuple Int)))
+not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
+CanObjectToChange     = (as set.empty (Set (Tuple Int)))
+not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true false true true true true true true true 0 0 0 0 false))
 ****************************************************************************************************
 check rule_19
-trail 1.009610652923584
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/18.smt2
+trail 1.562199592590332
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1246,14 +1265,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
 auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 0 true))
+auditType     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 1 1 true))
 ****************************************************************************************************
 check rule_20
-trail 1.0277431011199951
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/19.smt2
+trail 1.587754249572754
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1312,14 +1332,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
 auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 0 true))
+auditType     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 1 1 true))
 ****************************************************************************************************
 check rule_21
-trail 0.8350000381469727
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/20.smt2
+trail 1.286879062652588
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1378,14 +1399,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_22
-trail 0.8492882251739502
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/21.smt2
+trail 1.261589527130127
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1444,14 +1466,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_23
-trail 1.8252501487731934
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/22.smt2
+trail 2.6704225540161133
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1468,7 +1491,7 @@ DPATerminate     = (as set.empty (Set (Tuple Int)))
 not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
 DPAUpdate     = (as set.empty (Set (Tuple Int)))
 not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
-ProcessPersonalData     = (set.singleton (tuple 0))
+ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
 not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
 RemovePersonalData     = (as set.empty (Set (Tuple Int)))
 not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
@@ -1508,16 +1531,17 @@ EvaluateSecurity     = (set.singleton (tuple 0))
 not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
 PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
-CanObjectToChange     = (set.singleton (tuple 0))
+CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
 riskLevel     = (set.singleton (tuple 1))
 typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 1 3 1 1 true))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true false true true true true true false true true 1 3 0 0 true))
 ****************************************************************************************************
 check rule_24
-trail 0.627305269241333
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/23.smt2
+trail 1.5704994201660156
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1576,14 +1600,15 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (set.singleton (tuple 0 0))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
+riskLevel     = (set.singleton (tuple 1))
 typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 1 3 0 0 true))
 ****************************************************************************************************
 check rule_25
-trail 0.8376846313476562
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/24.smt2
+trail 1.2751460075378418
 Result     = sat
 time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
@@ -1600,7 +1625,7 @@ DPATerminate     = (as set.empty (Set (Tuple Int)))
 not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
 DPAUpdate     = (as set.empty (Set (Tuple Int)))
 not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
-ProcessPersonalData     = (set.singleton (tuple 0))
+ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
 not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
 RemovePersonalData     = (as set.empty (Set (Tuple Int)))
 not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
@@ -1642,9 +1667,9 @@ PassSecurity     = (as set.empty (Set (Tuple Int)))
 not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
 not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
-riskLevel     = (set.singleton (tuple 2))
-typesOfRisk     = (set.singleton (tuple 3))
-auditorType     = (set.singleton (tuple 1))
-auditType     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 2 3 1 1 true))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true false true true true true true 0 0 0 0 true))
 ****************************************************************************************************

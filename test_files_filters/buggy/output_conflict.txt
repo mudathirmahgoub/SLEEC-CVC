@@ -1,46 +1,54 @@
 check rule_1
-trail 20.00715470314026
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/00.smt2
+trail 20.001237630844116
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 20.001020193099976
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/01.smt2
+trail 20.024616241455078
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-trail 20.021039485931396
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/02.smt2
+trail 20.021022081375122
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-trail 20.037834405899048
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/03.smt2
+trail 20.024588584899902
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 20.019152402877808
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/04.smt2
+trail 20.005502223968506
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-trail 20.03247618675232
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/05.smt2
+trail 20.008915424346924
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 20.003546237945557
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/06.smt2
+trail 20.005607843399048
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-trail 0.24693059921264648
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/07.smt2
+trail 0.5861749649047852
 Result     = sat
-time     = (set.singleton (tuple 0))
+time     = (set.singleton (tuple 3))
 DressingStarted     = (as set.empty (Set (Tuple Int)))
 not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
 DressingComplete     = (as set.empty (Set (Tuple Int)))
 not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
 DressingAbandoned     = (as set.empty (Set (Tuple Int)))
 not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
-CurtainOpenRqt     = (set.singleton (tuple 0))
+CurtainOpenRqt     = (set.singleton (tuple 3))
 not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
-CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+CurtainsOpened     = (set.singleton (tuple 3))
 not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
-RefuseRequest     = (set.singleton (tuple 0))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
 not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
 UserFallen     = (as set.empty (Set (Tuple Int)))
 not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
@@ -48,10 +56,11 @@ SupportCalled     = (as set.empty (Set (Tuple Int)))
 not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
 RetryAgreed     = (as set.empty (Set (Tuple Int)))
 not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true 0 true 0))
+Measure     = (set.singleton (tuple 3 true 3 true 3))
 ****************************************************************************************************
 check rule_9
-trail 0.8535542488098145
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/08.smt2
+trail 0.45624375343322754
 Result     = sat
 time     = (set.singleton (tuple 0))
 DressingStarted     = (as set.empty (Set (Tuple Int)))
@@ -68,16 +77,17 @@ RefuseRequest     = (as set.empty (Set (Tuple Int)))
 not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
 UserFallen     = (set.singleton (tuple 0))
 not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
-SupportCalled     = (set.union (set.singleton (tuple (- 2))) (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0))))
-not_SupportCalled     = (set.singleton (tuple 0 120))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
+not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
 RetryAgreed     = (as set.empty (Set (Tuple Int)))
 not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true 0 true 0))
+Measure     = (set.singleton (tuple 0 true 0 false 0))
 ****************************************************************************************************
 check rule_10
-trail 1.0142836570739746
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/09.smt2
+trail 4.736363649368286
 Result     = sat
-time     = (set.union (set.singleton (tuple 30)) (set.union (set.singleton (tuple 1800)) (set.singleton (tuple 0))))
+time     = (set.union (set.singleton (tuple 1800)) (set.singleton (tuple 0)))
 DressingStarted     = (as set.empty (Set (Tuple Int)))
 not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
 DressingComplete     = (as set.empty (Set (Tuple Int)))
@@ -92,37 +102,19 @@ RefuseRequest     = (as set.empty (Set (Tuple Int)))
 not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
 UserFallen     = (as set.empty (Set (Tuple Int)))
 not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
-SupportCalled     = (set.union (set.singleton (tuple 60)) (set.singleton (tuple 1800)))
+SupportCalled     = (as set.empty (Set (Tuple Int)))
 not_SupportCalled     = (as set.empty (Set (Tuple Int Int)))
 RetryAgreed     = (as set.empty (Set (Tuple Int)))
 not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 30 true 0 true 0)) (set.union (set.singleton (tuple 1800 true 0 true 0)) (set.singleton (tuple 0 true 0 true 3))))
+Measure     = (set.union (set.singleton (tuple 1800 true 0 false 0)) (set.singleton (tuple 0 true 0 true 2)))
 ****************************************************************************************************
 check rule_11
-trail 20.006179809570312
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/10.smt2
+trail 20.00214385986328
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-trail 0.8501882553100586
-Result     = sat
-time     = (set.singleton (tuple 0))
-DressingStarted     = (as set.empty (Set (Tuple Int)))
-not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
-DressingComplete     = (as set.empty (Set (Tuple Int)))
-not_DressingComplete     = (as set.empty (Set (Tuple Int Int)))
-DressingAbandoned     = (as set.empty (Set (Tuple Int)))
-not_DressingAbandoned     = (as set.empty (Set (Tuple Int Int)))
-CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
-not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
-CurtainsOpened     = (as set.empty (Set (Tuple Int)))
-not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
-RefuseRequest     = (as set.empty (Set (Tuple Int)))
-not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
-UserFallen     = (set.singleton (tuple 0))
-not_UserFallen     = (as set.empty (Set (Tuple Int Int)))
-SupportCalled     = (set.union (set.singleton (tuple (- 2))) (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0))))
-not_SupportCalled     = (set.singleton (tuple 0 120))
-RetryAgreed     = (as set.empty (Set (Tuple Int)))
-not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true 0 true 0))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/11.smt2
+trail 20.003363132476807
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

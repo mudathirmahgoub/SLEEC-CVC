@@ -839,10 +839,10 @@ def make_tuple(*arg):
 
 # forall = forall_relation
 # exists = exists_relation
-forall = forall_quantifier
-exists = exists_quantifier
-# forall = set_all
-# exists = set_some
+# forall = forall_quantifier
+# exists = exists_quantifier
+forall = set_all
+exists = set_some
 # forall = set_forall
 # exists = set_exists
 

@@ -1,5 +1,5 @@
-CSV_FILE = "quantifiers.csv"
-PATH = "test_files_quantifiers"
+CSV_FILE = "filters.csv"
+PATH = "test_files_filters"
 
 PLOT_OPTIONS = {
     "alpha": 0.3,

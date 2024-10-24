@@ -1,76 +1,70 @@
 check rule_1
-trail 0.3593020439147949
-Result     = unsat
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/00.smt2
+trail 20.01013731956482
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-trail 0.10405635833740234
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/01.smt2
+trail 0.12527704238891602
 Result     = unsat
 ****************************************************************************************************
 check rule_3
-trail 0.10156083106994629
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/02.smt2
+trail 0.13194847106933594
 Result     = unsat
 ****************************************************************************************************
 check rule_4
-trail 0.16967344284057617
-Result     = sat
-time     = (set.singleton (tuple 0))
-A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
-B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
-C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
-D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
-E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
-F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
-G     = (as set.empty (Set (Tuple Int)))
-not_G     = (as set.empty (Set (Tuple Int Int)))
-H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true 51 true))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/03.smt2
+trail 20.032732486724854
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-trail 0.17643189430236816
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/04.smt2
+trail 9.921331405639648
 Result     = unsat
 ****************************************************************************************************
 check rule_6
-trail 0.34157252311706543
-Result     = unsat
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/05.smt2
+trail 20.005276918411255
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-trail 4.348923206329346
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/06.smt2
+trail 8.994731426239014
 Result     = unsat
 ****************************************************************************************************
 check rule_8
-trail 0.13409686088562012
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/07.smt2
+trail 0.14843344688415527
 Result     = unsat
 ****************************************************************************************************
 check rule_9
-trail 0.23702096939086914
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/08.smt2
+trail 0.3533935546875
 Result     = unsat
 ****************************************************************************************************
 check rule_10
-trail 0.36840271949768066
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/09.smt2
+trail 1.0221500396728516
 Result     = unsat
 ****************************************************************************************************
 check rule_11
-trail 0.3690025806427002
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/10.smt2
+trail 1.0258572101593018
 Result     = unsat
 ****************************************************************************************************
 check rule_12
-trail 0.7368438243865967
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/11.smt2
+trail 5.705872297286987
 Result     = sat
-time     = (set.union (set.singleton (tuple 290)) (set.union (set.singleton (tuple 250)) (set.singleton (tuple 0))))
+time     = (set.union (set.singleton (tuple 251)) (set.union (set.singleton (tuple 291)) (set.singleton (tuple 1))))
 A     = (as set.empty (Set (Tuple Int)))
 not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
 not_B     = (as set.empty (Set (Tuple Int Int)))
-C     = (set.singleton (tuple 0))
+C     = (set.singleton (tuple 1))
 not_C     = (as set.empty (Set (Tuple Int Int)))
-D     = (set.singleton (tuple 290))
+D     = (set.singleton (tuple 251))
 not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (as set.empty (Set (Tuple Int)))
 not_E     = (as set.empty (Set (Tuple Int Int)))
@@ -80,14 +74,16 @@ G     = (as set.empty (Set (Tuple Int)))
 not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 290 true 0 true)) (set.union (set.singleton (tuple 250 true 0 true)) (set.singleton (tuple 0 true 0 true))))
+Measure     = (set.union (set.singleton (tuple 291 true 1 true)) (set.union (set.singleton (tuple 251 true 1 true)) (set.singleton (tuple 1 true 1 true))))
 ****************************************************************************************************
 check rule_13
-trail 0.3703165054321289
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/12.smt2
+trail 1.0247960090637207
 Result     = unsat
 ****************************************************************************************************
 check rule_14
-trail 0.335707426071167
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/13.smt2
+trail 0.5629639625549316
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -103,17 +99,19 @@ not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
 not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 10))
+not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true 4 true))
+Measure     = (set.singleton (tuple 0 false 2 true))
 ****************************************************************************************************
 check rule_15
-trail 0.5160677433013916
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/14.smt2
+trail 0.5391387939453125
 Result     = unsat
 ****************************************************************************************************
 check rule_16
-trail 0.23050999641418457
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/15.smt2
+trail 2.081463575363159
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -129,13 +127,14 @@ not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
 not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.union (set.singleton (tuple 0 20)) (set.singleton (tuple 0 10)))
+not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
 not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 3 true))
 ****************************************************************************************************
 check rule_17
-trail 0.5245954990386963
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/16.smt2
+trail 0.828944206237793
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -157,7 +156,8 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 2 true))
 ****************************************************************************************************
 check rule_18
-trail 0.21950387954711914
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/17.smt2
+trail 0.4196186065673828
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -179,7 +179,8 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true))
 ****************************************************************************************************
 check rule_19
-trail 0.15125179290771484
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/18.smt2
+trail 0.41707658767700195
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -201,7 +202,8 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true))
 ****************************************************************************************************
 check rule_20
-trail 0.3430819511413574
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/19.smt2
+trail 0.6103024482727051
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -223,24 +225,7 @@ not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true))
 ****************************************************************************************************
 check rule_21
-trail 2.0020391941070557
-Result     = sat
-time     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
-A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
-B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
-C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
-D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
-E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
-F     = (set.union (set.singleton (tuple 2)) (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0))))
-not_F     = (set.singleton (tuple 2 2))
-G     = (as set.empty (Set (Tuple Int)))
-not_G     = (as set.empty (Set (Tuple Int Int)))
-H     = (set.singleton (tuple 2))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 1 true 0 true)) (set.union (set.singleton (tuple 2 true 2 true)) (set.singleton (tuple 0 true 0 true))))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/redundancy/20.smt2
+trail 20.00482726097107
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

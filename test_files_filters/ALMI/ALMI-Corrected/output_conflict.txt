@@ -1,5 +1,6 @@
 check rule_1
-trail 0.8956277370452881
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/00.smt2
+trail 1.590468406677246
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -10,13 +11,13 @@ AskCallHelp     = (as set.empty (Set (Tuple Int)))
 not_AskCallHelp     = (as set.empty (Set (Tuple Int Int)))
 MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (as set.empty (Set (Tuple Int)))
+InformUser     = (set.singleton (tuple 0))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
 CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
 not_CallEmergencyServices     = (as set.empty (Set (Tuple Int Int)))
-RemindLater     = (set.singleton (tuple 0))
+RemindLater     = (as set.empty (Set (Tuple Int)))
 not_RemindLater     = (as set.empty (Set (Tuple Int Int)))
 AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
 not_AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int Int)))
@@ -84,12 +85,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 false 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_2
-trail 1.5574402809143066
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/01.smt2
+trail 2.4782702922821045
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -174,12 +176,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_3
-trail 2.2462611198425293
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/02.smt2
+trail 2.8728795051574707
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -264,12 +267,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_4
-trail 2.222686529159546
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/03.smt2
+trail 2.8862664699554443
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -354,12 +358,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 28801 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_5
-trail 0.8432087898254395
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/04.smt2
+trail 1.3352954387664795
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -444,12 +449,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_6
-trail 1.3094596862792969
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/05.smt2
+trail 1.783015489578247
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -534,12 +540,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 false true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 false true true true 0 true))
 ****************************************************************************************************
 check rule_7
-trail 1.3278813362121582
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/06.smt2
+trail 1.7903435230255127
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -624,12 +631,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 false true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 false true true true 0 true))
 ****************************************************************************************************
 check rule_8
-trail 0.5495443344116211
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/07.smt2
+trail 0.9252657890319824
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -714,12 +722,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true false true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true false true true 0 true))
 ****************************************************************************************************
 check rule_9
-trail 1.9073655605316162
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/08.smt2
+trail 2.7262110710144043
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -730,7 +739,7 @@ AskCallHelp     = (as set.empty (Set (Tuple Int)))
 not_AskCallHelp     = (as set.empty (Set (Tuple Int Int)))
 MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
@@ -760,7 +769,7 @@ FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
 not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
 AskUserIfOK     = (as set.empty (Set (Tuple Int)))
 not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
-InterfereSafely     = (set.singleton (tuple 0))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
 not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
 UserHasLimitation     = (as set.empty (Set (Tuple Int)))
 not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
@@ -804,12 +813,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true false true 0 true))
 ****************************************************************************************************
 check rule_10
-trail 0.8366138935089111
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/09.smt2
+trail 1.3052597045898438
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -894,12 +904,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_11
-trail 0.7934942245483398
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/10.smt2
+trail 1.213700294494629
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -984,12 +995,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_12
-trail 1.903693675994873
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/11.smt2
+trail 2.7300643920898438
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1000,7 +1012,7 @@ AskCallHelp     = (as set.empty (Set (Tuple Int)))
 not_AskCallHelp     = (as set.empty (Set (Tuple Int Int)))
 MeetingUser     = (as set.empty (Set (Tuple Int)))
 not_MeetingUser     = (as set.empty (Set (Tuple Int Int)))
-InformUser     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
 InformCaregiver     = (as set.empty (Set (Tuple Int)))
 not_InformCaregiver     = (as set.empty (Set (Tuple Int Int)))
@@ -1030,7 +1042,7 @@ FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
 not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
 AskUserIfOK     = (as set.empty (Set (Tuple Int)))
 not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
-InterfereSafely     = (set.singleton (tuple 0))
+InterfereSafely     = (as set.empty (Set (Tuple Int)))
 not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
 UserHasLimitation     = (as set.empty (Set (Tuple Int)))
 not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
@@ -1074,12 +1086,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true false true 0 true))
 ****************************************************************************************************
 check rule_13
-trail 0.8159096240997314
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/12.smt2
+trail 1.2403357028961182
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1164,12 +1177,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_14
-trail 1.1920344829559326
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/13.smt2
+trail 1.9364454746246338
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1254,12 +1268,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_15
-trail 0.8832802772521973
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/14.smt2
+trail 1.3096435070037842
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1344,12 +1359,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_16
-trail 1.477849006652832
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/15.smt2
+trail 2.157463550567627
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1434,12 +1450,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_17
-trail 1.5933098793029785
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/16.smt2
+trail 2.54384446144104
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1524,12 +1541,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_18
-trail 0.8188338279724121
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/17.smt2
+trail 1.2288451194763184
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1614,12 +1632,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_19
-trail 1.4554309844970703
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/18.smt2
+trail 2.1532399654388428
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1704,12 +1723,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_20
-trail 0.831108570098877
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/19.smt2
+trail 1.2540786266326904
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1794,12 +1814,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_21
-trail 1.6565747261047363
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/20.smt2
+trail 3.388521194458008
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1884,12 +1905,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (set.singleton (tuple 0 0))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 false true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 false true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_22
-trail 0.8333323001861572
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/21.smt2
+trail 1.2401621341705322
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -1974,12 +1996,13 @@ ShowDataHistory     = (set.singleton (tuple 0))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_23
-trail 0.5882067680358887
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/22.smt2
+trail 1.3636882305145264
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2064,12 +2087,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_24
-trail 1.6004269123077393
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/23.smt2
+trail 2.585322618484497
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2155,11 +2179,12 @@ not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
 needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true false true true true 2 true true true true 2 true))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true false true true true 2 true true true true 0 true))
 ****************************************************************************************************
 check rule_25
-trail 0.8237435817718506
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/24.smt2
+trail 1.2670691013336182
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -2244,12 +2269,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_26
-trail 0.8169074058532715
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/25.smt2
+trail 1.2373993396759033
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (set.singleton (tuple 0))
@@ -2334,12 +2360,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_27
-trail 1.1157310009002686
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/26.smt2
+trail 1.6870779991149902
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2424,12 +2451,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_28
-trail 1.1066088676452637
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/27.smt2
+trail 1.6560122966766357
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2514,12 +2542,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_29
-trail 0.8309688568115234
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/28.smt2
+trail 1.254955530166626
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2604,12 +2633,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_30
-trail 0.5663974285125732
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/29.smt2
+trail 0.9132983684539795
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2694,12 +2724,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
+needLevel     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 2 true))
 ****************************************************************************************************
 check rule_31
-trail 0.8731966018676758
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/30.smt2
+trail 1.476771354675293
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2740,7 +2771,7 @@ FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
 not_FireSafetyMeasures     = (as set.empty (Set (Tuple Int Int)))
 AskUserIfOK     = (as set.empty (Set (Tuple Int)))
 not_AskUserIfOK     = (as set.empty (Set (Tuple Int Int)))
-InterfereSafely     = (as set.empty (Set (Tuple Int)))
+InterfereSafely     = (set.singleton (tuple 0))
 not_InterfereSafely     = (as set.empty (Set (Tuple Int Int)))
 UserHasLimitation     = (as set.empty (Set (Tuple Int)))
 not_UserHasLimitation     = (as set.empty (Set (Tuple Int Int)))
@@ -2782,14 +2813,15 @@ UpdateInformation     = (as set.empty (Set (Tuple Int)))
 not_UpdateInformation     = (as set.empty (Set (Tuple Int Int)))
 ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
-UpdateMap     = (set.singleton (tuple 0))
+UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 1 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 2))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 2 true))
 ****************************************************************************************************
 check rule_32
-trail 0.8482027053833008
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/31.smt2
+trail 1.443723201751709
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2874,12 +2906,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_33
-trail 0.8430759906768799
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/32.smt2
+trail 1.4224674701690674
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -2964,12 +2997,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_34
-trail 1.4881911277770996
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/33.smt2
+trail 2.071014881134033
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -3054,12 +3088,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_35
-trail 1.4882926940917969
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/34.smt2
+trail 2.0518267154693604
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -3144,12 +3179,13 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************
 check rule_36
-trail 1.4569056034088135
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/ALMI/ALMI-Corrected/conflict/35.smt2
+trail 2.086045265197754
 Result     = sat
 time     = (set.singleton (tuple 0))
 PreparingDeployment     = (as set.empty (Set (Tuple Int)))
@@ -3234,7 +3270,7 @@ ShowDataHistory     = (as set.empty (Set (Tuple Int)))
 not_ShowDataHistory     = (as set.empty (Set (Tuple Int Int)))
 UpdateMap     = (as set.empty (Set (Tuple Int)))
 not_UpdateMap     = (as set.empty (Set (Tuple Int Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 2 true true true true 2 true))
+needLevel     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
 ****************************************************************************************************

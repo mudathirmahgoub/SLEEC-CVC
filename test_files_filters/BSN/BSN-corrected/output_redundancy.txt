@@ -1,5 +1,6 @@
 check rule_1
-trail 0.6892063617706299
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/00.smt2
+trail 1.138824462890625
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -71,12 +72,13 @@ not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
 patientDiscomfort     = (set.singleton (tuple 0))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 0 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.6266517639160156
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/01.smt2
+trail 0.9647839069366455
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -147,13 +149,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true false true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true false true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.6075053215026855
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/02.smt2
+trail 0.9754481315612793
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -224,13 +227,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.6313929557800293
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/03.smt2
+trail 0.9750144481658936
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -301,20 +305,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true false true true true true true false false false true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true false true true true true true false false false true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-trail 4.024120807647705
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/04.smt2
+trail 7.103820562362671
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -344,7 +349,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -378,20 +383,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 false true true true true true true true true true true true true false true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 false true true true true true true true true true true true true false true true false true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 5.369874000549316
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/05.smt2
+trail 7.315982341766357
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (set.singleton (tuple 0))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -421,7 +427,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -455,20 +461,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 false true true true true true true true true true true true true false true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 false true true true true true true true true true true true true false true true false true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 3.1574981212615967
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/06.smt2
+trail 7.978133201599121
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -498,7 +505,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -532,20 +539,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
 batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 2 2 true true true true true true true true true true true true true true true true false true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 4.460894823074341
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/07.smt2
+trail 7.039879560470581
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -575,7 +583,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -609,13 +617,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
 batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 0 2 2 true true true true true true true true true true true true true true true true false true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.6754388809204102
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/08.smt2
+trail 1.1030948162078857
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -686,13 +695,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 0))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 0 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.9552452564239502
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/09.smt2
+trail 1.5775835514068604
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -763,13 +773,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 1))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 1 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 2.379681348800659
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/10.smt2
+trail 4.735455513000488
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -806,7 +817,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -840,13 +851,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 true true true true true true true true true true true true true true true true true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 2.3596527576446533
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/11.smt2
+trail 4.741125822067261
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -883,7 +895,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -917,13 +929,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 true true true true true true true true true true true true true true true true true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 3.885638952255249
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/12.smt2
+trail 5.389971017837524
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -960,7 +973,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -994,13 +1007,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true false false false true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 true true true true true true true true true true true true true true true true true false false false true true true false true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 0.631605863571167
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/13.smt2
+trail 1.0169334411621094
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1071,13 +1085,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true false true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true false true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.6200659275054932
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/14.smt2
+trail 1.0032687187194824
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1148,13 +1163,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true false true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true false true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 2.1216249465942383
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/15.smt2
+trail 3.1739461421966553
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1225,13 +1241,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-trail 2.1514639854431152
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/16.smt2
+trail 3.1339123249053955
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1302,13 +1319,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 2.1407673358917236
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/17.smt2
+trail 3.162728786468506
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1379,13 +1397,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-trail 1.4584555625915527
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/18.smt2
+trail 2.547661066055298
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1456,20 +1475,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true false true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true false true true true true true true))
 ****************************************************************************************************
 check rule_20
-trail 1.9975709915161133
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/19.smt2
+trail 3.602593183517456
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -1533,13 +1553,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true false true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_21
-trail 1.4476113319396973
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/20.smt2
+trail 2.3065547943115234
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1580,7 +1601,7 @@ EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
-CaregiverCanDeactivate     = (set.singleton (tuple 0))
+CaregiverCanDeactivate     = (as set.empty (Set (Tuple Int)))
 not_CaregiverCanDeactivate     = (as set.empty (Set (Tuple Int Int)))
 DataCollected     = (as set.empty (Set (Tuple Int)))
 not_DataCollected     = (as set.empty (Set (Tuple Int Int)))
@@ -1610,13 +1631,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true false true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true false true true true true true true true true true true true true true true true true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_22
-trail 0.9836699962615967
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/21.smt2
+trail 1.7569282054901123
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1657,7 +1679,7 @@ EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
-CaregiverCanDeactivate     = (set.singleton (tuple 0))
+CaregiverCanDeactivate     = (as set.empty (Set (Tuple Int)))
 not_CaregiverCanDeactivate     = (as set.empty (Set (Tuple Int Int)))
 DataCollected     = (as set.empty (Set (Tuple Int)))
 not_DataCollected     = (as set.empty (Set (Tuple Int Int)))
@@ -1687,13 +1709,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true false true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_23
-trail 0.6144912242889404
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/22.smt2
+trail 1.0038185119628906
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1764,13 +1787,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_24
-trail 0.9286901950836182
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/23.smt2
+trail 1.516355276107788
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1841,13 +1865,14 @@ ObtainRiskLevel     = (set.singleton (tuple 0))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_25
-trail 0.9577655792236328
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/24.smt2
+trail 1.5216162204742432
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1918,13 +1943,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_26
-trail 0.9661204814910889
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/25.smt2
+trail 1.5358028411865234
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -1995,13 +2021,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_27
-trail 2.1428873538970947
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/26.smt2
+trail 3.1846723556518555
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2072,13 +2099,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_28
-trail 2.1592931747436523
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/27.smt2
+trail 3.1718552112579346
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2149,20 +2177,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_29
-trail 2.688971519470215
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/28.smt2
+trail 4.657074213027954
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -2192,7 +2221,7 @@ InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -2226,20 +2255,21 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 true true true true true true true true true true true true true true true true false true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_30
-trail 3.762117624282837
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/29.smt2
+trail 6.267947673797607
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
 not_HideGeographicLocation     = (as set.empty (Set (Tuple Int Int)))
-ConfirmSensorPlacement     = (set.singleton (tuple 0))
+ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int)))
 not_ConfirmSensorPlacement     = (as set.empty (Set (Tuple Int Int)))
-ConfirmUsersActivities     = (set.singleton (tuple 0))
+ConfirmUsersActivities     = (as set.empty (Set (Tuple Int)))
 not_ConfirmUsersActivities     = (as set.empty (Set (Tuple Int Int)))
 AdjustServiceTimerate     = (as set.empty (Set (Tuple Int)))
 not_AdjustServiceTimerate     = (as set.empty (Set (Tuple Int Int)))
@@ -2263,13 +2293,13 @@ ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int)))
 not_ObtainUserConsentForSensors     = (as set.empty (Set (Tuple Int Int)))
 InformUser     = (as set.empty (Set (Tuple Int)))
 not_InformUser     = (as set.empty (Set (Tuple Int Int)))
-TrackVitals     = (set.singleton (tuple 0))
+TrackVitals     = (as set.empty (Set (Tuple Int)))
 not_TrackVitals     = (as set.empty (Set (Tuple Int Int)))
 InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int)))
 not_InformBSNPurposeAndResponseProtocol     = (as set.empty (Set (Tuple Int Int)))
 CallCaregiver     = (as set.empty (Set (Tuple Int)))
 not_CallCaregiver     = (as set.empty (Set (Tuple Int Int)))
-EnsureEasyStopping     = (set.singleton (tuple 0))
+EnsureEasyStopping     = (as set.empty (Set (Tuple Int)))
 not_EnsureEasyStopping     = (as set.empty (Set (Tuple Int Int)))
 RemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_RemoveSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -2291,7 +2321,7 @@ PatientBathing     = (as set.empty (Set (Tuple Int)))
 not_PatientBathing     = (as set.empty (Set (Tuple Int Int)))
 UserWantsToRemoveSensors     = (as set.empty (Set (Tuple Int)))
 not_UserWantsToRemoveSensors     = (as set.empty (Set (Tuple Int Int)))
-UserCanCallEmergency     = (set.singleton (tuple 0))
+UserCanCallEmergency     = (as set.empty (Set (Tuple Int)))
 not_UserCanCallEmergency     = (as set.empty (Set (Tuple Int Int)))
 AdjustSensors     = (as set.empty (Set (Tuple Int)))
 not_AdjustSensors     = (as set.empty (Set (Tuple Int Int)))
@@ -2303,13 +2333,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
+patientDiscomfort     = (set.singleton (tuple 0))
 riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 2 2 1 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 2 0 true true true true true true true true true true true true true true true true true true true true true true true true true false true true true))
 ****************************************************************************************************
 check rule_31
-trail 0.657355546951294
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/30.smt2
+trail 0.9997131824493408
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2380,13 +2411,14 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (set.singleton (tuple 0))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_32
-trail 0.9924411773681641
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/BSN/BSN-corrected/redundancy/31.smt2
+trail 1.6100969314575195
 Result     = sat
 time     = (set.singleton (tuple 0))
 HideGeographicLocation     = (as set.empty (Set (Tuple Int)))
@@ -2457,8 +2489,8 @@ ObtainRiskLevel     = (as set.empty (Set (Tuple Int)))
 not_ObtainRiskLevel     = (as set.empty (Set (Tuple Int Int)))
 UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int)))
 not_UserRequestRemoveSensor     = (as set.empty (Set (Tuple Int Int)))
-patientDiscomfort     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-batteryConsumption     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 2 2 2 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
+patientDiscomfort     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+batteryConsumption     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 0 true true true true true true true true true true true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************

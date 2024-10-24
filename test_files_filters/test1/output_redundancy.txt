@@ -1,5 +1,6 @@
 check rule_1
-trail 0.11356544494628906
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/00.smt2
+trail 0.3020334243774414
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
@@ -11,7 +12,8 @@ not_C     = (set.singleton (tuple 0 11))
 Measure     = (set.singleton (tuple 0 20))
 ****************************************************************************************************
 check rule_2
-trail 0.06280946731567383
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/01.smt2
+trail 0.13608837127685547
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
@@ -23,11 +25,13 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
 check rule_3
-trail 0.12235713005065918
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/02.smt2
+trail 0.1422102451324463
 Result     = unsat
 ****************************************************************************************************
 check rule_4
-trail 0.2633047103881836
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/03.smt2
+trail 0.4573953151702881
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))

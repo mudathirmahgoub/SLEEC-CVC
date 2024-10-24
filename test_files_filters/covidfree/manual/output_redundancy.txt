@@ -1,16 +1,17 @@
 check rule_1
-trail 0.4855012893676758
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/00.smt2
+trail 1.3069074153900146
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (set.singleton (tuple 0))
 not_UserOpenApp     = (as set.empty (Set (Tuple Int Int)))
 UserUseApp     = (as set.empty (Set (Tuple Int)))
 not_UserUseApp     = (as set.empty (Set (Tuple Int Int)))
-RequestUserConsent     = (as set.empty (Set (Tuple Int)))
+RequestUserConsent     = (set.singleton (tuple 0))
 not_RequestUserConsent     = (as set.empty (Set (Tuple Int Int)))
 RequestGuardianConsent     = (as set.empty (Set (Tuple Int)))
 not_RequestGuardianConsent     = (as set.empty (Set (Tuple Int Int)))
-CheckConsentCapacity     = (set.singleton (tuple 0))
+CheckConsentCapacity     = (as set.empty (Set (Tuple Int)))
 not_CheckConsentCapacity     = (as set.empty (Set (Tuple Int Int)))
 DisclosureRequest     = (as set.empty (Set (Tuple Int)))
 not_DisclosureRequest     = (as set.empty (Set (Tuple Int Int)))
@@ -56,16 +57,17 @@ EnsureCulturalNorms     = (as set.empty (Set (Tuple Int)))
 not_EnsureCulturalNorms     = (as set.empty (Set (Tuple Int Int)))
 NoticeRedFlag     = (as set.empty (Set (Tuple Int)))
 not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true true true true true false true true true true true true true))
+Measure     = (set.singleton (tuple 0 false true true true true false true true true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 0.29508280754089355
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/01.smt2
+trail 0.5789005756378174
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (set.singleton (tuple 0))
 not_UserOpenApp     = (as set.empty (Set (Tuple Int Int)))
 UserUseApp     = (as set.empty (Set (Tuple Int)))
-not_UserUseApp     = (set.singleton (tuple 0 0))
+not_UserUseApp     = (as set.empty (Set (Tuple Int Int)))
 RequestUserConsent     = (as set.empty (Set (Tuple Int)))
 not_RequestUserConsent     = (as set.empty (Set (Tuple Int Int)))
 RequestGuardianConsent     = (as set.empty (Set (Tuple Int)))
@@ -119,13 +121,14 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 false true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 0.3138871192932129
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/02.smt2
+trail 0.595160961151123
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (set.singleton (tuple 0))
 not_UserOpenApp     = (as set.empty (Set (Tuple Int Int)))
 UserUseApp     = (as set.empty (Set (Tuple Int)))
-not_UserUseApp     = (set.singleton (tuple 0 0))
+not_UserUseApp     = (as set.empty (Set (Tuple Int Int)))
 RequestUserConsent     = (as set.empty (Set (Tuple Int)))
 not_RequestUserConsent     = (as set.empty (Set (Tuple Int Int)))
 RequestGuardianConsent     = (as set.empty (Set (Tuple Int)))
@@ -179,7 +182,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.2565884590148926
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/03.smt2
+trail 0.49281978607177734
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -239,7 +243,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true false true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-trail 0.24420642852783203
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/04.smt2
+trail 0.4868741035461426
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -299,7 +304,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-trail 0.2646009922027588
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/05.smt2
+trail 0.4925076961517334
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -359,7 +365,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.2525496482849121
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/06.smt2
+trail 0.5297958850860596
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -419,7 +426,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 0.45495104789733887
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/07.smt2
+trail 0.9478516578674316
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -444,7 +452,7 @@ FollowJurisdictionRules     = (as set.empty (Set (Tuple Int)))
 not_FollowJurisdictionRules     = (as set.empty (Set (Tuple Int Int)))
 ProvideInstructions     = (as set.empty (Set (Tuple Int)))
 not_ProvideInstructions     = (as set.empty (Set (Tuple Int Int)))
-ProvideDemonstration     = (set.singleton (tuple 0))
+ProvideDemonstration     = (as set.empty (Set (Tuple Int)))
 not_ProvideDemonstration     = (as set.empty (Set (Tuple Int Int)))
 ShowHelpIcon     = (as set.empty (Set (Tuple Int)))
 not_ShowHelpIcon     = (as set.empty (Set (Tuple Int Int)))
@@ -476,10 +484,11 @@ EnsureCulturalNorms     = (as set.empty (Set (Tuple Int)))
 not_EnsureCulturalNorms     = (as set.empty (Set (Tuple Int Int)))
 NoticeRedFlag     = (as set.empty (Set (Tuple Int)))
 not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 0.4529557228088379
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/08.smt2
+trail 1.0004730224609375
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -539,7 +548,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 0.30771732330322266
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/09.smt2
+trail 0.587475061416626
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -599,7 +609,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true false true true true true true true))
 ****************************************************************************************************
 check rule_11
-trail 0.4453742504119873
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/10.smt2
+trail 0.8247215747833252
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -659,7 +670,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 0.450092077255249
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/11.smt2
+trail 0.8639838695526123
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -719,7 +731,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-trail 0.2530934810638428
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/12.smt2
+trail 0.5076725482940674
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -779,7 +792,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true false))
 ****************************************************************************************************
 check rule_14
-trail 0.25330209732055664
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/13.smt2
+trail 0.5196874141693115
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -839,7 +853,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 0.2549407482147217
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/14.smt2
+trail 0.5117819309234619
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -899,7 +914,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 0.4402775764465332
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/15.smt2
+trail 0.9480020999908447
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -952,14 +968,15 @@ NotifcationArrives     = (as set.empty (Set (Tuple Int)))
 not_NotifcationArrives     = (as set.empty (Set (Tuple Int Int)))
 SendAppropriateNotification     = (as set.empty (Set (Tuple Int)))
 not_SendAppropriateNotification     = (as set.empty (Set (Tuple Int Int)))
-EnsureCulturalNorms     = (set.singleton (tuple 0))
+EnsureCulturalNorms     = (as set.empty (Set (Tuple Int)))
 not_EnsureCulturalNorms     = (as set.empty (Set (Tuple Int Int)))
 NoticeRedFlag     = (as set.empty (Set (Tuple Int)))
 not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_17
-trail 0.2670319080352783
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/16.smt2
+trail 0.5388894081115723
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -1019,7 +1036,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-trail 0.27072834968566895
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/17.smt2
+trail 0.5535361766815186
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))
@@ -1079,7 +1097,8 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true false true true))
 ****************************************************************************************************
 check rule_19
-trail 0.4158499240875244
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/18.smt2
+trail 0.8045549392700195
 Result     = sat
 time     = (set.singleton (tuple 0))
 UserOpenApp     = (as set.empty (Set (Tuple Int)))

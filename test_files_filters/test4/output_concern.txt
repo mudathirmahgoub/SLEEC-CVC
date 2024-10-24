@@ -1,14 +1,5 @@
 check concern_1
-trail 1.2340385913848877
-Result     = sat
-time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
-A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
-B     = (set.singleton (tuple 10))
-not_B     = (as set.empty (Set (Tuple Int Int)))
-C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
-D     = (set.union (set.singleton (tuple (- 1))) (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0))))
-not_D     = (set.singleton (tuple 1 30))
-Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test4/concern/00.smt2
+trail 20.01239323616028
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

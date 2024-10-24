@@ -1,12 +1,13 @@
 check rule_1
-trail 1.4478058815002441
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/00.smt2
+trail 2.9979677200317383
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
 not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
 RobotWorking     = (as set.empty (Set (Tuple Int)))
 not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
-RobotContinueTask     = (set.singleton (tuple 0))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
 not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
 RobotStopAction     = (as set.empty (Set (Tuple Int)))
 not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
@@ -26,9 +27,9 @@ HumanSaysStop     = (as set.empty (Set (Tuple Int)))
 not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
 AskPermission     = (as set.empty (Set (Tuple Int)))
 not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
+MoveAtSafeSpeed     = (set.singleton (tuple 0))
 not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
 not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
 PreparingRobot     = (as set.empty (Set (Tuple Int)))
 not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
@@ -48,27 +49,28 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 0))
+risk     = (set.singleton (tuple 1))
 efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+Measure     = (set.singleton (tuple 0 true false true true true true 1 0 true true true true true))
 ****************************************************************************************************
 check rule_2
-trail 1.339019775390625
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/01.smt2
+trail 3.153428792953491
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
 not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
 RobotWorking     = (as set.empty (Set (Tuple Int)))
 not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
-RobotContinueTask     = (set.singleton (tuple 0))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
 not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
 RobotStopAction     = (as set.empty (Set (Tuple Int)))
 not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
+AvoidBumping     = (set.singleton (tuple 0))
 not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
 AdjustRoute     = (as set.empty (Set (Tuple Int)))
 not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
-InquireSafety     = (set.singleton (tuple 0))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
 not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
 AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
 not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
@@ -80,9 +82,9 @@ HumanSaysStop     = (as set.empty (Set (Tuple Int)))
 not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
 AskPermission     = (as set.empty (Set (Tuple Int)))
 not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
+MoveAtSafeSpeed     = (set.singleton (tuple 0))
 not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
 not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
 PreparingRobot     = (as set.empty (Set (Tuple Int)))
 not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
@@ -102,27 +104,28 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 0))
+risk     = (set.singleton (tuple 1))
 efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+Measure     = (set.singleton (tuple 0 false false false false true true 1 0 true true true true true))
 ****************************************************************************************************
 check rule_3
-trail 1.330094814300537
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/02.smt2
+trail 3.1779086589813232
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
 not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
 RobotWorking     = (as set.empty (Set (Tuple Int)))
 not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
-RobotContinueTask     = (set.singleton (tuple 0))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
 not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
 RobotStopAction     = (as set.empty (Set (Tuple Int)))
 not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
+AvoidBumping     = (set.singleton (tuple 0))
 not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
 AdjustRoute     = (as set.empty (Set (Tuple Int)))
 not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
-InquireSafety     = (set.singleton (tuple 0))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
 not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
 AccountHumanRandomness     = (set.singleton (tuple 0))
 not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
@@ -134,9 +137,9 @@ HumanSaysStop     = (as set.empty (Set (Tuple Int)))
 not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
 AskPermission     = (as set.empty (Set (Tuple Int)))
 not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
+MoveAtSafeSpeed     = (set.singleton (tuple 0))
 not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
 not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
 PreparingRobot     = (as set.empty (Set (Tuple Int)))
 not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
@@ -156,20 +159,23 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 0))
+risk     = (set.singleton (tuple 1))
 efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+Measure     = (set.singleton (tuple 0 false false false false true true 1 0 true true true true true))
 ****************************************************************************************************
 check rule_4
-trail 0.29463982582092285
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/03.smt2
+trail 0.3382537364959717
 Result     = unsat
 ****************************************************************************************************
 check rule_5
-trail 0.29795050621032715
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/04.smt2
+trail 0.3288564682006836
 Result     = unsat
 ****************************************************************************************************
 check rule_6
-trail 0.3561995029449463
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/05.smt2
+trail 0.5831081867218018
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -218,12 +224,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_7
-trail 0.35422635078430176
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/06.smt2
+trail 0.6186339855194092
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -272,12 +279,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_8
-trail 1.3376598358154297
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/07.smt2
+trail 3.189189910888672
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
@@ -288,11 +296,11 @@ RobotContinueTask     = (as set.empty (Set (Tuple Int)))
 not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
 RobotStopAction     = (as set.empty (Set (Tuple Int)))
 not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
+AvoidBumping     = (set.singleton (tuple 0))
 not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
 AdjustRoute     = (as set.empty (Set (Tuple Int)))
 not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
-InquireSafety     = (set.singleton (tuple 0))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
 not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
 AccountHumanRandomness     = (set.singleton (tuple 0))
 not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
@@ -304,9 +312,9 @@ HumanSaysStop     = (as set.empty (Set (Tuple Int)))
 not_HumanSaysStop     = (as set.empty (Set (Tuple Int Int)))
 AskPermission     = (as set.empty (Set (Tuple Int)))
 not_AskPermission     = (as set.empty (Set (Tuple Int Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
+MoveAtSafeSpeed     = (set.singleton (tuple 0))
 not_MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
+IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
 not_IncreaseSpeed     = (as set.empty (Set (Tuple Int Int)))
 PreparingRobot     = (as set.empty (Set (Tuple Int)))
 not_PreparingRobot     = (as set.empty (Set (Tuple Int Int)))
@@ -326,27 +334,28 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 0))
+risk     = (set.singleton (tuple 1))
 efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+Measure     = (set.singleton (tuple 0 false true false false true true 1 0 true true true true true))
 ****************************************************************************************************
 check rule_9
-trail 1.6942956447601318
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/08.smt2
+trail 3.508498430252075
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (set.singleton (tuple 0))
 not_RobotMoving     = (as set.empty (Set (Tuple Int Int)))
 RobotWorking     = (as set.empty (Set (Tuple Int)))
 not_RobotWorking     = (as set.empty (Set (Tuple Int Int)))
-RobotContinueTask     = (set.singleton (tuple 0))
+RobotContinueTask     = (as set.empty (Set (Tuple Int)))
 not_RobotContinueTask     = (as set.empty (Set (Tuple Int Int)))
 RobotStopAction     = (as set.empty (Set (Tuple Int)))
 not_RobotStopAction     = (as set.empty (Set (Tuple Int Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
+AvoidBumping     = (set.singleton (tuple 0))
 not_AvoidBumping     = (as set.empty (Set (Tuple Int Int)))
 AdjustRoute     = (as set.empty (Set (Tuple Int)))
 not_AdjustRoute     = (as set.empty (Set (Tuple Int Int)))
-InquireSafety     = (set.singleton (tuple 0))
+InquireSafety     = (as set.empty (Set (Tuple Int)))
 not_InquireSafety     = (as set.empty (Set (Tuple Int Int)))
 AccountHumanRandomness     = (set.singleton (tuple 0))
 not_AccountHumanRandomness     = (as set.empty (Set (Tuple Int Int)))
@@ -381,11 +390,12 @@ not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
 risk     = (set.singleton (tuple 1))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 1 2 true true true true true))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 false false false false true true 1 0 true true true true true))
 ****************************************************************************************************
 check rule_10
-trail 2.744384527206421
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/09.smt2
+trail 5.597477674484253
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -434,12 +444,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true false true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true false true true true))
 ****************************************************************************************************
 check rule_11
-trail 1.6123073101043701
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/10.smt2
+trail 4.315598249435425
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -488,12 +499,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_12
-trail 2.189666271209717
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/11.smt2
+trail 2.9201900959014893
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -542,12 +554,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true false true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true false true))
 ****************************************************************************************************
 check rule_13
-trail 1.6428802013397217
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/12.smt2
+trail 4.373110055923462
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -596,12 +609,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_14
-trail 1.5916757583618164
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/13.smt2
+trail 4.41984748840332
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -650,12 +664,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_15
-trail 1.6146619319915771
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/14.smt2
+trail 4.392663478851318
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -704,12 +719,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check rule_16
-trail 1.7450330257415771
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/15.smt2
+trail 3.9530138969421387
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -758,12 +774,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true false))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true false))
 ****************************************************************************************************
 check rule_17
-trail 1.7038381099700928
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/16.smt2
+trail 3.98494815826416
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -812,16 +829,18 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true true true false))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true false))
 ****************************************************************************************************
 check rule_18
-trail 0.4402596950531006
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/17.smt2
+trail 0.47005152702331543
 Result     = unsat
 ****************************************************************************************************
 check rule_19
-trail 2.227593183517456
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/18.smt2
+trail 4.68960976600647
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -870,12 +889,13 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true false true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true false true true))
 ****************************************************************************************************
 check rule_20
-trail 1.7680413722991943
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/redundancy/19.smt2
+trail 4.139305830001831
 Result     = sat
 time     = (set.singleton (tuple 0))
 RobotMoving     = (as set.empty (Set (Tuple Int)))
@@ -924,7 +944,7 @@ ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
 not_ActionHumanRandom     = (as set.empty (Set (Tuple Int Int)))
 MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
 not_MoveAwayFromHuman     = (as set.empty (Set (Tuple Int Int)))
-risk     = (set.singleton (tuple 2))
-efficiency     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 0 true true true true true true 2 2 true true false true true))
+risk     = (set.singleton (tuple 0))
+efficiency     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true false true true))
 ****************************************************************************************************
