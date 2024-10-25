@@ -1,0 +1,177 @@
+check rule_1
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/00.smt2
+trail 20.254775524139404
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/01.smt2
+trail 20.089056730270386
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/02.smt2
+trail 20.007829666137695
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_4
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/03.smt2
+trail 50.47952961921692
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_5
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/04.smt2
+trail 48.21430444717407
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_6
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/05.smt2
+trail 20.219149351119995
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_7
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/06.smt2
+trail 24.74221706390381
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_8
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/07.smt2
+trail 24.49447751045227
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_9
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/08.smt2
+trail 25.185321807861328
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_10
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/09.smt2
+trail 25.608803272247314
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_11
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/10.smt2
+trail 25.986526012420654
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_12
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/11.smt2
+trail 25.522276639938354
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_13
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/12.smt2
+trail 25.073963403701782
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_14
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/13.smt2
+trail 11.668138265609741
+Result     = sat
+time     = (set.singleton (tuple 0))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (set.singleton (tuple 0 20))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 false 3 true))
+****************************************************************************************************
+check rule_15
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/14.smt2
+trail 6.636178493499756
+Result     = sat
+time     = (set.singleton (tuple 0))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (set.union (set.singleton (tuple 0 20)) (set.singleton (tuple 0 10)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 4 true))
+****************************************************************************************************
+check rule_16
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/15.smt2
+trail 5.909404754638672
+Result     = sat
+time     = (set.singleton (tuple 0))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (set.union (set.singleton (tuple 0 20)) (set.singleton (tuple 0 10)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 4 true))
+****************************************************************************************************
+check rule_17
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/16.smt2
+trail 5.703061580657959
+Result     = sat
+time     = (set.singleton (tuple 0))
+A     = (as set.empty (Set (Tuple Int)))
+not_A     = (as set.empty (Set (Tuple Int Int)))
+B     = (as set.empty (Set (Tuple Int)))
+not_B     = (as set.empty (Set (Tuple Int Int)))
+C     = (as set.empty (Set (Tuple Int)))
+not_C     = (as set.empty (Set (Tuple Int Int)))
+D     = (as set.empty (Set (Tuple Int)))
+not_D     = (as set.empty (Set (Tuple Int Int)))
+E     = (set.singleton (tuple 0))
+not_E     = (as set.empty (Set (Tuple Int Int)))
+F     = (as set.empty (Set (Tuple Int)))
+not_F     = (as set.empty (Set (Tuple Int Int)))
+G     = (as set.empty (Set (Tuple Int)))
+not_G     = (set.union (set.singleton (tuple 0 20)) (set.singleton (tuple 0 10)))
+H     = (as set.empty (Set (Tuple Int)))
+not_H     = (as set.empty (Set (Tuple Int Int)))
+Measure     = (set.singleton (tuple 0 true 4 true))
+****************************************************************************************************
+check rule_18
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/17.smt2
+trail 20.034602642059326
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_19
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/18.smt2
+trail 20.004695177078247
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_20
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/19.smt2
+trail 20.05858087539673
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_21
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test/conflict/20.smt2
+trail 20.02233648300171
+Result     = unknown (TIMEOUT)
+****************************************************************************************************

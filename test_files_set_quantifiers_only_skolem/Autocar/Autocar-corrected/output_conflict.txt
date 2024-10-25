@@ -1,0 +1,854 @@
+check rule_1
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/00.smt2
+trail 20.038388967514038
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/01.smt2
+trail 20.008451223373413
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/02.smt2
+trail 20.001258850097656
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_4
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/03.smt2
+trail 20.011435747146606
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_5
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/04.smt2
+trail 20.23399257659912
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_6
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/05.smt2
+trail 20.038049936294556
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_7
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/06.smt2
+trail 20.008013248443604
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_8
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/07.smt2
+trail 2.4672722816467285
+Result     = sat
+time     = (set.singleton (tuple 1))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (as set.empty (Set (Tuple Int Int)))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (set.singleton (tuple 1))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 1))
+previousLight     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 1 true true true true true true true true true true true 1 true true true true true true true true true 1 true true true true))
+****************************************************************************************************
+check rule_9
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/08.smt2
+trail 20.026302337646484
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_10
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/09.smt2
+trail 20.010538339614868
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_11
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/10.smt2
+trail 20.000530004501343
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_12
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/11.smt2
+trail 20.007624626159668
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_13
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/12.smt2
+trail 20.065101385116577
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_14
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/13.smt2
+trail 20.067720890045166
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_15
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/14.smt2
+trail 20.004113912582397
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_16
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/15.smt2
+trail 20.001057147979736
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_17
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/16.smt2
+trail 20.012615203857422
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_18
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/17.smt2
+trail 24.21607542037964
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_19
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/18.smt2
+trail 24.364219903945923
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_20
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/19.smt2
+trail 24.30199146270752
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_21
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/20.smt2
+trail 20.0180561542511
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_22
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/21.smt2
+trail 20.003899335861206
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_23
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/22.smt2
+trail 20.420275926589966
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_24
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/23.smt2
+trail 20.455156087875366
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_25
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/24.smt2
+trail 20.612632274627686
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_26
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/25.smt2
+trail 20.071811199188232
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_27
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/26.smt2
+trail 20.00814461708069
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_28
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/27.smt2
+trail 20.37388324737549
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_29
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/28.smt2
+trail 20.345343112945557
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_30
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/29.smt2
+trail 20.02084994316101
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_31
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/30.smt2
+trail 20.023782968521118
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_32
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/31.smt2
+trail 20.588481426239014
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_33
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/32.smt2
+trail 20.446940898895264
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_34
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/33.smt2
+trail 20.00062584877014
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_35
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/34.smt2
+trail 20.030452251434326
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_36
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/35.smt2
+trail 20.084069967269897
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_37
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/36.smt2
+trail 20.53934407234192
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_38
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/37.smt2
+trail 2.819805383682251
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (set.singleton (tuple 0))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************
+check rule_39
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/38.smt2
+trail 5.254395008087158
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (set.singleton (tuple 0))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************
+check rule_40
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/39.smt2
+trail 20.007606267929077
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_41
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/40.smt2
+trail 20.296944856643677
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_42
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/41.smt2
+trail 2.7823877334594727
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (set.singleton (tuple 0))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************
+check rule_43
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/42.smt2
+trail 2.8648715019226074
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (set.singleton (tuple 0))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************
+check rule_44
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/43.smt2
+trail 2.798495292663574
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (set.singleton (tuple 0))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************
+check rule_45
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/44.smt2
+trail 2.8843226432800293
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (set.singleton (tuple 0))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (as set.empty (Set (Tuple Int)))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************
+check rule_46
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/Autocar/Autocar-corrected/conflict/45.smt2
+trail 2.8317158222198486
+Result     = sat
+time     = (set.singleton (tuple 0))
+UserTurnOnSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOnSystem     = (as set.empty (Set (Tuple Int Int)))
+UserTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+not_UserTurnOffSystem     = (as set.empty (Set (Tuple Int Int)))
+TurnOnSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOnSensors     = (as set.empty (Set (Tuple Int Int)))
+TurnOffSensors     = (as set.empty (Set (Tuple Int)))
+not_TurnOffSensors     = (as set.empty (Set (Tuple Int Int)))
+CheckSystemComponents     = (as set.empty (Set (Tuple Int)))
+not_CheckSystemComponents     = (as set.empty (Set (Tuple Int Int)))
+SystemReady     = (as set.empty (Set (Tuple Int)))
+not_SystemReady     = (as set.empty (Set (Tuple Int Int)))
+TakeUserInput     = (as set.empty (Set (Tuple Int)))
+not_TakeUserInput     = (as set.empty (Set (Tuple Int Int)))
+CalculateShortestPath     = (as set.empty (Set (Tuple Int)))
+not_CalculateShortestPath     = (as set.empty (Set (Tuple Int Int)))
+ReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_ReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+GetReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_GetReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int)))
+not_AskIfUserReadyToDrive     = (as set.empty (Set (Tuple Int Int)))
+DisplayCarInformation     = (as set.empty (Set (Tuple Int)))
+not_DisplayCarInformation     = (as set.empty (Set (Tuple Int Int)))
+CarDriving     = (as set.empty (Set (Tuple Int)))
+not_CarDriving     = (as set.empty (Set (Tuple Int Int)))
+SlowDown     = (as set.empty (Set (Tuple Int)))
+not_SlowDown     = (as set.empty (Set (Tuple Int Int)))
+TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int)))
+not_TurnOnHazardsAndTemporarilyStop     = (as set.empty (Set (Tuple Int Int)))
+TemporarilyStopCar     = (as set.empty (Set (Tuple Int)))
+not_TemporarilyStopCar     = (as set.empty (Set (Tuple Int Int)))
+ParkVehicle     = (as set.empty (Set (Tuple Int)))
+not_ParkVehicle     = (as set.empty (Set (Tuple Int Int)))
+DisplayError     = (as set.empty (Set (Tuple Int)))
+not_DisplayError     = (as set.empty (Set (Tuple Int Int)))
+DisplayAlert     = (as set.empty (Set (Tuple Int)))
+not_DisplayAlert     = (as set.empty (Set (Tuple Int Int)))
+DisplayRoute     = (as set.empty (Set (Tuple Int)))
+not_DisplayRoute     = (as set.empty (Set (Tuple Int Int)))
+ChangeSpeed     = (as set.empty (Set (Tuple Int)))
+not_ChangeSpeed     = (as set.empty (Set (Tuple Int Int)))
+ChangeLanes     = (as set.empty (Set (Tuple Int)))
+not_ChangeLanes     = (as set.empty (Set (Tuple Int Int)))
+ChangeCurrentDriving     = (as set.empty (Set (Tuple Int)))
+not_ChangeCurrentDriving     = (as set.empty (Set (Tuple Int Int)))
+TakeNewInput     = (as set.empty (Set (Tuple Int)))
+not_TakeNewInput     = (as set.empty (Set (Tuple Int Int)))
+TakeShortestPath     = (as set.empty (Set (Tuple Int)))
+not_TakeShortestPath     = (as set.empty (Set (Tuple Int Int)))
+MaintainEqualDistance     = (as set.empty (Set (Tuple Int)))
+not_MaintainEqualDistance     = (as set.empty (Set (Tuple Int Int)))
+StayCenteredinLane     = (set.singleton (tuple 0))
+not_StayCenteredinLane     = (as set.empty (Set (Tuple Int Int)))
+SeeTrafficLight     = (as set.empty (Set (Tuple Int)))
+not_SeeTrafficLight     = (as set.empty (Set (Tuple Int Int)))
+WaitUntilChanges     = (as set.empty (Set (Tuple Int)))
+not_WaitUntilChanges     = (as set.empty (Set (Tuple Int Int)))
+RecordPeople     = (as set.empty (Set (Tuple Int)))
+not_RecordPeople     = (set.singleton (tuple 0 0))
+UserChangeRoute     = (as set.empty (Set (Tuple Int)))
+not_UserChangeRoute     = (as set.empty (Set (Tuple Int Int)))
+UserCancelPath     = (as set.empty (Set (Tuple Int)))
+not_UserCancelPath     = (as set.empty (Set (Tuple Int Int)))
+UserRequestSpeedChange     = (as set.empty (Set (Tuple Int)))
+not_UserRequestSpeedChange     = (as set.empty (Set (Tuple Int Int)))
+AskForClarification     = (as set.empty (Set (Tuple Int)))
+not_AskForClarification     = (as set.empty (Set (Tuple Int Int)))
+PriorityVehicleNearby     = (as set.empty (Set (Tuple Int)))
+not_PriorityVehicleNearby     = (as set.empty (Set (Tuple Int Int)))
+MakeSpace     = (as set.empty (Set (Tuple Int)))
+not_MakeSpace     = (as set.empty (Set (Tuple Int Int)))
+StopAutonomousAssistance     = (as set.empty (Set (Tuple Int)))
+not_StopAutonomousAssistance     = (as set.empty (Set (Tuple Int Int)))
+riskLevel     = (set.singleton (tuple 0))
+previousLight     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true true true true true 0 true true true true true true true true true 0 true true true false))
+****************************************************************************************************

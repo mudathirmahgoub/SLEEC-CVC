@@ -1,0 +1,1363 @@
+file,mode,rule,result,duration
+test_files_filters/test2.sleec,redundancy,0,sat,0.5139975547790527
+test_files_filters/test2.sleec,redundancy,1,sat,0.14403319358825684
+test_files_filters/test2.sleec,redundancy,2,unknown (TIMEOUT),20.007829427719116
+test_files_filters/test2.sleec,conflict,0,unknown (TIMEOUT),23.66486620903015
+test_files_filters/test2.sleec,conflict,1,unknown (TIMEOUT),20.041317224502563
+test_files_filters/test2.sleec,conflict,2,unknown (TIMEOUT),23.820188760757446
+test_files_filters/buggy.sleec,redundancy,0,unknown (TIMEOUT),20.021284818649292
+test_files_filters/buggy.sleec,redundancy,1,unknown (TIMEOUT),20.008788108825684
+test_files_filters/buggy.sleec,redundancy,2,unknown (TIMEOUT),20.05821442604065
+test_files_filters/buggy.sleec,redundancy,3,unknown (TIMEOUT),21.183977365493774
+test_files_filters/buggy.sleec,redundancy,4,unknown (TIMEOUT),20.23749327659607
+test_files_filters/buggy.sleec,redundancy,5,unknown (TIMEOUT),25.213900804519653
+test_files_filters/buggy.sleec,redundancy,6,unknown (TIMEOUT),21.92971396446228
+test_files_filters/buggy.sleec,redundancy,7,sat,0.20517635345458984
+test_files_filters/buggy.sleec,redundancy,8,sat,0.7589387893676758
+test_files_filters/buggy.sleec,redundancy,9,sat,0.2826676368713379
+test_files_filters/buggy.sleec,redundancy,10,unknown (TIMEOUT),20.596696138381958
+test_files_filters/buggy.sleec,redundancy,11,unknown (TIMEOUT),20.00363326072693
+test_files_filters/buggy.sleec,conflict,0,unknown (TIMEOUT),20.93906879425049
+test_files_filters/buggy.sleec,conflict,1,unknown (TIMEOUT),21.528027057647705
+test_files_filters/buggy.sleec,conflict,2,unknown (TIMEOUT),20.233309984207153
+test_files_filters/buggy.sleec,conflict,3,unknown (TIMEOUT),20.181227207183838
+test_files_filters/buggy.sleec,conflict,4,unknown (TIMEOUT),27.644803047180176
+test_files_filters/buggy.sleec,conflict,5,unknown (TIMEOUT),29.045501232147217
+test_files_filters/buggy.sleec,conflict,6,unknown (TIMEOUT),29.351194381713867
+test_files_filters/buggy.sleec,conflict,7,unknown (TIMEOUT),20.005476474761963
+test_files_filters/buggy.sleec,conflict,8,sat,2.295604944229126
+test_files_filters/buggy.sleec,conflict,9,unknown (TIMEOUT),20.066807508468628
+test_files_filters/buggy.sleec,conflict,10,unknown (TIMEOUT),20.007798433303833
+test_files_filters/buggy.sleec,conflict,11,unknown (TIMEOUT),20.015207767486572
+test_files_filters/buggy.sleec,concern,0,unknown (TIMEOUT),21.039618968963623
+test_files_filters/test1.sleec,redundancy,0,sat,1.101006269454956
+test_files_filters/test1.sleec,redundancy,1,sat,0.14687824249267578
+test_files_filters/test1.sleec,redundancy,2,unsat,1.1214370727539062
+test_files_filters/test1.sleec,redundancy,3,unknown (TIMEOUT),20.002267122268677
+test_files_filters/test1.sleec,conflict,0,unknown (TIMEOUT),20.010233163833618
+test_files_filters/test1.sleec,conflict,1,unknown (TIMEOUT),20.008589506149292
+test_files_filters/test1.sleec,conflict,2,unknown (TIMEOUT),20.023435831069946
+test_files_filters/test1.sleec,conflict,3,unknown (TIMEOUT),20.00788974761963
+test_files_filters/test.sleec,redundancy,0,unsat,4.686538219451904
+test_files_filters/test.sleec,redundancy,1,unsat,1.1674299240112305
+test_files_filters/test.sleec,redundancy,2,unsat,1.1938438415527344
+test_files_filters/test.sleec,redundancy,3,sat,0.9377920627593994
+test_files_filters/test.sleec,redundancy,4,unsat,0.4948408603668213
+test_files_filters/test.sleec,redundancy,5,unknown (TIMEOUT),26.135767936706543
+test_files_filters/test.sleec,redundancy,6,unknown (TIMEOUT),24.01978874206543
+test_files_filters/test.sleec,redundancy,7,unknown (TIMEOUT),24.044286966323853
+test_files_filters/test.sleec,redundancy,8,unknown (TIMEOUT),20.041735887527466
+test_files_filters/test.sleec,redundancy,9,unknown (TIMEOUT),21.660221576690674
+test_files_filters/test.sleec,redundancy,10,unknown (TIMEOUT),20.826557636260986
+test_files_filters/test.sleec,redundancy,11,unknown (TIMEOUT),24.82223343849182
+test_files_filters/test.sleec,redundancy,12,unknown (TIMEOUT),22.10986089706421
+test_files_filters/test.sleec,redundancy,13,sat,3.8168797492980957
+test_files_filters/test.sleec,redundancy,14,unsat,1.4400088787078857
+test_files_filters/test.sleec,redundancy,15,sat,3.9393060207366943
+test_files_filters/test.sleec,redundancy,16,unknown (TIMEOUT),20.00319790840149
+test_files_filters/test.sleec,redundancy,17,unknown (TIMEOUT),20.00199055671692
+test_files_filters/test.sleec,redundancy,18,sat,0.9443166255950928
+test_files_filters/test.sleec,redundancy,19,unknown (TIMEOUT),20.610439777374268
+test_files_filters/test.sleec,redundancy,20,unknown (TIMEOUT),20.045676708221436
+test_files_filters/test.sleec,conflict,0,unknown (TIMEOUT),20.254775524139404
+test_files_filters/test.sleec,conflict,1,unknown (TIMEOUT),20.089056730270386
+test_files_filters/test.sleec,conflict,2,unknown (TIMEOUT),20.007829666137695
+test_files_filters/test.sleec,conflict,3,unknown (TIMEOUT),50.47952961921692
+test_files_filters/test.sleec,conflict,4,unknown (TIMEOUT),48.21430444717407
+test_files_filters/test.sleec,conflict,5,unknown (TIMEOUT),20.219149351119995
+test_files_filters/test.sleec,conflict,6,unknown (TIMEOUT),24.74221706390381
+test_files_filters/test.sleec,conflict,7,unknown (TIMEOUT),24.49447751045227
+test_files_filters/test.sleec,conflict,8,unknown (TIMEOUT),25.185321807861328
+test_files_filters/test.sleec,conflict,9,unknown (TIMEOUT),25.608803272247314
+test_files_filters/test.sleec,conflict,10,unknown (TIMEOUT),25.986526012420654
+test_files_filters/test.sleec,conflict,11,unknown (TIMEOUT),25.522276639938354
+test_files_filters/test.sleec,conflict,12,unknown (TIMEOUT),25.073963403701782
+test_files_filters/test.sleec,conflict,13,sat,11.668138265609741
+test_files_filters/test.sleec,conflict,14,sat,6.636178493499756
+test_files_filters/test.sleec,conflict,15,sat,5.909404754638672
+test_files_filters/test.sleec,conflict,16,sat,5.703061580657959
+test_files_filters/test.sleec,conflict,17,unknown (TIMEOUT),20.034602642059326
+test_files_filters/test.sleec,conflict,18,unknown (TIMEOUT),20.004695177078247
+test_files_filters/test.sleec,conflict,19,unknown (TIMEOUT),20.05858087539673
+test_files_filters/test.sleec,conflict,20,unknown (TIMEOUT),20.02233648300171
+test_files_filters/test4.sleec,redundancy,0,sat,0.20598888397216797
+test_files_filters/test4.sleec,redundancy,1,sat,0.1927661895751953
+test_files_filters/test4.sleec,redundancy,2,sat,0.14316773414611816
+test_files_filters/test4.sleec,conflict,0,sat,4.501574516296387
+test_files_filters/test4.sleec,conflict,1,unknown (TIMEOUT),20.011399030685425
+test_files_filters/test4.sleec,conflict,2,unknown (TIMEOUT),20.0247802734375
+test_files_filters/test4.sleec,concern,0,unknown (TIMEOUT),20.00984025001526
+test_files_filters/test3.sleec,redundancy,0,sat,0.20523834228515625
+test_files_filters/test3.sleec,redundancy,1,sat,0.19533824920654297
+test_files_filters/test3.sleec,redundancy,2,sat,0.1387338638305664
+test_files_filters/test3.sleec,conflict,0,sat,4.613383054733276
+test_files_filters/test3.sleec,conflict,1,unknown (TIMEOUT),20.057433128356934
+test_files_filters/test3.sleec,conflict,2,unknown (TIMEOUT),20.000418186187744
+test_files_filters/test3.sleec,concern,0,unknown (TIMEOUT),20.002323627471924
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,0,sat,1.046621322631836
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,1,unknown (TIMEOUT),20.022192001342773
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,2,sat,0.9110555648803711
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,3,unknown (TIMEOUT),20.031994819641113
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,4,unknown (TIMEOUT),20.064602851867676
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,5,sat,0.9430530071258545
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,6,unknown (TIMEOUT),20.029908180236816
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,7,sat,0.9783906936645508
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,8,sat,0.9770441055297852
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,9,unknown (TIMEOUT),20.00583529472351
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,10,sat,0.9641401767730713
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,11,unknown (TIMEOUT),20.012603998184204
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,12,unknown (TIMEOUT),20.005588054656982
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,13,unknown (TIMEOUT),20.02501630783081
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,14,sat,0.989429235458374
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,15,sat,0.9634292125701904
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,16,sat,0.97879958152771
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,17,unknown (TIMEOUT),20.020543813705444
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,18,sat,0.9839701652526855
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,19,sat,0.9864530563354492
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,20,sat,0.9781959056854248
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,21,sat,1.0002481937408447
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,22,sat,5.0023579597473145
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,23,unknown (TIMEOUT),20.109517097473145
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,24,sat,0.9737448692321777
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,25,sat,0.9749698638916016
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,26,sat,0.9603002071380615
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,27,unknown (TIMEOUT),20.035724401474
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,28,unknown (TIMEOUT),20.010860443115234
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,29,sat,0.9734272956848145
+test_files_filters/dressingAssist/DRESSASSIST.sleec,redundancy,30,unknown (TIMEOUT),20.008378505706787
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,0,unknown (TIMEOUT),20.010882139205933
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,1,unknown (TIMEOUT),20.042088985443115
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,2,sat,4.308710336685181
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,3,unknown (TIMEOUT),20.03412175178528
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,4,unknown (TIMEOUT),20.007861852645874
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,5,unknown (TIMEOUT),20.015215396881104
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,6,unknown (TIMEOUT),20.02378010749817
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,7,sat,5.375221014022827
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,8,unknown (TIMEOUT),20.024571657180786
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,9,unknown (TIMEOUT),20.023640394210815
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,10,unknown (TIMEOUT),20.018258571624756
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,11,unknown (TIMEOUT),20.017107725143433
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,12,unknown (TIMEOUT),20.002875328063965
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,13,unknown (TIMEOUT),20.014914751052856
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,14,unknown (TIMEOUT),20.009992361068726
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,15,sat,4.627860069274902
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,16,unknown (TIMEOUT),20.021050930023193
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,17,unknown (TIMEOUT),20.076602697372437
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,18,unknown (TIMEOUT),20.007244110107422
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,19,unknown (TIMEOUT),20.077982187271118
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,20,unknown (TIMEOUT),20.026097536087036
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,21,unknown (TIMEOUT),20.01124143600464
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,22,unknown (TIMEOUT),20.047924995422363
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,23,unknown (TIMEOUT),20.00815439224243
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,24,unknown (TIMEOUT),20.0128812789917
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,25,unknown (TIMEOUT),20.000545024871826
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,26,unknown (TIMEOUT),20.00407075881958
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,27,unknown (TIMEOUT),20.007436990737915
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,28,unknown (TIMEOUT),20.022997617721558
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,29,unknown (TIMEOUT),20.003320455551147
+test_files_filters/dressingAssist/DRESSASSIST.sleec,conflict,30,unknown (TIMEOUT),20.004833221435547
+test_files_filters/dressingAssist/DRESSASSIST.sleec,concern,0,unknown (TIMEOUT),20.003705978393555
+test_files_filters/dressingAssist/DRESSASSIST.sleec,concern,1,unknown (TIMEOUT),20.02382755279541
+test_files_filters/dressingAssist/DRESSASSIST.sleec,concern,2,unknown (TIMEOUT),20.043463706970215
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,0,sat,1.1168291568756104
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,1,unknown (TIMEOUT),20.004093885421753
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,2,sat,0.9329771995544434
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,3,unknown (TIMEOUT),20.01192855834961
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,4,unknown (TIMEOUT),20.016114234924316
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,5,sat,0.9684247970581055
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,6,unknown (TIMEOUT),20.01266574859619
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,7,sat,0.9797348976135254
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,8,sat,0.9601268768310547
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,9,unknown (TIMEOUT),20.011605739593506
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,10,sat,0.9816603660583496
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,11,unknown (TIMEOUT),20.004003047943115
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.010128498077393
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,13,unknown (TIMEOUT),20.01597547531128
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,14,sat,0.9784173965454102
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,15,sat,0.993361234664917
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,16,sat,0.9935572147369385
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,17,unknown (TIMEOUT),20.07951545715332
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,18,sat,0.9503805637359619
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,19,sat,0.9885332584381104
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,20,sat,0.9696989059448242
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,21,sat,0.9905714988708496
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,22,sat,4.965250492095947
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,23,unknown (TIMEOUT),20.021428108215332
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,24,sat,1.0163416862487793
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,25,sat,0.9829297065734863
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,26,sat,0.9827449321746826
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,27,unknown (TIMEOUT),20.040680408477783
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,28,unknown (TIMEOUT),20.013316869735718
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,29,sat,0.9749631881713867
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,redundancy,30,unknown (TIMEOUT),20.01721739768982
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,0,unknown (TIMEOUT),20.015495777130127
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,1,unknown (TIMEOUT),20.033222198486328
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,2,sat,4.300745964050293
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,3,unknown (TIMEOUT),20.017637968063354
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,4,unknown (TIMEOUT),20.048577308654785
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,5,unknown (TIMEOUT),20.030604600906372
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,6,unknown (TIMEOUT),20.032734870910645
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,7,sat,5.400803089141846
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,8,unknown (TIMEOUT),20.0303795337677
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,9,unknown (TIMEOUT),20.03807544708252
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,10,unknown (TIMEOUT),20.029418468475342
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,11,unknown (TIMEOUT),20.016021251678467
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,12,unknown (TIMEOUT),20.01565647125244
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,13,unknown (TIMEOUT),20.028430938720703
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,14,unknown (TIMEOUT),20.007402181625366
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,15,sat,4.54365086555481
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,16,unknown (TIMEOUT),20.006183862686157
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,17,unknown (TIMEOUT),20.101093530654907
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,18,unknown (TIMEOUT),20.01271677017212
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,19,unknown (TIMEOUT),20.019273281097412
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,20,unknown (TIMEOUT),20.002100467681885
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,21,unknown (TIMEOUT),20.037455320358276
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,22,unknown (TIMEOUT),20.11571764945984
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,23,unknown (TIMEOUT),20.06126093864441
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,24,unknown (TIMEOUT),20.00477910041809
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,25,unknown (TIMEOUT),20.007285594940186
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,26,unknown (TIMEOUT),20.0238139629364
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,27,unknown (TIMEOUT),20.005855083465576
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,28,unknown (TIMEOUT),20.0274498462677
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,29,unknown (TIMEOUT),20.04390811920166
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,conflict,30,unknown (TIMEOUT),20.007281064987183
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,concern,0,unknown (TIMEOUT),20.01710844039917
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,concern,1,unknown (TIMEOUT),20.02700185775757
+test_files_filters/dressingAssist/DRESSASSIST-corrected.sleec,concern,2,unknown (TIMEOUT),20.032202005386353
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,0,sat,3.9412269592285156
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,1,sat,3.3631203174591064
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,2,unknown (TIMEOUT),20.02308750152588
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,3,sat,2.572783946990967
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,4,sat,0.5598068237304688
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,5,sat,12.753132581710815
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,6,sat,2.9291763305664062
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,7,unknown (TIMEOUT),20.128270864486694
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,8,unknown (TIMEOUT),20.009275436401367
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,9,sat,0.5469710826873779
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,10,unknown (TIMEOUT),21.445213556289673
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,11,unknown (TIMEOUT),20.003822326660156
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.010634899139404
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,13,unknown (TIMEOUT),20.02125573158264
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,14,sat,2.7096338272094727
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,15,unknown (TIMEOUT),20.013004541397095
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,16,unknown (TIMEOUT),20.008179664611816
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,17,unknown (TIMEOUT),21.498088598251343
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,18,unknown (TIMEOUT),20.02038073539734
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,19,unknown (TIMEOUT),20.032350540161133
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,20,unknown (TIMEOUT),20.00489091873169
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,21,unknown (TIMEOUT),20.04972004890442
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,22,unknown (TIMEOUT),20.010085344314575
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,23,sat,2.7189748287200928
+test_files_filters/gdpr/DPA-corrected.sleec,redundancy,24,sat,3.024017333984375
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,0,unknown (TIMEOUT),20.002533197402954
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,1,unknown (TIMEOUT),20.009546518325806
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,2,unknown (TIMEOUT),20.011454582214355
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,3,unknown (TIMEOUT),20.005130290985107
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,4,unknown (TIMEOUT),20.026753187179565
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,5,unknown (TIMEOUT),20.092813968658447
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,6,unknown (TIMEOUT),20.006688117980957
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,7,unknown (TIMEOUT),20.100074768066406
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,8,unknown (TIMEOUT),20.136986255645752
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,9,unknown (TIMEOUT),20.00925374031067
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,10,unknown (TIMEOUT),20.220391511917114
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,11,unknown (TIMEOUT),20.02821922302246
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,12,unknown (TIMEOUT),20.0100417137146
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,13,unknown (TIMEOUT),20.044747352600098
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,14,unknown (TIMEOUT),20.071794509887695
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,15,unknown (TIMEOUT),20.026129961013794
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,16,unknown (TIMEOUT),20.11629629135132
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,17,unknown (TIMEOUT),20.235778093338013
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,18,unknown (TIMEOUT),20.042670965194702
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,19,unknown (TIMEOUT),20.01345419883728
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,20,unknown (TIMEOUT),20.02289056777954
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,21,unknown (TIMEOUT),20.0146963596344
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,22,unknown (TIMEOUT),20.144111156463623
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,23,unknown (TIMEOUT),20.00302243232727
+test_files_filters/gdpr/DPA-corrected.sleec,conflict,24,unknown (TIMEOUT),20.020477533340454
+test_files_filters/gdpr/DPA-corrected.sleec,concern,0,unknown (TIMEOUT),20.04946804046631
+test_files_filters/gdpr/DPA-corrected.sleec,concern,1,unknown (TIMEOUT),20.283970594406128
+test_files_filters/gdpr/DPA-corrected.sleec,concern,2,unknown (TIMEOUT),20.18367624282837
+test_files_filters/gdpr/DPA-corrected.sleec,concern,3,unknown (TIMEOUT),20.016197681427002
+test_files_filters/gdpr/DPA-corrected.sleec,concern,4,unknown (TIMEOUT),20.146970510482788
+test_files_filters/gdpr/DPA-corrected.sleec,concern,5,unknown (TIMEOUT),20.904791355133057
+test_files_filters/gdpr/DPA-corrected.sleec,concern,6,unknown (TIMEOUT),20.69012999534607
+test_files_filters/gdpr/DPA-corrected.sleec,concern,7,unknown (TIMEOUT),20.13287115097046
+test_files_filters/gdpr/DPA-corrected.sleec,concern,8,unknown (TIMEOUT),20.095299005508423
+test_files_filters/gdpr/DPA-corrected.sleec,concern,9,unknown (TIMEOUT),20.01684856414795
+test_files_filters/gdpr/DPA-corrected.sleec,concern,10,unknown (TIMEOUT),20.01307988166809
+test_files_filters/gdpr/DPA.sleec,redundancy,0,sat,3.855196952819824
+test_files_filters/gdpr/DPA.sleec,redundancy,1,unknown (TIMEOUT),20.003042936325073
+test_files_filters/gdpr/DPA.sleec,redundancy,2,sat,0.5552501678466797
+test_files_filters/gdpr/DPA.sleec,redundancy,3,sat,0.5603773593902588
+test_files_filters/gdpr/DPA.sleec,redundancy,4,sat,12.69286298751831
+test_files_filters/gdpr/DPA.sleec,redundancy,5,sat,2.944606304168701
+test_files_filters/gdpr/DPA.sleec,redundancy,6,unknown (TIMEOUT),20.002546072006226
+test_files_filters/gdpr/DPA.sleec,redundancy,7,unknown (TIMEOUT),20.012105464935303
+test_files_filters/gdpr/DPA.sleec,redundancy,8,unknown (TIMEOUT),21.313846349716187
+test_files_filters/gdpr/DPA.sleec,redundancy,9,unknown (TIMEOUT),20.007493495941162
+test_files_filters/gdpr/DPA.sleec,redundancy,10,unknown (TIMEOUT),20.01633930206299
+test_files_filters/gdpr/DPA.sleec,redundancy,11,unknown (TIMEOUT),20.014136791229248
+test_files_filters/gdpr/DPA.sleec,redundancy,12,sat,2.7201170921325684
+test_files_filters/gdpr/DPA.sleec,redundancy,13,unknown (TIMEOUT),20.015838623046875
+test_files_filters/gdpr/DPA.sleec,redundancy,14,unknown (TIMEOUT),20.00811195373535
+test_files_filters/gdpr/DPA.sleec,redundancy,15,unknown (TIMEOUT),20.745048999786377
+test_files_filters/gdpr/DPA.sleec,redundancy,16,unknown (TIMEOUT),20.004291534423828
+test_files_filters/gdpr/DPA.sleec,redundancy,17,unknown (TIMEOUT),20.001029014587402
+test_files_filters/gdpr/DPA.sleec,redundancy,18,unknown (TIMEOUT),20.005339860916138
+test_files_filters/gdpr/DPA.sleec,redundancy,19,unknown (TIMEOUT),20.000173807144165
+test_files_filters/gdpr/DPA.sleec,redundancy,20,sat,0.5783867835998535
+test_files_filters/gdpr/DPA.sleec,redundancy,21,sat,2.9359347820281982
+test_files_filters/gdpr/DPA.sleec,conflict,0,unknown (TIMEOUT),20.10856008529663
+test_files_filters/gdpr/DPA.sleec,conflict,1,unknown (TIMEOUT),20.087319135665894
+test_files_filters/gdpr/DPA.sleec,conflict,2,unknown (TIMEOUT),23.36878252029419
+test_files_filters/gdpr/DPA.sleec,conflict,3,unknown (TIMEOUT),20.042032718658447
+test_files_filters/gdpr/DPA.sleec,conflict,4,unknown (TIMEOUT),20.597057819366455
+test_files_filters/gdpr/DPA.sleec,conflict,5,unknown (TIMEOUT),20.03120255470276
+test_files_filters/gdpr/DPA.sleec,conflict,6,unknown (TIMEOUT),20.009427309036255
+test_files_filters/gdpr/DPA.sleec,conflict,7,unknown (TIMEOUT),20.08490538597107
+test_files_filters/gdpr/DPA.sleec,conflict,8,unknown (TIMEOUT),20.737577199935913
+test_files_filters/gdpr/DPA.sleec,conflict,9,unknown (TIMEOUT),20.105812549591064
+test_files_filters/gdpr/DPA.sleec,conflict,10,unknown (TIMEOUT),20.01686429977417
+test_files_filters/gdpr/DPA.sleec,conflict,11,unknown (TIMEOUT),20.028017044067383
+test_files_filters/gdpr/DPA.sleec,conflict,12,unknown (TIMEOUT),20.000059127807617
+test_files_filters/gdpr/DPA.sleec,conflict,13,unknown (TIMEOUT),20.69908618927002
+test_files_filters/gdpr/DPA.sleec,conflict,14,unknown (TIMEOUT),20.002787590026855
+test_files_filters/gdpr/DPA.sleec,conflict,15,unknown (TIMEOUT),20.068469762802124
+test_files_filters/gdpr/DPA.sleec,conflict,16,unknown (TIMEOUT),20.002476453781128
+test_files_filters/gdpr/DPA.sleec,conflict,17,unknown (TIMEOUT),20.0349440574646
+test_files_filters/gdpr/DPA.sleec,conflict,18,unknown (TIMEOUT),20.016996145248413
+test_files_filters/gdpr/DPA.sleec,conflict,19,unknown (TIMEOUT),20.05476212501526
+test_files_filters/gdpr/DPA.sleec,conflict,20,unknown (TIMEOUT),20.052513599395752
+test_files_filters/gdpr/DPA.sleec,conflict,21,unknown (TIMEOUT),20.012425661087036
+test_files_filters/gdpr/DPA.sleec,concern,0,unknown (TIMEOUT),20.00190281867981
+test_files_filters/gdpr/DPA.sleec,concern,1,unknown (TIMEOUT),20.216490268707275
+test_files_filters/gdpr/DPA.sleec,concern,2,unknown (TIMEOUT),20.407329082489014
+test_files_filters/gdpr/DPA.sleec,concern,3,unknown (TIMEOUT),20.08439564704895
+test_files_filters/gdpr/DPA.sleec,concern,4,unknown (TIMEOUT),20.090233087539673
+test_files_filters/gdpr/DPA.sleec,concern,5,unknown (TIMEOUT),21.13260507583618
+test_files_filters/gdpr/DPA.sleec,concern,6,unknown (TIMEOUT),20.035062551498413
+test_files_filters/gdpr/DPA.sleec,concern,7,unknown (TIMEOUT),20.017735481262207
+test_files_filters/gdpr/DPA.sleec,concern,8,unknown (TIMEOUT),20.006643533706665
+test_files_filters/gdpr/DPA.sleec,concern,9,unknown (TIMEOUT),20.031546115875244
+test_files_filters/gdpr/DPA.sleec,concern,10,unknown (TIMEOUT),20.00780725479126
+test_files_filters/covidfree/manual.sleec,redundancy,0,unknown (TIMEOUT),20.005287408828735
+test_files_filters/covidfree/manual.sleec,redundancy,1,sat,7.706275224685669
+test_files_filters/covidfree/manual.sleec,redundancy,2,sat,2.0074198246002197
+test_files_filters/covidfree/manual.sleec,redundancy,3,sat,0.4231069087982178
+test_files_filters/covidfree/manual.sleec,redundancy,4,sat,0.4098396301269531
+test_files_filters/covidfree/manual.sleec,redundancy,5,sat,0.39598608016967773
+test_files_filters/covidfree/manual.sleec,redundancy,6,sat,0.4038112163543701
+test_files_filters/covidfree/manual.sleec,redundancy,7,sat,2.963169574737549
+test_files_filters/covidfree/manual.sleec,redundancy,8,unknown (TIMEOUT),20.008379220962524
+test_files_filters/covidfree/manual.sleec,redundancy,9,sat,4.038962125778198
+test_files_filters/covidfree/manual.sleec,redundancy,10,unknown (TIMEOUT),20.00137710571289
+test_files_filters/covidfree/manual.sleec,redundancy,11,unknown (TIMEOUT),20.02760100364685
+test_files_filters/covidfree/manual.sleec,redundancy,12,sat,0.43508267402648926
+test_files_filters/covidfree/manual.sleec,redundancy,13,sat,0.40485310554504395
+test_files_filters/covidfree/manual.sleec,redundancy,14,sat,0.4181063175201416
+test_files_filters/covidfree/manual.sleec,redundancy,15,sat,1.8706226348876953
+test_files_filters/covidfree/manual.sleec,redundancy,16,sat,1.2380931377410889
+test_files_filters/covidfree/manual.sleec,redundancy,17,sat,1.815657377243042
+test_files_filters/covidfree/manual.sleec,redundancy,18,unknown (TIMEOUT),20.002235174179077
+test_files_filters/covidfree/manual.sleec,conflict,0,unknown (TIMEOUT),20.00709295272827
+test_files_filters/covidfree/manual.sleec,conflict,1,unknown (TIMEOUT),20.001773834228516
+test_files_filters/covidfree/manual.sleec,conflict,2,unknown (TIMEOUT),20.045960426330566
+test_files_filters/covidfree/manual.sleec,conflict,3,unknown (TIMEOUT),20.005954027175903
+test_files_filters/covidfree/manual.sleec,conflict,4,unknown (TIMEOUT),20.010226488113403
+test_files_filters/covidfree/manual.sleec,conflict,5,sat,1.6292798519134521
+test_files_filters/covidfree/manual.sleec,conflict,6,unknown (TIMEOUT),20.00096344947815
+test_files_filters/covidfree/manual.sleec,conflict,7,unknown (TIMEOUT),20.020015478134155
+test_files_filters/covidfree/manual.sleec,conflict,8,unknown (TIMEOUT),20.03293013572693
+test_files_filters/covidfree/manual.sleec,conflict,9,unknown (TIMEOUT),20.006012201309204
+test_files_filters/covidfree/manual.sleec,conflict,10,unknown (TIMEOUT),20.007570266723633
+test_files_filters/covidfree/manual.sleec,conflict,11,unknown (TIMEOUT),20.00326108932495
+test_files_filters/covidfree/manual.sleec,conflict,12,sat,1.3751449584960938
+test_files_filters/covidfree/manual.sleec,conflict,13,unknown (TIMEOUT),20.019602060317993
+test_files_filters/covidfree/manual.sleec,conflict,14,unknown (TIMEOUT),20.036943435668945
+test_files_filters/covidfree/manual.sleec,conflict,15,unknown (TIMEOUT),20.006607055664062
+test_files_filters/covidfree/manual.sleec,conflict,16,unknown (TIMEOUT),20.006837368011475
+test_files_filters/covidfree/manual.sleec,conflict,17,unknown (TIMEOUT),20.03601312637329
+test_files_filters/covidfree/manual.sleec,conflict,18,unknown (TIMEOUT),20.054131031036377
+test_files_filters/covidfree/covidfree.sleec,redundancy,0,sat,5.155323505401611
+test_files_filters/covidfree/covidfree.sleec,redundancy,1,sat,4.494354963302612
+test_files_filters/covidfree/covidfree.sleec,redundancy,2,unknown (TIMEOUT),20.85153317451477
+test_files_filters/covidfree/covidfree.sleec,redundancy,3,unknown (TIMEOUT),20.78330159187317
+test_files_filters/covidfree/covidfree.sleec,redundancy,4,sat,4.190864324569702
+test_files_filters/covidfree/covidfree.sleec,redundancy,5,unsat,0.36983394622802734
+test_files_filters/covidfree/covidfree.sleec,redundancy,6,sat,3.8734183311462402
+test_files_filters/covidfree/covidfree.sleec,redundancy,7,sat,0.5801496505737305
+test_files_filters/covidfree/covidfree.sleec,redundancy,8,sat,9.824219226837158
+test_files_filters/covidfree/covidfree.sleec,redundancy,9,sat,9.393393993377686
+test_files_filters/covidfree/covidfree.sleec,redundancy,10,sat,0.5796253681182861
+test_files_filters/covidfree/covidfree.sleec,redundancy,11,sat,0.9624195098876953
+test_files_filters/covidfree/covidfree.sleec,redundancy,12,unsat,16.621301651000977
+test_files_filters/covidfree/covidfree.sleec,redundancy,13,sat,0.5923962593078613
+test_files_filters/covidfree/covidfree.sleec,redundancy,14,sat,0.5604538917541504
+test_files_filters/covidfree/covidfree.sleec,redundancy,15,unknown (TIMEOUT),20.977495431900024
+test_files_filters/covidfree/covidfree.sleec,redundancy,16,unknown (TIMEOUT),20.083842515945435
+test_files_filters/covidfree/covidfree.sleec,redundancy,17,unknown (TIMEOUT),21.27839708328247
+test_files_filters/covidfree/covidfree.sleec,redundancy,18,sat,0.585407018661499
+test_files_filters/covidfree/covidfree.sleec,redundancy,19,unknown (TIMEOUT),20.219063758850098
+test_files_filters/covidfree/covidfree.sleec,redundancy,20,sat,0.6058700084686279
+test_files_filters/covidfree/covidfree.sleec,redundancy,21,sat,8.535904169082642
+test_files_filters/covidfree/covidfree.sleec,redundancy,22,sat,8.02954363822937
+test_files_filters/covidfree/covidfree.sleec,redundancy,23,unknown (TIMEOUT),20.004490852355957
+test_files_filters/covidfree/covidfree.sleec,redundancy,24,sat,4.5245561599731445
+test_files_filters/covidfree/covidfree.sleec,conflict,0,sat,7.965133905410767
+test_files_filters/covidfree/covidfree.sleec,conflict,1,unknown (TIMEOUT),20.01724886894226
+test_files_filters/covidfree/covidfree.sleec,conflict,2,unknown (TIMEOUT),21.663665294647217
+test_files_filters/covidfree/covidfree.sleec,conflict,3,unknown (TIMEOUT),21.648576974868774
+test_files_filters/covidfree/covidfree.sleec,conflict,4,unknown (TIMEOUT),20.022186517715454
+test_files_filters/covidfree/covidfree.sleec,conflict,5,unsat,1.0526704788208008
+test_files_filters/covidfree/covidfree.sleec,conflict,6,sat,7.172826528549194
+test_files_filters/covidfree/covidfree.sleec,conflict,7,unsat,1.072723388671875
+test_files_filters/covidfree/covidfree.sleec,conflict,8,unknown (TIMEOUT),20.013765811920166
+test_files_filters/covidfree/covidfree.sleec,conflict,9,unknown (TIMEOUT),20.012511253356934
+test_files_filters/covidfree/covidfree.sleec,conflict,10,unknown (TIMEOUT),23.879655361175537
+test_files_filters/covidfree/covidfree.sleec,conflict,11,sat,4.0589494705200195
+test_files_filters/covidfree/covidfree.sleec,conflict,12,unknown (TIMEOUT),21.622907638549805
+test_files_filters/covidfree/covidfree.sleec,conflict,13,unknown (TIMEOUT),20.015538930892944
+test_files_filters/covidfree/covidfree.sleec,conflict,14,unknown (TIMEOUT),20.010358810424805
+test_files_filters/covidfree/covidfree.sleec,conflict,15,unknown (TIMEOUT),21.582493543624878
+test_files_filters/covidfree/covidfree.sleec,conflict,16,unknown (TIMEOUT),21.55662512779236
+test_files_filters/covidfree/covidfree.sleec,conflict,17,unknown (TIMEOUT),21.52001118659973
+test_files_filters/covidfree/covidfree.sleec,conflict,18,unknown (TIMEOUT),20.005359172821045
+test_files_filters/covidfree/covidfree.sleec,conflict,19,unknown (TIMEOUT),21.57211923599243
+test_files_filters/covidfree/covidfree.sleec,conflict,20,unknown (TIMEOUT),20.010331630706787
+test_files_filters/covidfree/covidfree.sleec,conflict,21,sat,13.740865230560303
+test_files_filters/covidfree/covidfree.sleec,conflict,22,unknown (TIMEOUT),20.00518298149109
+test_files_filters/covidfree/covidfree.sleec,conflict,23,sat,7.996333360671997
+test_files_filters/covidfree/covidfree.sleec,conflict,24,sat,7.956002712249756
+test_files_filters/safescade/safescade.sleec,redundancy,0,unknown (TIMEOUT),20.025210857391357
+test_files_filters/safescade/safescade.sleec,redundancy,1,unsat,0.7311141490936279
+test_files_filters/safescade/safescade.sleec,redundancy,2,sat,0.45978403091430664
+test_files_filters/safescade/safescade.sleec,redundancy,3,unsat,12.104363441467285
+test_files_filters/safescade/safescade.sleec,redundancy,4,unsat,0.7382729053497314
+test_files_filters/safescade/safescade.sleec,redundancy,5,sat,1.9857592582702637
+test_files_filters/safescade/safescade.sleec,redundancy,6,unknown (TIMEOUT),20.090508699417114
+test_files_filters/safescade/safescade.sleec,redundancy,7,unknown (TIMEOUT),21.182677745819092
+test_files_filters/safescade/safescade.sleec,redundancy,8,sat,0.47973155975341797
+test_files_filters/safescade/safescade.sleec,redundancy,9,sat,0.4551718235015869
+test_files_filters/safescade/safescade.sleec,redundancy,10,sat,0.46611833572387695
+test_files_filters/safescade/safescade.sleec,redundancy,11,unknown (TIMEOUT),20.038649559020996
+test_files_filters/safescade/safescade.sleec,redundancy,12,unknown (TIMEOUT),20.005212545394897
+test_files_filters/safescade/safescade.sleec,redundancy,13,sat,1.8548893928527832
+test_files_filters/safescade/safescade.sleec,redundancy,14,sat,2.9722917079925537
+test_files_filters/safescade/safescade.sleec,redundancy,15,unknown (TIMEOUT),20.023926258087158
+test_files_filters/safescade/safescade.sleec,redundancy,16,unknown (TIMEOUT),20.710214614868164
+test_files_filters/safescade/safescade.sleec,redundancy,17,sat,0.4899106025695801
+test_files_filters/safescade/safescade.sleec,redundancy,18,sat,8.042772054672241
+test_files_filters/safescade/safescade.sleec,redundancy,19,sat,0.4830470085144043
+test_files_filters/safescade/safescade.sleec,redundancy,20,unknown (TIMEOUT),20.044683933258057
+test_files_filters/safescade/safescade.sleec,redundancy,21,unknown (TIMEOUT),20.104026794433594
+test_files_filters/safescade/safescade.sleec,redundancy,22,unknown (TIMEOUT),20.00429368019104
+test_files_filters/safescade/safescade.sleec,redundancy,23,unknown (TIMEOUT),20.04691219329834
+test_files_filters/safescade/safescade.sleec,redundancy,24,unknown (TIMEOUT),20.010769605636597
+test_files_filters/safescade/safescade.sleec,redundancy,25,sat,0.4925096035003662
+test_files_filters/safescade/safescade.sleec,redundancy,26,unknown (TIMEOUT),20.02687978744507
+test_files_filters/safescade/safescade.sleec,redundancy,27,unknown (TIMEOUT),20.011744022369385
+test_files_filters/safescade/safescade.sleec,conflict,0,unknown (TIMEOUT),20.018138647079468
+test_files_filters/safescade/safescade.sleec,conflict,1,unknown (TIMEOUT),20.0169038772583
+test_files_filters/safescade/safescade.sleec,conflict,2,unknown (TIMEOUT),20.054465770721436
+test_files_filters/safescade/safescade.sleec,conflict,3,unknown (TIMEOUT),20.017112970352173
+test_files_filters/safescade/safescade.sleec,conflict,4,unknown (TIMEOUT),20.01574969291687
+test_files_filters/safescade/safescade.sleec,conflict,5,unknown (TIMEOUT),20.013020992279053
+test_files_filters/safescade/safescade.sleec,conflict,6,unknown (TIMEOUT),20.005619287490845
+test_files_filters/safescade/safescade.sleec,conflict,7,unknown (TIMEOUT),20.0235698223114
+test_files_filters/safescade/safescade.sleec,conflict,8,unknown (TIMEOUT),20.052577257156372
+test_files_filters/safescade/safescade.sleec,conflict,9,unknown (TIMEOUT),20.024096250534058
+test_files_filters/safescade/safescade.sleec,conflict,10,unknown (TIMEOUT),20.164530992507935
+test_files_filters/safescade/safescade.sleec,conflict,11,unknown (TIMEOUT),20.13331437110901
+test_files_filters/safescade/safescade.sleec,conflict,12,unknown (TIMEOUT),20.000476360321045
+test_files_filters/safescade/safescade.sleec,conflict,13,unknown (TIMEOUT),20.031325817108154
+test_files_filters/safescade/safescade.sleec,conflict,14,unknown (TIMEOUT),20.005998134613037
+test_files_filters/safescade/safescade.sleec,conflict,15,unknown (TIMEOUT),20.0271577835083
+test_files_filters/safescade/safescade.sleec,conflict,16,unknown (TIMEOUT),20.001912832260132
+test_files_filters/safescade/safescade.sleec,conflict,17,unknown (TIMEOUT),20.013925075531006
+test_files_filters/safescade/safescade.sleec,conflict,18,unknown (TIMEOUT),20.035197734832764
+test_files_filters/safescade/safescade.sleec,conflict,19,sat,2.216977119445801
+test_files_filters/safescade/safescade.sleec,conflict,20,unknown (TIMEOUT),20.01830244064331
+test_files_filters/safescade/safescade.sleec,conflict,21,unknown (TIMEOUT),20.039616584777832
+test_files_filters/safescade/safescade.sleec,conflict,22,unknown (TIMEOUT),20.010894060134888
+test_files_filters/safescade/safescade.sleec,conflict,23,unknown (TIMEOUT),20.031389236450195
+test_files_filters/safescade/safescade.sleec,conflict,24,unknown (TIMEOUT),20.03004264831543
+test_files_filters/safescade/safescade.sleec,conflict,25,sat,2.013638496398926
+test_files_filters/safescade/safescade.sleec,conflict,26,unknown (TIMEOUT),20.011172771453857
+test_files_filters/safescade/safescade.sleec,conflict,27,unknown (TIMEOUT),20.005064964294434
+test_files_filters/safescade/safescade.sleec,concern,0,unknown (TIMEOUT),20.014375925064087
+test_files_filters/safescade/safescade.sleec,concern,1,unknown (TIMEOUT),20.036640405654907
+test_files_filters/safescade/safescade.sleec,concern,2,unknown (TIMEOUT),20.012849807739258
+test_files_filters/safescade/safescade.sleec,concern,3,unknown (TIMEOUT),20.007071495056152
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,0,unknown (TIMEOUT),20.020935535430908
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,1,sat,0.509652853012085
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,2,sat,0.5198607444763184
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,3,sat,0.5199501514434814
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,4,unknown (TIMEOUT),20.216938018798828
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,5,sat,0.533503532409668
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,6,sat,0.516136884689331
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,7,sat,4.981056451797485
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,8,unknown (TIMEOUT),20.018889665603638
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,9,sat,4.069032192230225
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,10,sat,2.4958302974700928
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,11,sat,0.5415668487548828
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.18353247642517
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,13,unknown (TIMEOUT),20.09953737258911
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,14,sat,0.536250114440918
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,15,sat,0.5097470283508301
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,16,unknown (TIMEOUT),20.01214051246643
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,17,sat,0.5293886661529541
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,18,sat,2.4152350425720215
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,19,unknown (TIMEOUT),20.04205012321472
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,20,unknown (TIMEOUT),20.013635396957397
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,21,unknown (TIMEOUT),20.01980757713318
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,22,sat,4.873687267303467
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,23,unknown (TIMEOUT),20.00482153892517
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,24,unknown (TIMEOUT),20.01040482521057
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,25,sat,5.068470239639282
+test_files_filters/safescade/safescade-corrected.sleec,redundancy,26,sat,3.4806346893310547
+test_files_filters/safescade/safescade-corrected.sleec,conflict,0,unknown (TIMEOUT),20.02012825012207
+test_files_filters/safescade/safescade-corrected.sleec,conflict,1,unknown (TIMEOUT),20.03375554084778
+test_files_filters/safescade/safescade-corrected.sleec,conflict,2,unknown (TIMEOUT),20.055495977401733
+test_files_filters/safescade/safescade-corrected.sleec,conflict,3,unknown (TIMEOUT),20.01161813735962
+test_files_filters/safescade/safescade-corrected.sleec,conflict,4,unknown (TIMEOUT),20.002570629119873
+test_files_filters/safescade/safescade-corrected.sleec,conflict,5,unknown (TIMEOUT),20.001176595687866
+test_files_filters/safescade/safescade-corrected.sleec,conflict,6,unknown (TIMEOUT),20.0090172290802
+test_files_filters/safescade/safescade-corrected.sleec,conflict,7,unknown (TIMEOUT),20.0068039894104
+test_files_filters/safescade/safescade-corrected.sleec,conflict,8,unknown (TIMEOUT),20.071727514266968
+test_files_filters/safescade/safescade-corrected.sleec,conflict,9,unknown (TIMEOUT),20.007350206375122
+test_files_filters/safescade/safescade-corrected.sleec,conflict,10,unknown (TIMEOUT),20.019652605056763
+test_files_filters/safescade/safescade-corrected.sleec,conflict,11,unknown (TIMEOUT),20.00435757637024
+test_files_filters/safescade/safescade-corrected.sleec,conflict,12,unknown (TIMEOUT),20.03941035270691
+test_files_filters/safescade/safescade-corrected.sleec,conflict,13,unknown (TIMEOUT),20.10040545463562
+test_files_filters/safescade/safescade-corrected.sleec,conflict,14,unknown (TIMEOUT),20.009945392608643
+test_files_filters/safescade/safescade-corrected.sleec,conflict,15,unknown (TIMEOUT),20.017083168029785
+test_files_filters/safescade/safescade-corrected.sleec,conflict,16,unknown (TIMEOUT),20.01177453994751
+test_files_filters/safescade/safescade-corrected.sleec,conflict,17,unknown (TIMEOUT),20.013487577438354
+test_files_filters/safescade/safescade-corrected.sleec,conflict,18,unknown (TIMEOUT),20.007072687149048
+test_files_filters/safescade/safescade-corrected.sleec,conflict,19,unknown (TIMEOUT),20.0108060836792
+test_files_filters/safescade/safescade-corrected.sleec,conflict,20,unknown (TIMEOUT),20.269787311553955
+test_files_filters/safescade/safescade-corrected.sleec,conflict,21,unknown (TIMEOUT),20.143373250961304
+test_files_filters/safescade/safescade-corrected.sleec,conflict,22,sat,8.376890182495117
+test_files_filters/safescade/safescade-corrected.sleec,conflict,23,unknown (TIMEOUT),20.03324294090271
+test_files_filters/safescade/safescade-corrected.sleec,conflict,24,unknown (TIMEOUT),20.009270429611206
+test_files_filters/safescade/safescade-corrected.sleec,conflict,25,unknown (TIMEOUT),20.001599073410034
+test_files_filters/safescade/safescade-corrected.sleec,conflict,26,unknown (TIMEOUT),20.020041465759277
+test_files_filters/safescade/safescade-corrected.sleec,concern,0,unknown (TIMEOUT),20.012431859970093
+test_files_filters/safescade/safescade-corrected.sleec,concern,1,unknown (TIMEOUT),20.006014585494995
+test_files_filters/safescade/safescade-corrected.sleec,concern,2,unknown (TIMEOUT),20.009783029556274
+test_files_filters/ASPEN/aspen.sleec,redundancy,0,unknown (TIMEOUT),20.036641120910645
+test_files_filters/ASPEN/aspen.sleec,redundancy,1,sat,2.3837552070617676
+test_files_filters/ASPEN/aspen.sleec,redundancy,2,sat,0.4736137390136719
+test_files_filters/ASPEN/aspen.sleec,redundancy,3,sat,0.47501611709594727
+test_files_filters/ASPEN/aspen.sleec,redundancy,4,unknown (TIMEOUT),20.010683298110962
+test_files_filters/ASPEN/aspen.sleec,redundancy,5,unknown (TIMEOUT),20.24502182006836
+test_files_filters/ASPEN/aspen.sleec,redundancy,6,sat,0.4761931896209717
+test_files_filters/ASPEN/aspen.sleec,redundancy,7,unknown (TIMEOUT),20.196386575698853
+test_files_filters/ASPEN/aspen.sleec,redundancy,8,unknown (TIMEOUT),20.65006113052368
+test_files_filters/ASPEN/aspen.sleec,redundancy,9,unknown (TIMEOUT),21.17186164855957
+test_files_filters/ASPEN/aspen.sleec,redundancy,10,unknown (TIMEOUT),20.173682689666748
+test_files_filters/ASPEN/aspen.sleec,redundancy,11,unknown (TIMEOUT),20.17771029472351
+test_files_filters/ASPEN/aspen.sleec,redundancy,12,unknown (TIMEOUT),20.1724956035614
+test_files_filters/ASPEN/aspen.sleec,redundancy,13,sat,0.48827576637268066
+test_files_filters/ASPEN/aspen.sleec,redundancy,14,sat,0.449568510055542
+test_files_filters/ASPEN/aspen.sleec,redundancy,15,unknown (TIMEOUT),22.477007150650024
+test_files_filters/ASPEN/aspen.sleec,redundancy,16,sat,0.47510623931884766
+test_files_filters/ASPEN/aspen.sleec,redundancy,17,sat,0.46731019020080566
+test_files_filters/ASPEN/aspen.sleec,redundancy,18,sat,2.405517339706421
+test_files_filters/ASPEN/aspen.sleec,redundancy,19,unknown (TIMEOUT),20.00263214111328
+test_files_filters/ASPEN/aspen.sleec,redundancy,20,unknown (TIMEOUT),21.181133270263672
+test_files_filters/ASPEN/aspen.sleec,redundancy,21,unknown (TIMEOUT),20.399463891983032
+test_files_filters/ASPEN/aspen.sleec,redundancy,22,unknown (TIMEOUT),20.25690007209778
+test_files_filters/ASPEN/aspen.sleec,conflict,0,unknown (TIMEOUT),20.012414693832397
+test_files_filters/ASPEN/aspen.sleec,conflict,1,unknown (TIMEOUT),20.04230260848999
+test_files_filters/ASPEN/aspen.sleec,conflict,2,sat,2.19608998298645
+test_files_filters/ASPEN/aspen.sleec,conflict,3,unknown (TIMEOUT),20.008984088897705
+test_files_filters/ASPEN/aspen.sleec,conflict,4,unknown (TIMEOUT),24.214212894439697
+test_files_filters/ASPEN/aspen.sleec,conflict,5,unknown (TIMEOUT),20.009305953979492
+test_files_filters/ASPEN/aspen.sleec,conflict,6,unknown (TIMEOUT),20.034030199050903
+test_files_filters/ASPEN/aspen.sleec,conflict,7,unknown (TIMEOUT),20.11274290084839
+test_files_filters/ASPEN/aspen.sleec,conflict,8,unknown (TIMEOUT),23.729963064193726
+test_files_filters/ASPEN/aspen.sleec,conflict,9,unknown (TIMEOUT),24.034574508666992
+test_files_filters/ASPEN/aspen.sleec,conflict,10,unknown (TIMEOUT),20.2543363571167
+test_files_filters/ASPEN/aspen.sleec,conflict,11,unknown (TIMEOUT),20.19455122947693
+test_files_filters/ASPEN/aspen.sleec,conflict,12,unknown (TIMEOUT),20.023378372192383
+test_files_filters/ASPEN/aspen.sleec,conflict,13,unknown (TIMEOUT),20.00642967224121
+test_files_filters/ASPEN/aspen.sleec,conflict,14,unknown (TIMEOUT),20.036428928375244
+test_files_filters/ASPEN/aspen.sleec,conflict,15,unknown (TIMEOUT),20.038121461868286
+test_files_filters/ASPEN/aspen.sleec,conflict,16,unknown (TIMEOUT),20.066683769226074
+test_files_filters/ASPEN/aspen.sleec,conflict,17,unknown (TIMEOUT),20.00626540184021
+test_files_filters/ASPEN/aspen.sleec,conflict,18,unknown (TIMEOUT),20.0303373336792
+test_files_filters/ASPEN/aspen.sleec,conflict,19,unknown (TIMEOUT),20.003607273101807
+test_files_filters/ASPEN/aspen.sleec,conflict,20,unknown (TIMEOUT),24.311184883117676
+test_files_filters/ASPEN/aspen.sleec,conflict,21,unknown (TIMEOUT),20.202791213989258
+test_files_filters/ASPEN/aspen.sleec,conflict,22,unknown (TIMEOUT),20.016064882278442
+test_files_filters/ASPEN/aspen.sleec,concern,0,unknown (TIMEOUT),23.213390350341797
+test_files_filters/ASPEN/aspen.sleec,concern,1,unknown (TIMEOUT),22.9662868976593
+test_files_filters/ASPEN/aspen.sleec,concern,2,unknown (TIMEOUT),20.11314821243286
+test_files_filters/ASPEN/aspen.sleec,concern,3,unknown (TIMEOUT),20.196728229522705
+test_files_filters/ASPEN/aspen.sleec,concern,4,unknown (TIMEOUT),23.13537311553955
+test_files_filters/ASPEN/aspen.sleec,concern,5,unknown (TIMEOUT),20.374378442764282
+test_files_filters/ASPEN/aspen.sleec,concern,6,sat,0.5090582370758057
+test_files_filters/ASPEN/aspen.sleec,concern,7,sat,0.501915693283081
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,0,unknown (TIMEOUT),20.028815269470215
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,1,sat,2.3492085933685303
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,2,sat,0.4880256652832031
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,3,sat,0.4888627529144287
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,4,unknown (TIMEOUT),20.04047393798828
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,5,unknown (TIMEOUT),20.259904384613037
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,6,sat,0.49530816078186035
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,7,unknown (TIMEOUT),20.09909987449646
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,8,sat,4.4386208057403564
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,9,unknown (TIMEOUT),20.048205137252808
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,10,unknown (TIMEOUT),20.00639843940735
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,11,unknown (TIMEOUT),20.218294858932495
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.454901218414307
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,13,sat,0.48375821113586426
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,14,unknown (TIMEOUT),20.009024381637573
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,15,unknown (TIMEOUT),20.002562761306763
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,16,sat,0.5103790760040283
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,17,sat,0.4928126335144043
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,18,unknown (TIMEOUT),20.21189308166504
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,19,sat,0.4958953857421875
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,20,sat,0.4676032066345215
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,21,sat,2.466444730758667
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,22,unknown (TIMEOUT),20.002747535705566
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,23,unknown (TIMEOUT),20.010899543762207
+test_files_filters/ASPEN/aspen-corrected.sleec,redundancy,24,unknown (TIMEOUT),20.292930603027344
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,0,unknown (TIMEOUT),20.011958837509155
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,1,unknown (TIMEOUT),20.038475036621094
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,2,sat,2.2164907455444336
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,3,unknown (TIMEOUT),20.003281831741333
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,4,unknown (TIMEOUT),20.001603841781616
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,5,unknown (TIMEOUT),20.25959086418152
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,6,unknown (TIMEOUT),20.01676654815674
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,7,unknown (TIMEOUT),20.471009731292725
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,8,unknown (TIMEOUT),20.021764278411865
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,9,unknown (TIMEOUT),20.00410223007202
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,10,unknown (TIMEOUT),20.361186981201172
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,11,unknown (TIMEOUT),20.51370930671692
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,12,unknown (TIMEOUT),20.178107738494873
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,13,unknown (TIMEOUT),20.088042974472046
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,14,unknown (TIMEOUT),20.000834703445435
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,15,unknown (TIMEOUT),20.006155252456665
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,16,unknown (TIMEOUT),20.060487270355225
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,17,unknown (TIMEOUT),20.010265111923218
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,18,unknown (TIMEOUT),20.503167152404785
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,19,unknown (TIMEOUT),20.00666379928589
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,20,unknown (TIMEOUT),20.011216163635254
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,21,unknown (TIMEOUT),20.05429458618164
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,22,unknown (TIMEOUT),20.00068163871765
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,23,unknown (TIMEOUT),20.23670196533203
+test_files_filters/ASPEN/aspen-corrected.sleec,conflict,24,unknown (TIMEOUT),20.406171798706055
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,0,unknown (TIMEOUT),20.27565360069275
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,1,unknown (TIMEOUT),20.30365490913391
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,2,unknown (TIMEOUT),20.125914573669434
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,3,unknown (TIMEOUT),20.239914178848267
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,4,unknown (TIMEOUT),20.015559673309326
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,5,unknown (TIMEOUT),20.20498299598694
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,6,unknown (TIMEOUT),20.009238481521606
+test_files_filters/ASPEN/aspen-corrected.sleec,concern,7,unknown (TIMEOUT),20.069114446640015
+test_files_filters/ALMI/ALMI.sleec,redundancy,0,sat,0.6617152690887451
+test_files_filters/ALMI/ALMI.sleec,redundancy,1,unknown (TIMEOUT),20.016085386276245
+test_files_filters/ALMI/ALMI.sleec,redundancy,2,unknown (TIMEOUT),20.00792121887207
+test_files_filters/ALMI/ALMI.sleec,redundancy,3,unknown (TIMEOUT),20.002368688583374
+test_files_filters/ALMI/ALMI.sleec,redundancy,4,sat,0.6012194156646729
+test_files_filters/ALMI/ALMI.sleec,redundancy,5,sat,0.6100325584411621
+test_files_filters/ALMI/ALMI.sleec,redundancy,6,unknown (TIMEOUT),20.02575421333313
+test_files_filters/ALMI/ALMI.sleec,redundancy,7,sat,0.6085429191589355
+test_files_filters/ALMI/ALMI.sleec,redundancy,8,sat,0.6092195510864258
+test_files_filters/ALMI/ALMI.sleec,redundancy,9,unknown (TIMEOUT),20.039361238479614
+test_files_filters/ALMI/ALMI.sleec,redundancy,10,sat,0.6056160926818848
+test_files_filters/ALMI/ALMI.sleec,redundancy,11,sat,0.60821533203125
+test_files_filters/ALMI/ALMI.sleec,redundancy,12,sat,3.6941943168640137
+test_files_filters/ALMI/ALMI.sleec,redundancy,13,unknown (TIMEOUT),20.003610610961914
+test_files_filters/ALMI/ALMI.sleec,redundancy,14,unknown (TIMEOUT),20.195520877838135
+test_files_filters/ALMI/ALMI.sleec,redundancy,15,sat,0.5971775054931641
+test_files_filters/ALMI/ALMI.sleec,redundancy,16,unknown (TIMEOUT),20.006189584732056
+test_files_filters/ALMI/ALMI.sleec,redundancy,17,sat,0.6126978397369385
+test_files_filters/ALMI/ALMI.sleec,redundancy,18,unknown (TIMEOUT),20.017813444137573
+test_files_filters/ALMI/ALMI.sleec,redundancy,19,sat,0.59340500831604
+test_files_filters/ALMI/ALMI.sleec,redundancy,20,sat,0.6019752025604248
+test_files_filters/ALMI/ALMI.sleec,redundancy,21,unknown (TIMEOUT),20.1311092376709
+test_files_filters/ALMI/ALMI.sleec,redundancy,22,unknown (TIMEOUT),20.005754947662354
+test_files_filters/ALMI/ALMI.sleec,redundancy,23,sat,1.9325850009918213
+test_files_filters/ALMI/ALMI.sleec,redundancy,24,unknown (TIMEOUT),20.00676989555359
+test_files_filters/ALMI/ALMI.sleec,redundancy,25,unknown (TIMEOUT),20.05764102935791
+test_files_filters/ALMI/ALMI.sleec,redundancy,26,sat,0.6124477386474609
+test_files_filters/ALMI/ALMI.sleec,redundancy,27,sat,0.6086018085479736
+test_files_filters/ALMI/ALMI.sleec,redundancy,28,sat,0.6149489879608154
+test_files_filters/ALMI/ALMI.sleec,redundancy,29,sat,0.6272354125976562
+test_files_filters/ALMI/ALMI.sleec,redundancy,30,unknown (TIMEOUT),20.097833156585693
+test_files_filters/ALMI/ALMI.sleec,redundancy,31,unknown (TIMEOUT),20.01433777809143
+test_files_filters/ALMI/ALMI.sleec,redundancy,32,unknown (TIMEOUT),20.011155605316162
+test_files_filters/ALMI/ALMI.sleec,conflict,0,sat,3.4562368392944336
+test_files_filters/ALMI/ALMI.sleec,conflict,1,unknown (TIMEOUT),20.340906381607056
+test_files_filters/ALMI/ALMI.sleec,conflict,2,unknown (TIMEOUT),20.012537717819214
+test_files_filters/ALMI/ALMI.sleec,conflict,3,unknown (TIMEOUT),20.023630142211914
+test_files_filters/ALMI/ALMI.sleec,conflict,4,sat,2.6950302124023438
+test_files_filters/ALMI/ALMI.sleec,conflict,5,sat,2.0159099102020264
+test_files_filters/ALMI/ALMI.sleec,conflict,6,unknown (TIMEOUT),20.059115886688232
+test_files_filters/ALMI/ALMI.sleec,conflict,7,unknown (TIMEOUT),20.00303316116333
+test_files_filters/ALMI/ALMI.sleec,conflict,8,unknown (TIMEOUT),20.022322416305542
+test_files_filters/ALMI/ALMI.sleec,conflict,9,unknown (TIMEOUT),20.064181566238403
+test_files_filters/ALMI/ALMI.sleec,conflict,10,unknown (TIMEOUT),20.003700733184814
+test_files_filters/ALMI/ALMI.sleec,conflict,11,unknown (TIMEOUT),20.066415071487427
+test_files_filters/ALMI/ALMI.sleec,conflict,12,unknown (TIMEOUT),20.006792068481445
+test_files_filters/ALMI/ALMI.sleec,conflict,13,unknown (TIMEOUT),20.024036169052124
+test_files_filters/ALMI/ALMI.sleec,conflict,14,unknown (TIMEOUT),20.14822816848755
+test_files_filters/ALMI/ALMI.sleec,conflict,15,unknown (TIMEOUT),20.007347106933594
+test_files_filters/ALMI/ALMI.sleec,conflict,16,unknown (TIMEOUT),20.021087884902954
+test_files_filters/ALMI/ALMI.sleec,conflict,17,unknown (TIMEOUT),20.00985836982727
+test_files_filters/ALMI/ALMI.sleec,conflict,18,unknown (TIMEOUT),20.983052730560303
+test_files_filters/ALMI/ALMI.sleec,conflict,19,unknown (TIMEOUT),20.034238576889038
+test_files_filters/ALMI/ALMI.sleec,conflict,20,sat,2.036043643951416
+test_files_filters/ALMI/ALMI.sleec,conflict,21,unknown (TIMEOUT),20.771235942840576
+test_files_filters/ALMI/ALMI.sleec,conflict,22,unknown (TIMEOUT),20.00298523902893
+test_files_filters/ALMI/ALMI.sleec,conflict,23,unknown (TIMEOUT),20.008655309677124
+test_files_filters/ALMI/ALMI.sleec,conflict,24,unknown (TIMEOUT),20.016212701797485
+test_files_filters/ALMI/ALMI.sleec,conflict,25,unknown (TIMEOUT),20.00780200958252
+test_files_filters/ALMI/ALMI.sleec,conflict,26,unknown (TIMEOUT),20.00176453590393
+test_files_filters/ALMI/ALMI.sleec,conflict,27,sat,1.9068577289581299
+test_files_filters/ALMI/ALMI.sleec,conflict,28,unknown (TIMEOUT),20.043837785720825
+test_files_filters/ALMI/ALMI.sleec,conflict,29,unknown (TIMEOUT),20.012999534606934
+test_files_filters/ALMI/ALMI.sleec,conflict,30,unknown (TIMEOUT),20.034225940704346
+test_files_filters/ALMI/ALMI.sleec,conflict,31,unknown (TIMEOUT),20.001057386398315
+test_files_filters/ALMI/ALMI.sleec,conflict,32,unknown (TIMEOUT),20.000552892684937
+test_files_filters/ALMI/ALMI.sleec,concern,0,sat,2.6319453716278076
+test_files_filters/ALMI/ALMI.sleec,concern,1,unknown (TIMEOUT),20.00894570350647
+test_files_filters/ALMI/ALMI.sleec,concern,2,unknown (TIMEOUT),20.000261783599854
+test_files_filters/ALMI/ALMI.sleec,concern,3,unknown (TIMEOUT),20.018319129943848
+test_files_filters/ALMI/ALMI.sleec,concern,4,unknown (TIMEOUT),20.073650598526
+test_files_filters/ALMI/ALMI.sleec,concern,5,unknown (TIMEOUT),20.068715572357178
+test_files_filters/ALMI/ALMI.sleec,concern,6,unknown (TIMEOUT),20.012736558914185
+test_files_filters/ALMI/ALMI.sleec,concern,7,unknown (TIMEOUT),20.013538599014282
+test_files_filters/ALMI/ALMI.sleec,concern,8,unknown (TIMEOUT),20.016321182250977
+test_files_filters/ALMI/ALMI.sleec,concern,9,unknown (TIMEOUT),20.531084060668945
+test_files_filters/ALMI/ALMI.sleec,concern,10,unknown (TIMEOUT),20.012649059295654
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,0,sat,0.6947124004364014
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,1,unknown (TIMEOUT),20.00826382637024
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,2,unknown (TIMEOUT),20.010957956314087
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,3,unknown (TIMEOUT),20.054851055145264
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,4,sat,0.6278824806213379
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,5,unknown (TIMEOUT),20.014132261276245
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,6,unknown (TIMEOUT),20.000436305999756
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,7,sat,0.6243195533752441
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,8,unknown (TIMEOUT),20.020087718963623
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,9,sat,0.6713111400604248
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,10,sat,0.6474082469940186
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,11,unknown (TIMEOUT),20.00346064567566
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,12,sat,0.6127285957336426
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,13,sat,0.6214940547943115
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,14,sat,3.8281233310699463
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,15,unknown (TIMEOUT),20.03277564048767
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,16,unknown (TIMEOUT),20.00816011428833
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,17,sat,0.6415743827819824
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,18,unknown (TIMEOUT),20.005910634994507
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,19,sat,0.6075587272644043
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,20,unknown (TIMEOUT),20.005372047424316
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,21,sat,0.594433069229126
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,22,sat,0.5907020568847656
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,23,unknown (TIMEOUT),20.014520406723022
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,24,unknown (TIMEOUT),20.006394147872925
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,25,sat,1.8500566482543945
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,26,unknown (TIMEOUT),20.004283666610718
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,27,unknown (TIMEOUT),20.013571739196777
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,28,sat,0.6280908584594727
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,29,sat,0.605712890625
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,30,sat,0.6015994548797607
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,31,unsat,1.2421786785125732
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,32,sat,2.4397926330566406
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,33,unknown (TIMEOUT),20.002877950668335
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,34,unknown (TIMEOUT),20.009735584259033
+test_files_filters/ALMI/ALMI-Corrected.sleec,redundancy,35,unknown (TIMEOUT),20.008704662322998
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,0,sat,3.5729658603668213
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,1,unknown (TIMEOUT),20.252429485321045
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,2,unknown (TIMEOUT),20.01105284690857
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,3,unknown (TIMEOUT),20.01238250732422
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,4,unknown (TIMEOUT),20.00325345993042
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,5,unknown (TIMEOUT),20.003408670425415
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,6,unknown (TIMEOUT),20.003376483917236
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,7,sat,2.0470499992370605
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,8,unknown (TIMEOUT),20.170294761657715
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,9,unknown (TIMEOUT),20.00287365913391
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,10,unknown (TIMEOUT),20.001879930496216
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,11,unknown (TIMEOUT),20.06784176826477
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,12,unknown (TIMEOUT),20.00441837310791
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,13,unknown (TIMEOUT),20.007460832595825
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,14,unknown (TIMEOUT),20.010806560516357
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,15,unknown (TIMEOUT),20.011494398117065
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,16,unknown (TIMEOUT),20.66512370109558
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,17,unknown (TIMEOUT),20.053807497024536
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,18,unknown (TIMEOUT),20.05200958251953
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,19,unknown (TIMEOUT),20.00265622138977
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,20,unknown (TIMEOUT),20.967958450317383
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,21,unknown (TIMEOUT),20.002880811691284
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,22,sat,2.143693685531616
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,23,unknown (TIMEOUT),21.35550022125244
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,24,unknown (TIMEOUT),20.01200032234192
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,25,unknown (TIMEOUT),20.036266326904297
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,26,unknown (TIMEOUT),20.01497220993042
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,27,unknown (TIMEOUT),20.013078927993774
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,28,unknown (TIMEOUT),20.005611419677734
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,29,sat,2.0087108612060547
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,30,unknown (TIMEOUT),20.016906023025513
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,31,unknown (TIMEOUT),20.026591539382935
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,32,unknown (TIMEOUT),20.009690284729004
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,33,unknown (TIMEOUT),20.00653338432312
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,34,unknown (TIMEOUT),20.00699210166931
+test_files_filters/ALMI/ALMI-Corrected.sleec,conflict,35,unknown (TIMEOUT),20.01889991760254
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,0,unknown (TIMEOUT),20.007304191589355
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,1,unknown (TIMEOUT),20.001689195632935
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,2,unknown (TIMEOUT),20.00400948524475
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,3,unknown (TIMEOUT),20.018260717391968
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,4,unknown (TIMEOUT),20.066444635391235
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,5,unknown (TIMEOUT),20.006725311279297
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,6,unknown (TIMEOUT),20.013322591781616
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,7,unknown (TIMEOUT),20.015442848205566
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,8,unknown (TIMEOUT),20.521360874176025
+test_files_filters/ALMI/ALMI-Corrected.sleec,concern,9,unknown (TIMEOUT),20.008766412734985
+test_files_filters/CSI/CSI.sleec,redundancy,0,unknown (TIMEOUT),20.007431030273438
+test_files_filters/CSI/CSI.sleec,redundancy,1,unknown (TIMEOUT),20.008543729782104
+test_files_filters/CSI/CSI.sleec,redundancy,2,unknown (TIMEOUT),20.006171941757202
+test_files_filters/CSI/CSI.sleec,redundancy,3,unsat,5.191953659057617
+test_files_filters/CSI/CSI.sleec,redundancy,4,unsat,5.356847763061523
+test_files_filters/CSI/CSI.sleec,redundancy,5,sat,0.4131965637207031
+test_files_filters/CSI/CSI.sleec,redundancy,6,sat,0.3963124752044678
+test_files_filters/CSI/CSI.sleec,redundancy,7,unknown (TIMEOUT),20.01190447807312
+test_files_filters/CSI/CSI.sleec,redundancy,8,unknown (TIMEOUT),20.02167272567749
+test_files_filters/CSI/CSI.sleec,redundancy,9,unknown (TIMEOUT),20.066201210021973
+test_files_filters/CSI/CSI.sleec,redundancy,10,unknown (TIMEOUT),20.006606817245483
+test_files_filters/CSI/CSI.sleec,redundancy,11,unknown (TIMEOUT),20.004276752471924
+test_files_filters/CSI/CSI.sleec,redundancy,12,unknown (TIMEOUT),20.00864815711975
+test_files_filters/CSI/CSI.sleec,redundancy,13,unknown (TIMEOUT),20.008936405181885
+test_files_filters/CSI/CSI.sleec,redundancy,14,unknown (TIMEOUT),20.006632804870605
+test_files_filters/CSI/CSI.sleec,redundancy,15,unknown (TIMEOUT),20.01290774345398
+test_files_filters/CSI/CSI.sleec,redundancy,16,unknown (TIMEOUT),20.006794214248657
+test_files_filters/CSI/CSI.sleec,redundancy,17,unsat,10.794156074523926
+test_files_filters/CSI/CSI.sleec,redundancy,18,unknown (TIMEOUT),20.002601146697998
+test_files_filters/CSI/CSI.sleec,redundancy,19,unknown (TIMEOUT),20.00722098350525
+test_files_filters/CSI/CSI.sleec,conflict,0,unknown (TIMEOUT),20.006881713867188
+test_files_filters/CSI/CSI.sleec,conflict,1,unknown (TIMEOUT),20.008325576782227
+test_files_filters/CSI/CSI.sleec,conflict,2,unknown (TIMEOUT),20.00729274749756
+test_files_filters/CSI/CSI.sleec,conflict,3,unknown (TIMEOUT),20.003671407699585
+test_files_filters/CSI/CSI.sleec,conflict,4,unknown (TIMEOUT),20.02013921737671
+test_files_filters/CSI/CSI.sleec,conflict,5,unknown (TIMEOUT),20.007982969284058
+test_files_filters/CSI/CSI.sleec,conflict,6,unknown (TIMEOUT),24.968312978744507
+test_files_filters/CSI/CSI.sleec,conflict,7,unknown (TIMEOUT),20.004172325134277
+test_files_filters/CSI/CSI.sleec,conflict,8,unknown (TIMEOUT),20.01226806640625
+test_files_filters/CSI/CSI.sleec,conflict,9,unknown (TIMEOUT),20.122777700424194
+test_files_filters/CSI/CSI.sleec,conflict,10,unknown (TIMEOUT),20.18329620361328
+test_files_filters/CSI/CSI.sleec,conflict,11,unknown (TIMEOUT),20.01314353942871
+test_files_filters/CSI/CSI.sleec,conflict,12,unknown (TIMEOUT),20.122941255569458
+test_files_filters/CSI/CSI.sleec,conflict,13,unknown (TIMEOUT),20.0913405418396
+test_files_filters/CSI/CSI.sleec,conflict,14,unknown (TIMEOUT),20.0208842754364
+test_files_filters/CSI/CSI.sleec,conflict,15,unknown (TIMEOUT),20.01518678665161
+test_files_filters/CSI/CSI.sleec,conflict,16,unknown (TIMEOUT),20.003207206726074
+test_files_filters/CSI/CSI.sleec,conflict,17,unknown (TIMEOUT),20.267296075820923
+test_files_filters/CSI/CSI.sleec,conflict,18,unknown (TIMEOUT),20.019320964813232
+test_files_filters/CSI/CSI.sleec,conflict,19,unknown (TIMEOUT),20.0086030960083
+test_files_filters/CSI/CSI.sleec,concern,0,unknown (TIMEOUT),20.006733894348145
+test_files_filters/CSI/CSI.sleec,concern,1,unknown (TIMEOUT),20.00211215019226
+test_files_filters/CSI/CSI.sleec,concern,2,unknown (TIMEOUT),20.005171537399292
+test_files_filters/CSI/CSI.sleec,concern,3,sat,0.4420740604400635
+test_files_filters/CSI/CSI.sleec,concern,4,unknown (TIMEOUT),20.00405764579773
+test_files_filters/CSI/CSI.sleec,concern,5,sat,0.4332163333892822
+test_files_filters/CSI/CSI.sleec,concern,6,sat,0.42113733291625977
+test_files_filters/CSI/CSI.sleec,concern,7,unknown (TIMEOUT),20.005194664001465
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,0,unknown (TIMEOUT),20.090312957763672
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,1,unknown (TIMEOUT),20.02146553993225
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,2,unknown (TIMEOUT),20.20172905921936
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,3,unknown (TIMEOUT),20.006462335586548
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,4,sat,19.78111982345581
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,5,sat,0.4262521266937256
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,6,sat,0.41388821601867676
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,7,unknown (TIMEOUT),20.15937066078186
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,8,unknown (TIMEOUT),20.001022577285767
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,9,unknown (TIMEOUT),20.16747236251831
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,10,unknown (TIMEOUT),20.01113271713257
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,11,unknown (TIMEOUT),20.002426862716675
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.005168914794922
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,13,unknown (TIMEOUT),20.00129246711731
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,14,unknown (TIMEOUT),20.0033917427063
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,15,unknown (TIMEOUT),20.010103464126587
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,16,unknown (TIMEOUT),20.007572174072266
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,17,unknown (TIMEOUT),20.009796619415283
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,18,unknown (TIMEOUT),20.013629913330078
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,19,unknown (TIMEOUT),20.009737730026245
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,20,unknown (TIMEOUT),20.004725217819214
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,21,unknown (TIMEOUT),20.00847887992859
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,22,unknown (TIMEOUT),20.007089138031006
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,23,sat,0.4341616630554199
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,24,unknown (TIMEOUT),20.041161060333252
+test_files_filters/CSI/CSI-corrected.sleec,redundancy,25,sat,0.4266550540924072
+test_files_filters/CSI/CSI-corrected.sleec,conflict,0,unknown (TIMEOUT),20.010826349258423
+test_files_filters/CSI/CSI-corrected.sleec,conflict,1,unknown (TIMEOUT),20.00400400161743
+test_files_filters/CSI/CSI-corrected.sleec,conflict,2,unknown (TIMEOUT),20.005433082580566
+test_files_filters/CSI/CSI-corrected.sleec,conflict,3,unknown (TIMEOUT),20.033520460128784
+test_files_filters/CSI/CSI-corrected.sleec,conflict,4,unknown (TIMEOUT),20.005245208740234
+test_files_filters/CSI/CSI-corrected.sleec,conflict,5,unknown (TIMEOUT),20.01800012588501
+test_files_filters/CSI/CSI-corrected.sleec,conflict,6,unknown (TIMEOUT),78.12333226203918
+test_files_filters/CSI/CSI-corrected.sleec,conflict,7,unknown (TIMEOUT),20.030673027038574
+test_files_filters/CSI/CSI-corrected.sleec,conflict,8,unknown (TIMEOUT),20.004063844680786
+test_files_filters/CSI/CSI-corrected.sleec,conflict,9,unknown (TIMEOUT),20.098037242889404
+test_files_filters/CSI/CSI-corrected.sleec,conflict,10,unknown (TIMEOUT),20.19695210456848
+test_files_filters/CSI/CSI-corrected.sleec,conflict,11,unknown (TIMEOUT),20.113515853881836
+test_files_filters/CSI/CSI-corrected.sleec,conflict,12,unknown (TIMEOUT),20.08582830429077
+test_files_filters/CSI/CSI-corrected.sleec,conflict,13,unknown (TIMEOUT),20.292176485061646
+test_files_filters/CSI/CSI-corrected.sleec,conflict,14,unknown (TIMEOUT),20.155496835708618
+test_files_filters/CSI/CSI-corrected.sleec,conflict,15,unknown (TIMEOUT),20.00935935974121
+test_files_filters/CSI/CSI-corrected.sleec,conflict,16,unknown (TIMEOUT),20.004184246063232
+test_files_filters/CSI/CSI-corrected.sleec,conflict,17,unknown (TIMEOUT),20.345444440841675
+test_files_filters/CSI/CSI-corrected.sleec,conflict,18,unknown (TIMEOUT),20.00691270828247
+test_files_filters/CSI/CSI-corrected.sleec,conflict,19,unknown (TIMEOUT),20.014272451400757
+test_files_filters/CSI/CSI-corrected.sleec,conflict,20,unknown (TIMEOUT),20.00667667388916
+test_files_filters/CSI/CSI-corrected.sleec,conflict,21,unknown (TIMEOUT),20.029129028320312
+test_files_filters/CSI/CSI-corrected.sleec,conflict,22,unknown (TIMEOUT),20.027355194091797
+test_files_filters/CSI/CSI-corrected.sleec,conflict,23,sat,1.659212589263916
+test_files_filters/CSI/CSI-corrected.sleec,conflict,24,unknown (TIMEOUT),20.05967664718628
+test_files_filters/CSI/CSI-corrected.sleec,conflict,25,unknown (TIMEOUT),68.01860022544861
+test_files_filters/CSI/CSI-corrected.sleec,concern,0,unknown (TIMEOUT),20.003663539886475
+test_files_filters/CSI/CSI-corrected.sleec,concern,1,unknown (TIMEOUT),20.012704610824585
+test_files_filters/CSI/CSI-corrected.sleec,concern,2,unknown (TIMEOUT),20.000287294387817
+test_files_filters/CSI/CSI-corrected.sleec,concern,3,unknown (TIMEOUT),20.58324670791626
+test_files_filters/CSI/CSI-corrected.sleec,concern,4,unknown (TIMEOUT),20.032532453536987
+test_files_filters/CSI/CSI-corrected.sleec,concern,5,unknown (TIMEOUT),150.8225839138031
+test_files_filters/CSI/CSI-corrected.sleec,concern,6,unknown (TIMEOUT),20.009636402130127
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,0,sat,4.11029052734375
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,1,unsat,2.0952064990997314
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,2,unknown (TIMEOUT),20.009709119796753
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,3,sat,2.3391435146331787
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,4,unknown (TIMEOUT),20.408687829971313
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,5,sat,0.6645309925079346
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,6,sat,2.3508691787719727
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,7,sat,0.6558473110198975
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,8,sat,0.6710360050201416
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,9,sat,0.657400369644165
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,10,unknown (TIMEOUT),20.010306358337402
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,11,unknown (TIMEOUT),20.005591869354248
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.0055251121521
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,13,unknown (TIMEOUT),20.017483711242676
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,14,sat,0.6882486343383789
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,15,sat,2.4672789573669434
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,16,unknown (TIMEOUT),20.00469946861267
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,17,unknown (TIMEOUT),20.03164267539978
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,18,sat,12.33242154121399
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,19,unknown (TIMEOUT),20.092326402664185
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,20,unknown (TIMEOUT),20.616337299346924
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,21,sat,2.487342596054077
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,22,unknown (TIMEOUT),20.565313816070557
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,23,unknown (TIMEOUT),20.504016637802124
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,24,unknown (TIMEOUT),20.410959243774414
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,25,sat,2.616420269012451
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,26,sat,0.7052583694458008
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,27,unknown (TIMEOUT),20.83891010284424
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,28,unknown (TIMEOUT),20.319661855697632
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,29,unsat,2.2181169986724854
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,30,unknown (TIMEOUT),20.006288051605225
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,31,unknown (TIMEOUT),20.539097547531128
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,32,unknown (TIMEOUT),20.241600513458252
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,33,unsat,18.155054092407227
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,34,unsat,8.573991298675537
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,35,unknown (TIMEOUT),20.035459995269775
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,36,unknown (TIMEOUT),20.231534719467163
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,37,sat,0.711601972579956
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,38,sat,2.632042646408081
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,39,unsat,18.315216779708862
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,40,unknown (TIMEOUT),21.26919436454773
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,41,sat,0.7057483196258545
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,42,sat,0.6955068111419678
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,43,sat,0.7123591899871826
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,44,sat,0.6905441284179688
+test_files_filters/Autocar/Autocar-corrected.sleec,redundancy,45,sat,0.7011198997497559
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,0,unknown (TIMEOUT),20.038388967514038
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,1,unknown (TIMEOUT),20.008451223373413
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,2,unknown (TIMEOUT),20.001258850097656
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,3,unknown (TIMEOUT),20.011435747146606
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,4,unknown (TIMEOUT),20.23399257659912
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,5,unknown (TIMEOUT),20.038049936294556
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,6,unknown (TIMEOUT),20.008013248443604
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,7,sat,2.4672722816467285
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,8,unknown (TIMEOUT),20.026302337646484
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,9,unknown (TIMEOUT),20.010538339614868
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,10,unknown (TIMEOUT),20.000530004501343
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,11,unknown (TIMEOUT),20.007624626159668
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,12,unknown (TIMEOUT),20.065101385116577
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,13,unknown (TIMEOUT),20.067720890045166
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,14,unknown (TIMEOUT),20.004113912582397
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,15,unknown (TIMEOUT),20.001057147979736
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,16,unknown (TIMEOUT),20.012615203857422
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,17,unknown (TIMEOUT),24.21607542037964
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,18,unknown (TIMEOUT),24.364219903945923
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,19,unknown (TIMEOUT),24.30199146270752
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,20,unknown (TIMEOUT),20.0180561542511
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,21,unknown (TIMEOUT),20.003899335861206
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,22,unknown (TIMEOUT),20.420275926589966
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,23,unknown (TIMEOUT),20.455156087875366
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,24,unknown (TIMEOUT),20.612632274627686
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,25,unknown (TIMEOUT),20.071811199188232
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,26,unknown (TIMEOUT),20.00814461708069
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,27,unknown (TIMEOUT),20.37388324737549
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,28,unknown (TIMEOUT),20.345343112945557
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,29,unknown (TIMEOUT),20.02084994316101
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,30,unknown (TIMEOUT),20.023782968521118
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,31,unknown (TIMEOUT),20.588481426239014
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,32,unknown (TIMEOUT),20.446940898895264
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,33,unknown (TIMEOUT),20.00062584877014
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,34,unknown (TIMEOUT),20.030452251434326
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,35,unknown (TIMEOUT),20.084069967269897
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,36,unknown (TIMEOUT),20.53934407234192
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,37,sat,2.819805383682251
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,38,sat,5.254395008087158
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,39,unknown (TIMEOUT),20.007606267929077
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,40,unknown (TIMEOUT),20.296944856643677
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,41,sat,2.7823877334594727
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,42,sat,2.8648715019226074
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,43,sat,2.798495292663574
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,44,sat,2.8843226432800293
+test_files_filters/Autocar/Autocar-corrected.sleec,conflict,45,sat,2.8317158222198486
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,0,unknown (TIMEOUT),20.113236904144287
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,1,unknown (TIMEOUT),20.791585206985474
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,2,unknown (TIMEOUT),23.71875834465027
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,3,unknown (TIMEOUT),20.36644697189331
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,4,unknown (TIMEOUT),20.386431217193604
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,5,unknown (TIMEOUT),20.003238439559937
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,6,unknown (TIMEOUT),20.08192014694214
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,7,unknown (TIMEOUT),20.016868591308594
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,8,sat,2.723907232284546
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,9,unknown (TIMEOUT),20.01971936225891
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,10,unknown (TIMEOUT),20.001522064208984
+test_files_filters/Autocar/Autocar-corrected.sleec,concern,11,unknown (TIMEOUT),20.007306337356567
+test_files_filters/Autocar/Autocar.sleec,redundancy,0,sat,0.6987535953521729
+test_files_filters/Autocar/Autocar.sleec,redundancy,1,sat,0.6228427886962891
+test_files_filters/Autocar/Autocar.sleec,redundancy,2,unknown (TIMEOUT),20.017158031463623
+test_files_filters/Autocar/Autocar.sleec,redundancy,3,sat,0.6237115859985352
+test_files_filters/Autocar/Autocar.sleec,redundancy,4,sat,2.3356122970581055
+test_files_filters/Autocar/Autocar.sleec,redundancy,5,sat,0.6095147132873535
+test_files_filters/Autocar/Autocar.sleec,redundancy,6,sat,0.6282880306243896
+test_files_filters/Autocar/Autocar.sleec,redundancy,7,sat,0.6180295944213867
+test_files_filters/Autocar/Autocar.sleec,redundancy,8,sat,10.504822015762329
+test_files_filters/Autocar/Autocar.sleec,redundancy,9,sat,7.649035930633545
+test_files_filters/Autocar/Autocar.sleec,redundancy,10,sat,8.880221843719482
+test_files_filters/Autocar/Autocar.sleec,redundancy,11,unknown (TIMEOUT),20.016764163970947
+test_files_filters/Autocar/Autocar.sleec,redundancy,12,sat,0.6320488452911377
+test_files_filters/Autocar/Autocar.sleec,redundancy,13,sat,2.337803840637207
+test_files_filters/Autocar/Autocar.sleec,redundancy,14,unknown (TIMEOUT),20.006349325180054
+test_files_filters/Autocar/Autocar.sleec,redundancy,15,unknown (TIMEOUT),20.628739595413208
+test_files_filters/Autocar/Autocar.sleec,redundancy,16,sat,12.327584981918335
+test_files_filters/Autocar/Autocar.sleec,redundancy,17,unknown (TIMEOUT),20.496112823486328
+test_files_filters/Autocar/Autocar.sleec,redundancy,18,unknown (TIMEOUT),20.86861300468445
+test_files_filters/Autocar/Autocar.sleec,redundancy,19,sat,0.6619338989257812
+test_files_filters/Autocar/Autocar.sleec,redundancy,20,unknown (TIMEOUT),20.19929027557373
+test_files_filters/Autocar/Autocar.sleec,redundancy,21,sat,0.6508498191833496
+test_files_filters/Autocar/Autocar.sleec,redundancy,22,unknown (TIMEOUT),21.409713745117188
+test_files_filters/Autocar/Autocar.sleec,redundancy,23,unknown (TIMEOUT),20.005547046661377
+test_files_filters/Autocar/Autocar.sleec,redundancy,24,unknown (TIMEOUT),20.004486560821533
+test_files_filters/Autocar/Autocar.sleec,redundancy,25,unsat,9.992180824279785
+test_files_filters/Autocar/Autocar.sleec,redundancy,26,unsat,9.987380743026733
+test_files_filters/Autocar/Autocar.sleec,conflict,0,unknown (TIMEOUT),20.011422872543335
+test_files_filters/Autocar/Autocar.sleec,conflict,1,unknown (TIMEOUT),20.004733562469482
+test_files_filters/Autocar/Autocar.sleec,conflict,2,unknown (TIMEOUT),20.03726601600647
+test_files_filters/Autocar/Autocar.sleec,conflict,3,unknown (TIMEOUT),20.115230560302734
+test_files_filters/Autocar/Autocar.sleec,conflict,4,unknown (TIMEOUT),20.069411754608154
+test_files_filters/Autocar/Autocar.sleec,conflict,5,sat,2.558391571044922
+test_files_filters/Autocar/Autocar.sleec,conflict,6,unknown (TIMEOUT),20.026150703430176
+test_files_filters/Autocar/Autocar.sleec,conflict,7,unknown (TIMEOUT),20.020632028579712
+test_files_filters/Autocar/Autocar.sleec,conflict,8,unknown (TIMEOUT),20.012667417526245
+test_files_filters/Autocar/Autocar.sleec,conflict,9,unknown (TIMEOUT),20.017963886260986
+test_files_filters/Autocar/Autocar.sleec,conflict,10,unknown (TIMEOUT),20.009504079818726
+test_files_filters/Autocar/Autocar.sleec,conflict,11,unknown (TIMEOUT),20.005884170532227
+test_files_filters/Autocar/Autocar.sleec,conflict,12,unknown (TIMEOUT),20.008047580718994
+test_files_filters/Autocar/Autocar.sleec,conflict,13,unknown (TIMEOUT),20.01402497291565
+test_files_filters/Autocar/Autocar.sleec,conflict,14,unknown (TIMEOUT),20.035699605941772
+test_files_filters/Autocar/Autocar.sleec,conflict,15,unknown (TIMEOUT),20.005043268203735
+test_files_filters/Autocar/Autocar.sleec,conflict,16,unknown (TIMEOUT),20.084223985671997
+test_files_filters/Autocar/Autocar.sleec,conflict,17,unknown (TIMEOUT),20.064761638641357
+test_files_filters/Autocar/Autocar.sleec,conflict,18,unknown (TIMEOUT),20.30539608001709
+test_files_filters/Autocar/Autocar.sleec,conflict,19,unknown (TIMEOUT),20.16500997543335
+test_files_filters/Autocar/Autocar.sleec,conflict,20,unknown (TIMEOUT),20.005243062973022
+test_files_filters/Autocar/Autocar.sleec,conflict,21,unknown (TIMEOUT),20.11718463897705
+test_files_filters/Autocar/Autocar.sleec,conflict,22,unknown (TIMEOUT),20.026100397109985
+test_files_filters/Autocar/Autocar.sleec,conflict,23,unknown (TIMEOUT),20.077895641326904
+test_files_filters/Autocar/Autocar.sleec,conflict,24,unknown (TIMEOUT),20.007086992263794
+test_files_filters/Autocar/Autocar.sleec,conflict,25,unknown (TIMEOUT),20.718079566955566
+test_files_filters/Autocar/Autocar.sleec,conflict,26,unknown (TIMEOUT),20.298661947250366
+test_files_filters/Autocar/Autocar.sleec,concern,0,unknown (TIMEOUT),20.38976812362671
+test_files_filters/Autocar/Autocar.sleec,concern,1,unknown (TIMEOUT),20.060904502868652
+test_files_filters/Autocar/Autocar.sleec,concern,2,unknown (TIMEOUT),21.1272292137146
+test_files_filters/Autocar/Autocar.sleec,concern,3,unknown (TIMEOUT),20.030755043029785
+test_files_filters/Autocar/Autocar.sleec,concern,4,unknown (TIMEOUT),20.014909744262695
+test_files_filters/Autocar/Autocar.sleec,concern,5,unknown (TIMEOUT),20.008042335510254
+test_files_filters/Autocar/Autocar.sleec,concern,6,unknown (TIMEOUT),20.060671091079712
+test_files_filters/Autocar/Autocar.sleec,concern,7,unknown (TIMEOUT),20.045891284942627
+test_files_filters/Autocar/Autocar.sleec,concern,8,sat,0.7297399044036865
+test_files_filters/Autocar/Autocar.sleec,concern,9,unknown (TIMEOUT),20.00865340232849
+test_files_filters/Autocar/Autocar.sleec,concern,10,unknown (TIMEOUT),20.00221538543701
+test_files_filters/Autocar/Autocar.sleec,concern,11,sat,0.7896146774291992
+test_files_filters/BSN/BSN.sleec,redundancy,0,sat,0.6981847286224365
+test_files_filters/BSN/BSN.sleec,redundancy,1,sat,0.6528341770172119
+test_files_filters/BSN/BSN.sleec,redundancy,2,sat,0.6367981433868408
+test_files_filters/BSN/BSN.sleec,redundancy,3,sat,0.6434547901153564
+test_files_filters/BSN/BSN.sleec,redundancy,4,unknown (TIMEOUT),20.486260652542114
+test_files_filters/BSN/BSN.sleec,redundancy,5,unknown (TIMEOUT),20.52669072151184
+test_files_filters/BSN/BSN.sleec,redundancy,6,unknown (TIMEOUT),20.461278438568115
+test_files_filters/BSN/BSN.sleec,redundancy,7,unknown (TIMEOUT),20.61765480041504
+test_files_filters/BSN/BSN.sleec,redundancy,8,sat,2.993356466293335
+test_files_filters/BSN/BSN.sleec,redundancy,9,unknown (TIMEOUT),20.00570797920227
+test_files_filters/BSN/BSN.sleec,redundancy,10,unknown (TIMEOUT),20.795868635177612
+test_files_filters/BSN/BSN.sleec,redundancy,11,unknown (TIMEOUT),20.18990921974182
+test_files_filters/BSN/BSN.sleec,redundancy,12,unknown (TIMEOUT),20.591871976852417
+test_files_filters/BSN/BSN.sleec,redundancy,13,sat,0.6615121364593506
+test_files_filters/BSN/BSN.sleec,redundancy,14,sat,0.660271406173706
+test_files_filters/BSN/BSN.sleec,redundancy,15,unknown (TIMEOUT),20.00011897087097
+test_files_filters/BSN/BSN.sleec,redundancy,16,unknown (TIMEOUT),20.05392074584961
+test_files_filters/BSN/BSN.sleec,redundancy,17,unknown (TIMEOUT),20.023588180541992
+test_files_filters/BSN/BSN.sleec,redundancy,18,sat,4.208886623382568
+test_files_filters/BSN/BSN.sleec,redundancy,19,unknown (TIMEOUT),20.808196783065796
+test_files_filters/BSN/BSN.sleec,redundancy,20,unknown (TIMEOUT),20.041604042053223
+test_files_filters/BSN/BSN.sleec,redundancy,21,sat,2.6685009002685547
+test_files_filters/BSN/BSN.sleec,redundancy,22,sat,0.6745250225067139
+test_files_filters/BSN/BSN.sleec,redundancy,23,unknown (TIMEOUT),20.01792335510254
+test_files_filters/BSN/BSN.sleec,redundancy,24,sat,2.665914535522461
+test_files_filters/BSN/BSN.sleec,redundancy,25,unknown (TIMEOUT),20.005516052246094
+test_files_filters/BSN/BSN.sleec,redundancy,26,unknown (TIMEOUT),20.127092361450195
+test_files_filters/BSN/BSN.sleec,redundancy,27,unknown (TIMEOUT),20.509894371032715
+test_files_filters/BSN/BSN.sleec,redundancy,28,unknown (TIMEOUT),32.06786608695984
+test_files_filters/BSN/BSN.sleec,conflict,0,unknown (TIMEOUT),20.124244213104248
+test_files_filters/BSN/BSN.sleec,conflict,1,sat,2.8951897621154785
+test_files_filters/BSN/BSN.sleec,conflict,2,unknown (TIMEOUT),32.777894258499146
+test_files_filters/BSN/BSN.sleec,conflict,3,sat,3.08575439453125
+test_files_filters/BSN/BSN.sleec,conflict,4,unknown (TIMEOUT),20.04459524154663
+test_files_filters/BSN/BSN.sleec,conflict,5,unknown (TIMEOUT),20.098511695861816
+test_files_filters/BSN/BSN.sleec,conflict,6,unknown (TIMEOUT),20.048633575439453
+test_files_filters/BSN/BSN.sleec,conflict,7,unknown (TIMEOUT),20.05176019668579
+test_files_filters/BSN/BSN.sleec,conflict,8,unknown (TIMEOUT),20.011040925979614
+test_files_filters/BSN/BSN.sleec,conflict,9,unknown (TIMEOUT),20.01085615158081
+test_files_filters/BSN/BSN.sleec,conflict,10,unknown (TIMEOUT),20.112364530563354
+test_files_filters/BSN/BSN.sleec,conflict,11,unknown (TIMEOUT),20.044921159744263
+test_files_filters/BSN/BSN.sleec,conflict,12,unknown (TIMEOUT),20.024721145629883
+test_files_filters/BSN/BSN.sleec,conflict,13,unknown (TIMEOUT),20.003582000732422
+test_files_filters/BSN/BSN.sleec,conflict,14,unknown (TIMEOUT),20.037020206451416
+test_files_filters/BSN/BSN.sleec,conflict,15,unknown (TIMEOUT),20.018383502960205
+test_files_filters/BSN/BSN.sleec,conflict,16,unknown (TIMEOUT),20.02640676498413
+test_files_filters/BSN/BSN.sleec,conflict,17,unknown (TIMEOUT),20.018205165863037
+test_files_filters/BSN/BSN.sleec,conflict,18,unknown (TIMEOUT),20.006905794143677
+test_files_filters/BSN/BSN.sleec,conflict,19,unknown (TIMEOUT),20.741894245147705
+test_files_filters/BSN/BSN.sleec,conflict,20,unknown (TIMEOUT),20.009222269058228
+test_files_filters/BSN/BSN.sleec,conflict,21,unknown (TIMEOUT),20.0262234210968
+test_files_filters/BSN/BSN.sleec,conflict,22,unknown (TIMEOUT),20.105217218399048
+test_files_filters/BSN/BSN.sleec,conflict,23,unknown (TIMEOUT),32.51786947250366
+test_files_filters/BSN/BSN.sleec,conflict,24,unknown (TIMEOUT),20.06751275062561
+test_files_filters/BSN/BSN.sleec,conflict,25,unknown (TIMEOUT),20.016294717788696
+test_files_filters/BSN/BSN.sleec,conflict,26,unknown (TIMEOUT),20.014180183410645
+test_files_filters/BSN/BSN.sleec,conflict,27,unknown (TIMEOUT),20.681421518325806
+test_files_filters/BSN/BSN.sleec,conflict,28,unknown (TIMEOUT),32.863073110580444
+test_files_filters/BSN/BSN.sleec,concern,0,unknown (TIMEOUT),20.0050790309906
+test_files_filters/BSN/BSN.sleec,concern,1,unknown (TIMEOUT),20.405264616012573
+test_files_filters/BSN/BSN.sleec,concern,2,unknown (TIMEOUT),20.04848837852478
+test_files_filters/BSN/BSN.sleec,concern,3,unknown (TIMEOUT),20.010058879852295
+test_files_filters/BSN/BSN.sleec,concern,4,unknown (TIMEOUT),20.558299779891968
+test_files_filters/BSN/BSN.sleec,concern,5,unknown (TIMEOUT),33.00112533569336
+test_files_filters/BSN/BSN.sleec,concern,6,unknown (TIMEOUT),20.02085518836975
+test_files_filters/BSN/BSN.sleec,concern,7,unknown (TIMEOUT),20.004494428634644
+test_files_filters/BSN/BSN.sleec,concern,8,unknown (TIMEOUT),20.025346279144287
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,0,sat,0.7425930500030518
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,1,sat,0.6799533367156982
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,2,sat,0.6393823623657227
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,3,sat,0.6387841701507568
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,4,unknown (TIMEOUT),20.74141788482666
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,5,unknown (TIMEOUT),20.59276819229126
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,6,unknown (TIMEOUT),20.520034551620483
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,7,unknown (TIMEOUT),20.495954513549805
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,8,sat,2.9725170135498047
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,9,unknown (TIMEOUT),20.042027711868286
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,10,unknown (TIMEOUT),20.04358148574829
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,11,unknown (TIMEOUT),20.722553968429565
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,12,unknown (TIMEOUT),20.610915184020996
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,13,sat,0.6657512187957764
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,14,sat,0.6669402122497559
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,15,unknown (TIMEOUT),20.003870964050293
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,16,unknown (TIMEOUT),20.00352931022644
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,17,unknown (TIMEOUT),20.0197274684906
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,18,unknown (TIMEOUT),20.005940437316895
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,19,unknown (TIMEOUT),20.797699451446533
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,20,unknown (TIMEOUT),20.04479217529297
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,21,sat,6.289310693740845
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,22,sat,0.6709544658660889
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,23,unknown (TIMEOUT),20.036685705184937
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,24,unknown (TIMEOUT),20.00784158706665
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,25,unknown (TIMEOUT),20.024773597717285
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,26,unknown (TIMEOUT),20.060539484024048
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,27,unknown (TIMEOUT),20.089913368225098
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,28,unknown (TIMEOUT),20.61017680168152
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,29,unknown (TIMEOUT),31.92271637916565
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,30,sat,0.6399655342102051
+test_files_filters/BSN/BSN-corrected.sleec,redundancy,31,unknown (TIMEOUT),20.016943216323853
+test_files_filters/BSN/BSN-corrected.sleec,conflict,0,unknown (TIMEOUT),20.00348949432373
+test_files_filters/BSN/BSN-corrected.sleec,conflict,1,sat,2.832289695739746
+test_files_filters/BSN/BSN-corrected.sleec,conflict,2,unknown (TIMEOUT),32.281941652297974
+test_files_filters/BSN/BSN-corrected.sleec,conflict,3,sat,2.9797475337982178
+test_files_filters/BSN/BSN-corrected.sleec,conflict,4,unknown (TIMEOUT),20.051515102386475
+test_files_filters/BSN/BSN-corrected.sleec,conflict,5,unknown (TIMEOUT),21.27356481552124
+test_files_filters/BSN/BSN-corrected.sleec,conflict,6,unknown (TIMEOUT),20.01284646987915
+test_files_filters/BSN/BSN-corrected.sleec,conflict,7,unknown (TIMEOUT),20.043842315673828
+test_files_filters/BSN/BSN-corrected.sleec,conflict,8,unknown (TIMEOUT),20.067944526672363
+test_files_filters/BSN/BSN-corrected.sleec,conflict,9,unknown (TIMEOUT),20.06622886657715
+test_files_filters/BSN/BSN-corrected.sleec,conflict,10,unknown (TIMEOUT),20.014737844467163
+test_files_filters/BSN/BSN-corrected.sleec,conflict,11,unknown (TIMEOUT),20.053590297698975
+test_files_filters/BSN/BSN-corrected.sleec,conflict,12,unknown (TIMEOUT),20.130205869674683
+test_files_filters/BSN/BSN-corrected.sleec,conflict,13,unknown (TIMEOUT),20.000686407089233
+test_files_filters/BSN/BSN-corrected.sleec,conflict,14,unknown (TIMEOUT),20.002991437911987
+test_files_filters/BSN/BSN-corrected.sleec,conflict,15,unknown (TIMEOUT),20.037402629852295
+test_files_filters/BSN/BSN-corrected.sleec,conflict,16,unknown (TIMEOUT),20.027217388153076
+test_files_filters/BSN/BSN-corrected.sleec,conflict,17,unknown (TIMEOUT),20.02502417564392
+test_files_filters/BSN/BSN-corrected.sleec,conflict,18,unknown (TIMEOUT),20.121538877487183
+test_files_filters/BSN/BSN-corrected.sleec,conflict,19,unknown (TIMEOUT),20.055171012878418
+test_files_filters/BSN/BSN-corrected.sleec,conflict,20,unknown (TIMEOUT),20.0569589138031
+test_files_filters/BSN/BSN-corrected.sleec,conflict,21,unknown (TIMEOUT),20.029998540878296
+test_files_filters/BSN/BSN-corrected.sleec,conflict,22,unknown (TIMEOUT),20.002779245376587
+test_files_filters/BSN/BSN-corrected.sleec,conflict,23,unknown (TIMEOUT),20.125317573547363
+test_files_filters/BSN/BSN-corrected.sleec,conflict,24,unknown (TIMEOUT),20.03704309463501
+test_files_filters/BSN/BSN-corrected.sleec,conflict,25,unknown (TIMEOUT),20.001587629318237
+test_files_filters/BSN/BSN-corrected.sleec,conflict,26,unknown (TIMEOUT),20.00844383239746
+test_files_filters/BSN/BSN-corrected.sleec,conflict,27,unknown (TIMEOUT),20.035753965377808
+test_files_filters/BSN/BSN-corrected.sleec,conflict,28,unknown (TIMEOUT),20.04886746406555
+test_files_filters/BSN/BSN-corrected.sleec,conflict,29,unknown (TIMEOUT),20.10067915916443
+test_files_filters/BSN/BSN-corrected.sleec,conflict,30,unknown (TIMEOUT),20.008607864379883
+test_files_filters/BSN/BSN-corrected.sleec,conflict,31,unknown (TIMEOUT),20.060457706451416
+test_files_filters/BSN/BSN-corrected.sleec,concern,0,unknown (TIMEOUT),20.021864652633667
+test_files_filters/BSN/BSN-corrected.sleec,concern,1,unknown (TIMEOUT),20.001579999923706
+test_files_filters/BSN/BSN-corrected.sleec,concern,2,unknown (TIMEOUT),20.089856147766113
+test_files_filters/BSN/BSN-corrected.sleec,concern,3,unknown (TIMEOUT),20.00994348526001
+test_files_filters/BSN/BSN-corrected.sleec,concern,4,unknown (TIMEOUT),20.40172815322876
+test_files_filters/BSN/BSN-corrected.sleec,concern,5,unknown (TIMEOUT),20.00401210784912
+test_files_filters/BSN/BSN-corrected.sleec,concern,6,unknown (TIMEOUT),20.076377153396606
+test_files_filters/BSN/BSN-corrected.sleec,concern,7,unknown (TIMEOUT),20.00494074821472
+test_files_filters/BSN/BSN-corrected.sleec,concern,8,unknown (TIMEOUT),20.04904294013977
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,0,sat,0.8318262100219727
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,1,sat,0.7215206623077393
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,2,sat,0.7141668796539307
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,3,sat,0.6942057609558105
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,4,sat,3.0291099548339844
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,5,unknown (TIMEOUT),20.014307498931885
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,6,sat,0.7056441307067871
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,7,unknown (TIMEOUT),20.010578870773315
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,8,sat,0.6937792301177979
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,9,sat,0.6832916736602783
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,10,unknown (TIMEOUT),20.388065099716187
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,11,sat,3.208336353302002
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,12,sat,2.528585195541382
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,13,unknown (TIMEOUT),20.003007650375366
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,14,unknown (TIMEOUT),20.01923441886902
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,15,unknown (TIMEOUT),20.01572299003601
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,16,sat,0.721489429473877
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,17,sat,0.714146614074707
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,18,unknown (TIMEOUT),20.021942853927612
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,19,unknown (TIMEOUT),20.025228023529053
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,20,unknown (TIMEOUT),20.016424894332886
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,21,sat,0.6973514556884766
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,22,unknown (TIMEOUT),20.045929431915283
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,23,sat,0.7140576839447021
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,24,unknown (TIMEOUT),20.50361919403076
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,25,unknown (TIMEOUT),20.35375428199768
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,26,unknown (TIMEOUT),20.01528787612915
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,27,unknown (TIMEOUT),20.00288724899292
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,28,sat,0.6958670616149902
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,29,sat,3.14137601852417
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,30,sat,2.8284270763397217
+test_files_filters/DAISY/Daisy-corrected.sleec,redundancy,31,unknown (TIMEOUT),22.54780602455139
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,0,sat,2.8703300952911377
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,1,sat,2.7545785903930664
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,2,sat,2.799459218978882
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,3,sat,2.831347942352295
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,4,unknown (TIMEOUT),20.01368474960327
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,5,unknown (TIMEOUT),20.041759967803955
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,6,unknown (TIMEOUT),20.012447118759155
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,7,unknown (TIMEOUT),20.000149965286255
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,8,unknown (TIMEOUT),20.010011434555054
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,9,unknown (TIMEOUT),20.026400804519653
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,10,unknown (TIMEOUT),20.035063982009888
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,11,sat,6.22227931022644
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,12,unknown (TIMEOUT),20.011868715286255
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,13,unknown (TIMEOUT),20.033288955688477
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,14,unknown (TIMEOUT),20.407068252563477
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,15,unknown (TIMEOUT),20.000935792922974
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,16,unknown (TIMEOUT),20.007102251052856
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,17,unknown (TIMEOUT),20.01736831665039
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,18,unknown (TIMEOUT),20.22557497024536
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,19,unknown (TIMEOUT),20.18702793121338
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,20,unknown (TIMEOUT),20.14472723007202
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,21,unknown (TIMEOUT),20.025736093521118
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,22,unknown (TIMEOUT),20.44274139404297
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,23,unknown (TIMEOUT),20.022714853286743
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,24,unknown (TIMEOUT),20.639029026031494
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,25,unknown (TIMEOUT),20.619214296340942
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,26,unknown (TIMEOUT),20.02475905418396
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,27,unknown (TIMEOUT),20.015281438827515
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,28,unknown (TIMEOUT),20.025441646575928
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,29,sat,5.635540008544922
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,30,sat,6.072935104370117
+test_files_filters/DAISY/Daisy-corrected.sleec,conflict,31,unknown (TIMEOUT),20.381407737731934
+test_files_filters/DAISY/Daisy-corrected.sleec,concern,0,unknown (TIMEOUT),20.03029751777649
+test_files_filters/DAISY/Daisy-corrected.sleec,concern,1,unknown (TIMEOUT),20.007476806640625
+test_files_filters/DAISY/Daisy-corrected.sleec,concern,2,unknown (TIMEOUT),20.390531301498413
+test_files_filters/DAISY/Daisy-corrected.sleec,concern,3,unknown (TIMEOUT),20.035136461257935
+test_files_filters/DAISY/Daisy-corrected.sleec,concern,4,unknown (TIMEOUT),20.004648447036743
+test_files_filters/DAISY/Daisy-corrected.sleec,concern,5,unknown (TIMEOUT),20.006837129592896
+test_files_filters/DAISY/Daisy.sleec,redundancy,0,sat,0.8044178485870361
+test_files_filters/DAISY/Daisy.sleec,redundancy,1,sat,0.7215285301208496
+test_files_filters/DAISY/Daisy.sleec,redundancy,2,sat,0.6876096725463867
+test_files_filters/DAISY/Daisy.sleec,redundancy,3,sat,0.6922788619995117
+test_files_filters/DAISY/Daisy.sleec,redundancy,4,sat,0.7070736885070801
+test_files_filters/DAISY/Daisy.sleec,redundancy,5,sat,0.691551923751831
+test_files_filters/DAISY/Daisy.sleec,redundancy,6,unknown (TIMEOUT),20.01994299888611
+test_files_filters/DAISY/Daisy.sleec,redundancy,7,sat,0.6928093433380127
+test_files_filters/DAISY/Daisy.sleec,redundancy,8,sat,0.6882951259613037
+test_files_filters/DAISY/Daisy.sleec,redundancy,9,unknown (TIMEOUT),20.750806093215942
+test_files_filters/DAISY/Daisy.sleec,redundancy,10,sat,3.2307684421539307
+test_files_filters/DAISY/Daisy.sleec,redundancy,11,sat,2.5899088382720947
+test_files_filters/DAISY/Daisy.sleec,redundancy,12,unknown (TIMEOUT),20.012389659881592
+test_files_filters/DAISY/Daisy.sleec,redundancy,13,unknown (TIMEOUT),20.004969120025635
+test_files_filters/DAISY/Daisy.sleec,redundancy,14,unknown (TIMEOUT),25.372080087661743
+test_files_filters/DAISY/Daisy.sleec,redundancy,15,sat,0.707273006439209
+test_files_filters/DAISY/Daisy.sleec,redundancy,16,sat,0.7084510326385498
+test_files_filters/DAISY/Daisy.sleec,redundancy,17,unknown (TIMEOUT),20.010143756866455
+test_files_filters/DAISY/Daisy.sleec,redundancy,18,sat,0.6795759201049805
+test_files_filters/DAISY/Daisy.sleec,redundancy,19,unknown (TIMEOUT),20.12815237045288
+test_files_filters/DAISY/Daisy.sleec,redundancy,20,sat,0.7044436931610107
+test_files_filters/DAISY/Daisy.sleec,redundancy,21,unknown (TIMEOUT),21.93208909034729
+test_files_filters/DAISY/Daisy.sleec,redundancy,22,unknown (TIMEOUT),20.074248552322388
+test_files_filters/DAISY/Daisy.sleec,redundancy,23,unknown (TIMEOUT),20.044137239456177
+test_files_filters/DAISY/Daisy.sleec,redundancy,24,unknown (TIMEOUT),20.00525736808777
+test_files_filters/DAISY/Daisy.sleec,redundancy,25,unknown (TIMEOUT),20.005892515182495
+test_files_filters/DAISY/Daisy.sleec,conflict,0,sat,2.835015058517456
+test_files_filters/DAISY/Daisy.sleec,conflict,1,sat,2.7051243782043457
+test_files_filters/DAISY/Daisy.sleec,conflict,2,sat,2.7312726974487305
+test_files_filters/DAISY/Daisy.sleec,conflict,3,sat,2.8373305797576904
+test_files_filters/DAISY/Daisy.sleec,conflict,4,unknown (TIMEOUT),20.021615505218506
+test_files_filters/DAISY/Daisy.sleec,conflict,5,unknown (TIMEOUT),20.016597032546997
+test_files_filters/DAISY/Daisy.sleec,conflict,6,unknown (TIMEOUT),20.013007640838623
+test_files_filters/DAISY/Daisy.sleec,conflict,7,unknown (TIMEOUT),20.004448175430298
+test_files_filters/DAISY/Daisy.sleec,conflict,8,unknown (TIMEOUT),20.008662700653076
+test_files_filters/DAISY/Daisy.sleec,conflict,9,unknown (TIMEOUT),22.114765882492065
+test_files_filters/DAISY/Daisy.sleec,conflict,10,sat,6.107006788253784
+test_files_filters/DAISY/Daisy.sleec,conflict,11,unknown (TIMEOUT),20.00775933265686
+test_files_filters/DAISY/Daisy.sleec,conflict,12,unknown (TIMEOUT),20.01114535331726
+test_files_filters/DAISY/Daisy.sleec,conflict,13,unknown (TIMEOUT),20.01264262199402
+test_files_filters/DAISY/Daisy.sleec,conflict,14,unknown (TIMEOUT),22.439531326293945
+test_files_filters/DAISY/Daisy.sleec,conflict,15,unknown (TIMEOUT),20.028494119644165
+test_files_filters/DAISY/Daisy.sleec,conflict,16,unknown (TIMEOUT),20.015820264816284
+test_files_filters/DAISY/Daisy.sleec,conflict,17,unknown (TIMEOUT),20.01120376586914
+test_files_filters/DAISY/Daisy.sleec,conflict,18,unknown (TIMEOUT),20.003639936447144
+test_files_filters/DAISY/Daisy.sleec,conflict,19,unknown (TIMEOUT),20.01619291305542
+test_files_filters/DAISY/Daisy.sleec,conflict,20,unknown (TIMEOUT),20.008402347564697
+test_files_filters/DAISY/Daisy.sleec,conflict,21,unknown (TIMEOUT),22.040419340133667
+test_files_filters/DAISY/Daisy.sleec,conflict,22,unknown (TIMEOUT),22.28169083595276
+test_files_filters/DAISY/Daisy.sleec,conflict,23,unknown (TIMEOUT),22.19508981704712
+test_files_filters/DAISY/Daisy.sleec,conflict,24,unknown (TIMEOUT),20.005703687667847
+test_files_filters/DAISY/Daisy.sleec,conflict,25,unknown (TIMEOUT),20.032971620559692
+test_files_filters/DAISY/Daisy.sleec,concern,0,unknown (TIMEOUT),20.007243394851685
+test_files_filters/DAISY/Daisy.sleec,concern,1,sat,0.7353999614715576
+test_files_filters/DAISY/Daisy.sleec,concern,2,unknown (TIMEOUT),20.024848461151123
+test_files_filters/DAISY/Daisy.sleec,concern,3,unknown (TIMEOUT),20.010315895080566
+test_files_filters/DAISY/Daisy.sleec,concern,4,unknown (TIMEOUT),22.271901845932007
+test_files_filters/DAISY/Daisy.sleec,concern,5,unknown (TIMEOUT),20.005067586898804

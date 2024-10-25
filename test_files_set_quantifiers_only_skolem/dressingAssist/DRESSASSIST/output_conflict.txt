@@ -1,0 +1,497 @@
+check rule_1
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/00.smt2
+trail 20.010882139205933
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_2
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/01.smt2
+trail 20.042088985443115
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_3
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/02.smt2
+trail 4.308710336685181
+Result     = sat
+time     = (set.singleton (tuple 2))
+EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
+not_EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int Int)))
+InteractingWithNonPatients     = (as set.empty (Set (Tuple Int)))
+not_InteractingWithNonPatients     = (as set.empty (Set (Tuple Int Int)))
+DetermineSensitivityLevel     = (as set.empty (Set (Tuple Int)))
+not_DetermineSensitivityLevel     = (as set.empty (Set (Tuple Int Int)))
+DetectUrgentHealthIssue     = (as set.empty (Set (Tuple Int)))
+not_DetectUrgentHealthIssue     = (as set.empty (Set (Tuple Int Int)))
+InformEmergencyContactAndHealthOrgs     = (as set.empty (Set (Tuple Int)))
+not_InformEmergencyContactAndHealthOrgs     = (as set.empty (Set (Tuple Int Int)))
+ObtainEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_ObtainEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+FirstMeetingUser     = (as set.empty (Set (Tuple Int)))
+not_FirstMeetingUser     = (as set.empty (Set (Tuple Int Int)))
+UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int)))
+not_UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int Int)))
+DiscardInformation     = (as set.empty (Set (Tuple Int)))
+not_DiscardInformation     = (as set.empty (Set (Tuple Int Int)))
+ChangeSubject     = (as set.empty (Set (Tuple Int)))
+not_ChangeSubject     = (as set.empty (Set (Tuple Int Int)))
+InformUserPrivateInformation     = (as set.empty (Set (Tuple Int)))
+not_InformUserPrivateInformation     = (as set.empty (Set (Tuple Int Int)))
+DesigningAgent     = (as set.empty (Set (Tuple Int)))
+not_DesigningAgent     = (as set.empty (Set (Tuple Int Int)))
+InformUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_InformUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+DeployingAgent     = (as set.empty (Set (Tuple Int)))
+not_DeployingAgent     = (as set.empty (Set (Tuple Int Int)))
+ReviewInteraction     = (as set.empty (Set (Tuple Int)))
+not_ReviewInteraction     = (as set.empty (Set (Tuple Int Int)))
+RecordFashionBasedOnOccasion     = (as set.empty (Set (Tuple Int)))
+not_RecordFashionBasedOnOccasion     = (as set.empty (Set (Tuple Int Int)))
+RecommendOtherwise     = (as set.empty (Set (Tuple Int)))
+not_RecommendOtherwise     = (as set.empty (Set (Tuple Int Int)))
+PersonAsksforData     = (as set.empty (Set (Tuple Int)))
+not_PersonAsksforData     = (as set.empty (Set (Tuple Int Int)))
+sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int)))
+not_sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int Int)))
+UserSelfMedicates     = (as set.empty (Set (Tuple Int)))
+not_UserSelfMedicates     = (as set.empty (Set (Tuple Int Int)))
+LogMedication     = (as set.empty (Set (Tuple Int)))
+not_LogMedication     = (as set.empty (Set (Tuple Int Int)))
+InformCarer     = (as set.empty (Set (Tuple Int)))
+not_InformCarer     = (as set.empty (Set (Tuple Int Int)))
+KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int)))
+not_KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int Int)))
+SuggestPerformingActions     = (as set.empty (Set (Tuple Int)))
+not_SuggestPerformingActions     = (as set.empty (Set (Tuple Int Int)))
+UserInStress     = (as set.empty (Set (Tuple Int)))
+not_UserInStress     = (as set.empty (Set (Tuple Int Int)))
+ShowEmpathy     = (as set.empty (Set (Tuple Int)))
+not_ShowEmpathy     = (as set.empty (Set (Tuple Int Int)))
+OfferHelp     = (as set.empty (Set (Tuple Int)))
+not_OfferHelp     = (as set.empty (Set (Tuple Int Int)))
+CautionWhereOrWhenTouching     = (as set.empty (Set (Tuple Int)))
+not_CautionWhereOrWhenTouching     = (as set.empty (Set (Tuple Int Int)))
+UserExpressDiscomfort     = (as set.empty (Set (Tuple Int)))
+not_UserExpressDiscomfort     = (as set.empty (Set (Tuple Int Int)))
+CloseDoor     = (as set.empty (Set (Tuple Int)))
+not_CloseDoor     = (as set.empty (Set (Tuple Int Int)))
+UserSaysStop     = (as set.empty (Set (Tuple Int)))
+not_UserSaysStop     = (as set.empty (Set (Tuple Int Int)))
+RobotStop     = (as set.empty (Set (Tuple Int)))
+not_RobotStop     = (as set.empty (Set (Tuple Int Int)))
+AskToFinishFirst     = (as set.empty (Set (Tuple Int)))
+not_AskToFinishFirst     = (as set.empty (Set (Tuple Int Int)))
+CollectionStarted     = (as set.empty (Set (Tuple Int)))
+not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
+StoreMinInfo     = (as set.empty (Set (Tuple Int)))
+not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
+StopActivity     = (as set.empty (Set (Tuple Int)))
+not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
+CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
+not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
+ObtainAssent     = (as set.empty (Set (Tuple Int)))
+not_ObtainAssent     = (as set.empty (Set (Tuple Int Int)))
+AdmininisteringMedication     = (as set.empty (Set (Tuple Int)))
+not_AdmininisteringMedication     = (as set.empty (Set (Tuple Int Int)))
+InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
+not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
+UserRequestInfo     = (as set.empty (Set (Tuple Int)))
+not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
+ProvideInfo     = (as set.empty (Set (Tuple Int)))
+not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
+InteractionStarted     = (as set.empty (Set (Tuple Int)))
+not_InteractionStarted     = (as set.empty (Set (Tuple Int Int)))
+InformUserThisIsAgentnotHuman     = (as set.empty (Set (Tuple Int)))
+not_InformUserThisIsAgentnotHuman     = (as set.empty (Set (Tuple Int Int)))
+DressinginClotingX     = (as set.empty (Set (Tuple Int)))
+not_DressinginClotingX     = (as set.empty (Set (Tuple Int Int)))
+EmotionRecognitionDetected     = (set.singleton (tuple 2))
+not_EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (as set.empty (Set (Tuple Int)))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+CloseCurtains     = (as set.empty (Set (Tuple Int)))
+not_CloseCurtains     = (as set.empty (Set (Tuple Int Int)))
+UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
+not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
+EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
+not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
+userDistressed     = (set.singleton (tuple 2))
+buildingFloor     = (set.singleton (tuple 2))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 2))
+riskLevel     = (set.singleton (tuple 2))
+Measure     = (set.singleton (tuple 2 true true 2 true true true true true true true true true true true 2 true true true 2 2 true true 2 true true true true true true true 2 true true true true true true true 2 2 true true))
+****************************************************************************************************
+check rule_4
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/03.smt2
+trail 20.03412175178528
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_5
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/04.smt2
+trail 20.007861852645874
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_6
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/05.smt2
+trail 20.015215396881104
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_7
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/06.smt2
+trail 20.02378010749817
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_8
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/07.smt2
+trail 5.375221014022827
+Result     = sat
+time     = (set.singleton (tuple 0))
+EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
+not_EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int Int)))
+InteractingWithNonPatients     = (as set.empty (Set (Tuple Int)))
+not_InteractingWithNonPatients     = (as set.empty (Set (Tuple Int Int)))
+DetermineSensitivityLevel     = (as set.empty (Set (Tuple Int)))
+not_DetermineSensitivityLevel     = (as set.empty (Set (Tuple Int Int)))
+DetectUrgentHealthIssue     = (as set.empty (Set (Tuple Int)))
+not_DetectUrgentHealthIssue     = (as set.empty (Set (Tuple Int Int)))
+InformEmergencyContactAndHealthOrgs     = (as set.empty (Set (Tuple Int)))
+not_InformEmergencyContactAndHealthOrgs     = (as set.empty (Set (Tuple Int Int)))
+ObtainEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_ObtainEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+FirstMeetingUser     = (as set.empty (Set (Tuple Int)))
+not_FirstMeetingUser     = (as set.empty (Set (Tuple Int Int)))
+UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int)))
+not_UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int Int)))
+DiscardInformation     = (as set.empty (Set (Tuple Int)))
+not_DiscardInformation     = (as set.empty (Set (Tuple Int Int)))
+ChangeSubject     = (as set.empty (Set (Tuple Int)))
+not_ChangeSubject     = (as set.empty (Set (Tuple Int Int)))
+InformUserPrivateInformation     = (as set.empty (Set (Tuple Int)))
+not_InformUserPrivateInformation     = (as set.empty (Set (Tuple Int Int)))
+DesigningAgent     = (as set.empty (Set (Tuple Int)))
+not_DesigningAgent     = (as set.empty (Set (Tuple Int Int)))
+InformUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_InformUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+DeployingAgent     = (as set.empty (Set (Tuple Int)))
+not_DeployingAgent     = (as set.empty (Set (Tuple Int Int)))
+ReviewInteraction     = (as set.empty (Set (Tuple Int)))
+not_ReviewInteraction     = (as set.empty (Set (Tuple Int Int)))
+RecordFashionBasedOnOccasion     = (as set.empty (Set (Tuple Int)))
+not_RecordFashionBasedOnOccasion     = (as set.empty (Set (Tuple Int Int)))
+RecommendOtherwise     = (as set.empty (Set (Tuple Int)))
+not_RecommendOtherwise     = (as set.empty (Set (Tuple Int Int)))
+PersonAsksforData     = (as set.empty (Set (Tuple Int)))
+not_PersonAsksforData     = (as set.empty (Set (Tuple Int Int)))
+sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int)))
+not_sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int Int)))
+UserSelfMedicates     = (as set.empty (Set (Tuple Int)))
+not_UserSelfMedicates     = (as set.empty (Set (Tuple Int Int)))
+LogMedication     = (as set.empty (Set (Tuple Int)))
+not_LogMedication     = (as set.empty (Set (Tuple Int Int)))
+InformCarer     = (as set.empty (Set (Tuple Int)))
+not_InformCarer     = (as set.empty (Set (Tuple Int Int)))
+KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int)))
+not_KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int Int)))
+SuggestPerformingActions     = (as set.empty (Set (Tuple Int)))
+not_SuggestPerformingActions     = (as set.empty (Set (Tuple Int Int)))
+UserInStress     = (as set.empty (Set (Tuple Int)))
+not_UserInStress     = (as set.empty (Set (Tuple Int Int)))
+ShowEmpathy     = (as set.empty (Set (Tuple Int)))
+not_ShowEmpathy     = (as set.empty (Set (Tuple Int Int)))
+OfferHelp     = (as set.empty (Set (Tuple Int)))
+not_OfferHelp     = (as set.empty (Set (Tuple Int Int)))
+CautionWhereOrWhenTouching     = (as set.empty (Set (Tuple Int)))
+not_CautionWhereOrWhenTouching     = (as set.empty (Set (Tuple Int Int)))
+UserExpressDiscomfort     = (as set.empty (Set (Tuple Int)))
+not_UserExpressDiscomfort     = (as set.empty (Set (Tuple Int Int)))
+CloseDoor     = (as set.empty (Set (Tuple Int)))
+not_CloseDoor     = (as set.empty (Set (Tuple Int Int)))
+UserSaysStop     = (as set.empty (Set (Tuple Int)))
+not_UserSaysStop     = (as set.empty (Set (Tuple Int Int)))
+RobotStop     = (as set.empty (Set (Tuple Int)))
+not_RobotStop     = (as set.empty (Set (Tuple Int Int)))
+AskToFinishFirst     = (as set.empty (Set (Tuple Int)))
+not_AskToFinishFirst     = (as set.empty (Set (Tuple Int Int)))
+CollectionStarted     = (as set.empty (Set (Tuple Int)))
+not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
+StoreMinInfo     = (as set.empty (Set (Tuple Int)))
+not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
+StopActivity     = (as set.empty (Set (Tuple Int)))
+not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
+CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
+not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
+ObtainAssent     = (as set.empty (Set (Tuple Int)))
+not_ObtainAssent     = (as set.empty (Set (Tuple Int Int)))
+AdmininisteringMedication     = (set.singleton (tuple 0))
+not_AdmininisteringMedication     = (as set.empty (Set (Tuple Int Int)))
+InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
+not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
+UserRequestInfo     = (as set.empty (Set (Tuple Int)))
+not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
+ProvideInfo     = (as set.empty (Set (Tuple Int)))
+not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
+InteractionStarted     = (as set.empty (Set (Tuple Int)))
+not_InteractionStarted     = (as set.empty (Set (Tuple Int Int)))
+InformUserThisIsAgentnotHuman     = (as set.empty (Set (Tuple Int)))
+not_InformUserThisIsAgentnotHuman     = (as set.empty (Set (Tuple Int Int)))
+DressinginClotingX     = (as set.empty (Set (Tuple Int)))
+not_DressinginClotingX     = (as set.empty (Set (Tuple Int Int)))
+EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int)))
+not_EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (as set.empty (Set (Tuple Int)))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+CloseCurtains     = (as set.empty (Set (Tuple Int)))
+not_CloseCurtains     = (as set.empty (Set (Tuple Int Int)))
+UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
+not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
+EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
+not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 5 0 true true 0 true true false false true true true 0 true true true true true true true 0 0 true true))
+****************************************************************************************************
+check rule_9
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/08.smt2
+trail 20.024571657180786
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_10
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/09.smt2
+trail 20.023640394210815
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_11
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/10.smt2
+trail 20.018258571624756
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_12
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/11.smt2
+trail 20.017107725143433
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_13
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/12.smt2
+trail 20.002875328063965
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_14
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/13.smt2
+trail 20.014914751052856
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_15
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/14.smt2
+trail 20.009992361068726
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_16
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/15.smt2
+trail 4.627860069274902
+Result     = sat
+time     = (set.singleton (tuple 0))
+EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int)))
+not_EnsureHumanCarerPresent     = (as set.empty (Set (Tuple Int Int)))
+InteractingWithNonPatients     = (as set.empty (Set (Tuple Int)))
+not_InteractingWithNonPatients     = (as set.empty (Set (Tuple Int Int)))
+DetermineSensitivityLevel     = (as set.empty (Set (Tuple Int)))
+not_DetermineSensitivityLevel     = (as set.empty (Set (Tuple Int Int)))
+DetectUrgentHealthIssue     = (as set.empty (Set (Tuple Int)))
+not_DetectUrgentHealthIssue     = (as set.empty (Set (Tuple Int Int)))
+InformEmergencyContactAndHealthOrgs     = (as set.empty (Set (Tuple Int)))
+not_InformEmergencyContactAndHealthOrgs     = (as set.empty (Set (Tuple Int Int)))
+ObtainEmergencyContact     = (as set.empty (Set (Tuple Int)))
+not_ObtainEmergencyContact     = (as set.empty (Set (Tuple Int Int)))
+FirstMeetingUser     = (as set.empty (Set (Tuple Int)))
+not_FirstMeetingUser     = (as set.empty (Set (Tuple Int Int)))
+UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int)))
+not_UserDiscussingPrivateInfo     = (as set.empty (Set (Tuple Int Int)))
+DiscardInformation     = (as set.empty (Set (Tuple Int)))
+not_DiscardInformation     = (as set.empty (Set (Tuple Int Int)))
+ChangeSubject     = (as set.empty (Set (Tuple Int)))
+not_ChangeSubject     = (as set.empty (Set (Tuple Int Int)))
+InformUserPrivateInformation     = (as set.empty (Set (Tuple Int)))
+not_InformUserPrivateInformation     = (as set.empty (Set (Tuple Int Int)))
+DesigningAgent     = (as set.empty (Set (Tuple Int)))
+not_DesigningAgent     = (as set.empty (Set (Tuple Int Int)))
+InformUserOfLimitations     = (as set.empty (Set (Tuple Int)))
+not_InformUserOfLimitations     = (as set.empty (Set (Tuple Int Int)))
+DeployingAgent     = (as set.empty (Set (Tuple Int)))
+not_DeployingAgent     = (as set.empty (Set (Tuple Int Int)))
+ReviewInteraction     = (as set.empty (Set (Tuple Int)))
+not_ReviewInteraction     = (as set.empty (Set (Tuple Int Int)))
+RecordFashionBasedOnOccasion     = (as set.empty (Set (Tuple Int)))
+not_RecordFashionBasedOnOccasion     = (as set.empty (Set (Tuple Int Int)))
+RecommendOtherwise     = (as set.empty (Set (Tuple Int)))
+not_RecommendOtherwise     = (as set.empty (Set (Tuple Int Int)))
+PersonAsksforData     = (set.singleton (tuple 0))
+not_PersonAsksforData     = (as set.empty (Set (Tuple Int Int)))
+sharePersonalDataAndInformWhy     = (as set.empty (Set (Tuple Int)))
+not_sharePersonalDataAndInformWhy     = (set.singleton (tuple 0 0))
+UserSelfMedicates     = (as set.empty (Set (Tuple Int)))
+not_UserSelfMedicates     = (as set.empty (Set (Tuple Int Int)))
+LogMedication     = (as set.empty (Set (Tuple Int)))
+not_LogMedication     = (as set.empty (Set (Tuple Int Int)))
+InformCarer     = (as set.empty (Set (Tuple Int)))
+not_InformCarer     = (as set.empty (Set (Tuple Int Int)))
+KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int)))
+not_KeepLogOfFrequentActivities     = (as set.empty (Set (Tuple Int Int)))
+SuggestPerformingActions     = (as set.empty (Set (Tuple Int)))
+not_SuggestPerformingActions     = (as set.empty (Set (Tuple Int Int)))
+UserInStress     = (as set.empty (Set (Tuple Int)))
+not_UserInStress     = (as set.empty (Set (Tuple Int Int)))
+ShowEmpathy     = (as set.empty (Set (Tuple Int)))
+not_ShowEmpathy     = (as set.empty (Set (Tuple Int Int)))
+OfferHelp     = (as set.empty (Set (Tuple Int)))
+not_OfferHelp     = (as set.empty (Set (Tuple Int Int)))
+CautionWhereOrWhenTouching     = (as set.empty (Set (Tuple Int)))
+not_CautionWhereOrWhenTouching     = (as set.empty (Set (Tuple Int Int)))
+UserExpressDiscomfort     = (as set.empty (Set (Tuple Int)))
+not_UserExpressDiscomfort     = (as set.empty (Set (Tuple Int Int)))
+CloseDoor     = (as set.empty (Set (Tuple Int)))
+not_CloseDoor     = (as set.empty (Set (Tuple Int Int)))
+UserSaysStop     = (as set.empty (Set (Tuple Int)))
+not_UserSaysStop     = (as set.empty (Set (Tuple Int Int)))
+RobotStop     = (as set.empty (Set (Tuple Int)))
+not_RobotStop     = (as set.empty (Set (Tuple Int Int)))
+AskToFinishFirst     = (as set.empty (Set (Tuple Int)))
+not_AskToFinishFirst     = (as set.empty (Set (Tuple Int Int)))
+CollectionStarted     = (as set.empty (Set (Tuple Int)))
+not_CollectionStarted     = (as set.empty (Set (Tuple Int Int)))
+StoreMinInfo     = (as set.empty (Set (Tuple Int)))
+not_StoreMinInfo     = (as set.empty (Set (Tuple Int Int)))
+StopActivity     = (as set.empty (Set (Tuple Int)))
+not_StopActivity     = (as set.empty (Set (Tuple Int Int)))
+CheckForandObtainProxy     = (as set.empty (Set (Tuple Int)))
+not_CheckForandObtainProxy     = (as set.empty (Set (Tuple Int Int)))
+ObtainAssent     = (as set.empty (Set (Tuple Int)))
+not_ObtainAssent     = (as set.empty (Set (Tuple Int Int)))
+AdmininisteringMedication     = (as set.empty (Set (Tuple Int)))
+not_AdmininisteringMedication     = (as set.empty (Set (Tuple Int Int)))
+InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int)))
+not_InformUserandandReferToHumanCarer     = (as set.empty (Set (Tuple Int Int)))
+UserRequestInfo     = (as set.empty (Set (Tuple Int)))
+not_UserRequestInfo     = (as set.empty (Set (Tuple Int Int)))
+ProvideInfo     = (as set.empty (Set (Tuple Int)))
+not_ProvideInfo     = (as set.empty (Set (Tuple Int Int)))
+InteractionStarted     = (as set.empty (Set (Tuple Int)))
+not_InteractionStarted     = (as set.empty (Set (Tuple Int Int)))
+InformUserThisIsAgentnotHuman     = (as set.empty (Set (Tuple Int)))
+not_InformUserThisIsAgentnotHuman     = (as set.empty (Set (Tuple Int Int)))
+DressinginClotingX     = (as set.empty (Set (Tuple Int)))
+not_DressinginClotingX     = (as set.empty (Set (Tuple Int Int)))
+EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int)))
+not_EmotionRecognitionDetected     = (as set.empty (Set (Tuple Int Int)))
+CurtainOpenRqt     = (as set.empty (Set (Tuple Int)))
+not_CurtainOpenRqt     = (as set.empty (Set (Tuple Int Int)))
+CurtainsOpened     = (as set.empty (Set (Tuple Int)))
+not_CurtainsOpened     = (as set.empty (Set (Tuple Int Int)))
+RefuseRequest     = (as set.empty (Set (Tuple Int)))
+not_RefuseRequest     = (as set.empty (Set (Tuple Int Int)))
+InformUser     = (as set.empty (Set (Tuple Int)))
+not_InformUser     = (as set.empty (Set (Tuple Int Int)))
+DressingStarted     = (as set.empty (Set (Tuple Int)))
+not_DressingStarted     = (as set.empty (Set (Tuple Int Int)))
+CloseCurtains     = (as set.empty (Set (Tuple Int)))
+not_CloseCurtains     = (as set.empty (Set (Tuple Int Int)))
+UserHasDifferentCulture     = (as set.empty (Set (Tuple Int)))
+not_UserHasDifferentCulture     = (as set.empty (Set (Tuple Int Int)))
+EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int)))
+not_EnsureDesiredLanguageAvailable     = (as set.empty (Set (Tuple Int Int)))
+userDistressed     = (set.singleton (tuple 0))
+buildingFloor     = (set.singleton (tuple 0))
+withholdingActivityPhysicalHarm     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
+****************************************************************************************************
+check rule_17
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/16.smt2
+trail 20.021050930023193
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_18
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/17.smt2
+trail 20.076602697372437
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_19
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/18.smt2
+trail 20.007244110107422
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_20
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/19.smt2
+trail 20.077982187271118
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_21
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/20.smt2
+trail 20.026097536087036
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_22
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/21.smt2
+trail 20.01124143600464
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_23
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/22.smt2
+trail 20.047924995422363
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_24
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/23.smt2
+trail 20.00815439224243
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_25
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/24.smt2
+trail 20.0128812789917
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_26
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/25.smt2
+trail 20.000545024871826
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_27
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/26.smt2
+trail 20.00407075881958
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_28
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/27.smt2
+trail 20.007436990737915
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_29
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/28.smt2
+trail 20.022997617721558
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_30
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/29.smt2
+trail 20.003320455551147
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
+check rule_31
+outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST/conflict/30.smt2
+trail 20.004833221435547
+Result     = unknown (TIMEOUT)
+****************************************************************************************************
