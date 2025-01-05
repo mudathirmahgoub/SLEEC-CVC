@@ -12,7 +12,7 @@ grammar_file = "sleec-gramar.tx"
 
 mm = metamodel_from_file(grammar_file)
 constants = {}
-NEG_Relations = {}
+# NEG_Relations = {}
 
 VOL_BOUND = 20
 
@@ -31,8 +31,8 @@ def read_model_file(file_path):
 def parse_event_def(event, type_dict):
     # DressingStarted = create_action("DressingStarted", [("time", "time")], type_dict)
     pos_relation = create_relations(event.name, [("time", integer)])
-    neg_relation = create_relations("not_{}".format(event.name), [("start_time", integer), ("end_time", integer)])
-    NEG_Relations[pos_relation.name] = neg_relation
+    # neg_relation = create_relations("not_{}".format(event.name), [("start_time", integer), ("end_time", integer)])
+    # NEG_Relations[pos_relation.name] = neg_relation
     return pos_relation
 
 
@@ -486,9 +486,10 @@ def parse_occ(node, Action_Mapping, head, measure, is_pos):
 
     res = happen_within(event, head, start, end, ref=node)
     if negation:
-        return exists(NEG_Relations[event.name],
-                      lambda neg_event, head=head, start=start, end=end:
-                      (neg_event.start_time == head.time + start) & (neg_event.end_time == head.time + end))
+        # return exists(NEG_Relations[event.name],
+        #               lambda neg_event, head=head, start=start, end=end:
+        #               (neg_event.start_time == head.time + start) & (neg_event.end_time == head.time + end))
+        return NOT(res)
     else:
         return res
 
@@ -620,16 +621,15 @@ def check_concerns(filename, mode, model, rules, concerns, relations, Action_Map
     Measure = Action_Mapping["Measure"]
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first, E=E: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
-                                                                   )),
-                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
-                                                                  )),
+                                                             )),
                          )) for E in Actions if E is not Measure]
 
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
-                      consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))))
     output = ""
     adj_hl = []
     concern_raised = False
@@ -723,16 +723,15 @@ def check_conflict(filename, mode, model, rules, relations, Action_Mapping, Acti
 
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first, E=E: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
-                                                                   )),
-                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
-                                                                  )),
+                                                             )),
                          )) for E in Actions if E is not Measure]
 
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
-                      consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))))
     output = ""
     adj_hl = []
     conflict_res = False
@@ -777,16 +776,15 @@ def check_purposes(model, purposes, rules, relations, Action_Mapping, Actions, m
     Measure = Action_Mapping["Measure"]
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first, E=E: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
-                                                                   )),
-                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
+                                                              )),
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
-                                                                  )),
+                                                             )),
                          )) for E in Actions if E is not Measure]
 
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
-                      consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))))
     output = ""
     adj_hl = []
     conflict_res = False
@@ -1042,16 +1040,16 @@ def get_measure_inv(Measure, Actions):
     # TODO: to be rewritten as set constraints
 
 
-def consistency_inv(Action_Mapping):
-    constraints = []
-    for Act_name, Act in Action_Mapping.items():
-        if Act_name != "Measure":
-            neg_ACT = NEG_Relations[Act_name]
-            constraints.append(forall_quantifier([Act, neg_ACT], lambda e, not_e:
-            NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
-                                      ))
-
-    return AND(constraints)
+# def consistency_inv(Action_Mapping):
+#     constraints = []
+#     for Act_name, Act in Action_Mapping.items():
+#         if Act_name != "Measure":
+#             neg_ACT = NEG_Relations[Act_name]
+#             constraints.append(forall_relation([Act, neg_ACT], lambda e, not_e:
+#             NOT((not_e.start_time <= e.time) & (e.time <= not_e.end_time))
+#                                                ))
+#
+#     return AND(constraints)
 
 
 def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, model_str="", check_proof=False,
@@ -1063,14 +1061,13 @@ def check_red(filename, mode, model, rules, relations, Action_Mapping, Actions, 
     if not os.path.isdir(path):
         os.makedirs(path)
     Measure = Action_Mapping["Measure"]
-    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))),
-                      consistency_inv(Action_Mapping))
+    measure_inv = AND(forall([Measure, Measure], lambda m1, m2: IMPLIES(EQ(m1.time, m2.time), EQ(m1, m2))))
     first_inv = [IMPLIES(exists(E, lambda _: TRUE()),
                          AND(
-                             exists(E, lambda e_first ,E=E: forall(E, lambda e, e_first=e_first:
+                             exists(E, lambda e_first: forall(E, lambda e, e_first=e_first:
                              e.time >= e_first.time
                                                               )),
-                             exists(E, lambda e_last, E=E: forall(E, lambda e, e_last=e_last:
+                             exists(E, lambda e_last: forall(E, lambda e, e_last=e_last:
                              e.time <= e_last.time
                                                              )),
                          )) for E in Actions if E is not Measure]
