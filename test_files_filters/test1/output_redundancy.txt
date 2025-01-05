@@ -1,44 +1,35 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/00.smt2
-trail 0.3020334243774414
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_filters/test1/redundancy/00.smt2
+trail 0.015358924865722656
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (set.singleton (tuple 0 11))
 Measure     = (set.singleton (tuple 0 20))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/01.smt2
-trail 0.13608837127685547
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_filters/test1/redundancy/01.smt2
+trail 0.009383201599121094
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/02.smt2
-trail 0.1422102451324463
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_filters/test1/redundancy/02.smt2
+trail 0.01582789421081543
 Result     = unsat
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/03.smt2
-trail 0.4573953151702881
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_filters/test1/redundancy/03.smt2
+trail 0.026766538619995117
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************

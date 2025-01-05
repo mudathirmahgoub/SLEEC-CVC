@@ -1,6 +1,6 @@
 CSV_FILE = "filters.csv"
 PATH = "test_files_filters"
-RESUME = True
+RESUME = False
 
 PLOT_OPTIONS = {
     "alpha": 0.3,
