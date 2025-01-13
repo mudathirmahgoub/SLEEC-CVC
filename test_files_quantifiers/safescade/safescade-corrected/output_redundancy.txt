@@ -1,135 +1,168 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/00.smt2
-trail 20.001094579696655
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/00.smt2
+trail 20.000521183013916
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/01.smt2
-trail 20.001663208007812
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/01.smt2
+trail 20.000274181365967
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/02.smt2
-trail 20.000834226608276
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/02.smt2
+trail 20.00040054321289
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/03.smt2
-trail 20.001795768737793
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/03.smt2
+trail 20.000372171401978
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/04.smt2
-trail 20.001784324645996
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/04.smt2
+trail 12.192739009857178
+Result     = sat
+time     = (set.singleton (tuple 0))
+InformUser     = (set.singleton (tuple 0))
+Alert     = (as set.empty (Set (Tuple Int)))
+RemindUser     = (as set.empty (Set (Tuple Int)))
+FindInformation     = (as set.empty (Set (Tuple Int)))
+DetermineImportance     = (as set.empty (Set (Tuple Int)))
+UserDriving     = (set.singleton (tuple 0))
+UserWantsControl     = (as set.empty (Set (Tuple Int)))
+UserEnters     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
+PreparingSystem     = (as set.empty (Set (Tuple Int)))
+SystemDriving     = (as set.empty (Set (Tuple Int)))
+SystemOn     = (as set.empty (Set (Tuple Int)))
+EnsureAlertness     = (as set.empty (Set (Tuple Int)))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
+EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
+TrackMetrics     = (as set.empty (Set (Tuple Int)))
+SensorsConnect     = (as set.empty (Set (Tuple Int)))
+BaselineDiffers     = (as set.empty (Set (Tuple Int)))
+ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
+TrackVisionField     = (set.singleton (tuple 0))
+ShowConsentForm     = (as set.empty (Set (Tuple Int)))
+CreateConsentForm     = (as set.empty (Set (Tuple Int)))
+TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
+FirstInteractionUser     = (as set.empty (Set (Tuple Int)))
+StopAutonomousComponent     = (as set.empty (Set (Tuple Int)))
+StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
+SytemTakesOver     = (as set.empty (Set (Tuple Int)))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 false true false true true true true true true true false true true false true true true false true true true))
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/05.smt2
-trail 20.000845670700073
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/05.smt2
+trail 20.000352144241333
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/06.smt2
-trail 20.001296520233154
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/06.smt2
+trail 20.00020122528076
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/07.smt2
-trail 20.00089716911316
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/07.smt2
+trail 20.00026774406433
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/08.smt2
-trail 20.00146460533142
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/08.smt2
+trail 20.000445127487183
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/09.smt2
-trail 20.001585960388184
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/09.smt2
+trail 20.000413417816162
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/10.smt2
-trail 20.001792430877686
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/10.smt2
+trail 20.000373363494873
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/11.smt2
-trail 20.001211404800415
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/11.smt2
+trail 20.000340700149536
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/12.smt2
-trail 20.00188112258911
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/12.smt2
+trail 20.000370025634766
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/13.smt2
-trail 20.001548767089844
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/13.smt2
+trail 20.000423908233643
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/14.smt2
-trail 20.001920700073242
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/14.smt2
+trail 20.000290870666504
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/15.smt2
-trail 20.00148344039917
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/15.smt2
+trail 20.000426054000854
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/16.smt2
-trail 20.00117540359497
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/16.smt2
+trail 20.00039505958557
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/17.smt2
-trail 20.00097346305847
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/17.smt2
+trail 20.00021529197693
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/18.smt2
-trail 20.001689672470093
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/18.smt2
+trail 20.00028419494629
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/19.smt2
-trail 20.001302242279053
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/19.smt2
+trail 20.000335454940796
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/20.smt2
-trail 20.001819610595703
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/20.smt2
+trail 20.000305652618408
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/21.smt2
-trail 20.001044988632202
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/21.smt2
+trail 20.000673294067383
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/22.smt2
-trail 20.001062631607056
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/22.smt2
+trail 20.000266551971436
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/23.smt2
-trail 20.001056909561157
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/23.smt2
+trail 20.00028347969055
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/24.smt2
-trail 20.001869678497314
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/24.smt2
+trail 20.000346183776855
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/25.smt2
-trail 20.001554012298584
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/25.smt2
+trail 20.00047278404236
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_27
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/26.smt2
-trail 20.00101327896118
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/26.smt2
+trail 20.00038504600525
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

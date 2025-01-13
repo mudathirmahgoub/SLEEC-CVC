@@ -1,447 +1,315 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/00.smt2
-trail 0.2930912971496582
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/00.smt2
+trail 0.05274701118469238
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/01.smt2
-trail 0.19990181922912598
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/01.smt2
+trail 0.03615832328796387
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/02.smt2
-trail 0.20772314071655273
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/02.smt2
+trail 0.03676414489746094
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 true))
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/03.smt2
-trail 0.5163898468017578
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/03.smt2
+trail 0.07401585578918457
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 51 true))
+Measure     = (set.singleton (tuple 0 true 51 true))
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/04.smt2
-trail 0.47388362884521484
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/04.smt2
+trail 0.06610512733459473
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 101 true))
+Measure     = (set.singleton (tuple 0 true 101 true))
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/05.smt2
-trail 0.5734949111938477
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/05.smt2
+trail 0.08257341384887695
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 51 true))
+Measure     = (set.singleton (tuple 0 true 51 true))
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/06.smt2
-trail 0.3919234275817871
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/06.smt2
+trail 0.053819894790649414
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/07.smt2
-trail 0.3989393711090088
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/07.smt2
+trail 0.049599409103393555
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/08.smt2
-trail 0.39144086837768555
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/08.smt2
+trail 0.05144834518432617
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/09.smt2
-trail 0.3925046920776367
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/09.smt2
+trail 0.0496363639831543
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/10.smt2
-trail 0.3993954658508301
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/10.smt2
+trail 0.05152082443237305
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/11.smt2
-trail 0.3966372013092041
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/11.smt2
+trail 0.05408501625061035
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/12.smt2
-trail 0.4075775146484375
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/12.smt2
+trail 0.0534815788269043
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (set.singleton (tuple 0))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/13.smt2
-trail 0.2007763385772705
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/13.smt2
+trail 0.029688596725463867
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.singleton (tuple 0 20))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.singleton (tuple 0 false 3 true))
+Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/14.smt2
-trail 0.2608358860015869
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/14.smt2
+trail 0.032184600830078125
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/15.smt2
-trail 0.24744796752929688
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/15.smt2
+trail 0.029070138931274414
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/16.smt2
-trail 0.25537848472595215
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/16.smt2
+trail 0.028985023498535156
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (set.singleton (tuple 0))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (as set.empty (Set (Tuple Int)))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (as set.empty (Set (Tuple Int)))
-not_G     = (set.union (set.singleton (tuple 0 10)) (set.singleton (tuple 0 20)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 4 true))
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/17.smt2
-trail 0.22159790992736816
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/17.smt2
+trail 0.03800058364868164
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (set.singleton (tuple 0))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (set.singleton (tuple 0))
-not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 false))
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/18.smt2
-trail 20.010043382644653
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/18.smt2
+trail 0.5881309509277344
+Result     = sat
+time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
+A     = (as set.empty (Set (Tuple Int)))
+B     = (as set.empty (Set (Tuple Int)))
+C     = (as set.empty (Set (Tuple Int)))
+D     = (as set.empty (Set (Tuple Int)))
+E     = (as set.empty (Set (Tuple Int)))
+F     = (set.singleton (tuple 1))
+G     = (set.singleton (tuple 1))
+H     = (set.singleton (tuple 0))
+Measure     = (set.union (set.singleton (tuple 1 true (- 1) false)) (set.singleton (tuple 0 true 0 true)))
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/19.smt2
-trail 20.0085711479187
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/19.smt2
+trail 0.6034255027770996
+Result     = sat
+time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
+A     = (as set.empty (Set (Tuple Int)))
+B     = (as set.empty (Set (Tuple Int)))
+C     = (as set.empty (Set (Tuple Int)))
+D     = (as set.empty (Set (Tuple Int)))
+E     = (as set.empty (Set (Tuple Int)))
+F     = (set.singleton (tuple 1))
+G     = (set.singleton (tuple 1))
+H     = (set.singleton (tuple 0))
+Measure     = (set.union (set.singleton (tuple 1 true 0 false)) (set.singleton (tuple 0 true 1 true)))
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test/conflict/20.smt2
-trail 0.2223210334777832
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test/conflict/20.smt2
+trail 0.03888344764709473
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 D     = (as set.empty (Set (Tuple Int)))
-not_D     = (as set.empty (Set (Tuple Int Int)))
 E     = (as set.empty (Set (Tuple Int)))
-not_E     = (as set.empty (Set (Tuple Int Int)))
 F     = (set.singleton (tuple 0))
-not_F     = (as set.empty (Set (Tuple Int Int)))
 G     = (set.singleton (tuple 0))
-not_G     = (as set.empty (Set (Tuple Int Int)))
 H     = (as set.empty (Set (Tuple Int)))
-not_H     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 false))
 ****************************************************************************************************

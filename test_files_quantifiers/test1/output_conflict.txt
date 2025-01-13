@@ -1,28 +1,25 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test1/conflict/00.smt2
-trail 20.008023023605347
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/00.smt2
+trail 20.004435062408447
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test1/conflict/01.smt2
-trail 0.11625981330871582
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/01.smt2
+trail 0.020095109939575195
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test1/conflict/02.smt2
-trail 20.016233682632446
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/02.smt2
+trail 20.009432315826416
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test1/conflict/03.smt2
-trail 20.008854150772095
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/03.smt2
+trail 20.00540280342102
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

@@ -1,39 +1,30 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test2/redundancy/00.smt2
-trail 0.312283992767334
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test2/redundancy/00.smt2
+trail 0.05564546585083008
 Result     = sat
 time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (set.singleton (tuple 0 30))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 10 29)) (set.singleton (tuple 0 30)))
+Measure     = (set.union (set.singleton (tuple 10 (- 1))) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test2/redundancy/01.smt2
-trail 0.2476801872253418
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test2/redundancy/01.smt2
+trail 0.04893898963928223
 Result     = sat
 time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (set.singleton (tuple 0))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 10 (- 1))) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers/test2/redundancy/02.smt2
-trail 0.11762356758117676
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test2/redundancy/02.smt2
+trail 0.021628379821777344
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
