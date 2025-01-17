@@ -736,13 +736,14 @@ def solve(constraints, output_file=""):
     solver = cvc5.Solver(tm)
     solver.setLogic("HO_ALL")
     setOption(solver, "produce-models", "true")
-    setOption(solver, "finite-model-find", "true")
+    # setOption(solver, "finite-model-find", "true")
     setOption(solver, "check-models", "true")
     setOption(solver, "sets-exp", "true")
     setOption(solver, "dag-thresh", "0")
     setOption(solver, "uf-lazy-ll", "true")
-    setOption(solver, "fmf-bound", "true")
+    # setOption(solver, "fmf-bound", "true")
     setOption(solver, "tlimit-per", "20000")
+    setOption(solver, "enum-inst", "true")
 
     if output_file:
         out = open(output_file, 'w')
