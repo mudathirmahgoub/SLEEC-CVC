@@ -1,15 +1,15 @@
 check concern_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/concern/00.smt2
-trail 20.00046133995056
-Result     = unknown (TIMEOUT)
+trail 0.061135292053222656
+Result     = unsat
 ****************************************************************************************************
 check concern_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/concern/01.smt2
-trail 20.000452995300293
-Result     = unknown (TIMEOUT)
+trail 0.035063982009887695
+Result     = unsat
 ****************************************************************************************************
 check concern_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/concern/02.smt2
-trail 20.000408411026
+trail 20.013912439346313
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

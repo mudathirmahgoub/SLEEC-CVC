@@ -1,15 +1,15 @@
 check concern_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/dressingAssist/DRESSASSIST/concern/00.smt2
-trail 20.00114154815674
-Result     = unknown (TIMEOUT)
+trail 0.21633553504943848
+Result     = unsat
 ****************************************************************************************************
 check concern_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/dressingAssist/DRESSASSIST/concern/01.smt2
-trail 20.000288248062134
-Result     = unknown (TIMEOUT)
+trail 0.06638956069946289
+Result     = unsat
 ****************************************************************************************************
 check concern_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/dressingAssist/DRESSASSIST/concern/02.smt2
-trail 20.000398635864258
+trail 20.00082802772522
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

@@ -1,25 +1,20 @@
 check rule_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/00.smt2
-trail 20.004435062408447
+trail 20.010197162628174
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/01.smt2
-trail 0.020095109939575195
-Result     = sat
-time     = (set.singleton (tuple 0))
-A     = (as set.empty (Set (Tuple Int)))
-B     = (set.singleton (tuple 0))
-C     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0))
+trail 0.32335495948791504
+Result     = unknown (INCOMPLETE)
 ****************************************************************************************************
 check rule_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/02.smt2
-trail 20.009432315826416
-Result     = unknown (TIMEOUT)
+trail 14.651361227035522
+Result     = unknown (INCOMPLETE)
 ****************************************************************************************************
 check rule_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test1/conflict/03.smt2
-trail 20.00540280342102
+trail 20.000205516815186
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

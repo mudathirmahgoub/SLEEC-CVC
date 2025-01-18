@@ -1,30 +1,15 @@
 check rule_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test2/redundancy/00.smt2
-trail 0.05564546585083008
-Result     = sat
-time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
-A     = (set.singleton (tuple 0))
-B     = (as set.empty (Set (Tuple Int)))
-C     = (as set.empty (Set (Tuple Int)))
-Measure     = (set.union (set.singleton (tuple 10 (- 1))) (set.singleton (tuple 0 0)))
+trail 5.006785869598389
+Result     = unknown (INCOMPLETE)
 ****************************************************************************************************
 check rule_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test2/redundancy/01.smt2
-trail 0.04893898963928223
-Result     = sat
-time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
-A     = (as set.empty (Set (Tuple Int)))
-B     = (as set.empty (Set (Tuple Int)))
-C     = (set.singleton (tuple 0))
-Measure     = (set.union (set.singleton (tuple 10 (- 1))) (set.singleton (tuple 0 0)))
+trail 1.359161138534546
+Result     = unknown (INCOMPLETE)
 ****************************************************************************************************
 check rule_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test2/redundancy/02.smt2
-trail 0.021628379821777344
-Result     = sat
-time     = (set.singleton (tuple 0))
-A     = (set.singleton (tuple 0))
-B     = (set.singleton (tuple 0))
-C     = (as set.empty (Set (Tuple Int)))
-Measure     = (set.singleton (tuple 0 0))
+trail 20.155394792556763
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

@@ -1,168 +1,135 @@
 check rule_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/00.smt2
-trail 20.000521183013916
+trail 20.021021366119385
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/01.smt2
-trail 20.000274181365967
+trail 20.000099897384644
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/02.smt2
-trail 20.00040054321289
+trail 20.00059962272644
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/03.smt2
-trail 20.000372171401978
+trail 20.162136793136597
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/04.smt2
-trail 12.192739009857178
-Result     = sat
-time     = (set.singleton (tuple 0))
-InformUser     = (set.singleton (tuple 0))
-Alert     = (as set.empty (Set (Tuple Int)))
-RemindUser     = (as set.empty (Set (Tuple Int)))
-FindInformation     = (as set.empty (Set (Tuple Int)))
-DetermineImportance     = (as set.empty (Set (Tuple Int)))
-UserDriving     = (set.singleton (tuple 0))
-UserWantsControl     = (as set.empty (Set (Tuple Int)))
-UserEnters     = (as set.empty (Set (Tuple Int)))
-UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
-UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
-PreparingSystem     = (as set.empty (Set (Tuple Int)))
-SystemDriving     = (as set.empty (Set (Tuple Int)))
-SystemOn     = (as set.empty (Set (Tuple Int)))
-EnsureAlertness     = (as set.empty (Set (Tuple Int)))
-EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
-EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
-TrackMetrics     = (as set.empty (Set (Tuple Int)))
-SensorsConnect     = (as set.empty (Set (Tuple Int)))
-BaselineDiffers     = (as set.empty (Set (Tuple Int)))
-ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
-ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
-TrackVisionField     = (set.singleton (tuple 0))
-ShowConsentForm     = (as set.empty (Set (Tuple Int)))
-CreateConsentForm     = (as set.empty (Set (Tuple Int)))
-TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
-FirstInteractionUser     = (as set.empty (Set (Tuple Int)))
-StopAutonomousComponent     = (as set.empty (Set (Tuple Int)))
-StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
-SytemTakesOver     = (as set.empty (Set (Tuple Int)))
-hearRateVariability     = (set.singleton (tuple 0))
-eyeMovements     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 false true false true true true true true true true false true true false true true true false true true true))
+trail 20.022911310195923
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/05.smt2
-trail 20.000352144241333
+trail 20.271586656570435
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/06.smt2
-trail 20.00020122528076
+trail 20.305787324905396
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/07.smt2
-trail 20.00026774406433
+trail 20.00009560585022
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/08.smt2
-trail 20.000445127487183
+trail 20.00139307975769
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/09.smt2
-trail 20.000413417816162
+trail 20.229102849960327
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/10.smt2
-trail 20.000373363494873
+trail 20.00912356376648
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/11.smt2
-trail 20.000340700149536
+trail 20.42777729034424
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/12.smt2
-trail 20.000370025634766
+trail 20.02952790260315
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/13.smt2
-trail 20.000423908233643
+trail 20.034865140914917
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/14.smt2
-trail 20.000290870666504
+trail 20.456178426742554
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/15.smt2
-trail 20.000426054000854
+trail 20.000341176986694
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/16.smt2
-trail 20.00039505958557
+trail 20.177507400512695
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/17.smt2
-trail 20.00021529197693
+trail 20.006916284561157
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/18.smt2
-trail 20.00028419494629
+trail 20.030536651611328
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/19.smt2
-trail 20.000335454940796
+trail 20.000218152999878
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/20.smt2
-trail 20.000305652618408
+trail 20.001386880874634
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/21.smt2
-trail 20.000673294067383
+trail 20.014896869659424
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/22.smt2
-trail 20.000266551971436
+trail 20.00417685508728
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/23.smt2
-trail 20.00028347969055
+trail 20.00121235847473
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/24.smt2
-trail 20.000346183776855
+trail 20.000298738479614
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/25.smt2
-trail 20.00047278404236
+trail 20.34357237815857
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_27
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/safescade/safescade-corrected/redundancy/26.smt2
-trail 20.00038504600525
+trail 20.519667863845825
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

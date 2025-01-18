@@ -1,229 +1,40 @@
 check concern_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/00.smt2
-trail 0.36798644065856934
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (as set.empty (Set (Tuple Int)))
-RobotWorking     = (set.singleton (tuple 0))
-RobotContinueTask     = (set.singleton (tuple 0))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (as set.empty (Set (Tuple Int)))
-AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
-TrackHumanLocation     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (set.singleton (tuple 0))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (set.singleton (tuple 0))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true false true true false true 0 0 true true false true false))
+trail 20.000346183776855
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/01.smt2
-trail 0.3142111301422119
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (set.singleton (tuple 0))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (set.singleton (tuple 0))
-AccountHumanRandomness     = (set.singleton (tuple 0))
-TrackHumanLocation     = (set.singleton (tuple 0))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true false true true true true 0 0 true true true true true))
+trail 20.32779550552368
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/02.smt2
-trail 0.35530877113342285
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (set.singleton (tuple 0))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (set.singleton (tuple 0))
-AccountHumanRandomness     = (set.singleton (tuple 0))
-TrackHumanLocation     = (set.singleton (tuple 0))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true false true true true true 0 0 true true true true true))
+trail 20.26041293144226
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/03.smt2
-trail 0.5276095867156982
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (as set.empty (Set (Tuple Int)))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (as set.empty (Set (Tuple Int)))
-AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
-TrackHumanLocation     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (set.singleton (tuple 0))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+trail 20.017422914505005
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_5
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/04.smt2
-trail 0.22793316841125488
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (set.singleton (tuple 0))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (set.singleton (tuple 0))
-AccountHumanRandomness     = (set.singleton (tuple 0))
-TrackHumanLocation     = (set.singleton (tuple 0))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (set.singleton (tuple 0))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (set.singleton (tuple 0))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true false true true true true 0 0 true true true true true))
+trail 20.000182151794434
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/05.smt2
-trail 0.20869803428649902
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (as set.empty (Set (Tuple Int)))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (as set.empty (Set (Tuple Int)))
-AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
-TrackHumanLocation     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (set.singleton (tuple 0))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+trail 20.101815223693848
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_7
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/06.smt2
-trail 0.21086955070495605
-Result     = sat
-time     = (set.singleton (tuple 0))
-RobotMoving     = (as set.empty (Set (Tuple Int)))
-RobotWorking     = (as set.empty (Set (Tuple Int)))
-RobotContinueTask     = (as set.empty (Set (Tuple Int)))
-RobotStopAction     = (as set.empty (Set (Tuple Int)))
-AvoidBumping     = (as set.empty (Set (Tuple Int)))
-AdjustRoute     = (as set.empty (Set (Tuple Int)))
-InquireSafety     = (as set.empty (Set (Tuple Int)))
-AccountHumanRandomness     = (as set.empty (Set (Tuple Int)))
-TrackHumanLocation     = (set.singleton (tuple 0))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-HumanSaysStop     = (as set.empty (Set (Tuple Int)))
-AskPermission     = (as set.empty (Set (Tuple Int)))
-MoveAtSafeSpeed     = (as set.empty (Set (Tuple Int)))
-IncreaseSpeed     = (as set.empty (Set (Tuple Int)))
-PreparingRobot     = (as set.empty (Set (Tuple Int)))
-AssignToRobot     = (as set.empty (Set (Tuple Int)))
-AssignLiability     = (as set.empty (Set (Tuple Int)))
-ConsiderAppearance     = (as set.empty (Set (Tuple Int)))
-ReportIncident     = (as set.empty (Set (Tuple Int)))
-MinimizeCobotCollaboration     = (as set.empty (Set (Tuple Int)))
-PrioritizeHumans     = (as set.empty (Set (Tuple Int)))
-ActionHumanRandom     = (as set.empty (Set (Tuple Int)))
-MoveAwayFromHuman     = (as set.empty (Set (Tuple Int)))
-risk     = (set.singleton (tuple 0))
-efficiency     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
+trail 20.025973796844482
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_8
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/CSI/CSI/concern/07.smt2
-trail 20.009843826293945
-Result     = unknown (TIMEOUT)
+trail 0.01871800422668457
+Result     = unsat
 ****************************************************************************************************

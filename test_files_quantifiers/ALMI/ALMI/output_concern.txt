@@ -1,143 +1,55 @@
 check concern_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/00.smt2
-trail 0.26758670806884766
-Result     = sat
-time     = (set.singleton (tuple 2))
-PreparingDeployment     = (as set.empty (Set (Tuple Int)))
-AgentDeployed     = (as set.empty (Set (Tuple Int)))
-MeetingUser     = (as set.empty (Set (Tuple Int)))
-InformUser     = (as set.empty (Set (Tuple Int)))
-InformCaregiver     = (as set.empty (Set (Tuple Int)))
-CallEmergencyServices     = (as set.empty (Set (Tuple Int)))
-RemindLater     = (as set.empty (Set (Tuple Int)))
-AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
-AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
-UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
-CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
-RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
-AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
-HumanOnFloor     = (set.singleton (tuple 2))
-SmokeDetectorAlarm     = (as set.empty (Set (Tuple Int)))
-OpenWindows     = (as set.empty (Set (Tuple Int)))
-FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
-AskUserIfOK     = (as set.empty (Set (Tuple Int)))
-InterfereSafely     = (as set.empty (Set (Tuple Int)))
-UserHasLimitation     = (as set.empty (Set (Tuple Int)))
-CheckTemperature     = (as set.empty (Set (Tuple Int)))
-FoodPreparation     = (as set.empty (Set (Tuple Int)))
-TrackTime     = (as set.empty (Set (Tuple Int)))
-UserUnpredictable     = (as set.empty (Set (Tuple Int)))
-GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
-MonitorMealTime     = (as set.empty (Set (Tuple Int)))
-BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
-UserWantsToCook     = (as set.empty (Set (Tuple Int)))
-AllowUserToCook     = (as set.empty (Set (Tuple Int)))
-GiveSuggestion     = (as set.empty (Set (Tuple Int)))
-GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
-ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
-UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
-UserChangeMind     = (as set.empty (Set (Tuple Int)))
-RecalculateApproach     = (as set.empty (Set (Tuple Int)))
-ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
-CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
-UpdateInformation     = (as set.empty (Set (Tuple Int)))
-ShowDataHistory     = (as set.empty (Set (Tuple Int)))
-UpdateMap     = (as set.empty (Set (Tuple Int)))
-needLevel     = (set.singleton (tuple 2))
-riskLevel     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 true 0 true true true true true true 2 false true true true 2 true))
+trail 20.00042486190796
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/01.smt2
-trail 20.000316381454468
-Result     = unknown (TIMEOUT)
+trail 0.046199798583984375
+Result     = unsat
 ****************************************************************************************************
 check concern_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/02.smt2
-trail 20.00587773323059
-Result     = unknown (TIMEOUT)
+trail 0.029401063919067383
+Result     = unsat
 ****************************************************************************************************
 check concern_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/03.smt2
-trail 0.9356522560119629
-Result     = sat
-time     = (set.singleton (tuple 0))
-PreparingDeployment     = (as set.empty (Set (Tuple Int)))
-AgentDeployed     = (as set.empty (Set (Tuple Int)))
-MeetingUser     = (as set.empty (Set (Tuple Int)))
-InformUser     = (as set.empty (Set (Tuple Int)))
-InformCaregiver     = (as set.empty (Set (Tuple Int)))
-CallEmergencyServices     = (set.singleton (tuple 121))
-RemindLater     = (as set.empty (Set (Tuple Int)))
-AgentHasAppropriateAppearance     = (as set.empty (Set (Tuple Int)))
-AskForDetailLevelOfInstructions     = (as set.empty (Set (Tuple Int)))
-UseFirstPersonPluralLanguage     = (as set.empty (Set (Tuple Int)))
-CalibrateSpeech     = (as set.empty (Set (Tuple Int)))
-RemindUserOfLimitations     = (as set.empty (Set (Tuple Int)))
-AskForEmergencyContact     = (as set.empty (Set (Tuple Int)))
-HumanOnFloor     = (as set.empty (Set (Tuple Int)))
-SmokeDetectorAlarm     = (set.singleton (tuple 0))
-OpenWindows     = (as set.empty (Set (Tuple Int)))
-FireSafetyMeasures     = (as set.empty (Set (Tuple Int)))
-AskUserIfOK     = (as set.empty (Set (Tuple Int)))
-InterfereSafely     = (as set.empty (Set (Tuple Int)))
-UserHasLimitation     = (as set.empty (Set (Tuple Int)))
-CheckTemperature     = (as set.empty (Set (Tuple Int)))
-FoodPreparation     = (as set.empty (Set (Tuple Int)))
-TrackTime     = (as set.empty (Set (Tuple Int)))
-UserUnpredictable     = (as set.empty (Set (Tuple Int)))
-GiveUserDangerousObjects     = (as set.empty (Set (Tuple Int)))
-MonitorMealTime     = (as set.empty (Set (Tuple Int)))
-BeforeCookingBegins     = (as set.empty (Set (Tuple Int)))
-UserWantsToCook     = (as set.empty (Set (Tuple Int)))
-AllowUserToCook     = (as set.empty (Set (Tuple Int)))
-GiveSuggestion     = (as set.empty (Set (Tuple Int)))
-GivingCookingInstructions     = (as set.empty (Set (Tuple Int)))
-ConsiderUserPractices     = (as set.empty (Set (Tuple Int)))
-UserChangeItemLocation     = (as set.empty (Set (Tuple Int)))
-UserChangeMind     = (as set.empty (Set (Tuple Int)))
-RecalculateApproach     = (as set.empty (Set (Tuple Int)))
-ProvideDataSummaries     = (as set.empty (Set (Tuple Int)))
-CollectandRecordInformation     = (as set.empty (Set (Tuple Int)))
-UpdateInformation     = (as set.empty (Set (Tuple Int)))
-ShowDataHistory     = (as set.empty (Set (Tuple Int)))
-UpdateMap     = (as set.empty (Set (Tuple Int)))
-needLevel     = (set.singleton (tuple 0))
-riskLevel     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true 0 true true true true true true 0 true true true true 0 true))
+trail 20.532325983047485
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_5
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/04.smt2
-trail 20.007166862487793
-Result     = unknown (TIMEOUT)
+trail 0.02503824234008789
+Result     = unsat
 ****************************************************************************************************
 check concern_6
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/05.smt2
-trail 20.000231742858887
-Result     = unknown (TIMEOUT)
+trail 0.023599863052368164
+Result     = unsat
 ****************************************************************************************************
 check concern_7
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/06.smt2
-trail 20.00770092010498
-Result     = unknown (TIMEOUT)
+trail 0.023504972457885742
+Result     = unsat
 ****************************************************************************************************
 check concern_8
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/07.smt2
-trail 20.00687885284424
-Result     = unknown (TIMEOUT)
+trail 0.029465913772583008
+Result     = unsat
 ****************************************************************************************************
 check concern_9
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/08.smt2
-trail 20.005769729614258
-Result     = unknown (TIMEOUT)
+trail 0.02337646484375
+Result     = unsat
 ****************************************************************************************************
 check concern_10
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/09.smt2
-trail 20.00010895729065
+trail 20.00110149383545
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_11
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ALMI/ALMI/concern/10.smt2
-trail 20.000744342803955
-Result     = unknown (TIMEOUT)
+trail 0.031169891357421875
+Result     = unsat
 ****************************************************************************************************

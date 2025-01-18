@@ -1,695 +1,125 @@
 check rule_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/00.smt2
-trail 0.14750194549560547
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (set.singleton (tuple 0))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 1 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.645987272262573
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/01.smt2
-trail 0.1352379322052002
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (set.singleton (tuple 0))
-SystemConfig     = (set.singleton (tuple 0))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 (- 1) 0 true true false 0 0 0 true true true true true 0))
+trail 20.02991247177124
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/02.smt2
-trail 20.000191926956177
-Result     = unknown (TIMEOUT)
+trail 1.0262436866760254
+Result     = unsat
 ****************************************************************************************************
 check rule_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/03.smt2
-trail 20.000100135803223
-Result     = unknown (TIMEOUT)
+trail 2.274313449859619
+Result     = unsat
 ****************************************************************************************************
 check rule_5
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/04.smt2
-trail 0.14688587188720703
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (set.singleton (tuple 0))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (set.singleton (tuple 0))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 71 0 0 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.123931884765625
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/05.smt2
-trail 20.007946252822876
-Result     = unknown (TIMEOUT)
+trail 0.10316610336303711
+Result     = unsat
 ****************************************************************************************************
 check rule_7
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/06.smt2
-trail 0.11078405380249023
-Result     = sat
-time     = (set.singleton (tuple 2))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (set.singleton (tuple 2))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 2))
-datatype     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 0 0 0 0 0 true true false 2 0 0 true true true true true 2))
+trail 20.123708248138428
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/07.smt2
-trail 20.008078575134277
-Result     = unknown (TIMEOUT)
+trail 0.10374903678894043
+Result     = unsat
 ****************************************************************************************************
 check rule_9
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/08.smt2
-trail 0.13216042518615723
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (set.singleton (tuple 0))
-SystemDeleteMessage     = (set.singleton (tuple 0))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 180 0 true true false true true 0))
+trail 20.00863742828369
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/09.smt2
-trail 0.12228870391845703
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (set.singleton (tuple 0))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (set.singleton (tuple 0))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 180 true true false true true 0))
+trail 20.01787781715393
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/10.smt2
-trail 20.000102281570435
-Result     = unknown (TIMEOUT)
+trail 0.3349285125732422
+Result     = unsat
 ****************************************************************************************************
 check rule_12
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/11.smt2
-trail 0.20357060432434082
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (set.singleton (tuple 0))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.0277898311615
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/12.smt2
-trail 20.00006675720215
-Result     = unknown (TIMEOUT)
+trail 2.2997801303863525
+Result     = unsat
 ****************************************************************************************************
 check rule_14
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/13.smt2
-trail 0.21906805038452148
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (set.singleton (tuple 0))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (set.singleton (tuple 0))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.019330739974976
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/14.smt2
-trail 0.2116718292236328
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (set.singleton (tuple 0))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (set.singleton (tuple 0))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.392740726470947
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/15.smt2
-trail 20.00008988380432
-Result     = unknown (TIMEOUT)
+trail 0.8017904758453369
+Result     = unsat
 ****************************************************************************************************
 check rule_17
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/16.smt2
-trail 20.000096797943115
-Result     = unknown (TIMEOUT)
+trail 2.395534038543701
+Result     = unsat
 ****************************************************************************************************
 check rule_18
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/17.smt2
-trail 20.000097513198853
-Result     = unknown (TIMEOUT)
+trail 2.3766701221466064
+Result     = unsat
 ****************************************************************************************************
 check rule_19
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/18.smt2
-trail 0.12784075736999512
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (set.singleton (tuple 0))
-UserRequestStopDataCollection     = (set.singleton (tuple 0))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.000351905822754
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/19.smt2
-trail 20.000089406967163
-Result     = unknown (TIMEOUT)
+trail 2.350287914276123
+Result     = unsat
 ****************************************************************************************************
 check rule_21
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/20.smt2
-trail 0.21885108947753906
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (set.singleton (tuple 0))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (set.singleton (tuple 0))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (set.union (set.singleton (tuple (- 1))) (set.singleton (tuple 0)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
+trail 20.163195371627808
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/21.smt2
-trail 0.10594701766967773
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (set.singleton (tuple 0))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true false true true 0))
+trail 20.00240921974182
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/22.smt2
-trail 0.11974263191223145
-Result     = sat
-time     = (set.singleton (tuple 0))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (set.singleton (tuple 0))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (set.singleton (tuple 0))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (as set.empty (Set (Tuple Int)))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 0))
-datatype     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0 0 0 0 0 true false true 0 0 0 true true true true true 0))
+trail 20.08927607536316
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/23.smt2
-trail 0.10829901695251465
-Result     = sat
-time     = (set.singleton (tuple 2))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (set.singleton (tuple 2))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 2))
-datatype     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 0 0 0 0 0 true true false 2 0 0 true true true true true 2))
+trail 20.083938360214233
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/covidfree/covidfree/conflict/24.smt2
-trail 0.10938072204589844
-Result     = sat
-time     = (set.singleton (tuple 2))
-AllowSendData     = (as set.empty (Set (Tuple Int)))
-SystemCollectData     = (as set.empty (Set (Tuple Int)))
-SystemNotifyUser     = (as set.empty (Set (Tuple Int)))
-ChangeSystemLanguage     = (as set.empty (Set (Tuple Int)))
-UserChoosePronous     = (as set.empty (Set (Tuple Int)))
-SystemConfig     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutStorageDuration     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutAccessRight     = (as set.empty (Set (Tuple Int)))
-UserConformIsFamilarwithTechnology     = (as set.empty (Set (Tuple Int)))
-SystemRecivingMessageFromClinician     = (as set.empty (Set (Tuple Int)))
-SystemRelayMessageToUser     = (as set.empty (Set (Tuple Int)))
-SystemDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutDataBreach     = (as set.empty (Set (Tuple Int)))
-SystemPeroidicCheck     = (as set.empty (Set (Tuple Int)))
-SystemDeleteMessage     = (as set.empty (Set (Tuple Int)))
-SystemDeleteData     = (as set.empty (Set (Tuple Int)))
-AlertUser     = (as set.empty (Set (Tuple Int)))
-SystemAccessHealthData     = (as set.empty (Set (Tuple Int)))
-SystemAccesstHealthSummary     = (as set.empty (Set (Tuple Int)))
-SystemEnsureSummaryRelevent     = (as set.empty (Set (Tuple Int)))
-DataAnonymised     = (as set.empty (Set (Tuple Int)))
-SystemInformUser     = (as set.empty (Set (Tuple Int)))
-SystemInformUserAboutInput     = (as set.empty (Set (Tuple Int)))
-SystemRelayDataToClinican     = (as set.empty (Set (Tuple Int)))
-SystemTurnOnSensor     = (as set.empty (Set (Tuple Int)))
-SystemTurnOffSensor     = (as set.empty (Set (Tuple Int)))
-SystemAdviseUserToSeekUrgentCare     = (as set.empty (Set (Tuple Int)))
-UserConsented     = (as set.empty (Set (Tuple Int)))
-UseUserLanguage     = (as set.empty (Set (Tuple Int)))
-StopSystemDataCollection     = (as set.empty (Set (Tuple Int)))
-UserSubmitData     = (as set.empty (Set (Tuple Int)))
-SystemIntendInformUser     = (set.singleton (tuple 2))
-StopDataCollection     = (as set.empty (Set (Tuple Int)))
-UserRequestStopDataCollection     = (as set.empty (Set (Tuple Int)))
-clockTime     = (set.singleton (tuple 2))
-datatype     = (set.singleton (tuple 2))
-Measure     = (set.singleton (tuple 2 0 0 0 0 0 true true false 2 0 0 true true true true true 2))
+trail 20.007216930389404
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

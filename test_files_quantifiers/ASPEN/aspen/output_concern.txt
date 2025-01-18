@@ -1,160 +1,40 @@
 check concern_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/00.smt2
-trail 20.002251386642456
-Result     = unknown (TIMEOUT)
+trail 0.2873356342315674
+Result     = unsat
 ****************************************************************************************************
 check concern_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/01.smt2
-trail 20.000208854675293
-Result     = unknown (TIMEOUT)
+trail 0.2142946720123291
+Result     = unsat
 ****************************************************************************************************
 check concern_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/02.smt2
-trail 20.000091075897217
-Result     = unknown (TIMEOUT)
+trail 0.06326723098754883
+Result     = unsat
 ****************************************************************************************************
 check concern_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/03.smt2
-trail 0.35428500175476074
-Result     = sat
-time     = (set.singleton (tuple 0))
-EncounterHuman     = (as set.empty (Set (Tuple Int)))
-HumanNearby     = (as set.empty (Set (Tuple Int)))
-IdentifyActivity     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-InformKeeper     = (as set.empty (Set (Tuple Int)))
-BackUp     = (as set.empty (Set (Tuple Int)))
-ExitArea     = (as set.empty (Set (Tuple Int)))
-PreparingDrone     = (as set.empty (Set (Tuple Int)))
-DeployDrone     = (set.singleton (tuple 0))
-GroundDrone     = (as set.empty (Set (Tuple Int)))
-ReturnHome     = (as set.empty (Set (Tuple Int)))
-MonitorLand     = (as set.empty (Set (Tuple Int)))
-MonitorCarbon     = (set.singleton (tuple 0))
-CollectSample     = (as set.empty (Set (Tuple Int)))
-AvoidInterference     = (set.singleton (tuple 0))
-EncounterWildlife     = (as set.empty (Set (Tuple Int)))
-UpdateTerritories     = (as set.empty (Set (Tuple Int)))
-DeletePictures     = (as set.empty (Set (Tuple Int)))
-TakePictures     = (as set.empty (Set (Tuple Int)))
-StoreData     = (as set.empty (Set (Tuple Int)))
-AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
-ImplementASPEN     = (as set.empty (Set (Tuple Int)))
-EnsureCompliance     = (as set.empty (Set (Tuple Int)))
-carbonFootprint     = (set.singleton (tuple 0))
-benefits     = (set.singleton (tuple 2))
-flightCondition     = (set.singleton (tuple 2))
-battery     = (set.singleton (tuple 0))
-store     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true false false true 0 2 2 true true true false 0 0))
+trail 20.001068830490112
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_5
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/04.smt2
-trail 2.0277934074401855
-Result     = sat
-time     = (set.singleton (tuple 0))
-EncounterHuman     = (as set.empty (Set (Tuple Int)))
-HumanNearby     = (as set.empty (Set (Tuple Int)))
-IdentifyActivity     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-InformKeeper     = (set.singleton (tuple 0))
-BackUp     = (as set.empty (Set (Tuple Int)))
-ExitArea     = (as set.empty (Set (Tuple Int)))
-PreparingDrone     = (set.singleton (tuple 0))
-DeployDrone     = (set.singleton (tuple 0))
-GroundDrone     = (set.singleton (tuple 0))
-ReturnHome     = (as set.empty (Set (Tuple Int)))
-MonitorLand     = (as set.empty (Set (Tuple Int)))
-MonitorCarbon     = (set.singleton (tuple 0))
-CollectSample     = (as set.empty (Set (Tuple Int)))
-AvoidInterference     = (set.singleton (tuple 0))
-EncounterWildlife     = (as set.empty (Set (Tuple Int)))
-UpdateTerritories     = (set.singleton (tuple 0))
-DeletePictures     = (as set.empty (Set (Tuple Int)))
-TakePictures     = (as set.empty (Set (Tuple Int)))
-StoreData     = (as set.empty (Set (Tuple Int)))
-AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
-ImplementASPEN     = (as set.empty (Set (Tuple Int)))
-EnsureCompliance     = (as set.empty (Set (Tuple Int)))
-carbonFootprint     = (set.singleton (tuple 0))
-benefits     = (set.singleton (tuple 0))
-flightCondition     = (set.singleton (tuple 0))
-battery     = (set.singleton (tuple 1))
-store     = (set.singleton (tuple 1))
-Measure     = (set.singleton (tuple 0 true true true true true true false false true 0 0 0 true true true false 1 1))
+trail 20.00150179862976
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/05.smt2
-trail 20.000133991241455
-Result     = unknown (TIMEOUT)
+trail 0.09149384498596191
+Result     = unsat
 ****************************************************************************************************
 check concern_7
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/06.smt2
-trail 1.4025599956512451
-Result     = sat
-time     = (set.singleton (tuple 0))
-EncounterHuman     = (as set.empty (Set (Tuple Int)))
-HumanNearby     = (as set.empty (Set (Tuple Int)))
-IdentifyActivity     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-InformKeeper     = (as set.empty (Set (Tuple Int)))
-BackUp     = (as set.empty (Set (Tuple Int)))
-ExitArea     = (as set.empty (Set (Tuple Int)))
-PreparingDrone     = (as set.empty (Set (Tuple Int)))
-DeployDrone     = (as set.empty (Set (Tuple Int)))
-GroundDrone     = (as set.empty (Set (Tuple Int)))
-ReturnHome     = (as set.empty (Set (Tuple Int)))
-MonitorLand     = (as set.empty (Set (Tuple Int)))
-MonitorCarbon     = (as set.empty (Set (Tuple Int)))
-CollectSample     = (as set.empty (Set (Tuple Int)))
-AvoidInterference     = (as set.empty (Set (Tuple Int)))
-EncounterWildlife     = (as set.empty (Set (Tuple Int)))
-UpdateTerritories     = (as set.empty (Set (Tuple Int)))
-DeletePictures     = (set.singleton (tuple 0))
-TakePictures     = (as set.empty (Set (Tuple Int)))
-StoreData     = (as set.empty (Set (Tuple Int)))
-AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
-ImplementASPEN     = (as set.empty (Set (Tuple Int)))
-EnsureCompliance     = (as set.empty (Set (Tuple Int)))
-carbonFootprint     = (set.singleton (tuple 0))
-benefits     = (set.singleton (tuple 0))
-flightCondition     = (set.singleton (tuple 0))
-battery     = (set.singleton (tuple 0))
-store     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
+trail 20.02259850502014
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_8
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/ASPEN/aspen/concern/07.smt2
-trail 1.3944683074951172
-Result     = sat
-time     = (set.singleton (tuple 0))
-EncounterHuman     = (as set.empty (Set (Tuple Int)))
-HumanNearby     = (as set.empty (Set (Tuple Int)))
-IdentifyActivity     = (as set.empty (Set (Tuple Int)))
-InformHuman     = (as set.empty (Set (Tuple Int)))
-InformKeeper     = (as set.empty (Set (Tuple Int)))
-BackUp     = (as set.empty (Set (Tuple Int)))
-ExitArea     = (as set.empty (Set (Tuple Int)))
-PreparingDrone     = (as set.empty (Set (Tuple Int)))
-DeployDrone     = (as set.empty (Set (Tuple Int)))
-GroundDrone     = (as set.empty (Set (Tuple Int)))
-ReturnHome     = (as set.empty (Set (Tuple Int)))
-MonitorLand     = (as set.empty (Set (Tuple Int)))
-MonitorCarbon     = (as set.empty (Set (Tuple Int)))
-CollectSample     = (as set.empty (Set (Tuple Int)))
-AvoidInterference     = (as set.empty (Set (Tuple Int)))
-EncounterWildlife     = (as set.empty (Set (Tuple Int)))
-UpdateTerritories     = (as set.empty (Set (Tuple Int)))
-DeletePictures     = (as set.empty (Set (Tuple Int)))
-TakePictures     = (as set.empty (Set (Tuple Int)))
-StoreData     = (as set.empty (Set (Tuple Int)))
-AnonymizeHuman     = (as set.empty (Set (Tuple Int)))
-ImplementASPEN     = (as set.empty (Set (Tuple Int)))
-EnsureCompliance     = (set.singleton (tuple 0))
-carbonFootprint     = (set.singleton (tuple 0))
-benefits     = (set.singleton (tuple 0))
-flightCondition     = (set.singleton (tuple 0))
-battery     = (set.singleton (tuple 0))
-store     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true true true 0 0 0 true true true true 0 0))
+trail 20.18098521232605
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

@@ -1,33 +1,15 @@
 check rule_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test3/conflict/00.smt2
-trail 0.03601574897766113
-Result     = sat
-time     = (set.singleton (tuple 0))
-A     = (set.singleton (tuple 0))
-B     = (set.singleton (tuple 0))
-C     = (as set.empty (Set (Tuple Int)))
-D     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0))
+trail 20.27904224395752
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test3/conflict/01.smt2
-trail 0.3025240898132324
-Result     = sat
-time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
-A     = (set.singleton (tuple 0))
-B     = (set.singleton (tuple 10))
-C     = (set.singleton (tuple 0))
-D     = (set.singleton (tuple 10))
-Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
+trail 20.889633417129517
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/test3/conflict/02.smt2
-trail 0.019309043884277344
-Result     = sat
-time     = (set.singleton (tuple 0))
-A     = (as set.empty (Set (Tuple Int)))
-B     = (set.singleton (tuple 0))
-C     = (as set.empty (Set (Tuple Int)))
-D     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 0))
+trail 20.74858045578003
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************

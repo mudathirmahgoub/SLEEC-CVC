@@ -1,178 +1,110 @@
 check rule_1
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/00.smt2
-trail 20.00751519203186
+trail 20.000323057174683
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/01.smt2
-trail 20.000251054763794
+trail 20.0002601146698
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/02.smt2
-trail 20.000291109085083
+trail 20.001957416534424
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/03.smt2
-trail 20.000488758087158
+trail 20.02569341659546
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/04.smt2
-trail 15.108564853668213
-Result     = sat
-time     = (set.singleton (tuple 0))
-DPAMade     = (as set.empty (Set (Tuple Int)))
-EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
-StartDPAProcess     = (set.singleton (tuple 0))
-DPAComplete     = (as set.empty (Set (Tuple Int)))
-DPAIncomplete     = (as set.empty (Set (Tuple Int)))
-DPATerminate     = (as set.empty (Set (Tuple Int)))
-DPAUpdate     = (as set.empty (Set (Tuple Int)))
-ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
-RemovePersonalData     = (as set.empty (Set (Tuple Int)))
-EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
-ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
-InformController     = (as set.empty (Set (Tuple Int)))
-AssistController     = (as set.empty (Set (Tuple Int)))
-ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
-ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
-InformSubject     = (as set.empty (Set (Tuple Int)))
-InformSupervisor     = (as set.empty (Set (Tuple Int)))
-TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
-ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
-DataBreach     = (as set.empty (Set (Tuple Int)))
-RightsRequested     = (as set.empty (Set (Tuple Int)))
-RespondToRequest     = (as set.empty (Set (Tuple Int)))
-AllowAudits     = (as set.empty (Set (Tuple Int)))
-HelpAuditors     = (as set.empty (Set (Tuple Int)))
-AuditsOccur     = (as set.empty (Set (Tuple Int)))
-EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
-PassSecurity     = (as set.empty (Set (Tuple Int)))
-CanObjectToChange     = (as set.empty (Set (Tuple Int)))
-riskLevel     = (set.singleton (tuple 0))
-typesOfRisk     = (set.singleton (tuple 0))
-auditorType     = (set.singleton (tuple 0))
-auditType     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true 1 true true true true true true true true true true true true 0 0 0 0 true))
+trail 20.021169185638428
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/05.smt2
-trail 14.754291534423828
-Result     = sat
-time     = (set.singleton (tuple 0))
-DPAMade     = (as set.empty (Set (Tuple Int)))
-EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
-StartDPAProcess     = (as set.empty (Set (Tuple Int)))
-DPAComplete     = (as set.empty (Set (Tuple Int)))
-DPAIncomplete     = (as set.empty (Set (Tuple Int)))
-DPATerminate     = (as set.empty (Set (Tuple Int)))
-DPAUpdate     = (as set.empty (Set (Tuple Int)))
-ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
-RemovePersonalData     = (as set.empty (Set (Tuple Int)))
-EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
-ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
-InformController     = (set.singleton (tuple 0))
-AssistController     = (as set.empty (Set (Tuple Int)))
-ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
-ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
-InformSubject     = (as set.empty (Set (Tuple Int)))
-InformSupervisor     = (as set.empty (Set (Tuple Int)))
-TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
-ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
-DataBreach     = (as set.empty (Set (Tuple Int)))
-RightsRequested     = (as set.empty (Set (Tuple Int)))
-RespondToRequest     = (as set.empty (Set (Tuple Int)))
-AllowAudits     = (as set.empty (Set (Tuple Int)))
-HelpAuditors     = (as set.empty (Set (Tuple Int)))
-AuditsOccur     = (as set.empty (Set (Tuple Int)))
-EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
-PassSecurity     = (as set.empty (Set (Tuple Int)))
-CanObjectToChange     = (as set.empty (Set (Tuple Int)))
-riskLevel     = (set.singleton (tuple 0))
-typesOfRisk     = (set.singleton (tuple 0))
-auditorType     = (set.singleton (tuple 0))
-auditType     = (set.singleton (tuple 0))
-Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true false true true true true true true true true 0 0 0 0 true))
+trail 20.000303268432617
+Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/06.smt2
-trail 20.003308534622192
+trail 20.000110387802124
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/07.smt2
-trail 20.00034499168396
+trail 20.00548815727234
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/08.smt2
-trail 20.000401258468628
+trail 20.09473490715027
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/09.smt2
-trail 20.000275373458862
+trail 20.112173318862915
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/10.smt2
-trail 20.000486373901367
+trail 21.612828969955444
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/11.smt2
-trail 20.000351190567017
+trail 20.273959636688232
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/12.smt2
-trail 20.000197410583496
+trail 20.212084531784058
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/13.smt2
-trail 20.000253677368164
+trail 20.000181436538696
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/14.smt2
-trail 20.0004665851593
+trail 20.000120162963867
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/15.smt2
-trail 20.00036931037903
+trail 20.003082275390625
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/16.smt2
-trail 20.00023102760315
+trail 20.00397276878357
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/17.smt2
-trail 20.000382900238037
+trail 20.495950937271118
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/18.smt2
-trail 20.000250577926636
+trail 20.049603939056396
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/19.smt2
-trail 20.00027823448181
+trail 20.00014042854309
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/20.smt2
-trail 20.000327825546265
+trail 20.079487085342407
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
 outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_quantifiers/gdpr/DPA/redundancy/21.smt2
-trail 20.000206232070923
+trail 20.219143629074097
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
