@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import math
 # Read data from CSV file
-files = ['data1.csv','data2.csv', 'data3.csv', 'data4.csv']
+files = ['data1.csv','data2.csv', 'data3.csv', 'data4.csv', 'data5.csv', 'data6.csv']
 
 plt.figure()
 
