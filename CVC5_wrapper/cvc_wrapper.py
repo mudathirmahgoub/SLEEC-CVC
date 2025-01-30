@@ -21,9 +21,9 @@ def get_new_tuple_counter():
     return tuple_counter
 
 
-'''
+"""
 For Sorts
-'''
+"""
 
 # a dictionary for sorts, and the bounded variable namespace (by id)
 sorts_v_index = {integer: 0}
@@ -32,7 +32,7 @@ name_to_sort = {"int": integer, "bool": boolean}
 
 def new_free_sort(name: str):
     new_sort = declareUninterpretedSort(name)
-    name_to_sort[name] = (new_sort)
+    name_to_sort[name] = new_sort
     return new_sort
 
 
@@ -47,7 +47,7 @@ def create_new_type(sort_name, constraints):
         return sort_by_relation
 
 
-def new_bounded_var(sort_name, prefix=''):
+def new_bounded_var(sort_name, prefix=""):
     if isinstance(sort_name, str):
         if sort_name in name_to_sort:
             sort = name_to_sort[sort_name]
@@ -70,9 +70,9 @@ def new_bounded_var(sort_name, prefix=''):
         return CVC5_FreeSort(var)
 
 
-'''
+"""
 For relations
-'''
+"""
 Relations = {}
 
 
@@ -123,23 +123,27 @@ class Relation:
         tuple_sort = tm.mkTupleSort(*relation_args_types)
         new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
         instance = self.new_relational_object(
-            tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(relation_args_types))])
+            tuple=[
+                cast(tuple_select(new_tuple, i))
+                for i in range(len(relation_args_types))
+            ]
+        )
         term = function(instance)
-        lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+        lambda_func = tm.mkTerm(
+            Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term)
+        )
         return lambda_func
 
     def filter(self, filter_function, name):
         lambda_func = self.apply(filter_function)
-        result_relation = val(
-            tm.mkTerm(Kind.SET_FILTER, lambda_func,
-                      self.relation))
-        return Relation("{}".format(str(name)), args=self.args, relation=result_relation)
+        result_relation = val(tm.mkTerm(Kind.SET_FILTER, lambda_func, self.relation))
+        return Relation(
+            "{}".format(str(name)), args=self.args, relation=result_relation
+        )
 
     def map(self, map_function, name, args):
         lambda_func = self.apply(map_function)
-        result_relation = val(
-            tm.mkTerm(Kind.SET_MAP, lambda_func,
-                      self.relation))
+        result_relation = val(tm.mkTerm(Kind.SET_MAP, lambda_func, self.relation))
         return Relation("{}".format(str(name)), args=args, relation=result_relation)
 
     def product(self, other, name, args):
@@ -151,12 +155,16 @@ class Relation:
         return CVC5_Bool(tm.mkTerm(Kind.SET_MEMBER, item, self.relation))
 
     def join(self, other, name, args):
-        result_relation = tm.mkTerm(Kind.RELATION_TABLE_JOIN, self.relation, other.relation)
+        result_relation = tm.mkTerm(
+            Kind.RELATION_TABLE_JOIN, self.relation, other.relation
+        )
         return Relation(name, args=args, relation=result_relation)
 
     def project(self, indexes, name, args):
         keys = [key for key, _ in self.args]
-        indexes = [index if isinstance(index, int) else keys.index(index) for index in indexes]
+        indexes = [
+            index if isinstance(index, int) else keys.index(index) for index in indexes
+        ]
         relation_project_op = tm.mkOp(Kind.RELATION_PROJECT, *indexes)
         result_relation = tm.mkTerm(relation_project_op, self.relation)
         # result_relation = tm.mkTerm(Kind.RELATION_PROJECT, *indexes, self.relation)
@@ -174,7 +182,11 @@ class Relation:
     def __add__(self, other):
         # concat
         result_relation = tm.mkTerm(Kind.SET_UNION, self.relation, val(other))
-        return Relation(name="{}+{}".format(self.name, str(val(other))), args=self.args, relation=result_relation)
+        return Relation(
+            name="{}+{}".format(self.name, str(val(other))),
+            args=self.args,
+            relation=result_relation,
+        )
 
     def split(self, tight=False):
         rel1 = Relation(name="split1_{}".format(self.name), args=self.args)
@@ -188,22 +200,33 @@ class Relation:
 
     def get_relational_class(self):
         if self.relational_class is None:
+
             def __init__(self, reference=self, tuple=None):
                 self.relation = reference.relation
                 if tuple is None:
                     for arg_name, arg_type in reference.args:
-                        setattr(self, arg_name,
-                                new_bounded_var(arg_type, prefix="{}_{}".format(reference.name, arg_name)))
+                        setattr(
+                            self,
+                            arg_name,
+                            new_bounded_var(
+                                arg_type,
+                                prefix="{}_{}".format(reference.name, arg_name),
+                            ),
+                        )
                 else:
                     for i in range(len(reference.args)):
                         arg_name, arg_type = reference.args[i]
                         setattr(self, arg_name, tuple[i])
 
                 self.relation = reference
-                self.tuple = tm.mkTuple([val(getattr(self, name)) for name, _ in reference.args])
+                self.tuple = tm.mkTuple(
+                    [val(getattr(self, name)) for name, _ in reference.args]
+                )
 
             def member(self):
-                return CVC5_Bool(tm.mkTerm(Kind.SET_MEMBER, self.tuple, self.relation.relation))
+                return CVC5_Bool(
+                    tm.mkTerm(Kind.SET_MEMBER, self.tuple, self.relation.relation)
+                )
 
             def get_args(self):
                 return [val(getattr(self, name)) for name, _ in self.relation.args]
@@ -212,12 +235,25 @@ class Relation:
                 if self is other:
                     return TRUE()
                 if type(self) == type(other):
-                    return AND([getattr(self, name) == getattr(other, name) for name, _ in self.relation.args])
+                    return AND(
+                        [
+                            getattr(self, name) == getattr(other, name)
+                            for name, _ in self.relation.args
+                        ]
+                    )
                 else:
                     return FALSE()
 
-            action_class = type(self.name, (),
-                                {"__init__": __init__, "member": member, "get_args": get_args, "__eq__": __eq__})
+            action_class = type(
+                self.name,
+                (),
+                {
+                    "__init__": __init__,
+                    "member": member,
+                    "get_args": get_args,
+                    "__eq__": __eq__,
+                },
+            )
             self.relational_class = action_class
         return self.relational_class
 
@@ -241,8 +277,16 @@ class Relation:
             results = []
             for t_name, t in self.args:
                 if isinstance(t, Datatype):
-                    results.append(forall(self, lambda r, t_name=t_name:
-                    exists(t, lambda tobj, t_name=t_name: tobj.val == getattr(r, t_name))))
+                    results.append(
+                        forall(
+                            self,
+                            lambda r, t_name=t_name: exists(
+                                t,
+                                lambda tobj, t_name=t_name: tobj.val
+                                == getattr(r, t_name),
+                            ),
+                        )
+                    )
             self.data_type_constraints = AND(results)
         return self.data_type_constraints
 
@@ -265,7 +309,7 @@ class Datatype(Relation):
     Collections = {}
 
     def __init__(self, name, constraint):
-        super().__init__(name, [('val', integer)])
+        super().__init__(name, [("val", integer)])
         self.constraints = forall(self, lambda v: constraint(v.val))
         Datatype.Collections[name] = self
 
@@ -293,9 +337,9 @@ def get_relations_types(rel_name):
     return relation.get_relation_types()
 
 
-'''
+"""
 For terms
-'''
+"""
 
 
 def new_var(name):
@@ -406,6 +450,7 @@ def arithmetic(lhs, rhs, op):
 #     dt = tuple_sort.getDatatype()[index]
 #     c = dt.getSelector("__cvc5_tuple_Int_stor_{}").getTerm()
 
+
 def tuple_select(tuple, index):
     datatype = tuple.getSort().getDatatype()
     constructor = datatype[0]
@@ -417,23 +462,43 @@ def tuple_select(tuple, index):
 def LAMBDA(kinds, term_func, make_tuple=False):
     if make_tuple:
         # TODO, this functionality is still being worked on
-        tuple_sort = tm.mkTupleSort(*([name_to_sort[k] if isinstance(k, str) else k for k in kinds]))
+        tuple_sort = tm.mkTupleSort(
+            *([name_to_sort[k] if isinstance(k, str) else k for k in kinds])
+        )
         new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
         vars = [cast(tuple_select(new_tuple, i)) for i in range(len(kinds))]
         term = term_func(*vars)
-        return tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+        return tm.mkTerm(
+            Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term)
+        )
     else:
         vars = [new_bounded_var(kind) for kind in kinds]
         term = term_func(*vars)
-        return tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in vars])), val(term))
+        return tm.mkTerm(
+            Kind.LAMBDA,
+            tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in vars])),
+            val(term),
+        )
 
 
 def _exists(variables, terms):
-    return CVC_term(tm.mkTerm(Kind.EXISTS, tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in variables])), val(terms)))
+    return CVC_term(
+        tm.mkTerm(
+            Kind.EXISTS,
+            tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in variables])),
+            val(terms),
+        )
+    )
 
 
 def _forall(variables, terms):
-    return CVC_term(tm.mkTerm(Kind.FORALL, tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in variables])), val(terms)))
+    return CVC_term(
+        tm.mkTerm(
+            Kind.FORALL,
+            tm.mkTerm(Kind.VARIABLE_LIST, *([val(v) for v in variables])),
+            val(terms),
+        )
+    )
 
 
 def cast(term):
@@ -453,8 +518,9 @@ def cast(term):
 
 def exists_quantifier(kinds, term_func):
     # in case kinds is a Relation
-    if isinstance(kinds, Relation) or \
-            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+    if isinstance(kinds, Relation) or (
+        isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)
+    ):
         if isinstance(kinds, Relation):
             instance = kinds.new_relational_object()
             term = term_func(instance)
@@ -465,7 +531,9 @@ def exists_quantifier(kinds, term_func):
             args = []
             for instance in instances:
                 args.extend(instance.get_args())
-            return _exists(args, AND(AND([instance.member() for instance in instances]), term))
+            return _exists(
+                args, AND(AND([instance.member() for instance in instances]), term)
+            )
     else:
         # in case kinds is a data type
         vars = [new_bounded_var(kind) for kind in kinds]
@@ -473,24 +541,22 @@ def exists_quantifier(kinds, term_func):
         return _exists(vars, term)
 
 
-def exists_relation(kinds, term_func):
-    return NOT(forall_relation(kinds, term_func, neg=True))
+def exists_filter(kinds, term_func):
+    return NOT(forall_filter(kinds, term_func, neg=True))
+
 
 def set_all(kinds, term_func):
     return set_filter_quantifier(kinds, term_func, Kind.SET_ALL)
 
+
 def set_some(kinds, term_func):
     return set_filter_quantifier(kinds, term_func, Kind.SET_SOME)
 
-# def set_forall(kinds, term_func):
-#     return set_quantifier(kinds, term_func, Kind.SET_FORALL)
-
-# def set_exists(kinds, term_func):
-#     return set_quantifier(kinds, term_func, Kind.SET_EXISTS)
 
 def forall_quantifier(kinds, term_func):
-    if isinstance(kinds, Relation) or \
-            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+    if isinstance(kinds, Relation) or (
+        isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)
+    ):
         if isinstance(kinds, Relation):
 
             instance = kinds.new_relational_object()
@@ -502,35 +568,45 @@ def forall_quantifier(kinds, term_func):
             args = []
             for instance in instances:
                 args.extend(instance.get_args())
-            return _forall(args, IMPLIES(AND([instance.member() for instance in instances]), term))
+            return _forall(
+                args, IMPLIES(AND([instance.member() for instance in instances]), term)
+            )
     else:
         vars = [new_bounded_var(kind) for kind in kinds]
         term = term_func(*vars)
         return _forall(vars, term)
 
 
-def forall_relation(kinds, term_func, neg=False):
-    if isinstance(kinds, Relation) or \
-            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+def forall_filter(kinds, term_func, neg=False):
+    if isinstance(kinds, Relation) or (
+        isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)
+    ):
         if isinstance(kinds, Relation):
             arguments = kinds.get_relation_types()
             tuple_sort = tm.mkTupleSort(*arguments)
             new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
             instance = kinds.new_relational_object(
-                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))])
+                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))]
+            )
             term = term_func(instance)
             if neg:
-                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+                lambda_func = tm.mkTerm(
+                    Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term)
+                )
             else:
-                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(NOT(term)))
+                lambda_func = tm.mkTerm(
+                    Kind.LAMBDA,
+                    tm.mkTerm(Kind.VARIABLE_LIST, new_tuple),
+                    val(NOT(term)),
+                )
 
-            filtered_set = val(
-                tm.mkTerm(Kind.SET_FILTER, lambda_func,
-                          kinds.relation))
+            filtered_set = val(tm.mkTerm(Kind.SET_FILTER, lambda_func, kinds.relation))
             return is_empty(filtered_set)
         else:
             instances = []
-            merged_relation = tm.mkTerm(Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds]))
+            merged_relation = tm.mkTerm(
+                Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds])
+            )
             new_argument_type = []
 
             for kind in kinds:
@@ -540,48 +616,59 @@ def forall_relation(kinds, term_func, neg=False):
 
             tuple_sort = tm.mkTupleSort(*new_argument_type)
             new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
-            arguments = [cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))]
+            arguments = [
+                cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))
+            ]
 
             current_start = 0
             for kind in kinds:
                 current_end = current_start + len(kind.get_relation_types())
-                instance = kind.new_relational_object(tuple=arguments[current_start:current_end])
+                instance = kind.new_relational_object(
+                    tuple=arguments[current_start:current_end]
+                )
                 instances.append(instance)
                 current_start = current_end
 
             term = term_func(*instances)
             if neg:
-                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
+                lambda_func = tm.mkTerm(
+                    Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term)
+                )
             else:
-                lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(NOT(term)))
-            filtered_set = val(
-                tm.mkTerm(Kind.SET_FILTER, lambda_func,
-                          merged_relation))
+                lambda_func = tm.mkTerm(
+                    Kind.LAMBDA,
+                    tm.mkTerm(Kind.VARIABLE_LIST, new_tuple),
+                    val(NOT(term)),
+                )
+            filtered_set = val(tm.mkTerm(Kind.SET_FILTER, lambda_func, merged_relation))
 
             return is_empty(filtered_set)
 
     assert False
-
 
 
 def set_filter_quantifier(kinds, term_func, quantifier_kind=Kind.SET_ALL):
-    if isinstance(kinds, Relation) or \
-            (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
+    if isinstance(kinds, Relation) or (
+        isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)
+    ):
         if isinstance(kinds, Relation):
             arguments = kinds.get_relation_types()
             tuple_sort = tm.mkTupleSort(*arguments)
             new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
             instance = kinds.new_relational_object(
-                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))])
+                tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))]
+            )
             term = term_func(instance)
-            variable_list = tm.mkTerm(Kind.VARIABLE_LIST, new_tuple)
-            lambda_func = tm.mkTerm(Kind.LAMBDA, variable_list, val(term))            
-            formula = val(tm.mkTerm(quantifier_kind, lambda_func,
-                          kinds.relation))
-            return formula
+            lambda_func = tm.mkTerm(
+                Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term)
+            )
+            quantifier = val(tm.mkTerm(quantifier_kind, lambda_func, kinds.relation))
+            return CVC5_Bool(quantifier)
         else:
             instances = []
-            merged_relation = tm.mkTerm(Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds]))
+            merged_relation = tm.mkTerm(
+                Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds])
+            )
             new_argument_type = []
 
             for kind in kinds:
@@ -591,64 +678,27 @@ def set_filter_quantifier(kinds, term_func, quantifier_kind=Kind.SET_ALL):
 
             tuple_sort = tm.mkTupleSort(*new_argument_type)
             new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
-            arguments = [cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))]
+            arguments = [
+                cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))
+            ]
 
             current_start = 0
             for kind in kinds:
                 current_end = current_start + len(kind.get_relation_types())
-                instance = kind.new_relational_object(tuple=arguments[current_start:current_end])
+                instance = kind.new_relational_object(
+                    tuple=arguments[current_start:current_end]
+                )
                 instances.append(instance)
                 current_start = current_end
 
             term = term_func(*instances)
-            lambda_func = tm.mkTerm(Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term))
-            formula = val(tm.mkTerm(quantifier_kind, lambda_func,
-                          merged_relation))            
-            return formula
+            lambda_func = tm.mkTerm(
+                Kind.LAMBDA, tm.mkTerm(Kind.VARIABLE_LIST, new_tuple), val(term)
+            )
+            quantifier = val(tm.mkTerm(quantifier_kind, lambda_func, merged_relation))
+            return CVC5_Bool(quantifier)
 
     assert False
-
-
-# def set_quantifier(kinds, term_func, quantifier_kind=Kind.SET_FORALL):
-#     if isinstance(kinds, Relation) or \
-#             (isinstance(kinds, list) and kinds and isinstance(kinds[0], Relation)):
-#         if isinstance(kinds, Relation):
-#             arguments = kinds.get_relation_types()
-#             tuple_sort = tm.mkTupleSort(*arguments)
-#             new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
-#             instance = kinds.new_relational_object(
-#                 tuple=[cast(tuple_select(new_tuple, i)) for i in range(len(arguments))])
-#             body = term_func(instance)
-#             variable_list = tm.mkTerm(Kind.VARIABLE_LIST, new_tuple)                       
-#             formula = val(tm.mkTerm(quantifier_kind, variable_list, kinds.relation, val(body)))
-#             return formula
-#         else:
-#             instances = []
-#             merged_relation = tm.mkTerm(Kind.RELATION_PRODUCT, *([kind.relation for kind in kinds]))
-#             new_argument_type = []
-
-#             for kind in kinds:
-#                 assert isinstance(kind, Relation)
-#                 argument_types = kind.get_relation_types()
-#                 new_argument_type.extend(argument_types)
-
-#             tuple_sort = tm.mkTupleSort(*new_argument_type)
-#             new_tuple = tm.mkVar(tuple_sort, "tuple_{}".format(get_new_tuple_counter()))
-#             arguments = [cast(tuple_select(new_tuple, i)) for i in range(len(new_argument_type))]
-
-#             current_start = 0
-#             for kind in kinds:
-#                 current_end = current_start + len(kind.get_relation_types())
-#                 instance = kind.new_relational_object(tuple=arguments[current_start:current_end])
-#                 instances.append(instance)
-#                 current_start = current_end
-
-#             body = term_func(*instances)            
-#             variable_list = tm.mkTerm(Kind.VARIABLE_LIST, new_tuple)
-#             formula = val(tm.mkTerm(quantifier_kind, variable_list, merged_relation, val(body)))
-#             return formula
-
-#     assert False
 
 
 class CVC_term:
@@ -718,9 +768,9 @@ class CVC5_INT(CVC5_FreeSort):
         return CVC5_INT(tm.mkTerm(Kind.NEG, val(self)))
 
 
-'''
+"""
 Helper functions
-'''
+"""
 
 
 def TRUE():
@@ -746,12 +796,12 @@ def solve(constraints, output_file=""):
     setOption(solver, "enum-inst", "true")
 
     if output_file:
-        out = open(output_file, 'w')
+        out = open(output_file, "w")
         out.write("(set-logic HO_ALL)\n")
         for o in Options:
-            out.write(o + '\n')
+            out.write(o + "\n")
         for decl in Decls:
-            out.write(decl + '\n')
+            out.write(decl + "\n")
 
     for c in constraints:
         solver.assertFormula(val(c))
@@ -794,6 +844,7 @@ def solve(constraints, output_file=""):
 
     return (result, duration)
 
+
 #
 # def find_nat_constraints():
 #     constraints = []
@@ -830,6 +881,7 @@ def is_empty(r):
 #                       r.relation))
 #     return CVC5_Bool(tm.mkTerm(Kind.EQUAL, r.relation, filtered_set))
 
+
 def make_tuple(*arg):
     proper_arg = _polymorph_args_to_tuple(arg)
     if len(proper_arg) == 1 and Term.isTupleValue(val(proper_arg[0])):
@@ -838,14 +890,13 @@ def make_tuple(*arg):
         return tm.mkTuple([val(arg) for arg in proper_arg])
 
 
-# forall = forall_relation
-# exists = exists_relation
-forall = forall_quantifier
-exists = exists_quantifier
-# forall = set_all
-# exists = set_some
-# forall = set_forall
-# exists = set_exists
+# forall = forall_filter
+# exists = exists_filter
+# forall = forall_quantifier
+# exists = exists_quantifier
+forall = set_all
+exists = set_some
+
 
 def test_relation_map():
     birth = Relation("FATHER", [("parent", integer), ("child", integer)])
@@ -853,13 +904,13 @@ def test_relation_map():
     people = Relation("People", [("person", integer)])
     constrints = []
     constrints.append(exists(male, lambda m: m.person > 5))
-    guardian = male.map(lambda m: ITE(m.person > 5,
-                                      make_tuple(m.person, 5 + m.person),
-                                      make_tuple(m.person, 0)
-                                      ),
-                        name="guardian",
-                        args=[("target", integer), ("guardian", integer)]
-                        )
+    guardian = male.map(
+        lambda m: ITE(
+            m.person > 5, make_tuple(m.person, 5 + m.person), make_tuple(m.person, 0)
+        ),
+        name="guardian",
+        args=[("target", integer), ("guardian", integer)],
+    )
     l1, l2, split_constraints = guardian.split(tight=True)
 
     constrints.append(split_constraints)
@@ -869,16 +920,21 @@ def test_relation_map():
 def test_conditional_map():
     male = Relation("Male", [("person", integer)])
     constraints = []
-    gurandian = male.filter(lambda m: m.person < 20, name="teen").map(lambda m: make_tuple(2 * m.person),
-                                                                      name="guardian", args=male.args)
+    gurandian = male.filter(lambda m: m.person < 20, name="teen").map(
+        lambda m: make_tuple(2 * m.person), name="guardian", args=male.args
+    )
     constraints.append(gurandian.contains(make_tuple(38)))
     solve(constraints)
 
 
 def test_join():
-    parent = Relation("Parent", [("parent", integer), ("child", integer), ("witness", integer)])
+    parent = Relation(
+        "Parent", [("parent", integer), ("child", integer), ("witness", integer)]
+    )
     male = Relation("Male", [("person", integer)])
-    male_parent = parent.join(male, "male_parent", [("parent", integer), ("child", integer)])
+    male_parent = parent.join(
+        male, "male_parent", [("parent", integer), ("child", integer)]
+    )
     constraints = []
     # constraints.append(male_parent.contains(make_tuple(6)))
     constraints.append(parent.contains(make_tuple(1, 5, 2)))
@@ -932,9 +988,9 @@ if __name__ == "__main__":
     #     tm.mkTerm(Kind.SET_FILTER, LAMBDA(["int", "int"], lambda a, b: (a > 5) & (b < 3), make_tuple=True),
     #               birth.relation))
     # print(val(is_empty(set_filtering)))
-    # filtering_constraint = forall_relation(birth, lambda b: (b.parent > 5) & (b.child < 3))
+    # filtering_constraint = forall_filter(birth, lambda b: (b.parent > 5) & (b.child < 3))
     #
-    # new_map_filter = forall_relation([birth, people], lambda b, p: IMPLIES(b.parent > 5, p.person > (b.child + 3)))
+    # new_map_filter = forall_filter([birth, people], lambda b, p: IMPLIES(b.parent > 5, p.person > (b.child + 3)))
     #
     # print(val(filtering_constraint))
     # b_m = tm.mkTerm(Kind.RELATION_PRODUCT, birth.relation, male.relation)
