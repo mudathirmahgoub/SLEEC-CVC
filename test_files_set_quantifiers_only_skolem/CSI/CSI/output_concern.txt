@@ -1,20 +1,20 @@
 check concern_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/00.smt2
+outputfile: test_files_filters/CSI/CSI/concern/00.smt2
 trail 20.006733894348145
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/01.smt2
+outputfile: test_files_filters/CSI/CSI/concern/01.smt2
 trail 20.00211215019226
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/02.smt2
+outputfile: test_files_filters/CSI/CSI/concern/02.smt2
 trail 20.005171537399292
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/03.smt2
+outputfile: test_files_filters/CSI/CSI/concern/03.smt2
 trail 0.4420740604400635
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -69,12 +69,12 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/04.smt2
+outputfile: test_files_filters/CSI/CSI/concern/04.smt2
 trail 20.00405764579773
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check concern_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/05.smt2
+outputfile: test_files_filters/CSI/CSI/concern/05.smt2
 trail 0.4332163333892822
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -129,7 +129,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/06.smt2
+outputfile: test_files_filters/CSI/CSI/concern/06.smt2
 trail 0.42113733291625977
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -184,7 +184,7 @@ efficiency     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true 0 0 true true true true true))
 ****************************************************************************************************
 check concern_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/CSI/CSI/concern/07.smt2
+outputfile: test_files_filters/CSI/CSI/concern/07.smt2
 trail 20.005194664001465
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

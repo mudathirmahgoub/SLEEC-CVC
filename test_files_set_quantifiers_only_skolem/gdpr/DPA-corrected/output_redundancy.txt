@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/00.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/00.smt2
 trail 3.9412269592285156
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -66,7 +66,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 false true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/01.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/01.smt2
 trail 3.3631203174591064
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -133,12 +133,12 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true false 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/02.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/02.smt2
 trail 20.02308750152588
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/03.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/03.smt2
 trail 2.572783946990967
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -205,7 +205,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/04.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/04.smt2
 trail 0.5598068237304688
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -272,7 +272,7 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/05.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/05.smt2
 trail 12.753132581710815
 Result     = sat
 time     = (set.singleton (tuple 1))
@@ -339,7 +339,7 @@ auditType     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 1 true true true true true true true 1 true true true true true true true true true true true true 1 1 1 1 true))
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/06.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/06.smt2
 trail 2.9291763305664062
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -406,17 +406,17 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true false true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/07.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/07.smt2
 trail 20.128270864486694
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/08.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/08.smt2
 trail 20.009275436401367
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/09.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/09.smt2
 trail 0.5469710826873779
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -483,27 +483,27 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/10.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/10.smt2
 trail 21.445213556289673
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/11.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/11.smt2
 trail 20.003822326660156
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/12.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/12.smt2
 trail 20.010634899139404
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/13.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/13.smt2
 trail 20.02125573158264
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/14.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/14.smt2
 trail 2.7096338272094727
 Result     = sat
 time     = (set.singleton (tuple 2))
@@ -570,47 +570,47 @@ auditType     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 2 true true true true true true true 2 true true true true true true true true true true true false 2 2 1 1 true))
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/15.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/15.smt2
 trail 20.013004541397095
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/16.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/16.smt2
 trail 20.008179664611816
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/17.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/17.smt2
 trail 21.498088598251343
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/18.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/18.smt2
 trail 20.02038073539734
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/19.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/19.smt2
 trail 20.032350540161133
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/20.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/20.smt2
 trail 20.00489091873169
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/21.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/21.smt2
 trail 20.04972004890442
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/22.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/22.smt2
 trail 20.010085344314575
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/23.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/23.smt2
 trail 2.7189748287200928
 Result     = sat
 time     = (set.singleton (tuple 3))
@@ -677,7 +677,7 @@ auditType     = (set.singleton (tuple 1))
 Measure     = (set.singleton (tuple 3 true true true true true true true 3 true true true true true true true true true true true true 1 3 1 1 true))
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA-corrected/redundancy/24.smt2
+outputfile: test_files_filters/gdpr/DPA-corrected/redundancy/24.smt2
 trail 3.024017333984375
 Result     = sat
 time     = (set.singleton (tuple 0))

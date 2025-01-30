@@ -9,7 +9,7 @@ files = [
 
 import os
 for file in files:
-  name = file.replace("/home/mudathir/Desktop/SLEEC-CVC/test_files_quantifiers","")
+  name = file.replace("test_files_quantifiers","")
   name = name.replace("/", "_")  
   name = name.replace("test_files_","")  
   print (name)

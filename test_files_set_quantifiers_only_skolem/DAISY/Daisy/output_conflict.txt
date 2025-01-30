@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/00.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/00.smt2
 trail 2.835015058517456
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -96,7 +96,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/01.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/01.smt2
 trail 2.7051243782043457
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -193,7 +193,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/02.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/02.smt2
 trail 2.7312726974487305
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -290,7 +290,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/03.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/03.smt2
 trail 2.8373305797576904
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -387,37 +387,37 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/04.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/04.smt2
 trail 20.021615505218506
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/05.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/05.smt2
 trail 20.016597032546997
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/06.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/06.smt2
 trail 20.013007640838623
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/07.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/07.smt2
 trail 20.004448175430298
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/08.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/08.smt2
 trail 20.008662700653076
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/09.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/09.smt2
 trail 22.114765882492065
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/10.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/10.smt2
 trail 6.107006788253784
 Result     = sat
 time     = (set.singleton (tuple 101))
@@ -514,77 +514,77 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 101 101 true true true true 101 true 101 true true true true true true true true true true true 101 true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/11.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/11.smt2
 trail 20.00775933265686
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/12.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/12.smt2
 trail 20.01114535331726
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/13.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/13.smt2
 trail 20.01264262199402
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/14.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/14.smt2
 trail 22.439531326293945
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/15.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/15.smt2
 trail 20.028494119644165
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/16.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/16.smt2
 trail 20.015820264816284
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/17.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/17.smt2
 trail 20.01120376586914
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/18.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/18.smt2
 trail 20.003639936447144
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/19.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/19.smt2
 trail 20.01619291305542
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/20.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/20.smt2
 trail 20.008402347564697
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/21.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/21.smt2
 trail 22.040419340133667
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/22.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/22.smt2
 trail 22.28169083595276
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/23.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/23.smt2
 trail 22.19508981704712
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/24.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/24.smt2
 trail 20.005703687667847
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/conflict/25.smt2
+outputfile: test_files_filters/DAISY/Daisy/conflict/25.smt2
 trail 20.032971620559692
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

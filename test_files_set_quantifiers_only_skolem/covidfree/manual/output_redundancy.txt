@@ -1,10 +1,10 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/00.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/00.smt2
 trail 20.005287408828735
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/01.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/01.smt2
 trail 7.706275224685669
 Result     = sat
 time     = (set.union (set.singleton (tuple 7)) (set.union (set.singleton (tuple 4)) (set.union (set.singleton (tuple 1)) (set.union (set.singleton (tuple 6)) (set.singleton (tuple 0))))))
@@ -65,7 +65,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 1 false true true true true true true true true true true true true)) (set.union (set.singleton (tuple 4 true true true true true true true true true true true true true)) (set.union (set.singleton (tuple 0 true true true true true true true true true true true true true)) (set.union (set.singleton (tuple 7 true true true true true true true true true true true true true)) (set.singleton (tuple 6 true true true true true true true true true true true true true))))))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/02.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/02.smt2
 trail 2.0074198246002197
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -126,7 +126,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/03.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/03.smt2
 trail 0.4231069087982178
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -187,7 +187,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true false true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/04.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/04.smt2
 trail 0.4098396301269531
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -248,7 +248,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/05.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/05.smt2
 trail 0.39598608016967773
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -309,7 +309,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/06.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/06.smt2
 trail 0.4038112163543701
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -370,7 +370,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/07.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/07.smt2
 trail 2.963169574737549
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -431,12 +431,12 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/08.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/08.smt2
 trail 20.008379220962524
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/09.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/09.smt2
 trail 4.038962125778198
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -497,17 +497,17 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true false true true true true true true))
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/10.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/10.smt2
 trail 20.00137710571289
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/11.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/11.smt2
 trail 20.02760100364685
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/12.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/12.smt2
 trail 0.43508267402648926
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -568,7 +568,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true false))
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/13.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/13.smt2
 trail 0.40485310554504395
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -629,7 +629,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/14.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/14.smt2
 trail 0.4181063175201416
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -690,7 +690,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/15.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/15.smt2
 trail 1.8706226348876953
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -751,7 +751,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/16.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/16.smt2
 trail 1.2380931377410889
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -812,7 +812,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/17.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/17.smt2
 trail 1.815657377243042
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -873,7 +873,7 @@ not_NoticeRedFlag     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true true true true true true true true true true false true true))
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/manual/redundancy/18.smt2
+outputfile: test_files_filters/covidfree/manual/redundancy/18.smt2
 trail 20.002235174179077
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

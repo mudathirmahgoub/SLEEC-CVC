@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/00.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/00.smt2
 trail 7.965133905410767
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -76,32 +76,32 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 1 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/01.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/01.smt2
 trail 20.01724886894226
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/02.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/02.smt2
 trail 21.663665294647217
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/03.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/03.smt2
 trail 21.648576974868774
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/04.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/04.smt2
 trail 20.022186517715454
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/05.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/05.smt2
 trail 1.0526704788208008
 Result     = unsat
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/06.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/06.smt2
 trail 7.172826528549194
 Result     = sat
 time     = (set.singleton (tuple 2))
@@ -178,27 +178,27 @@ datatype     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 2 2 2 2 2 2 true true false 2 2 2 true true true true true 2))
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/07.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/07.smt2
 trail 1.072723388671875
 Result     = unsat
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/08.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/08.smt2
 trail 20.013765811920166
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/09.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/09.smt2
 trail 20.012511253356934
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/10.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/10.smt2
 trail 23.879655361175537
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/11.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/11.smt2
 trail 4.0589494705200195
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -275,52 +275,52 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true true true true 0))
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/12.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/12.smt2
 trail 21.622907638549805
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/13.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/13.smt2
 trail 20.015538930892944
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/14.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/14.smt2
 trail 20.010358810424805
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/15.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/15.smt2
 trail 21.582493543624878
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/16.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/16.smt2
 trail 21.55662512779236
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/17.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/17.smt2
 trail 21.52001118659973
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/18.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/18.smt2
 trail 20.005359172821045
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/19.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/19.smt2
 trail 21.57211923599243
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/20.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/20.smt2
 trail 20.010331630706787
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/21.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/21.smt2
 trail 13.740865230560303
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -397,12 +397,12 @@ datatype     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 0 0 0 true true false 0 0 0 true true false true true 0))
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/22.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/22.smt2
 trail 20.00518298149109
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/23.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/23.smt2
 trail 7.996333360671997
 Result     = sat
 time     = (set.singleton (tuple 2))
@@ -479,7 +479,7 @@ datatype     = (set.singleton (tuple 2))
 Measure     = (set.singleton (tuple 2 2 2 2 2 2 true false true 2 2 2 true true true true true 2))
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/covidfree/covidfree/conflict/24.smt2
+outputfile: test_files_filters/covidfree/covidfree/conflict/24.smt2
 trail 7.956002712249756
 Result     = sat
 time     = (set.singleton (tuple 2))

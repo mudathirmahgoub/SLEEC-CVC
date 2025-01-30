@@ -1,15 +1,15 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/00.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/00.smt2
 trail 20.025210857391357
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/01.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/01.smt2
 trail 0.7311141490936279
 Result     = unsat
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/02.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/02.smt2
 trail 0.45978403091430664
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -66,17 +66,17 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/03.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/03.smt2
 trail 12.104363441467285
 Result     = unsat
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/04.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/04.smt2
 trail 0.7382729053497314
 Result     = unsat
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/05.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/05.smt2
 trail 1.9857592582702637
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -133,17 +133,17 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true false true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/06.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/06.smt2
 trail 20.090508699417114
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/07.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/07.smt2
 trail 21.182677745819092
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/08.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/08.smt2
 trail 0.47973155975341797
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -200,7 +200,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/09.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/09.smt2
 trail 0.4551718235015869
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -257,7 +257,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/10.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/10.smt2
 trail 0.46611833572387695
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -314,17 +314,17 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true false true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/11.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/11.smt2
 trail 20.038649559020996
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/12.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/12.smt2
 trail 20.005212545394897
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/13.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/13.smt2
 trail 1.8548893928527832
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -381,7 +381,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/14.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/14.smt2
 trail 2.9722917079925537
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -438,17 +438,17 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true false true true true true true true true true true))
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/15.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/15.smt2
 trail 20.023926258087158
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/16.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/16.smt2
 trail 20.710214614868164
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/17.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/17.smt2
 trail 0.4899106025695801
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -505,7 +505,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/18.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/18.smt2
 trail 8.042772054672241
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -562,7 +562,7 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true false true true true true true true true false true true true true))
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/19.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/19.smt2
 trail 0.4830470085144043
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -619,32 +619,32 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true false true true true true true))
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/20.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/20.smt2
 trail 20.044683933258057
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/21.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/21.smt2
 trail 20.104026794433594
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/22.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/22.smt2
 trail 20.00429368019104
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/23.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/23.smt2
 trail 20.04691219329834
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/24.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/24.smt2
 trail 20.010769605636597
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/25.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/25.smt2
 trail 0.4925096035003662
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -701,12 +701,12 @@ eyeMovements     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_27
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/26.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/26.smt2
 trail 20.02687978744507
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_28
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/redundancy/27.smt2
+outputfile: test_files_filters/safescade/safescade/redundancy/27.smt2
 trail 20.011744022369385
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

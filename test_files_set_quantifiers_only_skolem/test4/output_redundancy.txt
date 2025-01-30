@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test4/redundancy/00.smt2
+outputfile: test_files_filters/test4/redundancy/00.smt2
 trail 0.20290660858154297
 Result     = sat
 time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
@@ -14,7 +14,7 @@ not_D     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test4/redundancy/01.smt2
+outputfile: test_files_filters/test4/redundancy/01.smt2
 trail 0.18974852561950684
 Result     = sat
 time     = (set.union (set.singleton (tuple 10)) (set.singleton (tuple 0)))
@@ -29,7 +29,7 @@ not_D     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.union (set.singleton (tuple 10 0)) (set.singleton (tuple 0 0)))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test4/redundancy/02.smt2
+outputfile: test_files_filters/test4/redundancy/02.smt2
 trail 0.13837671279907227
 Result     = sat
 time     = (set.singleton (tuple 0))

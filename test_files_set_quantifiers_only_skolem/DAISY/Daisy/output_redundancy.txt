@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/00.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/00.smt2
 trail 0.8044178485870361
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -96,7 +96,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true false 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/01.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/01.smt2
 trail 0.7215285301208496
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -193,7 +193,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true false false true false true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/02.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/02.smt2
 trail 0.6876096725463867
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -290,7 +290,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true false true true true false 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/03.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/03.smt2
 trail 0.6922788619995117
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -387,7 +387,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true false 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/04.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/04.smt2
 trail 0.7070736885070801
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -484,7 +484,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/05.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/05.smt2
 trail 0.691551923751831
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -581,12 +581,12 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/06.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/06.smt2
 trail 20.01994299888611
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/07.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/07.smt2
 trail 0.6928093433380127
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -683,7 +683,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/08.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/08.smt2
 trail 0.6882951259613037
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -780,12 +780,12 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/09.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/09.smt2
 trail 20.750806093215942
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/10.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/10.smt2
 trail 3.2307684421539307
 Result     = sat
 time     = (set.singleton (tuple 101))
@@ -882,7 +882,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 101 101 true true true false 101 true 101 true true true true true true true true true true true 101 true true true true true true true true true false true))
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/11.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/11.smt2
 trail 2.5899088382720947
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -979,22 +979,22 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/12.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/12.smt2
 trail 20.012389659881592
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/13.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/13.smt2
 trail 20.004969120025635
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/14.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/14.smt2
 trail 25.372080087661743
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/15.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/15.smt2
 trail 0.707273006439209
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1091,7 +1091,7 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/16.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/16.smt2
 trail 0.7084510326385498
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1188,12 +1188,12 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/17.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/17.smt2
 trail 20.010143756866455
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/18.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/18.smt2
 trail 0.6795759201049805
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1290,12 +1290,12 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/19.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/19.smt2
 trail 20.12815237045288
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/20.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/20.smt2
 trail 0.7044436931610107
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1392,27 +1392,27 @@ not_ApproachPatient     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0 true true true true 0 true 0 true true true true true true true true true true true 0 true true true true true true true true true true true))
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/21.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/21.smt2
 trail 21.93208909034729
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/22.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/22.smt2
 trail 20.074248552322388
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/23.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/23.smt2
 trail 20.044137239456177
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/24.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/24.smt2
 trail 20.00525736808777
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_26
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/DAISY/Daisy/redundancy/25.smt2
+outputfile: test_files_filters/DAISY/Daisy/redundancy/25.smt2
 trail 20.005892515182495
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

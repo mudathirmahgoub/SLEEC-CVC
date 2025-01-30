@@ -1,45 +1,45 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/00.smt2
+outputfile: test_files_filters/buggy/conflict/00.smt2
 trail 20.93906879425049
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/01.smt2
+outputfile: test_files_filters/buggy/conflict/01.smt2
 trail 21.528027057647705
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/02.smt2
+outputfile: test_files_filters/buggy/conflict/02.smt2
 trail 20.233309984207153
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/03.smt2
+outputfile: test_files_filters/buggy/conflict/03.smt2
 trail 20.181227207183838
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/04.smt2
+outputfile: test_files_filters/buggy/conflict/04.smt2
 trail 27.644803047180176
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/05.smt2
+outputfile: test_files_filters/buggy/conflict/05.smt2
 trail 29.045501232147217
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/06.smt2
+outputfile: test_files_filters/buggy/conflict/06.smt2
 trail 29.351194381713867
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/07.smt2
+outputfile: test_files_filters/buggy/conflict/07.smt2
 trail 20.005476474761963
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/08.smt2
+outputfile: test_files_filters/buggy/conflict/08.smt2
 trail 2.295604944229126
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -64,17 +64,17 @@ not_RetryAgreed     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 true 0 false 0))
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/09.smt2
+outputfile: test_files_filters/buggy/conflict/09.smt2
 trail 20.066807508468628
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/10.smt2
+outputfile: test_files_filters/buggy/conflict/10.smt2
 trail 20.007798433303833
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/buggy/conflict/11.smt2
+outputfile: test_files_filters/buggy/conflict/11.smt2
 trail 20.015207767486572
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

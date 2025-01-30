@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/00.smt2
+outputfile: test_files_filters/test1/redundancy/00.smt2
 trail 1.101006269454956
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -12,7 +12,7 @@ not_C     = (set.singleton (tuple 0 11))
 Measure     = (set.singleton (tuple 0 20))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/01.smt2
+outputfile: test_files_filters/test1/redundancy/01.smt2
 trail 0.14687824249267578
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -25,12 +25,12 @@ not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/02.smt2
+outputfile: test_files_filters/test1/redundancy/02.smt2
 trail 1.1214370727539062
 Result     = unsat
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/03.smt2
+outputfile: test_files_filters/test1/redundancy/03.smt2
 trail 20.002267122268677
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************

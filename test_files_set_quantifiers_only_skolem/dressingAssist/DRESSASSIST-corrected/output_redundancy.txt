@@ -1,5 +1,5 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/00.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/00.smt2
 trail 1.1168291568756104
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -120,12 +120,12 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/01.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/01.smt2
 trail 20.004093885421753
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/02.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/02.smt2
 trail 0.9329771995544434
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -246,17 +246,17 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 2 true true true false true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/03.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/03.smt2
 trail 20.01192855834961
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/04.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/04.smt2
 trail 20.016114234924316
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/05.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/05.smt2
 trail 0.9684247970581055
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -377,12 +377,12 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/06.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/06.smt2
 trail 20.01266574859619
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/07.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/07.smt2
 trail 0.9797348976135254
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -503,7 +503,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/08.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/08.smt2
 trail 0.9601268768310547
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -624,12 +624,12 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/09.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/09.smt2
 trail 20.011605739593506
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/10.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/10.smt2
 trail 0.9816603660583496
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -750,22 +750,22 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_12
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/11.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/11.smt2
 trail 20.004003047943115
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_13
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/12.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/12.smt2
 trail 20.010128498077393
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_14
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/13.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/13.smt2
 trail 20.01597547531128
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_15
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/14.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/14.smt2
 trail 0.9784173965454102
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -886,7 +886,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_16
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/15.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/15.smt2
 trail 0.993361234664917
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1007,7 +1007,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_17
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/16.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/16.smt2
 trail 0.9935572147369385
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1128,12 +1128,12 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_18
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/17.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/17.smt2
 trail 20.07951545715332
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_19
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/18.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/18.smt2
 trail 0.9503805637359619
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1254,7 +1254,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true false true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_20
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/19.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/19.smt2
 trail 0.9885332584381104
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1375,7 +1375,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_21
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/20.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/20.smt2
 trail 0.9696989059448242
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1496,7 +1496,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_22
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/21.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/21.smt2
 trail 0.9905714988708496
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1617,7 +1617,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_23
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/22.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/22.smt2
 trail 4.965250492095947
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1738,12 +1738,12 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true false true true 0 0 true true))
 ****************************************************************************************************
 check rule_24
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/23.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/23.smt2
 trail 20.021428108215332
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_25
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/24.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/24.smt2
 trail 1.0163416862487793
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1864,7 +1864,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_26
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/25.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/25.smt2
 trail 0.9829297065734863
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -1985,7 +1985,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_27
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/26.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/26.smt2
 trail 0.9827449321746826
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -2106,17 +2106,17 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 4 6 true true))
 ****************************************************************************************************
 check rule_28
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/27.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/27.smt2
 trail 20.040680408477783
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_29
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/28.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/28.smt2
 trail 20.013316869735718
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
 check rule_30
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/29.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/29.smt2
 trail 0.9749631881713867
 Result     = sat
 time     = (set.singleton (tuple 0))
@@ -2237,7 +2237,7 @@ riskLevel     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true 0 true true true true true true true true true true true 0 true true true 0 0 true true 0 true true true true true true true 0 true true true true true true true 0 0 true true))
 ****************************************************************************************************
 check rule_31
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/30.smt2
+outputfile: test_files_filters/dressingAssist/DRESSASSIST-corrected/redundancy/30.smt2
 trail 20.01721739768982
 Result     = unknown (TIMEOUT)
 ****************************************************************************************************
