@@ -1,20 +1,132 @@
 check concern_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/concern/00.smt2
-trail 20.170427083969116
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade/concern/00.smt2
+trail 0.3939800262451172
+Result     = sat
+time     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
+RemindUser     = (as set.empty (Set (Tuple Int)))
+FindInformation     = (as set.empty (Set (Tuple Int)))
+DetermineImportance     = (as set.empty (Set (Tuple Int)))
+UserDriving     = (set.singleton (tuple 0))
+UserWantsControl     = (as set.empty (Set (Tuple Int)))
+UserEnters     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
+PreparingSystem     = (as set.empty (Set (Tuple Int)))
+SystemDriving     = (as set.empty (Set (Tuple Int)))
+SystemOn     = (as set.empty (Set (Tuple Int)))
+EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
+EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
+TrackMetrics     = (set.singleton (tuple 0))
+SensorsConnect     = (as set.empty (Set (Tuple Int)))
+BaselineDiffers     = (as set.empty (Set (Tuple Int)))
+ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
+TrackVisionField     = (set.singleton (tuple 0))
+ShowConsentForm     = (as set.empty (Set (Tuple Int)))
+CreateConsentForm     = (as set.empty (Set (Tuple Int)))
+TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true false true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************
 check concern_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/concern/01.smt2
-trail 20.011728048324585
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade/concern/01.smt2
+trail 0.395967960357666
+Result     = sat
+time     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
+RemindUser     = (as set.empty (Set (Tuple Int)))
+FindInformation     = (as set.empty (Set (Tuple Int)))
+DetermineImportance     = (as set.empty (Set (Tuple Int)))
+UserDriving     = (set.singleton (tuple 0))
+UserWantsControl     = (as set.empty (Set (Tuple Int)))
+UserEnters     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
+PreparingSystem     = (as set.empty (Set (Tuple Int)))
+SystemDriving     = (as set.empty (Set (Tuple Int)))
+SystemOn     = (as set.empty (Set (Tuple Int)))
+EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
+EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
+TrackMetrics     = (set.singleton (tuple 0))
+SensorsConnect     = (as set.empty (Set (Tuple Int)))
+BaselineDiffers     = (as set.empty (Set (Tuple Int)))
+ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
+TrackVisionField     = (set.singleton (tuple 0))
+ShowConsentForm     = (as set.empty (Set (Tuple Int)))
+CreateConsentForm     = (as set.empty (Set (Tuple Int)))
+TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true true false false true false true true true))
 ****************************************************************************************************
 check concern_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/concern/02.smt2
-trail 20.197238206863403
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade/concern/02.smt2
+trail 0.627302885055542
+Result     = sat
+time     = (set.singleton (tuple 0))
+InformUser     = (set.singleton (tuple 0))
+RemindUser     = (set.singleton (tuple 0))
+FindInformation     = (as set.empty (Set (Tuple Int)))
+DetermineImportance     = (as set.empty (Set (Tuple Int)))
+UserDriving     = (set.singleton (tuple 0))
+UserWantsControl     = (as set.empty (Set (Tuple Int)))
+UserEnters     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
+PreparingSystem     = (as set.empty (Set (Tuple Int)))
+SystemDriving     = (as set.empty (Set (Tuple Int)))
+SystemOn     = (as set.empty (Set (Tuple Int)))
+EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
+EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
+TrackMetrics     = (set.singleton (tuple 0))
+SensorsConnect     = (as set.empty (Set (Tuple Int)))
+BaselineDiffers     = (as set.empty (Set (Tuple Int)))
+ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
+TrackVisionField     = (set.singleton (tuple 0))
+ShowConsentForm     = (as set.empty (Set (Tuple Int)))
+CreateConsentForm     = (as set.empty (Set (Tuple Int)))
+TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0 0 true true true true true true true true true true true true true true true true true true true))
 ****************************************************************************************************
 check concern_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade/concern/03.smt2
-trail 20.00576639175415
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade/concern/03.smt2
+trail 0.41690707206726074
+Result     = sat
+time     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
+RemindUser     = (as set.empty (Set (Tuple Int)))
+FindInformation     = (as set.empty (Set (Tuple Int)))
+DetermineImportance     = (as set.empty (Set (Tuple Int)))
+UserDriving     = (set.singleton (tuple 0))
+UserWantsControl     = (as set.empty (Set (Tuple Int)))
+UserEnters     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
+PreparingSystem     = (as set.empty (Set (Tuple Int)))
+SystemDriving     = (as set.empty (Set (Tuple Int)))
+SystemOn     = (as set.empty (Set (Tuple Int)))
+EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
+EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
+TrackMetrics     = (set.singleton (tuple 0))
+SensorsConnect     = (as set.empty (Set (Tuple Int)))
+BaselineDiffers     = (as set.empty (Set (Tuple Int)))
+ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
+TrackVisionField     = (set.singleton (tuple 0))
+ShowConsentForm     = (as set.empty (Set (Tuple Int)))
+CreateConsentForm     = (as set.empty (Set (Tuple Int)))
+TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true true false true true false true true true))
 ****************************************************************************************************

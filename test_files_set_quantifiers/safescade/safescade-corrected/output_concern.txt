@@ -1,15 +1,48 @@
 check concern_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/concern/00.smt2
-trail 20.013681650161743
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade-corrected/concern/00.smt2
+trail 0.10790634155273438
+Result     = unsat
 ****************************************************************************************************
 check concern_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/concern/01.smt2
-trail 20.007530450820923
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade-corrected/concern/01.smt2
+trail 0.06906652450561523
+Result     = unsat
 ****************************************************************************************************
 check concern_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/safescade/safescade-corrected/concern/02.smt2
-trail 20.00946354866028
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/safescade/safescade-corrected/concern/02.smt2
+trail 0.4103524684906006
+Result     = sat
+time     = (set.singleton (tuple 0))
+InformUser     = (as set.empty (Set (Tuple Int)))
+Alert     = (as set.empty (Set (Tuple Int)))
+RemindUser     = (as set.empty (Set (Tuple Int)))
+FindInformation     = (as set.empty (Set (Tuple Int)))
+DetermineImportance     = (as set.empty (Set (Tuple Int)))
+UserDriving     = (set.singleton (tuple 0))
+UserWantsControl     = (as set.empty (Set (Tuple Int)))
+UserEnters     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffSystem     = (as set.empty (Set (Tuple Int)))
+UserCanTurnOffMonitoring     = (as set.empty (Set (Tuple Int)))
+PreparingSystem     = (as set.empty (Set (Tuple Int)))
+SystemDriving     = (as set.empty (Set (Tuple Int)))
+SystemOn     = (as set.empty (Set (Tuple Int)))
+EnsureAlertness     = (set.singleton (tuple 0))
+EnsureAccessibility     = (as set.empty (Set (Tuple Int)))
+EnsureAlertIndependence     = (as set.empty (Set (Tuple Int)))
+TrackMetrics     = (set.singleton (tuple 0))
+SensorsConnect     = (as set.empty (Set (Tuple Int)))
+BaselineDiffers     = (as set.empty (Set (Tuple Int)))
+ConfirmWithUser     = (as set.empty (Set (Tuple Int)))
+ObtainConsentForUserDrive     = (as set.empty (Set (Tuple Int)))
+TrackVisionField     = (set.singleton (tuple 0))
+ShowConsentForm     = (as set.empty (Set (Tuple Int)))
+CreateConsentForm     = (as set.empty (Set (Tuple Int)))
+TakeControlForSafety     = (as set.empty (Set (Tuple Int)))
+FirstInteractionUser     = (as set.empty (Set (Tuple Int)))
+StopAutonomousComponent     = (as set.empty (Set (Tuple Int)))
+StopUnfunctioningSensorAssistance     = (as set.empty (Set (Tuple Int)))
+SytemTakesOver     = (as set.empty (Set (Tuple Int)))
+hearRateVariability     = (set.singleton (tuple 0))
+eyeMovements     = (set.singleton (tuple 1))
+Measure     = (set.singleton (tuple 0 0 1 true true true true true true true true true true true false true true true true true false true true true))
 ****************************************************************************************************

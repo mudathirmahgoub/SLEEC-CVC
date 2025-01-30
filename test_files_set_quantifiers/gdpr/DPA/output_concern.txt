@@ -1,84 +1,90 @@
 check concern_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/00.smt2
-trail 20.008050203323364
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/00.smt2
+trail 0.13941311836242676
+Result     = unsat
 ****************************************************************************************************
 check concern_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/01.smt2
-trail 20.098806142807007
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/01.smt2
+trail 0.23819875717163086
+Result     = unsat
 ****************************************************************************************************
 check concern_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/02.smt2
-trail 20.013354301452637
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/02.smt2
+trail 0.1991579532623291
+Result     = unsat
 ****************************************************************************************************
 check concern_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/03.smt2
-trail 20.01837182044983
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/03.smt2
+trail 0.2286520004272461
+Result     = sat
+time     = (set.singleton (tuple 0))
+DPAMade     = (as set.empty (Set (Tuple Int)))
+EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
+StartDPAProcess     = (as set.empty (Set (Tuple Int)))
+DPAComplete     = (as set.empty (Set (Tuple Int)))
+DPAIncomplete     = (as set.empty (Set (Tuple Int)))
+DPATerminate     = (as set.empty (Set (Tuple Int)))
+DPAUpdate     = (set.singleton (tuple 0))
+ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
+RemovePersonalData     = (as set.empty (Set (Tuple Int)))
+EngageSubProcessor     = (set.singleton (tuple 0))
+ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
+InformController     = (as set.empty (Set (Tuple Int)))
+AssistController     = (as set.empty (Set (Tuple Int)))
+ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
+ObtainControllerConsent     = (set.singleton (tuple 0))
+InformSubject     = (as set.empty (Set (Tuple Int)))
+InformSupervisor     = (as set.empty (Set (Tuple Int)))
+TakeLiabilityForSubProcessor     = (set.singleton (tuple 0))
+ImposeObligationsOnSubProcessor     = (set.singleton (tuple 0))
+DataBreach     = (as set.empty (Set (Tuple Int)))
+RightsRequested     = (as set.empty (Set (Tuple Int)))
+RespondToRequest     = (as set.empty (Set (Tuple Int)))
+AllowAudits     = (as set.empty (Set (Tuple Int)))
+HelpAuditors     = (as set.empty (Set (Tuple Int)))
+AuditsOccur     = (as set.empty (Set (Tuple Int)))
+EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
+PassSecurity     = (as set.empty (Set (Tuple Int)))
+CanObjectToChange     = (as set.empty (Set (Tuple Int)))
+riskLevel     = (set.singleton (tuple 0))
+typesOfRisk     = (set.singleton (tuple 0))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true false true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check concern_5
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/04.smt2
-trail 5.03865385055542
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/04.smt2
+trail 0.15081310272216797
 Result     = sat
-time     = (set.union (set.singleton (tuple 1)) (set.singleton (tuple 0)))
+time     = (set.singleton (tuple 0))
 DPAMade     = (as set.empty (Set (Tuple Int)))
-not_DPAMade     = (as set.empty (Set (Tuple Int Int)))
 EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
-not_EvaluateDPAProcess     = (as set.empty (Set (Tuple Int Int)))
 StartDPAProcess     = (as set.empty (Set (Tuple Int)))
-not_StartDPAProcess     = (as set.empty (Set (Tuple Int Int)))
 DPAComplete     = (as set.empty (Set (Tuple Int)))
-not_DPAComplete     = (as set.empty (Set (Tuple Int Int)))
 DPAIncomplete     = (as set.empty (Set (Tuple Int)))
-not_DPAIncomplete     = (as set.empty (Set (Tuple Int Int)))
 DPATerminate     = (as set.empty (Set (Tuple Int)))
-not_DPATerminate     = (as set.empty (Set (Tuple Int Int)))
 DPAUpdate     = (as set.empty (Set (Tuple Int)))
-not_DPAUpdate     = (as set.empty (Set (Tuple Int Int)))
 ProcessPersonalData     = (as set.empty (Set (Tuple Int)))
-not_ProcessPersonalData     = (as set.empty (Set (Tuple Int Int)))
 RemovePersonalData     = (as set.empty (Set (Tuple Int)))
-not_RemovePersonalData     = (as set.empty (Set (Tuple Int Int)))
 EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_EngageSubProcessor     = (as set.empty (Set (Tuple Int Int)))
 ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_ChangeSubProcessor     = (as set.empty (Set (Tuple Int Int)))
 InformController     = (as set.empty (Set (Tuple Int)))
-not_InformController     = (as set.empty (Set (Tuple Int Int)))
 AssistController     = (set.singleton (tuple 0))
-not_AssistController     = (as set.empty (Set (Tuple Int Int)))
 ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
-not_ProvideControllerInformation     = (as set.empty (Set (Tuple Int Int)))
 ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
-not_ObtainControllerConsent     = (as set.empty (Set (Tuple Int Int)))
 InformSubject     = (as set.empty (Set (Tuple Int)))
-not_InformSubject     = (set.singleton (tuple 0 0))
 InformSupervisor     = (as set.empty (Set (Tuple Int)))
-not_InformSupervisor     = (as set.empty (Set (Tuple Int Int)))
 TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int Int)))
 ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
-not_ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int Int)))
 DataBreach     = (as set.empty (Set (Tuple Int)))
-not_DataBreach     = (as set.empty (Set (Tuple Int Int)))
 RightsRequested     = (set.singleton (tuple 0))
-not_RightsRequested     = (as set.empty (Set (Tuple Int Int)))
 RespondToRequest     = (set.singleton (tuple 0))
-not_RespondToRequest     = (as set.empty (Set (Tuple Int Int)))
 AllowAudits     = (as set.empty (Set (Tuple Int)))
-not_AllowAudits     = (as set.empty (Set (Tuple Int Int)))
 HelpAuditors     = (as set.empty (Set (Tuple Int)))
-not_HelpAuditors     = (as set.empty (Set (Tuple Int Int)))
 AuditsOccur     = (as set.empty (Set (Tuple Int)))
-not_AuditsOccur     = (as set.empty (Set (Tuple Int Int)))
 EvaluateSecurity     = (as set.empty (Set (Tuple Int)))
-not_EvaluateSecurity     = (as set.empty (Set (Tuple Int Int)))
 PassSecurity     = (as set.empty (Set (Tuple Int)))
-not_PassSecurity     = (as set.empty (Set (Tuple Int Int)))
 CanObjectToChange     = (as set.empty (Set (Tuple Int)))
-not_CanObjectToChange     = (as set.empty (Set (Tuple Int Int)))
 riskLevel     = (set.singleton (tuple 0))
 typesOfRisk     = (set.singleton (tuple 0))
 auditorType     = (set.singleton (tuple 0))
@@ -86,32 +92,66 @@ auditType     = (set.singleton (tuple 0))
 Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 0 0 0 0 true))
 ****************************************************************************************************
 check concern_6
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/05.smt2
-trail 20.1467924118042
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/05.smt2
+trail 0.27907657623291016
+Result     = unsat
 ****************************************************************************************************
 check concern_7
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/06.smt2
-trail 20.059931993484497
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/06.smt2
+trail 0.16330647468566895
+Result     = unsat
 ****************************************************************************************************
 check concern_8
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/07.smt2
-trail 20.00927424430847
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/07.smt2
+trail 0.07300066947937012
+Result     = unsat
 ****************************************************************************************************
 check concern_9
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/08.smt2
-trail 20.053121328353882
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/08.smt2
+trail 0.2589995861053467
+Result     = sat
+time     = (set.singleton (tuple 0))
+DPAMade     = (as set.empty (Set (Tuple Int)))
+EvaluateDPAProcess     = (as set.empty (Set (Tuple Int)))
+StartDPAProcess     = (as set.empty (Set (Tuple Int)))
+DPAComplete     = (as set.empty (Set (Tuple Int)))
+DPAIncomplete     = (as set.empty (Set (Tuple Int)))
+DPATerminate     = (as set.empty (Set (Tuple Int)))
+DPAUpdate     = (as set.empty (Set (Tuple Int)))
+ProcessPersonalData     = (set.singleton (tuple 0))
+RemovePersonalData     = (as set.empty (Set (Tuple Int)))
+EngageSubProcessor     = (as set.empty (Set (Tuple Int)))
+ChangeSubProcessor     = (as set.empty (Set (Tuple Int)))
+InformController     = (set.singleton (tuple 0))
+AssistController     = (as set.empty (Set (Tuple Int)))
+ProvideControllerInformation     = (as set.empty (Set (Tuple Int)))
+ObtainControllerConsent     = (as set.empty (Set (Tuple Int)))
+InformSubject     = (as set.empty (Set (Tuple Int)))
+InformSupervisor     = (as set.empty (Set (Tuple Int)))
+TakeLiabilityForSubProcessor     = (as set.empty (Set (Tuple Int)))
+ImposeObligationsOnSubProcessor     = (as set.empty (Set (Tuple Int)))
+DataBreach     = (as set.empty (Set (Tuple Int)))
+RightsRequested     = (as set.empty (Set (Tuple Int)))
+RespondToRequest     = (as set.empty (Set (Tuple Int)))
+AllowAudits     = (as set.empty (Set (Tuple Int)))
+HelpAuditors     = (as set.empty (Set (Tuple Int)))
+AuditsOccur     = (as set.empty (Set (Tuple Int)))
+EvaluateSecurity     = (set.singleton (tuple 0))
+PassSecurity     = (set.singleton (tuple 0))
+CanObjectToChange     = (set.singleton (tuple 0))
+riskLevel     = (set.singleton (tuple 1))
+typesOfRisk     = (set.singleton (tuple 3))
+auditorType     = (set.singleton (tuple 0))
+auditType     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 true true true true true true true 0 true true true true true true true true true true true true 1 3 0 0 true))
 ****************************************************************************************************
 check concern_10
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/09.smt2
-trail 20.01935911178589
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/09.smt2
+trail 0.08639001846313477
+Result     = unsat
 ****************************************************************************************************
 check concern_11
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/gdpr/DPA/concern/10.smt2
-trail 20.00829029083252
-Result     = unknown (TIMEOUT)
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/gdpr/DPA/concern/10.smt2
+trail 0.0769948959350586
+Result     = unsat
 ****************************************************************************************************

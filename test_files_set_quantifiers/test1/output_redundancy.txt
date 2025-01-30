@@ -1,44 +1,35 @@
 check rule_1
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/00.smt2
-trail 0.7163271903991699
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/test1/redundancy/00.smt2
+trail 0.01704239845275879
 Result     = sat
-time     = (set.union (set.singleton (tuple 0)) (set.singleton (tuple 1)))
+time     = (set.singleton (tuple 0))
 A     = (set.singleton (tuple 0))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (as set.empty (Set (Tuple Int)))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (set.singleton (tuple 0 11))
 Measure     = (set.singleton (tuple 0 20))
 ****************************************************************************************************
 check rule_2
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/01.smt2
-trail 0.10650920867919922
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/test1/redundancy/01.smt2
+trail 0.010376691818237305
 Result     = sat
 time     = (set.singleton (tuple 0))
 A     = (as set.empty (Set (Tuple Int)))
-not_A     = (as set.empty (Set (Tuple Int Int)))
 B     = (set.singleton (tuple 0))
-not_B     = (as set.empty (Set (Tuple Int Int)))
 C     = (as set.empty (Set (Tuple Int)))
-not_C     = (as set.empty (Set (Tuple Int Int)))
 Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
 check rule_3
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/02.smt2
-trail 1.4581727981567383
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/test1/redundancy/02.smt2
+trail 0.017447471618652344
 Result     = unsat
 ****************************************************************************************************
 check rule_4
-outputfile: /home/mudathir/Desktop/SLEEC-CVC/test_files_filters/test1/redundancy/03.smt2
-trail 4.179001331329346
+outputfile: /export/home/mahgoubyahia/SLEEC-CVC/test_files_set_quantifiers/test1/redundancy/03.smt2
+trail 0.029343366622924805
 Result     = sat
-time     = (set.union (set.singleton (tuple 1)) (set.union (set.singleton (tuple 2)) (set.singleton (tuple 0))))
-A     = (set.singleton (tuple 1))
-not_A     = (as set.empty (Set (Tuple Int Int)))
-B     = (set.singleton (tuple 2))
-not_B     = (as set.empty (Set (Tuple Int Int)))
-C     = (set.singleton (tuple 2))
-not_C     = (as set.empty (Set (Tuple Int Int)))
-Measure     = (set.union (set.singleton (tuple 2 1)) (set.singleton (tuple 1 19)))
+time     = (set.singleton (tuple 0))
+A     = (set.singleton (tuple 0))
+B     = (set.singleton (tuple 0))
+C     = (set.singleton (tuple 0))
+Measure     = (set.singleton (tuple 0 0))
 ****************************************************************************************************
