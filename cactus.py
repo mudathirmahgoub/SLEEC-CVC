@@ -39,7 +39,7 @@ plt.xscale("log")
 
 # Set labels and title
 plt.xlabel("Time (seconds)")
-# plt.ylabel('# of Instances')
+plt.ylabel('# of Instances')
 # plt.title('Cactus Plot')
 
 # Add a legend
